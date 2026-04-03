@@ -1,0 +1,6 @@
+Double-click `launch-web.command` to open the Airline Data Extractor.
+
+Notes:
+1. Keep the Terminal window open while processing is running.
+2. To stop the web app, close that Terminal window or press Ctrl+C.
+3. First launch may take longer because dependencies can install automatically.

@@ -1,0 +1,50 @@
+{
+  "name": "indigo-pnr-scraper",
+  "version": "1.0.0",
+  "description": "IndiGo PNR bulk booking details extractor",
+  "main": "src/desktop/main.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "web": "node src/web/server.js",
+    "web:open": "AUTO_OPEN_BROWSER=true node src/web/server.js",
+    "desktop": "electron src/desktop/main.js",
+    "desktop:dev": "electron src/desktop/main.js",
+    "desktop:pack": "electron-builder --dir",
+    "desktop:dist": "electron-builder --mac dmg",
+    "import": "node src/import.js",
+    "export": "node src/export.js",
+    "status": "node src/status.js",
+    "reset-failed": "node src/resetFailed.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "better-sqlite3": "^12.8.0",
+    "chalk": "^4.1.2",
+    "cli-progress": "^3.12.0",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "playwright": "^1.43.0",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.local.airlineextractor",
+    "productName": "Airline Data Extractor",
+    "files": [
+      "src/**/*",
+      "public/**/*",
+      "package.json",
+      "node_modules/**/*"
+    ],
+    "asar": true,
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "category": "public.app-category.business"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Airline Data Extractor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="bg-layer"></div>
+  <div class="mesh one"></div>
+  <div class="mesh two"></div>
+
+  <main class="layout">
+    <aside class="panel brand-panel">
+      <div class="brand-tag">Local Agent</div>
+      <h1>Airline Data Extractor</h1>
+      <p class="sub">Fast local processing for PNR batches with live status, crash-safe resume, and downloadable results.</p>
+
+      <div class="brand-stats">
+        <article>
+          <span>Input</span>
+          <strong>Excel</strong>
+        </article>
+        <article>
+          <span>Engine</span>
+          <strong>Playwright + API</strong>
+        </article>
+        <article>
+          <span>Output</span>
+          <strong>Live + Final XLSX</strong>
+        </article>
+      </div>
+
+      <p class="hint">Tip: keep this tab open while the run is active.</p>
+    </aside>
+
+    <section class="panel work-panel">
+      <div class="section-head">
+        <h2>Run Control</h2>
+        <span id="runBadge" class="pill idle">Idle</span>
+      </div>
+
+      <div class="grid two">
+        <label class="field">
+          <span>Airline</span>
+          <select id="airlineSelect">
+            <option value="indigo">IndiGo</option>
+          </select>
+        </label>
+      </div>
+
+      <div id="dropzone" class="dropzone">
+        <input id="fileInput" type="file" accept=".xlsx,.xls" />
+        <div class="drop-copy">
+          <p class="drop-title">Drop your input file here</p>
+          <p class="drop-sub">or click to choose Excel</p>
+          <p id="fileName" class="drop-file">No file selected</p>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="uploadBtn" class="btn primary">Upload & Import</button>
+        <button id="startBtn" class="btn secondary">Start Run</button>
+        <button id="stopBtn" class="btn danger">Stop</button>
+        <button id="resetBtn" class="btn ghost">Reset Jobs</button>
+      </div>
+
+      <div class="progress-shell">
+        <div class="progress-meta">
+          <strong id="progressText">0 / 0</strong>
+          <span id="progressPct">0%</span>
+        </div>
+        <div class="progress-wrap">
+          <div id="progressBar" class="progress-bar"></div>
+        </div>
+      </div>
+
+      <div class="stats-grid">
+        <article><strong id="statPending">0</strong><span>Pending</span></article>
+        <article><strong id="statDone">0</strong><span>Done</span></article>
+        <article><strong id="statFailed">0</strong><span>Failed</span></article>
+        <article><strong id="statRetry">0</strong><span>Retry</span></article>
+      </div>
+
+      <div class="downloads">
+        <a class="btn ghost" href="/api/download/status-live">Download Live Status</a>
+        <a class="btn ghost" href="/api/download/results">Download Final Results</a>
+      </div>
+
+      <div class="section-head logs-head">
+        <h3>Live Logs</h3>
+        <button id="refreshLogsBtn" class="btn ghost compact">Refresh</button>
+      </div>
+      <pre id="logsBox"></pre>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" aria-live="polite"></div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
