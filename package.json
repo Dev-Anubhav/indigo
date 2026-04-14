@@ -5,6 +5,8 @@
   "main": "src/desktop/main.js",
   "scripts": {
     "start": "node src/index.js",
+    "refund:start": "node src/refund.js",
+    "refund:export": "node src/exportRefund.js",
     "web": "node src/web/server.js",
     "web:open": "AUTO_OPEN_BROWSER=true node src/web/server.js",
     "desktop": "electron src/desktop/main.js",

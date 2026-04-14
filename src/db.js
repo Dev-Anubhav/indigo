@@ -38,6 +38,8 @@ function initSchema(db) {
       arrival_time      TEXT,
       booking_status    TEXT,
       lift_status       TEXT,
+      refund_amount     TEXT,
+      refund_status     TEXT,
       seat_number       TEXT,
       fare_amount       TEXT,
       raw_json          TEXT,   -- full raw response for debugging
@@ -65,6 +67,12 @@ function ensureColumns(db) {
   const cols = db.prepare(`PRAGMA table_info(jobs)`).all().map(c => c.name);
   if (!cols.includes('lift_status')) {
     db.exec(`ALTER TABLE jobs ADD COLUMN lift_status TEXT`);
+  }
+  if (!cols.includes('refund_amount')) {
+    db.exec(`ALTER TABLE jobs ADD COLUMN refund_amount TEXT`);
+  }
+  if (!cols.includes('refund_status')) {
+    db.exec(`ALTER TABLE jobs ADD COLUMN refund_status TEXT`);
   }
 }
 
@@ -116,6 +124,19 @@ function markDone(id, data) {
       lift_status    = @lift_status,
       seat_number    = @seat_number,
       fare_amount    = @fare_amount,
+      raw_json       = @raw_json,
+      error_msg      = NULL,
+      completed_at   = CURRENT_TIMESTAMP
+    WHERE id = @id
+  `).run({ id, ...data });
+}
+
+function markRefundDone(id, data) {
+  getDb().prepare(`
+    UPDATE jobs SET
+      status         = 'done',
+      refund_amount  = @refund_amount,
+      refund_status  = @refund_status,
       raw_json       = @raw_json,
       error_msg      = NULL,
       completed_at   = CURRENT_TIMESTAMP
@@ -194,6 +215,7 @@ module.exports = {
   getNextBatch,
   markProcessing,
   markDone,
+  markRefundDone,
   markFailed,
   recoverStuckJobs,
   getStats,

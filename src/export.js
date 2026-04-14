@@ -9,6 +9,81 @@ const logger  = require('./logger');
 
 const OUTPUT_PATH = process.env.OUTPUT_EXCEL || './output/results.xlsx';
 
+function splitIsoDateTime(value) {
+  const raw = String(value || '').trim();
+  if (!raw) return { date: '', time: '' };
+  const dt = new Date(raw);
+  if (!Number.isNaN(dt.getTime())) {
+    const iso = dt.toISOString();
+    return { date: iso.slice(0, 10), time: iso.slice(11, 16) };
+  }
+  const m = raw.match(/^(\d{4}-\d{2}-\d{2})[T\s](\d{2}:\d{2})/);
+  if (m) return { date: m[1], time: m[2] };
+  return { date: raw.slice(0, 10), time: '' };
+}
+
+function parseRawJson(rawJson) {
+  if (!rawJson) return null;
+  try {
+    return JSON.parse(rawJson);
+  } catch (_) {
+    return null;
+  }
+}
+
+function buildPassengerRows(job) {
+  const parsed = parseRawJson(job.raw_json);
+  const itinerary = parsed?.itinerary || null;
+  const data = itinerary?.data || null;
+  const passengers = Array.isArray(data?.passengers) ? data.passengers : [];
+  const firstJourney = data?.journeysDetail?.[0] || {};
+  const firstSegment = firstJourney?.segments?.[0] || {};
+  const firstSegmentDetails = firstSegment?.segmentDetails || firstSegment?.legDetails || {};
+
+  if (!passengers.length) {
+    return [{
+      pnr: job.pnr,
+      last_name: job.last_name,
+      origin: job.origin || '',
+      destination: job.destination || '',
+      travel_date: job.travel_date || '',
+      departure_time: job.departure_time || '',
+      booking_status: job.booking_status || '',
+      lift_status: job.lift_status || '',
+    }];
+  }
+
+  return passengers.map((p) => {
+    const paxSeg = p?.seatsAndSsrs?.journeys?.[0]?.segments?.[0] || {};
+    const paxDesignator = paxSeg?.designator || {};
+    const departureRaw =
+      paxDesignator?.departure ||
+      firstSegmentDetails?.departure ||
+      firstSegment?.designator?.departure ||
+      '';
+    const { date, time } = splitIsoDateTime(departureRaw);
+
+    const liftStatus =
+      String(
+        paxSeg?.liftStatus ||
+        p?.liftStatus ||
+        ''
+      )
+        .trim() || (job.lift_status || '');
+
+    return {
+      pnr: job.pnr,
+      last_name: job.last_name,
+      origin: job.origin || firstSegmentDetails?.origin || '',
+      destination: job.destination || firstSegmentDetails?.destination || '',
+      travel_date: date || job.travel_date || '',
+      departure_time: time || job.departure_time || '',
+      booking_status: job.booking_status || data?.bookingDetails?.bookingStatus || '',
+      lift_status: liftStatus,
+    };
+  });
+}
+
 async function exportExcel() {
   const outPath = path.resolve(OUTPUT_PATH);
   const outDir  = path.dirname(outPath);
@@ -32,20 +107,14 @@ async function exportExcel() {
   });
 
   ws1.columns = [
-    { header: 'PNR',             key: 'pnr',            width: 14 },
-    { header: 'Last Name',       key: 'last_name',      width: 18 },
-    { header: 'Passenger Name',  key: 'passenger_name', width: 24 },
-    { header: 'Flight Number',   key: 'flight_number',  width: 16 },
-    { header: 'Origin',          key: 'origin',         width: 10 },
-    { header: 'Destination',     key: 'destination',    width: 14 },
-    { header: 'Travel Date',     key: 'travel_date',    width: 16 },
-    { header: 'Departure Time',  key: 'departure_time', width: 16 },
-    { header: 'Arrival Time',    key: 'arrival_time',   width: 14 },
-    { header: 'Booking Status',  key: 'booking_status', width: 16 },
-    { header: 'Lift Status',     key: 'lift_status',    width: 14 },
-    { header: 'Seat Number',     key: 'seat_number',    width: 14 },
-    { header: 'Fare Amount',     key: 'fare_amount',    width: 14 },
-    { header: 'Completed At',    key: 'completed_at',   width: 20 },
+    { header: 'PNR',                     key: 'pnr',                      width: 14 },
+    { header: 'Last Name',               key: 'last_name',                width: 18 },
+    { header: 'Origin',                  key: 'origin',                   width: 12 },
+    { header: 'Destination',             key: 'destination',              width: 12 },
+    { header: 'Travel Date',             key: 'travel_date',              width: 14 },
+    { header: 'Travel Time',             key: 'departure_time',           width: 14 },
+    { header: 'Booking Status',          key: 'booking_status',           width: 16 },
+    { header: 'Lift Status',             key: 'lift_status',              width: 18 },
   ];
 
   // Style header row
@@ -56,46 +125,36 @@ async function exportExcel() {
   headerRow.height    = 22;
 
   // Add data rows
+  let resultRowCount = 0;
   for (const job of doneJobs) {
-    const row = ws1.addRow({
-      pnr:            job.pnr,
-      last_name:      job.last_name,
-      passenger_name: job.passenger_name || '',
-      flight_number:  job.flight_number  || '',
-      origin:         job.origin         || '',
-      destination:    job.destination    || '',
-      travel_date:    job.travel_date    || '',
-      departure_time: job.departure_time || '',
-      arrival_time:   job.arrival_time   || '',
-      booking_status: job.booking_status || '',
-      lift_status:    job.lift_status    || '',
-      seat_number:    job.seat_number    || '',
-      fare_amount:    job.fare_amount    || '',
-      completed_at:   job.completed_at   || '',
-    });
+    const passengerRows = buildPassengerRows(job);
+    for (const item of passengerRows) {
+      const row = ws1.addRow(item);
+      resultRowCount += 1;
 
-    // Color-code booking status
-    const statusCell = row.getCell('booking_status');
-    if (job.booking_status === 'CONFIRMED') {
-      statusCell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFD4EDDA' } };
-      statusCell.font = { color: { argb: 'FF155724' } };
-    } else if (job.booking_status === 'CANCELLED') {
-      statusCell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFF8D7DA' } };
-      statusCell.font = { color: { argb: 'FF721C24' } };
-    }
+      // Color-code booking status
+      const statusCell = row.getCell('booking_status');
+      if (String(item.booking_status || '').toUpperCase() === 'CONFIRMED') {
+        statusCell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFD4EDDA' } };
+        statusCell.font = { color: { argb: 'FF155724' } };
+      } else if (String(item.booking_status || '').toUpperCase() === 'CANCELLED') {
+        statusCell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFF8D7DA' } };
+        statusCell.font = { color: { argb: 'FF721C24' } };
+      }
 
-    // Alternate row background
-    if (row.number % 2 === 0) {
-      row.eachCell({ includeEmpty: true }, (cell) => {
-        if (!cell.fill || cell.fill.fgColor?.argb === 'FFFFFFFF') {
-          cell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFF8F9FA' } };
-        }
-      });
+      // Alternate row background
+      if (row.number % 2 === 0) {
+        row.eachCell({ includeEmpty: true }, (cell) => {
+          if (!cell.fill || cell.fill.fgColor?.argb === 'FFFFFFFF') {
+            cell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFF8F9FA' } };
+          }
+        });
+      }
     }
   }
 
   // Auto-filter on header
-  ws1.autoFilter = { from: 'A1', to: 'N1' };
+  ws1.autoFilter = { from: 'A1', to: 'H1' };
 
   // ── Sheet 2: Failed records ───────────────────────────────────────────────
   const ws2 = workbook.addWorksheet('Failed Records');
@@ -145,7 +204,7 @@ async function exportExcel() {
   await workbook.xlsx.writeFile(outPath);
 
   console.log(`✅ Excel exported to: ${outPath}`);
-  console.log(`   Results sheet : ${doneJobs.length} rows`);
+  console.log(`   Results sheet : ${resultRowCount} rows`);
   console.log(`   Failed sheet  : ${failJobs.length} rows\n`);
 }
 

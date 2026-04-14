@@ -1,4 +1,5 @@
 const airlineSelect = document.getElementById('airlineSelect');
+const processTypeSelect = document.getElementById('processTypeSelect');
 const dropzone = document.getElementById('dropzone');
 const fileInput = document.getElementById('fileInput');
 const fileName = document.getElementById('fileName');
@@ -7,6 +8,9 @@ const startBtn = document.getElementById('startBtn');
 const stopBtn = document.getElementById('stopBtn');
 const resetBtn = document.getElementById('resetBtn');
 const refreshLogsBtn = document.getElementById('refreshLogsBtn');
+const downloadLiveBtn = document.getElementById('downloadLiveBtn');
+const downloadResultsBtn = document.getElementById('downloadResultsBtn');
+const downloadRefundBtn = document.getElementById('downloadRefundBtn');
 
 const runBadge = document.getElementById('runBadge');
 const progressBar = document.getElementById('progressBar');
@@ -21,6 +25,19 @@ const toast = document.getElementById('toast');
 
 let selectedFile = null;
 let toastTimer = null;
+
+function currentProcessType() {
+  return processTypeSelect && processTypeSelect.value === 'refund' ? 'refund' : 'status';
+}
+
+function applyProcessUi() {
+  const mode = currentProcessType();
+  const isRefund = mode === 'refund';
+  startBtn.textContent = isRefund ? 'Start Refund Run' : 'Start Run';
+  if (downloadLiveBtn) downloadLiveBtn.classList.toggle('hidden', isRefund);
+  if (downloadResultsBtn) downloadResultsBtn.classList.toggle('hidden', isRefund);
+  if (downloadRefundBtn) downloadRefundBtn.classList.toggle('hidden', !isRefund);
+}
 
 function setBadge(type, text) {
   runBadge.className = `pill ${type}`;
@@ -109,6 +126,7 @@ uploadBtn.addEventListener('click', async () => {
     const base64 = await toBase64(selectedFile);
     const data = await api('/api/upload', 'POST', {
       airline: airlineSelect.value,
+      processType: currentProcessType(),
       filename: selectedFile.name,
       contentBase64: base64,
       replaceExisting: true,
@@ -126,8 +144,12 @@ uploadBtn.addEventListener('click', async () => {
 
 startBtn.addEventListener('click', async () => {
   try {
-    await api('/api/run/start', 'POST', { airline: airlineSelect.value });
-    notify('Run started.');
+    const processType = currentProcessType();
+    await api('/api/run/start', 'POST', {
+      airline: airlineSelect.value,
+      processType,
+    });
+    notify(processType === 'refund' ? 'Refund run started.' : 'Status run started.');
     await refreshStatus();
   } catch (err) {
     notify(err.message);
@@ -158,6 +180,9 @@ resetBtn.addEventListener('click', async () => {
 });
 
 refreshLogsBtn.addEventListener('click', refreshLogs);
+if (processTypeSelect) {
+  processTypeSelect.addEventListener('change', applyProcessUi);
+}
 
 async function refreshStatus() {
   try {
@@ -190,6 +215,13 @@ async function refreshStatus() {
       startBtn.disabled = false;
       stopBtn.disabled = true;
     }
+
+    const runningProcess = data.run && data.run.running ? data.run.processType : currentProcessType();
+    if (runningProcess === 'refund') {
+      if (downloadLiveBtn) downloadLiveBtn.classList.add('hidden');
+      if (downloadResultsBtn) downloadResultsBtn.classList.add('hidden');
+      if (downloadRefundBtn) downloadRefundBtn.classList.remove('hidden');
+    }
   } catch (_) {
     setBadge('error', 'Offline');
   }
@@ -207,5 +239,6 @@ async function refreshLogs() {
 
 setInterval(refreshStatus, 2500);
 setInterval(refreshLogs, 4000);
+applyProcessUi();
 refreshStatus();
 refreshLogs();

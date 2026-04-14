@@ -358,6 +358,10 @@ select {
   gap: 10px;
 }
 
+.hidden {
+  display: none !important;
+}
+
 .logs-head {
   margin-top: 2px;
 }

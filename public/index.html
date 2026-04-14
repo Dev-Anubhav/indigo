@@ -51,6 +51,13 @@
             <option value="indigo">IndiGo</option>
           </select>
         </label>
+        <label class="field">
+          <span>Process</span>
+          <select id="processTypeSelect">
+            <option value="status">Status Fetch</option>
+            <option value="refund">Refund Process</option>
+          </select>
+        </label>
       </div>
 
       <div id="dropzone" class="dropzone">
@@ -87,8 +94,9 @@
       </div>
 
       <div class="downloads">
-        <a class="btn ghost" href="/api/download/status-live">Download Live Status</a>
-        <a class="btn ghost" href="/api/download/results">Download Final Results</a>
+        <a id="downloadLiveBtn" class="btn ghost" href="/api/download/status-live">Download Live Status</a>
+        <a id="downloadResultsBtn" class="btn ghost" href="/api/download/results">Download Final Results</a>
+        <a id="downloadRefundBtn" class="btn ghost" href="/api/download/refund-results">Download Refund Results</a>
       </div>
 
       <div class="section-head logs-head">

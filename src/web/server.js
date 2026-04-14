@@ -19,6 +19,7 @@ const PUBLIC_DIR = path.resolve(process.env.PUBLIC_DIR || path.join(APP_ROOT, 'p
 const UPLOAD_DIR = path.resolve(WORK_ROOT, 'data/uploads');
 const RESULTS_XLSX = path.resolve(process.env.OUTPUT_EXCEL || path.join(WORK_ROOT, 'output/results.xlsx'));
 const STATUS_XLSX = path.resolve(process.env.STATUS_OUTPUT_XLSX || path.join(WORK_ROOT, 'output/status_live.xlsx'));
+const REFUND_RESULTS_XLSX = path.resolve(process.env.REFUND_OUTPUT_EXCEL || path.join(WORK_ROOT, 'output/refund_results.xlsx'));
 
 let activeRun = null;
 const logBuffer = [];
@@ -116,9 +117,20 @@ function resetWorkspaceForNewUpload() {
 
   try { if (fs.existsSync(RESULTS_XLSX)) fs.unlinkSync(RESULTS_XLSX); } catch (_) {}
   try { if (fs.existsSync(STATUS_XLSX)) fs.unlinkSync(STATUS_XLSX); } catch (_) {}
+  try { if (fs.existsSync(REFUND_RESULTS_XLSX)) fs.unlinkSync(REFUND_RESULTS_XLSX); } catch (_) {}
 }
 
-function startRun(airline) {
+function runScriptPath(processType) {
+  if (processType === 'refund') return path.join(APP_ROOT, 'src', 'refund.js');
+  return path.join(APP_ROOT, 'src', 'index.js');
+}
+
+function exportScriptPath(processType) {
+  if (processType === 'refund') return path.join(APP_ROOT, 'src', 'exportRefund.js');
+  return path.join(APP_ROOT, 'src', 'export.js');
+}
+
+function startRun(airline, processType = 'status') {
   if (activeRun && !activeRun.proc.killed) {
     throw new Error('Run already in progress');
   }
@@ -126,7 +138,7 @@ function startRun(airline) {
     throw new Error('Only indigo is currently implemented');
   }
 
-  const proc = spawn(NODE_BINARY, [path.join(APP_ROOT, 'src', 'index.js')], {
+  const proc = spawn(NODE_BINARY, [runScriptPath(processType)], {
     cwd: WORK_ROOT,
     env: {
       ...process.env,
@@ -138,6 +150,7 @@ function startRun(airline) {
 
   activeRun = {
     airline,
+    processType,
     proc,
     startedAt: new Date().toISOString(),
     exitCode: null,
@@ -159,9 +172,25 @@ function startRun(airline) {
       activeRun.finishedAt = new Date().toISOString();
       pushLog(`Run finished with code ${code}`);
       if (code === 0) {
-        exportResultsExcel()
-          .then(() => pushLog('Final results exported'))
-          .catch(err => pushLog(`ERR Final export failed: ${err.message}`));
+        const exportProc = spawn(NODE_BINARY, [exportScriptPath(activeRun.processType)], {
+          cwd: WORK_ROOT,
+          env: {
+            ...process.env,
+            APP_ROOT,
+            WORK_ROOT,
+          },
+          stdio: ['ignore', 'pipe', 'pipe'],
+        });
+        let expOut = '';
+        let expErr = '';
+        exportProc.stdout.on('data', d => { expOut += String(d); });
+        exportProc.stderr.on('data', d => { expErr += String(d); });
+        exportProc.on('close', (exportCode) => {
+          if (exportCode === 0) pushLog('Final results exported');
+          else pushLog(`ERR Final export failed: ${expErr || expOut}`);
+        });
+      } else {
+        pushLog(`Run ended with non-zero code (${code}), export skipped`);
       }
       setTimeout(() => {
         if (activeRun && activeRun.proc === proc) activeRun = null;
@@ -169,7 +198,7 @@ function startRun(airline) {
     }
   });
 
-  pushLog(`Run started for airline=${airline}`);
+  pushLog(`Run started for airline=${airline} process=${processType}`);
 }
 
 function stopRun() {
@@ -228,6 +257,7 @@ const server = http.createServer(async (req, res) => {
         stats,
         run: activeRun ? {
           airline: activeRun.airline,
+          processType: activeRun.processType,
           startedAt: activeRun.startedAt,
           exitCode: activeRun.exitCode,
           finishedAt: activeRun.finishedAt,
@@ -236,6 +266,7 @@ const server = http.createServer(async (req, res) => {
         files: {
           results: fs.existsSync(RESULTS_XLSX),
           statusLive: fs.existsSync(STATUS_XLSX),
+          refundResults: fs.existsSync(REFUND_RESULTS_XLSX),
         },
       });
     }
@@ -253,6 +284,31 @@ const server = http.createServer(async (req, res) => {
 
     if (method === 'GET' && url.startsWith('/api/download/status-live')) {
       return sendFile(res, STATUS_XLSX);
+    }
+
+    if (method === 'GET' && url.startsWith('/api/download/refund-results')) {
+      if (!fs.existsSync(REFUND_RESULTS_XLSX)) {
+        await new Promise((resolve, reject) => {
+          const proc = spawn(NODE_BINARY, [path.join(APP_ROOT, 'src', 'exportRefund.js')], {
+            cwd: WORK_ROOT,
+            env: {
+              ...process.env,
+              APP_ROOT,
+              WORK_ROOT,
+            },
+            stdio: ['ignore', 'pipe', 'pipe'],
+          });
+          let out = '';
+          let err = '';
+          proc.stdout.on('data', d => { out += String(d); });
+          proc.stderr.on('data', d => { err += String(d); });
+          proc.on('close', code => {
+            if (code === 0) return resolve();
+            reject(new Error(`Refund export failed (${code}): ${err || out}`));
+          });
+        });
+      }
+      return sendFile(res, REFUND_RESULTS_XLSX);
     }
 
     if (method === 'POST' && url.startsWith('/api/upload')) {
@@ -286,7 +342,11 @@ const server = http.createServer(async (req, res) => {
     if (method === 'POST' && url.startsWith('/api/run/start')) {
       const raw = await readBody(req);
       const body = JSON.parse(raw || '{}');
-      startRun(String(body.airline || 'indigo').toLowerCase());
+      const processType = String(body.processType || 'status').toLowerCase();
+      if (!['status', 'refund'].includes(processType)) {
+        return json(res, 400, { ok: false, error: 'Invalid process type' });
+      }
+      startRun(String(body.airline || 'indigo').toLowerCase(), processType);
       return json(res, 200, { ok: true });
     }
 
