@@ -1,18 +1,25 @@
-'use strict';
+const fs = require("fs");
+const Database = require("better-sqlite3");
+const path = require("path");
+require("dotenv").config();
 
-const Database = require('better-sqlite3');
-const path = require('path');
-require('dotenv').config();
-
-const DB_PATH = process.env.DB_PATH || './data/jobs.db';
+const DB_PATH = process.env.DB_PATH || "./data/jobs.db";
 
 let _db = null;
 
 function getDb() {
   if (_db) return _db;
-  _db = new Database(path.resolve(DB_PATH));
-  _db.pragma('journal_mode = WAL');  // faster writes, crash-safe
-  _db.pragma('synchronous = NORMAL');
+
+  const resolvedPath = path.resolve(DB_PATH);
+  const dbDir = path.dirname(resolvedPath);
+
+  if (!fs.existsSync(dbDir)) {
+    fs.mkdirSync(dbDir, { recursive: true });
+  }
+
+  _db = new Database(resolvedPath);
+  _db.pragma("journal_mode = WAL"); // faster writes, crash-safe
+  _db.pragma("synchronous = NORMAL");
   initSchema(_db);
   ensureColumns(_db);
   return _db;
@@ -64,14 +71,17 @@ function initSchema(db) {
 }
 
 function ensureColumns(db) {
-  const cols = db.prepare(`PRAGMA table_info(jobs)`).all().map(c => c.name);
-  if (!cols.includes('lift_status')) {
+  const cols = db
+    .prepare(`PRAGMA table_info(jobs)`)
+    .all()
+    .map((c) => c.name);
+  if (!cols.includes("lift_status")) {
     db.exec(`ALTER TABLE jobs ADD COLUMN lift_status TEXT`);
   }
-  if (!cols.includes('refund_amount')) {
+  if (!cols.includes("refund_amount")) {
     db.exec(`ALTER TABLE jobs ADD COLUMN refund_amount TEXT`);
   }
-  if (!cols.includes('refund_status')) {
+  if (!cols.includes("refund_status")) {
     db.exec(`ALTER TABLE jobs ADD COLUMN refund_status TEXT`);
   }
 }
@@ -93,24 +103,34 @@ function insertJobs(rows) {
 function getNextBatch(limit) {
   const db = getDb();
   // Pick pending jobs, or retry jobs that haven't been attempted recently
-  return db.prepare(`
+  return db
+    .prepare(
+      `
     SELECT * FROM jobs
     WHERE status IN ('pending', 'retry')
     AND retry_count < ?
     ORDER BY id ASC
     LIMIT ?
-  `).all(parseInt(process.env.MAX_RETRIES || 3), limit);
+  `
+    )
+    .all(parseInt(process.env.MAX_RETRIES || 3), limit);
 }
 
 function markProcessing(id) {
-  getDb().prepare(`
+  getDb()
+    .prepare(
+      `
     UPDATE jobs SET status = 'processing', last_attempted_at = CURRENT_TIMESTAMP
     WHERE id = ?
-  `).run(id);
+  `
+    )
+    .run(id);
 }
 
 function markDone(id, data) {
-  getDb().prepare(`
+  getDb()
+    .prepare(
+      `
     UPDATE jobs SET
       status         = 'done',
       passenger_name = @passenger_name,
@@ -128,11 +148,15 @@ function markDone(id, data) {
       error_msg      = NULL,
       completed_at   = CURRENT_TIMESTAMP
     WHERE id = @id
-  `).run({ id, ...data });
+  `
+    )
+    .run({ id, ...data });
 }
 
 function markRefundDone(id, data) {
-  getDb().prepare(`
+  getDb()
+    .prepare(
+      `
     UPDATE jobs SET
       status         = 'done',
       refund_amount  = @refund_amount,
@@ -141,42 +165,61 @@ function markRefundDone(id, data) {
       error_msg      = NULL,
       completed_at   = CURRENT_TIMESTAMP
     WHERE id = @id
-  `).run({ id, ...data });
+  `
+    )
+    .run({ id, ...data });
 }
 
 function markFailed(id, errorMsg, canRetry = true) {
   const db = getDb();
-  const job = db.prepare('SELECT retry_count FROM jobs WHERE id = ?').get(id);
+  const job = db.prepare("SELECT retry_count FROM jobs WHERE id = ?").get(id);
   const maxRetries = parseInt(process.env.MAX_RETRIES || 3);
   const newCount = (job?.retry_count || 0) + 1;
-  const newStatus = (canRetry && newCount < maxRetries) ? 'retry' : 'failed';
+  const newStatus = canRetry && newCount < maxRetries ? "retry" : "failed";
 
-  db.prepare(`
+  db.prepare(
+    `
     UPDATE jobs SET
       status        = ?,
       retry_count   = ?,
       error_msg     = ?,
       last_attempted_at = CURRENT_TIMESTAMP
     WHERE id = ?
-  `).run(newStatus, newCount, errorMsg, id);
+  `
+  ).run(newStatus, newCount, errorMsg, id);
 }
 
 // Recovery: any job stuck in 'processing' for >10 min is reset (crash recovery)
 function recoverStuckJobs() {
-  const result = getDb().prepare(`
+  const result = getDb()
+    .prepare(
+      `
     UPDATE jobs SET status = 'retry'
     WHERE status = 'processing'
     AND last_attempted_at < datetime('now', '-10 minutes')
-  `).run();
+  `
+    )
+    .run();
   return result.changes;
 }
 
 function getStats() {
   const db = getDb();
-  const rows = db.prepare(`
+  const rows = db
+    .prepare(
+      `
     SELECT status, COUNT(*) as count FROM jobs GROUP BY status
-  `).all();
-  const stats = { pending: 0, processing: 0, done: 0, failed: 0, retry: 0, total: 0 };
+  `
+    )
+    .all();
+  const stats = {
+    pending: 0,
+    processing: 0,
+    done: 0,
+    failed: 0,
+    retry: 0,
+    total: 0,
+  };
   for (const r of rows) {
     stats[r.status] = r.count;
     stats.total += r.count;
@@ -185,28 +228,44 @@ function getStats() {
 }
 
 function getAllDone() {
-  return getDb().prepare(`
+  return getDb()
+    .prepare(
+      `
     SELECT * FROM jobs WHERE status = 'done' ORDER BY id ASC
-  `).all();
+  `
+    )
+    .all();
 }
 
 function getAllFailed() {
-  return getDb().prepare(`
+  return getDb()
+    .prepare(
+      `
     SELECT * FROM jobs WHERE status = 'failed' ORDER BY id ASC
-  `).all();
+  `
+    )
+    .all();
 }
 
 function resetFailedToPending() {
-  return getDb().prepare(`
+  return getDb()
+    .prepare(
+      `
     UPDATE jobs SET status = 'pending', retry_count = 0, error_msg = NULL
     WHERE status = 'failed'
-  `).run().changes;
+  `
+    )
+    .run().changes;
 }
 
 function logEvent(event, detail) {
-  getDb().prepare(`
+  getDb()
+    .prepare(
+      `
     INSERT INTO run_log (event, detail) VALUES (?, ?)
-  `).run(event, detail);
+  `
+    )
+    .run(event, detail);
 }
 
 module.exports = {

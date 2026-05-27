@@ -1,0 +1,11 @@
+2026/05/11-21:13:38.306 1c4166 Reusing MANIFEST /Users/user/Downloads/indigo-scraper-v2/data/chrome-airindiaexpress-profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/11-21:13:38.311 1c4166 Recovering log #26
+2026/05/11-21:13:38.312 1c4166 Reusing old log /Users/user/Downloads/indigo-scraper-v2/data/chrome-airindiaexpress-profile/Default/Local Storage/leveldb/000026.log 
+2026/05/11-21:14:38.316 1c416a Level-0 table #30: started
+2026/05/11-21:14:38.323 1c416a Level-0 table #30: 79516 bytes OK
+2026/05/11-21:14:38.327 1c416a Delete type=0 #26
+2026/05/11-21:16:44.127 1c4ec5 Level-0 table #32: started
+2026/05/11-21:16:44.134 1c4ec5 Level-0 table #32: 78290 bytes OK
+2026/05/11-21:16:44.141 1c4ec5 Delete type=0 #29
+2026/05/11-21:17:10.499 1c4ec5 Level-0 table #34: started
+2026/05/11-21:17:10.510 1c4ec5 Level-0 table #34: 79100 bytes OK

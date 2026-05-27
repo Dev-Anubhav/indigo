@@ -1,0 +1,1654 @@
+{
+  "pnr": "S1ZPKY",
+  "contactDetail": "SAGARSTARATE@GMAIL.COM",
+  "startedAt": "2026-05-11T15:39:27.596Z",
+  "pageUrlStart": "https://www.airindiaexpress.com/manage",
+  "response": {
+    "navToken": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiNzRiYzg4OTEtOTBkMi0xMWMwLTgyMjYtYWI5YTNmMDNhM2EwIiwiaXNzIjoiZG90UkVaIEFQSSJ9.UesHv4gel91h-HDQXaPES8cJgkTuHBi3u6Ukaj2JpaE",
+      "idleTimeoutInMinutes": 15
+    },
+    "data": {
+      "selfServiceMoveAvailable": false,
+      "isDirectChannel": false,
+      "bookingKey": "NTQ1NjIzMTQyIVMxWlBLWSFmYWxzZQ--",
+      "recordLocator": "S1ZPKY",
+      "currencyCode": "INR",
+      "systemCode": null,
+      "groupName": null,
+      "locators": {
+        "numericRecordLocator": "022016312114",
+        "parentRecordLocator": null,
+        "parentId": "0",
+        "recordLocators": []
+      },
+      "info": {
+        "status": 2,
+        "paidStatus": 1,
+        "priceStatus": 2,
+        "profileStatus": 1,
+        "bookingType": null,
+        "channelType": 5,
+        "bookedDate": "2025-04-26T12:16:29.66Z",
+        "createdDate": "2025-04-26T12:16:29.66Z",
+        "expirationDate": "2025-05-06T13:25:00Z",
+        "modifiedDate": "2025-05-05T13:05:57.587Z",
+        "modifiedAgentId": "44059635",
+        "createdAgentId": "44115378",
+        "owningCarrierCode": "IX",
+        "changeAllowed": true
+      },
+      "sales": {
+        "created": {
+          "agentCode": "APITSCTRSE",
+          "domainCode": "TOP",
+          "locationCode": "API",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "source": {
+          "isoCountryCode": null,
+          "sourceSystemCode": null,
+          "agentCode": "APITSCTRSE",
+          "domainCode": "TOP",
+          "locationCode": "API",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "modified": null
+      },
+      "typeOfSale": {
+        "residentCountry": "IN",
+        "promotionCode": null,
+        "fareTypes": []
+      },
+      "hold": null,
+      "breakdown": {
+        "balanceDue": 0,
+        "pointsBalanceDue": 0,
+        "authorizedBalanceDue": 0,
+        "totalAmount": 17214,
+        "totalPoints": 0,
+        "totalToCollect": 17214,
+        "totalPointsToCollect": 0,
+        "totalCharged": 17214,
+        "passengerTotals": {
+          "services": null,
+          "specialServices": null,
+          "seats": {
+            "total": null,
+            "taxes": null,
+            "adjustments": 1825,
+            "charges": [
+              {
+                "amount": 600,
+                "code": "SEAT",
+                "detail": "GOX-PNQ",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 600,
+                "ticketCode": "ST"
+              },
+              {
+                "amount": 600,
+                "code": "SEAT",
+                "detail": "Fee OR",
+                "type": 1,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 600,
+                "ticketCode": null
+              },
+              {
+                "amount": 700,
+                "code": "SEAT",
+                "detail": "GOX-PNQ",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 700,
+                "ticketCode": "ST"
+              },
+              {
+                "amount": 700,
+                "code": "SEAT",
+                "detail": "Fee OR",
+                "type": 1,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 700,
+                "ticketCode": null
+              },
+              {
+                "amount": 525,
+                "code": "SEAT",
+                "detail": "GOX-PNQ",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 525,
+                "ticketCode": "ST"
+              },
+              {
+                "amount": 525,
+                "code": "SEAT",
+                "detail": "Fee OR",
+                "type": 1,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 525,
+                "ticketCode": null
+              }
+            ]
+          },
+          "upgrades": null,
+          "spoilage": null,
+          "nameChanges": null,
+          "convenience": null,
+          "infant": null
+        },
+        "passengers": {
+          "MCFBRFQ-": {
+            "passengerKey": "MCFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": {
+              "total": null,
+              "taxes": null,
+              "adjustments": 600,
+              "charges": [
+                {
+                  "amount": 600,
+                  "code": "SEAT",
+                  "detail": "GOX-PNQ",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 600,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 600,
+                  "code": "SEAT",
+                  "detail": "Fee OR",
+                  "type": 1,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 600,
+                  "ticketCode": null
+                }
+              ]
+            },
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          },
+          "MSFBRFQ-": {
+            "passengerKey": "MSFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": {
+              "total": null,
+              "taxes": null,
+              "adjustments": 700,
+              "charges": [
+                {
+                  "amount": 700,
+                  "code": "SEAT",
+                  "detail": "GOX-PNQ",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 700,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 700,
+                  "code": "SEAT",
+                  "detail": "Fee OR",
+                  "type": 1,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 700,
+                  "ticketCode": null
+                }
+              ]
+            },
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          },
+          "MiFBRFQ-": {
+            "passengerKey": "MiFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": {
+              "total": null,
+              "taxes": null,
+              "adjustments": 525,
+              "charges": [
+                {
+                  "amount": 525,
+                  "code": "SEAT",
+                  "detail": "GOX-PNQ",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 525,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 525,
+                  "code": "SEAT",
+                  "detail": "Fee OR",
+                  "type": 1,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 525,
+                  "ticketCode": null
+                }
+              ]
+            },
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          }
+        },
+        "journeyTotals": {
+          "totalAmount": 12366,
+          "totalPoints": 0,
+          "totalTax": 4848,
+          "totalDiscount": 0
+        },
+        "journeys": {
+          "SVh_MjY2NX4gfn5HT1h_MDUvMDUvMjAyNSAxODo1NX5QTlF_MDUvMDUvMjAyNSAyMzowMH5NQUF_": {
+            "journeyKey": "SVh_MjY2NX4gfn5HT1h_MDUvMDUvMjAyNSAxODo1NX5QTlF_MDUvMDUvMjAyNSAyMzowMH5NQUF_",
+            "totalAmount": 4122,
+            "totalPoints": 0,
+            "totalTax": 1616,
+            "totalDiscount": 0
+          }
+        },
+        "addOnTotals": {
+          "car": null,
+          "hotel": null,
+          "activities": null
+        }
+      },
+      "receivedBy": {
+        "receivedBy": null,
+        "latestReceivedBy": null,
+        "receivedReference": null,
+        "latestReceivedReference": null,
+        "referralCode": null
+      },
+      "contacts": {
+        "P": {
+          "contactTypeCode": "P",
+          "phoneNumbers": [
+            {
+              "type": 0,
+              "number": "EOweIxh7pNZlfeQNL+ZLdg=="
+            },
+            {
+              "type": 1,
+              "number": "EOweIxh7pNZlfeQNL+ZLdg=="
+            }
+          ],
+          "cultureCode": null,
+          "address": {
+            "lineOne": "NA",
+            "lineTwo": "NA",
+            "lineThree": null,
+            "countryCode": "IN",
+            "provinceState": "NA",
+            "city": "NA",
+            "postalCode": null
+          },
+          "emailAddress": "KeYtfq4DbVuJ04oowMXKfSkQal3sXjRBd2txK9vVt9I=",
+          "customerNumber": null,
+          "sourceOrganization": "OTATSCTRSE",
+          "distributionOption": 2,
+          "notificationPreference": 0,
+          "companyName": "TSC ONLINE",
+          "name": {
+            "first": "Gq8/SPNmez4TgEo6qqXftw==",
+            "middle": null,
+            "last": "BNHttOK4LesGAbth6KnOFA==",
+            "title": "MR",
+            "suffix": null
+          }
+        }
+      },
+      "passengers": [
+        {
+          "passengerKey": "MCFBRFQ-",
+          "passengerAlternateKey": "MTIyMzQ4NDgzNA--",
+          "customerNumber": "1900459863",
+          "fees": [
+            {
+              "type": 9,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "SEAT",
+              "detail": null,
+              "passengerFeeKey": "MCEwITk-",
+              "override": true,
+              "flightReference": "20250505 IX2665 GOXPNQ",
+              "note": null,
+              "createdDate": "2025-05-03T16:30:56.45Z",
+              "serviceCharges": [
+                {
+                  "amount": 600,
+                  "code": "SEAT",
+                  "detail": "GOX-PNQ",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 600,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 600,
+                  "code": "SEAT",
+                  "detail": "Fee OR",
+                  "type": "Discount",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 600,
+                  "ticketCode": null
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 0
+            }
+          ],
+          "name": {
+            "first": "Gq8/SPNmez4TgEo6qqXftw==",
+            "middle": null,
+            "last": "BNHttOK4LesGAbth6KnOFA==",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [
+            {
+              "identifier": "2665",
+              "baggageKey": "MDIzNjc0MTMzMw--",
+              "nonStandard": false,
+              "type": "STND",
+              "osTag": "0236741333",
+              "osTagDate": "2025-05-05T00:00:00Z",
+              "taggedToStation": "PNQ",
+              "stationCode": "GOX",
+              "weight": 13,
+              "taggedToCarrierCode": "IX",
+              "weightType": 2
+            }
+          ],
+          "program": {
+            "code": "TLN",
+            "levelCode": "T2N",
+            "number": "1900459863"
+          },
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": 1,
+            "dateOfBirth": "PopTZPaptgVsk/WEjZltJZdsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [],
+          "addresses": [
+            {
+              "status": "Residence",
+              "companyName": null,
+              "lineOne": null,
+              "passengerAddressKey": "nqk85O2e9hm5MhtvC6OtAw==",
+              "phone": "EOweIxh7pNZlfeQNL+ZLdg==",
+              "lineTwo": null,
+              "stationCode": "GOX",
+              "lineThree": null,
+              "emailAddress": "0pQefZeHpe93Iskj812tp7kBOsvioj7OfMSMuSaVkTM=",
+              "countryCode": null,
+              "cultureCode": null,
+              "provinceState": null,
+              "refusedContact": false,
+              "city": null,
+              "postalCode": null
+            }
+          ],
+          "weightCategory": 1,
+          "bagsInfo": [
+            {
+              "journeyKey": "SVh_MjY2NX4gfn5HT1h_MDUvMDUvMjAyNSAxODo1NX5QTlF_MDUvMDUvMjAyNSAyMzowMH5NQUF_",
+              "CABG": 7,
+              "CHKBAG": 15,
+              "ICBG": null,
+              "STND": null
+            }
+          ]
+        },
+        {
+          "passengerKey": "MSFBRFQ-",
+          "passengerAlternateKey": "MTIyMzQ4NDgzNg--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 9,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "SEAT",
+              "detail": null,
+              "passengerFeeKey": "MSEwITk-",
+              "override": true,
+              "flightReference": "20250505 IX2665 GOXPNQ",
+              "note": null,
+              "createdDate": "2025-05-03T16:30:56.45Z",
+              "serviceCharges": [
+                {
+                  "amount": 700,
+                  "code": "SEAT",
+                  "detail": "GOX-PNQ",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 700,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 700,
+                  "code": "SEAT",
+                  "detail": "Fee OR",
+                  "type": "Discount",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 700,
+                  "ticketCode": null
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 0
+            }
+          ],
+          "name": {
+            "first": "PXI/jyth7LsiU7nwnjX3EQ==",
+            "middle": null,
+            "last": "BNHttOK4LesGAbth6KnOFA==",
+            "title": "MRS",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [
+            {
+              "identifier": "2665",
+              "baggageKey": "MDIzNjc0MTM1MA--",
+              "nonStandard": false,
+              "type": "STND",
+              "osTag": "0236741350",
+              "osTagDate": "2025-05-05T00:00:00Z",
+              "taggedToStation": "PNQ",
+              "stationCode": "GOX",
+              "weight": 14,
+              "taggedToCarrierCode": "IX",
+              "weightType": 2
+            }
+          ],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": 2,
+            "dateOfBirth": "wucwqPm9rR7y0JtYNrrBjJdsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [],
+          "addresses": [
+            {
+              "status": "Residence",
+              "companyName": null,
+              "lineOne": null,
+              "passengerAddressKey": "nqk85O2e9hm5MhtvC6OtAw==",
+              "phone": "H12uGGm3uVjP8DaUtmLIzA==",
+              "lineTwo": null,
+              "stationCode": "GOX",
+              "lineThree": null,
+              "emailAddress": "0pQefZeHpe93Iskj812tp7kBOsvioj7OfMSMuSaVkTM=",
+              "countryCode": null,
+              "cultureCode": null,
+              "provinceState": null,
+              "refusedContact": false,
+              "city": null,
+              "postalCode": null
+            }
+          ],
+          "weightCategory": 2,
+          "bagsInfo": [
+            {
+              "journeyKey": "SVh_MjY2NX4gfn5HT1h_MDUvMDUvMjAyNSAxODo1NX5QTlF_MDUvMDUvMjAyNSAyMzowMH5NQUF_",
+              "CABG": 7,
+              "CHKBAG": 15,
+              "ICBG": null,
+              "STND": null
+            }
+          ]
+        },
+        {
+          "passengerKey": "MiFBRFQ-",
+          "passengerAlternateKey": "MTIyMzQ4NDgzNw--",
+          "customerNumber": "8690562833",
+          "fees": [
+            {
+              "type": 9,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "SEAT",
+              "detail": null,
+              "passengerFeeKey": "MiEwITk-",
+              "override": true,
+              "flightReference": "20250505 IX2665 GOXPNQ",
+              "note": null,
+              "createdDate": "2025-05-03T16:30:56.45Z",
+              "serviceCharges": [
+                {
+                  "amount": 525,
+                  "code": "SEAT",
+                  "detail": "GOX-PNQ",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 525,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 525,
+                  "code": "SEAT",
+                  "detail": "Fee OR",
+                  "type": "Discount",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 525,
+                  "ticketCode": null
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 0
+            }
+          ],
+          "name": {
+            "first": "5bBT3dYMUJv+rAhv8DUlSw==",
+            "middle": null,
+            "last": "BNHttOK4LesGAbth6KnOFA==",
+            "title": "MS",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [],
+          "program": {
+            "code": "TLN",
+            "levelCode": "T1N",
+            "number": "8690562833"
+          },
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": 2,
+            "dateOfBirth": "2Q6bD+CEHCEMVUq1kOoQaJdsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [],
+          "addresses": [
+            {
+              "status": "Residence",
+              "companyName": null,
+              "lineOne": null,
+              "passengerAddressKey": "nqk85O2e9hm5MhtvC6OtAw==",
+              "phone": "5poszRdo9CtjV1jPCoUmVQ==",
+              "lineTwo": null,
+              "stationCode": "GOX",
+              "lineThree": null,
+              "emailAddress": "0pQefZeHpe93Iskj812tp7kBOsvioj7OfMSMuSaVkTM=",
+              "countryCode": null,
+              "cultureCode": null,
+              "provinceState": null,
+              "refusedContact": false,
+              "city": null,
+              "postalCode": null
+            }
+          ],
+          "weightCategory": 2,
+          "bagsInfo": [
+            {
+              "journeyKey": "SVh_MjY2NX4gfn5HT1h_MDUvMDUvMjAyNSAxODo1NX5QTlF_MDUvMDUvMjAyNSAyMzowMH5NQUF_",
+              "CABG": 7,
+              "CHKBAG": 15,
+              "ICBG": null,
+              "STND": null
+            }
+          ]
+        }
+      ],
+      "journeys": [
+        {
+          "flightType": 2,
+          "stops": 1,
+          "designator": {
+            "destination": "PNQ",
+            "origin": "GOX",
+            "arrival": "2025-05-05T23:00:00",
+            "departure": "2025-05-05T18:55:00",
+            "originAirportName": "Manohar International Airport, Mopa",
+            "originCityName": "North Goa",
+            "destinationAirportName": "Pune Airport",
+            "destinationCityName": "Pune",
+            "arrivalTerminal": null,
+            "departureTerminal": null
+          },
+          "move": {
+            "maxMoveBackDays": 490,
+            "maxMoveOutDays": 490
+          },
+          "segments": [
+            {
+              "isStandby": false,
+              "isConfirming": false,
+              "isConfirmingExternal": false,
+              "isBlocked": false,
+              "isHosted": true,
+              "isChangeOfGauge": false,
+              "designator": {
+                "destination": "PNQ",
+                "origin": "GOX",
+                "arrival": "2025-05-05T23:00:00",
+                "departure": "2025-05-05T18:55:00",
+                "originAirportName": "Manohar International Airport, Mopa",
+                "originCityName": "North Goa",
+                "destinationAirportName": "Pune Airport",
+                "destinationCityName": "Pune",
+                "arrivalTerminal": null,
+                "departureTerminal": null
+              },
+              "isSeatmapViewable": true,
+              "identifier": {
+                "identifier": "2665",
+                "carrierCode": "IX",
+                "opSuffix": null
+              },
+              "fares": [
+                {
+                  "isGoverning": true,
+                  "downgradeAvailable": false,
+                  "carrierCode": "I5",
+                  "fareKey": "MH5Ffn5JNX5FVlNBMDAwflZTMDB_fjB_MH5_WA--",
+                  "classOfService": "E",
+                  "classType": null,
+                  "fareApplicationType": 0,
+                  "fareClassOfService": "E",
+                  "fareBasisCode": "EVSA000",
+                  "fareSequence": 0,
+                  "inboundOutBound": 0,
+                  "fareStatus": 0,
+                  "isAllotmentMarketFare": false,
+                  "originalClassOfService": "E",
+                  "ruleNumber": "VS00",
+                  "productClass": "SM",
+                  "ruleTariff": null,
+                  "travelClassCode": "Y",
+                  "crossReferenceClassOfService": null,
+                  "fareLink": 0,
+                  "passengerFares": [
+                    {
+                      "serviceCharges": [
+                        {
+                          "amount": 4122,
+                          "code": null,
+                          "detail": null,
+                          "type": "FarePrice",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 4122,
+                          "ticketCode": null
+                        },
+                        {
+                          "amount": 75,
+                          "code": "CUTE",
+                          "detail": "GOX-PNQ",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 75,
+                          "ticketCode": "CUT"
+                        },
+                        {
+                          "amount": 100,
+                          "code": "RCS",
+                          "detail": "GOX-PNQ",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 100,
+                          "ticketCode": "RCS"
+                        },
+                        {
+                          "amount": 991,
+                          "code": "IN",
+                          "detail": "GOX-PNQ",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 991,
+                          "ticketCode": "IN"
+                        },
+                        {
+                          "amount": 236,
+                          "code": "P2",
+                          "detail": "GOX-PNQ",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 236,
+                          "ticketCode": "P2"
+                        },
+                        {
+                          "amount": 107,
+                          "code": "CGST",
+                          "detail": "GOX-PNQ",
+                          "type": "Tax",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 107,
+                          "ticketCode": "CST"
+                        },
+                        {
+                          "amount": 107,
+                          "code": "SGST",
+                          "detail": "GOX-PNQ",
+                          "type": "Tax",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 107,
+                          "ticketCode": "SST"
+                        }
+                      ],
+                      "discountCode": null,
+                      "fareDiscountCode": null,
+                      "passengerType": "ADT"
+                    }
+                  ],
+                  "fareDesignator": {
+                    "fareTypeCodes": [
+                      "SC"
+                    ]
+                  }
+                }
+              ],
+              "segmentKey": "SVh_MjY2NX4gfn5HT1h_MDUvMDUvMjAyNSAxODo1NX5QTlF_MDUvMDUvMjAyNSAyMzowMH5NQUF_",
+              "passengerSegment": {
+                "MCFBRFQ-": {
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "13A",
+                      "isAutoAssigned": null,
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 25,
+                        "propertyList": {
+                          "LOCATION": "FRONT",
+                          "BRDZONE": "2",
+                          "SEATPOS": "EMX1",
+                          "PRIME": "TRUE",
+                          "NCHILD": "TRUE",
+                          "RECLINE": "TRUE",
+                          "TCC": "Y",
+                          "FLEXSEAT": "TRUE",
+                          "EXITROW": "TRUE",
+                          "WINDOW": "TRUE",
+                          "LEGROOM": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "PNQ",
+                      "departureStation": "GOX",
+                      "passengerKey": "MCFBRFQ-",
+                      "unitKey": "SVghMjY2NSEgITYzODgyMDY4MTAwMDAwMDAwMCFHT1ghUE5RITEzQSFZ"
+                    }
+                  ],
+                  "passengerKey": "MCFBRFQ-",
+                  "activityDate": "2025-05-05T12:52:21.727Z",
+                  "boardingSequence": "25",
+                  "createdDate": "2025-04-26T12:16:29.66Z",
+                  "liftStatus": 2,
+                  "modifiedDate": "2025-05-05T11:05:25.853Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-04-26T12:16:29.693Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": null,
+                  "sourcePointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "pointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "ssrs": [
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": null,
+                      "ssrDuration": 0,
+                      "ssrKey": "MCFNQ0ZCUkZRLSFTTUUhMSFQTlEhSVghNjM4ODIwNjgxMDAwMDAwMDAwIUdPWCEyNjY1ISA-",
+                      "count": 1,
+                      "ssrCode": "SME",
+                      "feeCode": null,
+                      "inBundle": false,
+                      "passengerKey": "MCFBRFQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "2665",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "PNQ",
+                        "origin": "GOX",
+                        "departureDate": "2025-05-05T18:55:00"
+                      }
+                    },
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": null,
+                      "ssrDuration": 0,
+                      "ssrKey": "MCFNQ0ZCUkZRLSFUMlhQITEhUE5RIUlYITYzODgyMDY4MTAwMDAwMDAwMCFHT1ghMjY2NSEg",
+                      "count": 1,
+                      "ssrCode": "T2XP",
+                      "feeCode": null,
+                      "inBundle": false,
+                      "passengerKey": "MCFBRFQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "2665",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "PNQ",
+                        "origin": "GOX",
+                        "departureDate": "2025-05-05T18:55:00"
+                      }
+                    }
+                  ],
+                  "tickets": [],
+                  "bags": [
+                    {
+                      "baggageKey": "MDIzNjc0MTMzMw--",
+                      "passengerKey": "MCFBRFQ-",
+                      "arrivalStation": "PNQ",
+                      "status": 1,
+                      "departureStation": "GOX",
+                      "osTag": "0236741333"
+                    }
+                  ],
+                  "scores": [],
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": {
+                    "seat": 0,
+                    "travelClass": 0,
+                    "advancedPreferences": []
+                  },
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": null,
+                  "referenceNumber": 0
+                },
+                "MSFBRFQ-": {
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "13B",
+                      "isAutoAssigned": null,
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 25,
+                        "propertyList": {
+                          "LOCATION": "FRONT",
+                          "BRDZONE": "2",
+                          "SEATPOS": "EMX1",
+                          "PRIME": "TRUE",
+                          "NCHILD": "TRUE",
+                          "RECLINE": "TRUE",
+                          "TCC": "Y",
+                          "FLEXSEAT": "TRUE",
+                          "EXITROW": "TRUE",
+                          "MIDDLE": "TRUE",
+                          "LEGROOM": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "PNQ",
+                      "departureStation": "GOX",
+                      "passengerKey": "MSFBRFQ-",
+                      "unitKey": "SVghMjY2NSEgITYzODgyMDY4MTAwMDAwMDAwMCFHT1ghUE5RITEzQiFZ"
+                    }
+                  ],
+                  "passengerKey": "MSFBRFQ-",
+                  "activityDate": "2025-05-05T12:52:43.807Z",
+                  "boardingSequence": "26",
+                  "createdDate": "2025-04-26T12:16:29.66Z",
+                  "liftStatus": 2,
+                  "modifiedDate": "2025-05-05T11:05:25.853Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-04-26T12:16:29.693Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": null,
+                  "sourcePointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "pointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "ssrs": [
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": null,
+                      "ssrDuration": 0,
+                      "ssrKey": "MCFNU0ZCUkZRLSFTTUUhMSFQTlEhSVghNjM4ODIwNjgxMDAwMDAwMDAwIUdPWCEyNjY1ISA-",
+                      "count": 1,
+                      "ssrCode": "SME",
+                      "feeCode": null,
+                      "inBundle": false,
+                      "passengerKey": "MSFBRFQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "2665",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "PNQ",
+                        "origin": "GOX",
+                        "departureDate": "2025-05-05T18:55:00"
+                      }
+                    }
+                  ],
+                  "tickets": [],
+                  "bags": [
+                    {
+                      "baggageKey": "MDIzNjc0MTM1MA--",
+                      "passengerKey": "MSFBRFQ-",
+                      "arrivalStation": "PNQ",
+                      "status": 1,
+                      "departureStation": "GOX",
+                      "osTag": "0236741350"
+                    }
+                  ],
+                  "scores": [],
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": {
+                    "seat": 0,
+                    "travelClass": 0,
+                    "advancedPreferences": []
+                  },
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": null,
+                  "referenceNumber": 0
+                },
+                "MiFBRFQ-": {
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "13C",
+                      "isAutoAssigned": null,
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 25,
+                        "propertyList": {
+                          "LOCATION": "FRONT",
+                          "BRDZONE": "2",
+                          "SEATPOS": "EMX1",
+                          "AISLE": "TRUE",
+                          "PRIME": "TRUE",
+                          "NCHILD": "TRUE",
+                          "RECLINE": "TRUE",
+                          "TCC": "Y",
+                          "FLEXSEAT": "TRUE",
+                          "EXITROW": "TRUE",
+                          "LEGROOM": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "PNQ",
+                      "departureStation": "GOX",
+                      "passengerKey": "MiFBRFQ-",
+                      "unitKey": "SVghMjY2NSEgITYzODgyMDY4MTAwMDAwMDAwMCFHT1ghUE5RITEzQyFZ"
+                    }
+                  ],
+                  "passengerKey": "MiFBRFQ-",
+                  "activityDate": "2025-05-05T12:52:38.677Z",
+                  "boardingSequence": "27",
+                  "createdDate": "2025-04-26T12:16:29.66Z",
+                  "liftStatus": 2,
+                  "modifiedDate": "2025-05-05T11:05:25.853Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-04-26T12:16:29.693Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": null,
+                  "sourcePointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "pointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "ssrs": [
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": null,
+                      "ssrDuration": 0,
+                      "ssrKey": "MCFNaUZCUkZRLSFTTUUhMSFQTlEhSVghNjM4ODIwNjgxMDAwMDAwMDAwIUdPWCEyNjY1ISA-",
+                      "count": 1,
+                      "ssrCode": "SME",
+                      "feeCode": null,
+                      "inBundle": false,
+                      "passengerKey": "MiFBRFQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "2665",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "PNQ",
+                        "origin": "GOX",
+                        "departureDate": "2025-05-05T18:55:00"
+                      }
+                    },
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": null,
+                      "ssrDuration": 0,
+                      "ssrKey": "MCFNaUZCUkZRLSFUMUFWITEhUE5RIUlYITYzODgyMDY4MTAwMDAwMDAwMCFHT1ghMjY2NSEg",
+                      "count": 1,
+                      "ssrCode": "T1AV",
+                      "feeCode": null,
+                      "inBundle": false,
+                      "passengerKey": "MiFBRFQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "2665",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "PNQ",
+                        "origin": "GOX",
+                        "departureDate": "2025-05-05T18:55:00"
+                      }
+                    }
+                  ],
+                  "tickets": [],
+                  "bags": [],
+                  "scores": [],
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": {
+                    "seat": 0,
+                    "travelClass": 0,
+                    "advancedPreferences": []
+                  },
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": null,
+                  "referenceNumber": 0
+                }
+              },
+              "channelType": 5,
+              "cabinOfService": "Y",
+              "externalIdentifier": null,
+              "priorityCode": null,
+              "changeReasonCode": 0,
+              "segmentType": 0,
+              "salesDate": "2025-04-26T12:16:29.66Z",
+              "international": false,
+              "flightReference": "20250505 IX2665 GOXPNQ",
+              "legs": [
+                {
+                  "legKey": "NjM4ODIwNjgxMDAwMDAwMDAwIUlYITI2NjUhICFHT1ghTUFBITg4NzgwOTA-",
+                  "operationsInfo": null,
+                  "designator": {
+                    "destination": "MAA",
+                    "origin": "GOX",
+                    "arrival": "2025-05-05T20:35:00",
+                    "departure": "2025-05-05T18:55:00",
+                    "originAirportName": null,
+                    "originCityName": null,
+                    "destinationAirportName": null,
+                    "destinationCityName": null,
+                    "arrivalTerminal": null,
+                    "departureTerminal": null
+                  },
+                  "legInfo": {
+                    "departureTimeUtc": "2025-05-05T13:25:00Z",
+                    "arrivalTimeUtc": "2025-05-05T15:05:00Z",
+                    "adjustedCapacity": 176,
+                    "arrivalTerminal": "4",
+                    "arrivalTimeVariant": 330,
+                    "backMoveDays": 490,
+                    "capacity": 176,
+                    "changeOfDirection": false,
+                    "codeShareIndicator": 0,
+                    "departureTerminal": null,
+                    "departureTimeVariant": 330,
+                    "equipmentType": "7M8",
+                    "equipmentTypeSuffix": null,
+                    "eTicket": false,
+                    "irop": false,
+                    "lid": 176,
+                    "marketingCode": null,
+                    "marketingOverride": false,
+                    "operatedByText": null,
+                    "operatingCarrier": null,
+                    "operatingFlightNumber": null,
+                    "operatingOpSuffix": null,
+                    "outMoveDays": 490,
+                    "arrivalTime": "2025-05-05T20:35:00",
+                    "departureTime": "2025-05-05T18:55:00",
+                    "prbcCode": "Y168C8",
+                    "scheduleServiceType": null,
+                    "sold": 156,
+                    "status": 1,
+                    "subjectToGovtApproval": false,
+                    "eticket": false
+                  },
+                  "nests": [],
+                  "ssrs": [],
+                  "seatmapReference": "SVghMjY2NSEgITYzODgyMDY4MTAwMDAwMDAwMCFHT1ghUE5R",
+                  "flightReference": "20250505 IX2665 GOXMAA"
+                },
+                {
+                  "legKey": "NjM4ODIwNzY4MDAwMDAwMDAwIUlYITI2NjUhICFNQUEhUE5RITg1MDQ5MzQ-",
+                  "operationsInfo": null,
+                  "designator": {
+                    "destination": "PNQ",
+                    "origin": "MAA",
+                    "arrival": "2025-05-05T23:00:00",
+                    "departure": "2025-05-05T21:20:00",
+                    "originAirportName": null,
+                    "originCityName": null,
+                    "destinationAirportName": null,
+                    "destinationCityName": null,
+                    "arrivalTerminal": null,
+                    "departureTerminal": null
+                  },
+                  "legInfo": {
+                    "departureTimeUtc": "2025-05-05T15:50:00Z",
+                    "arrivalTimeUtc": "2025-05-05T17:30:00Z",
+                    "adjustedCapacity": 176,
+                    "arrivalTerminal": null,
+                    "arrivalTimeVariant": 330,
+                    "backMoveDays": 490,
+                    "capacity": 176,
+                    "changeOfDirection": false,
+                    "codeShareIndicator": 0,
+                    "departureTerminal": "4",
+                    "departureTimeVariant": 330,
+                    "equipmentType": "7M8",
+                    "equipmentTypeSuffix": null,
+                    "eTicket": false,
+                    "irop": false,
+                    "lid": 176,
+                    "marketingCode": null,
+                    "marketingOverride": false,
+                    "operatedByText": null,
+                    "operatingCarrier": null,
+                    "operatingFlightNumber": null,
+                    "operatingOpSuffix": null,
+                    "outMoveDays": 490,
+                    "arrivalTime": "2025-05-05T23:00:00",
+                    "departureTime": "2025-05-05T21:20:00",
+                    "prbcCode": "Y168C8",
+                    "scheduleServiceType": null,
+                    "sold": 174,
+                    "status": 1,
+                    "subjectToGovtApproval": false,
+                    "eticket": false
+                  },
+                  "nests": [],
+                  "ssrs": [],
+                  "seatmapReference": "SVghMjY2NSEgITYzODgyMDY4MTAwMDAwMDAwMCFHT1ghUE5R",
+                  "flightReference": "20250505 IX2665 MAAPNQ"
+                }
+              ],
+              "status": 6
+            }
+          ],
+          "journeyKey": "SVh_MjY2NX4gfn5HT1h_MDUvMDUvMjAyNSAxODo1NX5QTlF_MDUvMDUvMjAyNSAyMzowMH5NQUF_",
+          "notForGeneralUser": false,
+          "isCorpFareJourney": false,
+          "isCancelAllowed": false,
+          "checkInAllowedFlatform": 0,
+          "scootModification": true,
+          "isCorpLiteJourney": false,
+          "umnr": false,
+          "corpFareJourney": false,
+          "cancelAllowed": false,
+          "CheckInWindow": "Close",
+          "CheckInOpens": null
+        }
+      ],
+      "comments": [
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919822082566, TimeStamp= 2025-04-26 05:51:35, MessageFor=NewBookingConfirmOneWaySingle-HoppingCampaign",
+          "createdDate": "2025-04-26T12:21:36.957Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5MDAzNjIwMQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919822082566, TimeStamp= 2025-04-26 05:51:36, MessageFor=NewBookingConfirmOneWaySingle-HoppingCampaign",
+          "createdDate": "2025-04-26T12:21:38Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5MDAzNjIwNw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=read, PhoneNo=919822082566, TimeStamp= 2025-04-26 05:55:45, MessageFor=NewBookingConfirmOneWaySingle-HoppingCampaign",
+          "createdDate": "2025-04-26T12:25:46.823Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5MDAzODIyMA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=SMS , Status=INVALID_TEMPLATE_ID, SentTime= 2025-05-03 20:02:37, DeliveryFor= AdditionalSMS_CheckInReminder",
+          "createdDate": "2025-05-03T14:34:29.96Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5NDAxMzM3Nw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919822082566, TimeStamp= 2025-05-03 09:18:35, MessageFor=AdditionalSMS_CheckInReminder",
+          "createdDate": "2025-05-03T15:48:37.513Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5NDA0NjQwNw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919822082566, TimeStamp= 2025-05-03 09:18:37, MessageFor=AdditionalSMS_CheckInReminder",
+          "createdDate": "2025-05-03T15:48:39.48Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5NDA0NjU4Mg--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=read, PhoneNo=919822082566, TimeStamp= 2025-05-03 09:56:26, MessageFor=AdditionalSMS_CheckInReminder",
+          "createdDate": "2025-05-03T16:26:27.51Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5NDA2MDczMQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919822082566, TimeStamp= 2025-05-03 10:04:26, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-05-03T16:34:28.017Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5NDA2Mzk4OA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919822082566, TimeStamp= 2025-05-03 10:04:28, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-05-03T16:34:29.617Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5NDA2NDA1NA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919822195930, TimeStamp= 2025-05-03 10:04:31, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-05-03T16:34:33.24Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5NDA2NDI2Mg--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919822195930, TimeStamp= 2025-05-03 10:04:33, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-05-03T16:34:34.433Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5NDA2NDM0Nw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=918007233311, TimeStamp= 2025-05-03 10:04:36, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-05-03T16:34:37.717Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5NDA2NDU5MQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=918007233311, TimeStamp= 2025-05-03 10:04:48, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-05-03T16:34:50.063Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5NDA2NDc5OQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=read, PhoneNo=919822082566, TimeStamp= 2025-05-03 10:05:14, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-05-03T16:35:15.853Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5NDA2NDg4Mg--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=read, PhoneNo=919822195930, TimeStamp= 2025-05-04 05:49:29, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-05-04T00:19:31.003Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5NDE3OTMyOA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919822082566, TimeStamp= 2025-05-05 03:52:10, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-05-05T10:22:12.33Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5NDkxNTkyMw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919822082566, TimeStamp= 2025-05-05 03:52:12, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-05-05T10:22:15.703Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5NDkxNjExMw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=read, PhoneNo=919822082566, TimeStamp= 2025-05-05 04:22:05, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-05-05T10:52:07.133Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5NDkzMzA1OA--"
+        },
+        {
+          "type": 2,
+          "text": "9822082566",
+          "createdDate": "2025-05-05T11:05:25.853Z",
+          "pointOfSale": {
+            "agentCode": "GHGOX_LORRAINEP",
+            "domainCode": "DEF",
+            "locationCode": "GOX",
+            "organizationCode": "IX"
+          },
+          "commentKey": "MzI5NDk0MDQxMA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919822082566, TimeStamp= 2025-05-05 06:22:28, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-05-05T12:52:34.22Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5NDk4NzQ0OA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919822082566, TimeStamp= 2025-05-05 06:22:30, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-05-05T12:52:37.19Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5NDk4NzY2Mw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=read, PhoneNo=919822082566, TimeStamp= 2025-05-05 06:35:56, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-05-05T13:05:57.587Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5NDk5NDkzNQ--"
+        }
+      ],
+      "queues": [],
+      "history": [],
+      "payments": [
+        {
+          "paymentKey": "NDY4NDU1NDkzITEhQUchNTQ1NjIzMTQy",
+          "code": "AG",
+          "approvalDate": "2025-04-26T12:16:29.897Z",
+          "details": {
+            "accountNumberId": 0,
+            "parentPaymentId": null,
+            "accountName": null,
+            "accountNumber": "OTATSCTRSE",
+            "expirationDate": null,
+            "text": null,
+            "installments": 1,
+            "binRange": 0,
+            "fields": {}
+          },
+          "amounts": {
+            "amount": 17214,
+            "currencyCode": "INR",
+            "collected": 17214,
+            "collectedCurrencyCode": "INR",
+            "quoted": 17214,
+            "quotedCurrencyCode": "INR"
+          },
+          "authorizationCode": null,
+          "authorizationStatus": 4,
+          "fundedDate": "1800-01-01T00:00:00Z",
+          "transactionCode": null,
+          "dcc": null,
+          "threeDSecure": null,
+          "attachments": [],
+          "createdDate": "2025-04-26T12:16:29.66Z",
+          "modifiedDate": "2025-04-26T12:16:29.88Z",
+          "type": 2,
+          "status": 3,
+          "transferred": false,
+          "channelType": 5,
+          "pointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "sourcePointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "deposit": false,
+          "accountId": 0,
+          "voucher": null,
+          "addedToState": true,
+          "createdAgentId": 44115378,
+          "modifiedAgentId": 44115378,
+          "reference": 468455493
+        }
+      ],
+      "orders": [],
+      "isFareMaskingEnabled": false,
+      "isGroupBooking": false,
+      "vaccinationStatus": false,
+      "isCodeShareBooking": false,
+      "isFareLockBooking": false,
+      "isCodeSharePNR": false,
+      "isScootBooking": false,
+      "isCustomerBooking": false,
+      "isGHASOLBooking": false,
+      "isDeadHeadBooking": false,
+      "isDeadHeadCheckInAllowed": false,
+      "isMarineBooking": false,
+      "isMYIDBooking": false
+    },
+    "AnonymousToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiNzRiYzg4OTEtOTBkMi0xMWMwLTgyMjYtYWI5YTNmMDNhM2EwIiwiaXNzIjoiZG90UkVaIEFQSSJ9.UesHv4gel91h-HDQXaPES8cJgkTuHBi3u6Ukaj2JpaE"
+  },
+  "responseStatus": 200,
+  "responseUrl": "https://api.airindiaexpress.com/b2c-CheckIn/v2/retrieve/mmb/byRecordLocator"
+}

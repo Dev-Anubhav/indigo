@@ -1,0 +1,945 @@
+{
+  "pnr": "TB6W6H",
+  "contactDetail": "NARAYANLALJI1584@GMAIL.COM",
+  "startedAt": "2026-05-11T15:40:49.213Z",
+  "pageUrlStart": "https://www.airindiaexpress.com/manage",
+  "response": {
+    "navToken": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiMDIzZGNiMGUtYzViZS0yYTBlLWNiZjctMGZiZmNjNGNmN2EyIiwiaXNzIjoiZG90UkVaIEFQSSJ9.JiiYIDmKLuz1GCI6pW6Z9gK7As-navOhWkuv4tVexu4",
+      "idleTimeoutInMinutes": 15
+    },
+    "data": {
+      "selfServiceMoveAvailable": false,
+      "isDirectChannel": false,
+      "bookingKey": "NTQ1MzgyNDkzIVRCNlc2SCFmYWxzZQ--",
+      "recordLocator": "TB6W6H",
+      "currencyCode": "INR",
+      "systemCode": null,
+      "groupName": null,
+      "locators": {
+        "numericRecordLocator": "040330103015",
+        "parentRecordLocator": null,
+        "parentId": "0",
+        "recordLocators": []
+      },
+      "info": {
+        "status": 2,
+        "paidStatus": 1,
+        "priceStatus": 2,
+        "profileStatus": 1,
+        "bookingType": null,
+        "channelType": 5,
+        "bookedDate": "2025-04-21T13:10:12.36Z",
+        "createdDate": "2025-04-21T13:10:12.36Z",
+        "expirationDate": "2025-04-24T14:20:00Z",
+        "modifiedDate": "2025-04-23T13:24:07.667Z",
+        "modifiedAgentId": "44059635",
+        "createdAgentId": "44115378",
+        "owningCarrierCode": "IX",
+        "changeAllowed": true
+      },
+      "sales": {
+        "created": {
+          "agentCode": "APITSCTRSE",
+          "domainCode": "TOP",
+          "locationCode": "API",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "source": {
+          "isoCountryCode": null,
+          "sourceSystemCode": null,
+          "agentCode": "APITSCTRSE",
+          "domainCode": "TOP",
+          "locationCode": "API",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "modified": null
+      },
+      "typeOfSale": {
+        "residentCountry": "IN",
+        "promotionCode": null,
+        "fareTypes": []
+      },
+      "hold": null,
+      "breakdown": {
+        "balanceDue": 0,
+        "pointsBalanceDue": 0,
+        "authorizedBalanceDue": 0,
+        "totalAmount": 7864,
+        "totalPoints": 0,
+        "totalToCollect": 7864,
+        "totalPointsToCollect": 0,
+        "totalCharged": 7864,
+        "passengerTotals": {
+          "services": null,
+          "specialServices": null,
+          "seats": {
+            "total": 334,
+            "taxes": 16,
+            "adjustments": null,
+            "charges": [
+              {
+                "amount": 350,
+                "code": "SEAT",
+                "detail": "PNQ-JAI",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 350,
+                "ticketCode": "ST"
+              },
+              {
+                "amount": 8,
+                "code": "CGST",
+                "detail": "PNQ-JAI",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 8,
+                "ticketCode": "CST"
+              },
+              {
+                "amount": 8,
+                "code": "SGST",
+                "detail": "PNQ-JAI",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 8,
+                "ticketCode": "SST"
+              }
+            ]
+          },
+          "upgrades": null,
+          "spoilage": null,
+          "nameChanges": null,
+          "convenience": null,
+          "infant": null
+        },
+        "passengers": {
+          "MCFBRFQ-": {
+            "passengerKey": "MCFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": {
+              "total": 334,
+              "taxes": 16,
+              "adjustments": null,
+              "charges": [
+                {
+                  "amount": 350,
+                  "code": "SEAT",
+                  "detail": "PNQ-JAI",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 350,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 8,
+                  "code": "CGST",
+                  "detail": "PNQ-JAI",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 8,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 8,
+                  "code": "SGST",
+                  "detail": "PNQ-JAI",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 8,
+                  "ticketCode": "SST"
+                }
+              ]
+            },
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          }
+        },
+        "journeyTotals": {
+          "totalAmount": 5929,
+          "totalPoints": 0,
+          "totalTax": 1585,
+          "totalDiscount": 0
+        },
+        "journeys": {
+          "SVh_MjcxNH4gfn5QTlF_MDQvMjMvMjAyNSAxOTo1MH5KQUl_MDQvMjMvMjAyNSAyMTo0NX5_": {
+            "journeyKey": "SVh_MjcxNH4gfn5QTlF_MDQvMjMvMjAyNSAxOTo1MH5KQUl_MDQvMjMvMjAyNSAyMTo0NX5_",
+            "totalAmount": 5929,
+            "totalPoints": 0,
+            "totalTax": 1585,
+            "totalDiscount": 0
+          }
+        },
+        "addOnTotals": {
+          "car": null,
+          "hotel": null,
+          "activities": null
+        }
+      },
+      "receivedBy": {
+        "receivedBy": null,
+        "latestReceivedBy": null,
+        "receivedReference": null,
+        "latestReceivedReference": null,
+        "referralCode": null
+      },
+      "contacts": {
+        "P": {
+          "contactTypeCode": "P",
+          "phoneNumbers": [
+            {
+              "type": 0,
+              "number": "GEoXvs2U8D/AHfw2Mzfb5Q=="
+            },
+            {
+              "type": 1,
+              "number": "GEoXvs2U8D/AHfw2Mzfb5Q=="
+            }
+          ],
+          "cultureCode": null,
+          "address": {
+            "lineOne": "NA",
+            "lineTwo": "NA",
+            "lineThree": null,
+            "countryCode": "IN",
+            "provinceState": "NA",
+            "city": "NA",
+            "postalCode": null
+          },
+          "emailAddress": "xUwgMyNlLw9bwj2KsJRDO9Ywfv8LwRPGuQh/VFjvsl8=",
+          "customerNumber": null,
+          "sourceOrganization": "OTATSCTRSE",
+          "distributionOption": 2,
+          "notificationPreference": 0,
+          "companyName": "TSC ONLINE",
+          "name": {
+            "first": "lJ+XM+19BzW8jyRTijTgXbt0tH8ozGxg6RgGXIk3x6Q=",
+            "middle": null,
+            "last": "Vh3RgwueB8WjmsjH3xMQhw==",
+            "title": "MR",
+            "suffix": null
+          }
+        }
+      },
+      "passengers": [
+        {
+          "passengerKey": "MCFBRFQ-",
+          "passengerAlternateKey": "MTIyMzExNjQ0MQ--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 9,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "SEAT",
+              "detail": null,
+              "passengerFeeKey": "MCEwITk-",
+              "override": false,
+              "flightReference": "20250423 IX2714 PNQJAI",
+              "note": null,
+              "createdDate": "2025-04-23T09:48:45.25Z",
+              "serviceCharges": [
+                {
+                  "amount": 350,
+                  "code": "SEAT",
+                  "detail": "PNQ-JAI",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 350,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 8,
+                  "code": "CGST",
+                  "detail": "PNQ-JAI",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 8,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 8,
+                  "code": "SGST",
+                  "detail": "PNQ-JAI",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 8,
+                  "ticketCode": "SST"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 350
+            }
+          ],
+          "name": {
+            "first": "lJ+XM+19BzW8jyRTijTgXbt0tH8ozGxg6RgGXIk3x6Q=",
+            "middle": null,
+            "last": "Vh3RgwueB8WjmsjH3xMQhw==",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": 1,
+            "dateOfBirth": "WDW1qj66YL5PY08FEr0BVJdsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [],
+          "addresses": [
+            {
+              "status": "Residence",
+              "companyName": null,
+              "lineOne": null,
+              "passengerAddressKey": "XxvOgqTjo6kaUoP39sgOrA==",
+              "phone": "GEoXvs2U8D/AHfw2Mzfb5Q==",
+              "lineTwo": null,
+              "stationCode": "PNQ",
+              "lineThree": null,
+              "emailAddress": "xUwgMyNlLw9bwj2KsJRDO9Ywfv8LwRPGuQh/VFjvsl8=",
+              "countryCode": null,
+              "cultureCode": null,
+              "provinceState": null,
+              "refusedContact": false,
+              "city": null,
+              "postalCode": null
+            }
+          ],
+          "weightCategory": 1,
+          "bagsInfo": [
+            {
+              "journeyKey": "SVh_MjcxNH4gfn5QTlF_MDQvMjMvMjAyNSAxOTo1MH5KQUl_MDQvMjMvMjAyNSAyMTo0NX5_",
+              "CABG": 7,
+              "CHKBAG": 15,
+              "ICBG": null,
+              "STND": null
+            }
+          ]
+        }
+      ],
+      "journeys": [
+        {
+          "flightType": 1,
+          "stops": 0,
+          "designator": {
+            "destination": "JAI",
+            "origin": "PNQ",
+            "arrival": "2025-04-23T21:45:00",
+            "departure": "2025-04-23T19:50:00",
+            "originAirportName": "Pune Airport",
+            "originCityName": "Pune",
+            "destinationAirportName": "Jaipur International Airport, T2",
+            "destinationCityName": "Jaipur",
+            "arrivalTerminal": "2",
+            "departureTerminal": null
+          },
+          "move": {
+            "maxMoveBackDays": 490,
+            "maxMoveOutDays": 490
+          },
+          "segments": [
+            {
+              "isStandby": false,
+              "isConfirming": false,
+              "isConfirmingExternal": false,
+              "isBlocked": false,
+              "isHosted": true,
+              "isChangeOfGauge": false,
+              "designator": {
+                "destination": "JAI",
+                "origin": "PNQ",
+                "arrival": "2025-04-23T21:45:00",
+                "departure": "2025-04-23T19:50:00",
+                "originAirportName": "Pune Airport",
+                "originCityName": "Pune",
+                "destinationAirportName": "Jaipur International Airport, T2",
+                "destinationCityName": "Jaipur",
+                "arrivalTerminal": "2",
+                "departureTerminal": null
+              },
+              "isSeatmapViewable": true,
+              "identifier": {
+                "identifier": "2714",
+                "carrierCode": "IX",
+                "opSuffix": null
+              },
+              "fares": [
+                {
+                  "isGoverning": true,
+                  "downgradeAvailable": false,
+                  "carrierCode": "I5",
+                  "fareKey": "MH5Bfn5JNX5BTkJBMDAwfk5CMDB_fjB_MH5_WA--",
+                  "classOfService": "A",
+                  "classType": null,
+                  "fareApplicationType": 0,
+                  "fareClassOfService": "A",
+                  "fareBasisCode": "ANBA000",
+                  "fareSequence": 0,
+                  "inboundOutBound": 0,
+                  "fareStatus": 0,
+                  "isAllotmentMarketFare": false,
+                  "originalClassOfService": "A",
+                  "ruleNumber": "NB00",
+                  "productClass": "BT",
+                  "ruleTariff": null,
+                  "travelClassCode": "Y",
+                  "crossReferenceClassOfService": null,
+                  "fareLink": 0,
+                  "passengerFares": [
+                    {
+                      "serviceCharges": [
+                        {
+                          "amount": 5929,
+                          "code": null,
+                          "detail": null,
+                          "type": "FarePrice",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 5929,
+                          "ticketCode": null
+                        },
+                        {
+                          "amount": 45,
+                          "code": "CUTE",
+                          "detail": "PNQ-JAI",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 45,
+                          "ticketCode": "CUT"
+                        },
+                        {
+                          "amount": 100,
+                          "code": "RCS",
+                          "detail": "PNQ-JAI",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 100,
+                          "ticketCode": "RCS"
+                        },
+                        {
+                          "amount": 900,
+                          "code": "IN",
+                          "detail": "PNQ-JAI",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 900,
+                          "ticketCode": "IN"
+                        },
+                        {
+                          "amount": 236,
+                          "code": "P2",
+                          "detail": "PNQ-JAI",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 236,
+                          "ticketCode": "P2"
+                        },
+                        {
+                          "amount": 152,
+                          "code": "CGST",
+                          "detail": "PNQ-JAI",
+                          "type": "Tax",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 152,
+                          "ticketCode": "CST"
+                        },
+                        {
+                          "amount": 152,
+                          "code": "SGST",
+                          "detail": "PNQ-JAI",
+                          "type": "Tax",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 152,
+                          "ticketCode": "SST"
+                        }
+                      ],
+                      "discountCode": null,
+                      "fareDiscountCode": null,
+                      "passengerType": "ADT"
+                    }
+                  ],
+                  "fareDesignator": {
+                    "fareTypeCodes": [
+                      "M",
+                      "R"
+                    ]
+                  }
+                }
+              ],
+              "segmentKey": "SVh_MjcxNH4gfn5QTlF_MDQvMjMvMjAyNSAxOTo1MH5KQUl_MDQvMjMvMjAyNSAyMTo0NX5_",
+              "passengerSegment": {
+                "MCFBRFQ-": {
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "16E",
+                      "isAutoAssigned": null,
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 32,
+                        "propertyList": {
+                          "SEATPOS": "FS5",
+                          "BRDZONE": "2",
+                          "RECLINE": "TRUE",
+                          "TCC": "Y",
+                          "MIDDLE": "TRUE",
+                          "STANDARD": "TRUE",
+                          "STNDRDFR": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "JAI",
+                      "departureStation": "PNQ",
+                      "passengerKey": "MCFBRFQ-",
+                      "unitKey": "SVghMjcxNCEgITYzODgxMDM0NjAwMDAwMDAwMCFQTlEhSkFJITE2RSFZ"
+                    }
+                  ],
+                  "passengerKey": "MCFBRFQ-",
+                  "activityDate": "2025-04-23T14:02:05.067Z",
+                  "boardingSequence": "170",
+                  "createdDate": "2025-04-21T13:10:12.36Z",
+                  "liftStatus": 2,
+                  "modifiedDate": "2025-04-21T13:10:12.36Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-04-21T13:10:12.363Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": null,
+                  "sourcePointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "pointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "ssrs": [],
+                  "tickets": [],
+                  "bags": [],
+                  "scores": [],
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": {
+                    "seat": 0,
+                    "travelClass": 0,
+                    "advancedPreferences": [
+                      {
+                        "seatMapCode": "STANDARD",
+                        "value": "TRUE"
+                      }
+                    ]
+                  },
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": null,
+                  "referenceNumber": 0
+                }
+              },
+              "channelType": 5,
+              "cabinOfService": "Y",
+              "externalIdentifier": null,
+              "priorityCode": null,
+              "changeReasonCode": 0,
+              "segmentType": 0,
+              "salesDate": "2025-04-21T13:10:12.36Z",
+              "international": false,
+              "flightReference": "20250423 IX2714 PNQJAI",
+              "legs": [
+                {
+                  "legKey": "NjM4ODEwMzQ2MDAwMDAwMDAwIUlYITI3MTQhICFQTlEhSkFJITg4ODI5MDI-",
+                  "operationsInfo": null,
+                  "designator": {
+                    "destination": "JAI",
+                    "origin": "PNQ",
+                    "arrival": "2025-04-23T21:45:00",
+                    "departure": "2025-04-23T19:50:00",
+                    "originAirportName": null,
+                    "originCityName": null,
+                    "destinationAirportName": null,
+                    "destinationCityName": null,
+                    "arrivalTerminal": null,
+                    "departureTerminal": null
+                  },
+                  "legInfo": {
+                    "departureTimeUtc": "2025-04-23T14:20:00Z",
+                    "arrivalTimeUtc": "2025-04-23T16:15:00Z",
+                    "adjustedCapacity": 232,
+                    "arrivalTerminal": "2",
+                    "arrivalTimeVariant": 330,
+                    "backMoveDays": 490,
+                    "capacity": 232,
+                    "changeOfDirection": false,
+                    "codeShareIndicator": 0,
+                    "departureTerminal": null,
+                    "departureTimeVariant": 330,
+                    "equipmentType": "32Y",
+                    "equipmentTypeSuffix": null,
+                    "eTicket": false,
+                    "irop": false,
+                    "lid": 232,
+                    "marketingCode": null,
+                    "marketingOverride": false,
+                    "operatedByText": null,
+                    "operatingCarrier": null,
+                    "operatingFlightNumber": null,
+                    "operatingOpSuffix": null,
+                    "outMoveDays": 490,
+                    "arrivalTime": "2025-04-23T21:45:00",
+                    "departureTime": "2025-04-23T19:50:00",
+                    "prbcCode": "Y232",
+                    "scheduleServiceType": null,
+                    "sold": 218,
+                    "status": 1,
+                    "subjectToGovtApproval": false,
+                    "eticket": false
+                  },
+                  "nests": [],
+                  "ssrs": [],
+                  "seatmapReference": "SVghMjcxNCEgITYzODgxMDM0NjAwMDAwMDAwMCFQTlEhSkFJ",
+                  "flightReference": "20250423 IX2714 PNQJAI"
+                }
+              ],
+              "status": 6
+            }
+          ],
+          "journeyKey": "SVh_MjcxNH4gfn5QTlF_MDQvMjMvMjAyNSAxOTo1MH5KQUl_MDQvMjMvMjAyNSAyMTo0NX5_",
+          "notForGeneralUser": false,
+          "isCorpFareJourney": false,
+          "isCancelAllowed": false,
+          "checkInAllowedFlatform": 0,
+          "scootModification": true,
+          "isCorpLiteJourney": false,
+          "umnr": false,
+          "corpFareJourney": false,
+          "cancelAllowed": false,
+          "CheckInWindow": "Close",
+          "CheckInOpens": null
+        }
+      ],
+      "comments": [
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=failed, PhoneNo=918830245749, TimeStamp= 2025-04-21 06:48:06, MessageFor=NewBookingConfirmOneWaySingle-HoppingCampaign",
+          "createdDate": "2025-04-21T13:18:07.92Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4NzQ0NjU3MQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=SMS , Status=TEMPLATE_RESERVED, SentTime= 2025-04-21 19:58:06, DeliveryFor= NewBookingConfirmOneWaySingle-HoppingCampaign",
+          "createdDate": "2025-04-21T14:31:29.243Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4NzQ4MDM3MA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=SMS , Status=INVALID_TEMPLATE_ID, SentTime= 2025-04-21 20:56:14, DeliveryFor= AdditionalSMS_CheckInReminder",
+          "createdDate": "2025-04-21T15:28:35.063Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4NzUwNDEwMg--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=918830245749, TimeStamp= 2025-04-23 03:20:08, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-04-23T09:50:09.907Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4ODM3NTc5MQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=failed, PhoneNo=918830245749, TimeStamp= 2025-04-23 03:20:09, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-04-23T09:50:11.043Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4ODM3NTgxOA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=SMS , Status=INVALID_TEMPLATE_ID, SentTime= 2025-04-23 16:30:17, DeliveryFor= AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-04-23T11:04:39.667Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4ODQxMjU0NQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=918830245749, TimeStamp= 2025-04-23 04:52:10, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-04-23T11:22:15.56Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4ODQyMDc2NA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=failed, PhoneNo=918830245749, TimeStamp= 2025-04-23 04:52:10, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-04-23T11:22:16.043Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4ODQyMDgyNg--"
+        },
+        {
+          "type": 2,
+          "text": "SNEHA",
+          "createdDate": "2025-04-23T13:02:45.417Z",
+          "pointOfSale": {
+            "agentCode": "GHPNQ_SHREYASHK",
+            "domainCode": "DEF",
+            "locationCode": "PNQ",
+            "organizationCode": "IX"
+          },
+          "commentKey": "MzI4ODQ3MTA0NQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=918830245749, TimeStamp= 2025-04-23 06:54:05, MessageFor=GateChangeSMSCampaign",
+          "createdDate": "2025-04-23T13:24:07.247Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4ODQ4MTExNw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=failed, PhoneNo=918830245749, TimeStamp= 2025-04-23 06:54:05, MessageFor=GateChangeSMSCampaign",
+          "createdDate": "2025-04-23T13:24:07.667Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4ODQ4MTE0Mg--"
+        }
+      ],
+      "queues": [],
+      "history": [],
+      "payments": [
+        {
+          "paymentKey": "NDY4MTU4MjE0ITEhQUchNTQ1MzgyNDkz",
+          "code": "AG",
+          "approvalDate": "2025-04-21T13:10:12.417Z",
+          "details": {
+            "accountNumberId": 0,
+            "parentPaymentId": null,
+            "accountName": null,
+            "accountNumber": "OTATSCTRSE",
+            "expirationDate": null,
+            "text": null,
+            "installments": 1,
+            "binRange": 0,
+            "fields": {}
+          },
+          "amounts": {
+            "amount": 7514,
+            "currencyCode": "INR",
+            "collected": 7514,
+            "collectedCurrencyCode": "INR",
+            "quoted": 7514,
+            "quotedCurrencyCode": "INR"
+          },
+          "authorizationCode": null,
+          "authorizationStatus": 4,
+          "fundedDate": "1800-01-01T00:00:00Z",
+          "transactionCode": null,
+          "dcc": null,
+          "threeDSecure": null,
+          "attachments": [],
+          "createdDate": "2025-04-21T13:10:12.36Z",
+          "modifiedDate": "2025-04-21T13:10:12.413Z",
+          "type": 2,
+          "status": 3,
+          "transferred": false,
+          "channelType": 5,
+          "pointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "sourcePointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "deposit": false,
+          "accountId": 0,
+          "voucher": null,
+          "addedToState": true,
+          "createdAgentId": 44115378,
+          "modifiedAgentId": 44115378,
+          "reference": 468158214
+        },
+        {
+          "paymentKey": "NDY4MjY2NDUyITIhNlkhNTQ1MzgyNDkz",
+          "code": "6Y",
+          "approvalDate": "2025-04-23T09:49:20.567Z",
+          "details": {
+            "accountNumberId": 0,
+            "parentPaymentId": null,
+            "accountName": null,
+            "accountNumber": "XXXXXXX0000",
+            "expirationDate": null,
+            "text": null,
+            "installments": 0,
+            "binRange": 0,
+            "fields": {
+              "BillTo::Email": "xUwgMyNlLw9bwj2KsJRDO9Ywfv8LwRPGuQh/VFjvsl8=",
+              "BillTo::IPAddress": "dPEdudu6/ZJI8K5Q/XkRsQ==",
+              "BillTo::Phone": "ZEtNdeHkvaophQfyZNob2g==",
+              "Browser::Referer": "OdlATvfBhM7zqf/T8n+qTw==",
+              "Browser::UserAgent": "6vJkHEzjO+9UB1FkOCFk5Q==",
+              "CC::CarrierCode": "v2UASJ3B+egtQ4/nzxXTDA==",
+              "FPS::Enabled": "z6jX+aVjgTI/CXYMoHpzPQ==",
+              "OriginalLocation": "nhZp8/h31WUN79DK9Dg68Q==",
+              "SP:PAYID": "iiEnWGxQVFN9T1PW0MC78A==",
+              "TransactionTypeIndicator": "ihSXtiVF6gqRDCeeIRX2nA==",
+              "WEB::RETURNURL": "AZVFCl0NxOSPRpjoXtNLegRNRePukOfwZDtbqfjg1hkEf2prut8rOpbA5HKtrzymXbyUiBYpHO0pbfKuZKTw9mNDFcorvCwSIm6ccVMg0DMbkyx1SehR+GC1xQCDlANVOl0AYv2K+OxjvDrB2DzjI6oaUlEW9tVvudkj0pM5sE7kKuY7PDuezoj/RsFWJU31mKrvOezn8pH8HE1/fkeW1w=="
+            }
+          },
+          "amounts": {
+            "amount": 350,
+            "currencyCode": "INR",
+            "collected": 350,
+            "collectedCurrencyCode": "INR",
+            "quoted": 350,
+            "quotedCurrencyCode": "INR"
+          },
+          "authorizationCode": "null",
+          "authorizationStatus": 4,
+          "fundedDate": "1800-01-01T00:00:00Z",
+          "transactionCode": null,
+          "dcc": null,
+          "threeDSecure": null,
+          "attachments": [],
+          "createdDate": "2025-04-23T09:49:08.917Z",
+          "modifiedDate": "2025-04-23T09:49:20.557Z",
+          "type": 0,
+          "status": 3,
+          "transferred": false,
+          "channelType": 5,
+          "pointOfSale": {
+            "agentCode": "WEBDAPI_IX@ANON",
+            "domainCode": "WWW",
+            "locationCode": "API",
+            "organizationCode": "IXWEB"
+          },
+          "sourcePointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "deposit": false,
+          "accountId": 0,
+          "voucher": null,
+          "addedToState": true,
+          "createdAgentId": 44120406,
+          "modifiedAgentId": 18,
+          "reference": 468266452
+        }
+      ],
+      "orders": [],
+      "isFareMaskingEnabled": false,
+      "isGroupBooking": false,
+      "vaccinationStatus": false,
+      "isCodeShareBooking": false,
+      "isFareLockBooking": false,
+      "isCodeSharePNR": false,
+      "isScootBooking": false,
+      "isCustomerBooking": false,
+      "isGHASOLBooking": false,
+      "isDeadHeadBooking": false,
+      "isDeadHeadCheckInAllowed": false,
+      "isMarineBooking": false,
+      "isMYIDBooking": false
+    },
+    "AnonymousToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiMDIzZGNiMGUtYzViZS0yYTBlLWNiZjctMGZiZmNjNGNmN2EyIiwiaXNzIjoiZG90UkVaIEFQSSJ9.JiiYIDmKLuz1GCI6pW6Z9gK7As-navOhWkuv4tVexu4"
+  },
+  "responseStatus": 200,
+  "responseUrl": "https://api.airindiaexpress.com/b2c-CheckIn/v2/retrieve/mmb/byRecordLocator"
+}

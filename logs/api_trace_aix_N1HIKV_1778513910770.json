@@ -1,0 +1,711 @@
+{
+  "pnr": "N1HIKV",
+  "contactDetail": "INFO@TRAVONIKA.COM",
+  "startedAt": "2026-05-11T15:38:24.400Z",
+  "pageUrlStart": "https://www.airindiaexpress.com/manage",
+  "response": {
+    "navToken": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiOTUzYjM2YzUtNTgyZS02ODI5LTdjZjItOTEwYzllNzRkNDQ1IiwiaXNzIjoiZG90UkVaIEFQSSJ9.BLGMkkgw1xazN3jIi_5nPZ1Xvv0FZTxvmvLEVFqwiTY",
+      "idleTimeoutInMinutes": 15
+    },
+    "data": {
+      "selfServiceMoveAvailable": false,
+      "isDirectChannel": false,
+      "bookingKey": "NTQ1MjgxNzM3IU4xSElLViFmYWxzZQ--",
+      "recordLocator": "N1HIKV",
+      "currencyCode": "INR",
+      "systemCode": null,
+      "groupName": null,
+      "locators": {
+        "numericRecordLocator": "272015172108",
+        "parentRecordLocator": null,
+        "parentId": "0",
+        "recordLocators": []
+      },
+      "info": {
+        "status": 3,
+        "paidStatus": 1,
+        "priceStatus": 2,
+        "profileStatus": 1,
+        "bookingType": null,
+        "channelType": 5,
+        "bookedDate": "2025-04-19T05:35:34.44Z",
+        "createdDate": "2025-04-19T05:35:34.44Z",
+        "expirationDate": "2025-06-09T08:05:00Z",
+        "modifiedDate": "2025-05-31T09:32:18.16Z",
+        "modifiedAgentId": "44059635",
+        "createdAgentId": "44115378",
+        "owningCarrierCode": "IX",
+        "changeAllowed": true
+      },
+      "sales": {
+        "created": {
+          "agentCode": "APITSCTRSE",
+          "domainCode": "TOP",
+          "locationCode": "API",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "source": {
+          "isoCountryCode": null,
+          "sourceSystemCode": null,
+          "agentCode": "APITSCTRSE",
+          "domainCode": "TOP",
+          "locationCode": "API",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "modified": null
+      },
+      "typeOfSale": {
+        "residentCountry": "IN",
+        "promotionCode": null,
+        "fareTypes": []
+      },
+      "hold": null,
+      "breakdown": {
+        "balanceDue": 0,
+        "pointsBalanceDue": 0,
+        "authorizedBalanceDue": 0,
+        "totalAmount": 0,
+        "totalPoints": 0,
+        "totalToCollect": 0,
+        "totalPointsToCollect": 0,
+        "totalCharged": 0,
+        "passengerTotals": {
+          "services": null,
+          "specialServices": null,
+          "seats": null,
+          "upgrades": null,
+          "spoilage": null,
+          "nameChanges": null,
+          "convenience": null,
+          "infant": null
+        },
+        "passengers": {
+          "MCFBRFQ-": {
+            "passengerKey": "MCFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": null,
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          },
+          "MSFBRFQ-": {
+            "passengerKey": "MSFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": null,
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          }
+        },
+        "journeyTotals": {
+          "totalAmount": 0,
+          "totalPoints": 0,
+          "totalTax": 0,
+          "totalDiscount": 0
+        },
+        "journeys": {},
+        "addOnTotals": {
+          "car": null,
+          "hotel": null,
+          "activities": null
+        }
+      },
+      "receivedBy": {
+        "receivedBy": null,
+        "latestReceivedBy": null,
+        "receivedReference": null,
+        "latestReceivedReference": null,
+        "referralCode": null
+      },
+      "contacts": {
+        "P": {
+          "contactTypeCode": "P",
+          "phoneNumbers": [
+            {
+              "type": 0,
+              "number": "QwcrkVy5k0mIVknKud2+Eg=="
+            },
+            {
+              "type": 1,
+              "number": "QwcrkVy5k0mIVknKud2+Eg=="
+            }
+          ],
+          "cultureCode": null,
+          "address": {
+            "lineOne": "NA",
+            "lineTwo": "NA",
+            "lineThree": null,
+            "countryCode": "IN",
+            "provinceState": "NA",
+            "city": "NA",
+            "postalCode": null
+          },
+          "emailAddress": "NYgk/ZuzV5hWUO3V4VX8UwX0ivE8wrpQx5LkQFlj2fU=",
+          "customerNumber": null,
+          "sourceOrganization": "OTATSCTRSE",
+          "distributionOption": 2,
+          "notificationPreference": 0,
+          "companyName": "TSC ONLINE",
+          "name": {
+            "first": "ELQ9CBo9e/NN5kE9HudyFA==",
+            "middle": null,
+            "last": "9Rf500NWNvSctDSkFfFf/A==",
+            "title": "MR",
+            "suffix": null
+          }
+        }
+      },
+      "passengers": [
+        {
+          "passengerKey": "MCFBRFQ-",
+          "passengerAlternateKey": "MTIyMjk2MjYzOA--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 5,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "CXL2",
+              "detail": "08Jun IX2572 IXZPNQ/",
+              "passengerFeeKey": "MCEwITU-",
+              "override": true,
+              "flightReference": null,
+              "note": "SCHG",
+              "createdDate": "2025-05-31T09:27:41.273Z",
+              "serviceCharges": [
+                {
+                  "amount": 4300,
+                  "code": "CXL2",
+                  "detail": "Cancellati",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 4300,
+                  "ticketCode": "CXL"
+                },
+                {
+                  "amount": 4300,
+                  "code": "CXL2",
+                  "detail": "Fee OR",
+                  "type": "Discount",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 4300,
+                  "ticketCode": null
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 0
+            }
+          ],
+          "name": {
+            "first": "ELQ9CBo9e/NN5kE9HudyFA==",
+            "middle": null,
+            "last": "9Rf500NWNvSctDSkFfFf/A==",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": 1,
+            "dateOfBirth": "HT37la8/hYgcKpBhV5BXhJdsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [],
+          "addresses": [],
+          "weightCategory": 1,
+          "bagsInfo": []
+        },
+        {
+          "passengerKey": "MSFBRFQ-",
+          "passengerAlternateKey": "MTIyMjk2MjYzOQ--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 5,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "CXL2",
+              "detail": "08Jun IX2572 IXZPNQ/",
+              "passengerFeeKey": "MSEwITU-",
+              "override": true,
+              "flightReference": null,
+              "note": "SCHG",
+              "createdDate": "2025-05-31T09:27:41.273Z",
+              "serviceCharges": [
+                {
+                  "amount": 4300,
+                  "code": "CXL2",
+                  "detail": "Cancellati",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 4300,
+                  "ticketCode": "CXL"
+                },
+                {
+                  "amount": 4300,
+                  "code": "CXL2",
+                  "detail": "Fee OR",
+                  "type": "Discount",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 4300,
+                  "ticketCode": null
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 0
+            }
+          ],
+          "name": {
+            "first": "VbkV2oIaHC/90FdNseipGg==",
+            "middle": null,
+            "last": "BNHttOK4LesGAbth6KnOFA==",
+            "title": "MS",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": 2,
+            "dateOfBirth": "+xAeG286m3u1Il3vmCvxX5dsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [],
+          "addresses": [],
+          "weightCategory": 2,
+          "bagsInfo": []
+        }
+      ],
+      "journeys": [],
+      "comments": [
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=917798002676, TimeStamp= 2025-04-19 11:13:08, MessageFor=NewBookingConfirmOneWayConnectingCampaign",
+          "createdDate": "2025-04-19T05:43:09.677Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4NjA2MDQxNw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=917798002676, TimeStamp= 2025-04-19 11:13:08, MessageFor=NewBookingConfirmOneWayConnectingCampaign",
+          "createdDate": "2025-04-19T05:43:10.077Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4NjA2MDQyNQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=read, PhoneNo=917798002676, TimeStamp= 2025-04-19 11:13:15, MessageFor=NewBookingConfirmOneWayConnectingCampaign",
+          "createdDate": "2025-04-19T05:43:16.593Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4NjA2MDQ0OQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp, Status=sent, PhoneNo=917798002676, TimeStamp= 2025-05-30 01:16:48, MessageFor=IRROPs_Cancellation_And_Re-accomodation(QueueBase), MessageContent=Dear Guest, your flight IX-2696 on 08 Jun 2025, Port Blair (IXZ)-Bengaluru (BLR) has been cancelled due to operational reasons. We have rebooked you on flight IX-2572, departing at 12:50 on 08 Jun 2025. The revised itinerary is sent to your registered email. You may opt for a full refund (up to 2 hours before departure) or a free reschedule. Thank you - AIX",
+          "createdDate": "2025-05-30T07:47:02.213Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwNzMzMTA3MQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp, Status=sent, PhoneNo=917798002676, TimeStamp= 2025-05-30 01:17:21, MessageFor=IRROPs_Cancellation_And_Re-accomodation(QueueBase), MessageContent=Dear Guest, your flight IX-2720 on 08 Jun 2025, Bengaluru (BLR)-Pune (PNQ) has been cancelled due to operational reasons. We have rebooked you on flight IX-1130, departing at 18:50 on 08 Jun 2025. The revised itinerary is sent to your registered email. You may opt for a full refund (up to 2 hours before departure) or a free reschedule. Thank you - AIX",
+          "createdDate": "2025-05-30T07:47:36.953Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwNzMzMjAxNA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp, Status=delivered, PhoneNo=917798002676, TimeStamp= 2025-05-30 01:17:23, MessageFor=IRROPs_Cancellation_And_Re-accomodation(QueueBase)",
+          "createdDate": "2025-05-30T07:47:39.04Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwNzMzMjA5Mg--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp, Status=read, PhoneNo=917798002676, TimeStamp= 2025-05-30 01:17:43, MessageFor=IRROPs_Cancellation_And_Re-accomodation(QueueBase)",
+          "createdDate": "2025-05-30T07:47:57.84Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwNzMzMjY1MQ--"
+        },
+        {
+          "type": 0,
+          "text": "Event id 34 not found",
+          "createdDate": "2025-05-30T07:48:16.08Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwNzMzMzMyMw--"
+        },
+        {
+          "type": 0,
+          "text": "Event id 34 not found",
+          "createdDate": "2025-05-30T07:48:18.33Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwNzMzMzM2Mg--"
+        },
+        {
+          "type": 0,
+          "text": "Event id 34 not found",
+          "createdDate": "2025-05-30T07:48:19.79Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwNzMzMzM5Nw--"
+        },
+        {
+          "type": 0,
+          "text": "Event id 34 not found",
+          "createdDate": "2025-05-30T07:52:16.16Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwNzM0MTc3Mw--"
+        },
+        {
+          "type": 0,
+          "text": "test",
+          "createdDate": "2025-05-30T08:10:20.453Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwNzM3OTU5Nw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=Email , Status=Delivered, SentTime= 2025-05-30 13:39:47, DeliveryFor= IRROPs_Cancellation_And_Re-accomodation(QueueBase)",
+          "createdDate": "2025-05-30T08:17:46.44Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwNzM4NzQ1NA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=Email , Status=Delivered, SentTime= 2025-05-30 13:39:53, DeliveryFor= IRROPs_Cancellation_And_Re-accomodation(QueueBase)",
+          "createdDate": "2025-05-30T08:17:57.903Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwNzM4ODAxMQ--"
+        },
+        {
+          "type": 0,
+          "text": "STD after current date",
+          "createdDate": "2025-05-30T08:27:27.457Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwNzM5NjUwNQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=Voice , Status=connected, SentTime= 2025-05-30 13:56:15,ConnTine=2025-05-30 13:56:28 , EndTime=2025-05-30 13:56:57, Attempts=2, DeliveryFor= IRROPs_Cancellation_And_Re-accomodation(QueueBase)",
+          "createdDate": "2025-05-30T09:58:33.68Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwNzQ1OTE3Nw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=Voice , Status=connected, SentTime= 2025-05-30 13:58:32,ConnTine=2025-05-30 13:58:46 , EndTime=2025-05-30 13:59:16, Attempts=2, DeliveryFor= IRROPs_Cancellation_And_Re-accomodation(QueueBase)",
+          "createdDate": "2025-05-30T09:58:52.597Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwNzQ1OTMzOQ--"
+        },
+        {
+          "type": 0,
+          "text": "cancel",
+          "createdDate": "2025-05-31T09:27:41.273Z",
+          "pointOfSale": {
+            "agentCode": "i5avaamo",
+            "domainCode": "EXT",
+            "locationCode": "API",
+            "organizationCode": "AVAAMOCTBT"
+          },
+          "commentKey": "MzMwNzk2MDcyNA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp, Status=sent, PhoneNo=917798002676, TimeStamp= 2025-05-31 03:02:15, MessageFor=CancelledBookingOneWayCampaign, MessageContent=Dear Guest, Your booking N1HIKV has been canceled as requested. However, our journey doesn't end here. We look forward to serving you onboard soon. Thank you - AIX",
+          "createdDate": "2025-05-31T09:32:16.85Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwNzk2MTc5NA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp, Status=delivered, PhoneNo=917798002676, TimeStamp= 2025-05-31 03:02:15, MessageFor=CancelledBookingOneWayCampaign",
+          "createdDate": "2025-05-31T09:32:17.13Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwNzk2MTgwMQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp, Status=delivered, PhoneNo=917798002676, TimeStamp= 2025-05-31 03:02:15, MessageFor=CancelledBookingOneWayCampaign",
+          "createdDate": "2025-05-31T09:32:17.34Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwNzk2MTgwNw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp, Status=read, PhoneNo=917798002676, TimeStamp= 2025-05-31 03:02:16, MessageFor=CancelledBookingOneWayCampaign",
+          "createdDate": "2025-05-31T09:32:18.16Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwNzk2MTgxNg--"
+        }
+      ],
+      "queues": [],
+      "history": [],
+      "payments": [
+        {
+          "paymentKey": "NDY4MDM2MTMyITEhQUchNTQ1MjgxNzM3",
+          "code": "AG",
+          "approvalDate": "2025-04-19T05:35:34.59Z",
+          "details": {
+            "accountNumberId": 0,
+            "parentPaymentId": null,
+            "accountName": null,
+            "accountNumber": "OTATSCTRSE",
+            "expirationDate": null,
+            "text": null,
+            "installments": 1,
+            "binRange": 0,
+            "fields": {}
+          },
+          "amounts": {
+            "amount": 21734,
+            "currencyCode": "INR",
+            "collected": 21734,
+            "collectedCurrencyCode": "INR",
+            "quoted": 21734,
+            "quotedCurrencyCode": "INR"
+          },
+          "authorizationCode": null,
+          "authorizationStatus": 4,
+          "fundedDate": "1800-01-01T00:00:00Z",
+          "transactionCode": null,
+          "dcc": null,
+          "threeDSecure": null,
+          "attachments": [],
+          "createdDate": "2025-04-19T05:35:34.44Z",
+          "modifiedDate": "2025-04-19T05:35:34.577Z",
+          "type": 2,
+          "status": 3,
+          "transferred": false,
+          "channelType": 5,
+          "pointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "sourcePointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "deposit": false,
+          "accountId": 0,
+          "voucher": null,
+          "addedToState": true,
+          "createdAgentId": 44115378,
+          "modifiedAgentId": 44115378,
+          "reference": 468036132
+        },
+        {
+          "paymentKey": "NDcwNDQzOTQwITIhQUchNTQ1MjgxNzM3",
+          "code": "AG",
+          "approvalDate": "2025-05-31T09:28:15.587Z",
+          "details": {
+            "accountNumberId": 0,
+            "parentPaymentId": 468036132,
+            "accountName": null,
+            "accountNumber": "OTATSCTRSE",
+            "expirationDate": null,
+            "text": "Refund by utility: PMTID:468036132, RL:N1HIKV",
+            "installments": 1,
+            "binRange": 0,
+            "fields": {}
+          },
+          "amounts": {
+            "amount": -21734,
+            "currencyCode": "INR",
+            "collected": -21734,
+            "collectedCurrencyCode": "INR",
+            "quoted": -21734,
+            "quotedCurrencyCode": "INR"
+          },
+          "authorizationCode": null,
+          "authorizationStatus": 4,
+          "fundedDate": "1800-01-01T00:00:00Z",
+          "transactionCode": null,
+          "dcc": null,
+          "threeDSecure": null,
+          "attachments": [],
+          "createdDate": "2025-05-31T09:28:15.533Z",
+          "modifiedDate": "2025-05-31T09:28:15.577Z",
+          "type": 2,
+          "status": 3,
+          "transferred": false,
+          "channelType": 5,
+          "pointOfSale": {
+            "agentCode": "refundadmin",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "I5"
+          },
+          "sourcePointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "deposit": false,
+          "accountId": 0,
+          "voucher": null,
+          "addedToState": true,
+          "createdAgentId": 44059636,
+          "modifiedAgentId": 44059636,
+          "reference": 470443940
+        }
+      ],
+      "orders": [],
+      "isFareMaskingEnabled": false,
+      "isGroupBooking": false,
+      "vaccinationStatus": false,
+      "isCodeShareBooking": false,
+      "isFareLockBooking": false,
+      "isCodeSharePNR": false,
+      "isScootBooking": false,
+      "isCustomerBooking": false,
+      "isGHASOLBooking": false,
+      "isDeadHeadBooking": false,
+      "isDeadHeadCheckInAllowed": false,
+      "isMarineBooking": false,
+      "isMYIDBooking": false
+    },
+    "AnonymousToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiOTUzYjM2YzUtNTgyZS02ODI5LTdjZjItOTEwYzllNzRkNDQ1IiwiaXNzIjoiZG90UkVaIEFQSSJ9.BLGMkkgw1xazN3jIi_5nPZ1Xvv0FZTxvmvLEVFqwiTY"
+  },
+  "responseStatus": 200,
+  "responseUrl": "https://api.airindiaexpress.com/b2c-CheckIn/v2/retrieve/mmb/byRecordLocator"
+}

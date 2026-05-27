@@ -1,0 +1,1212 @@
+{
+  "pnr": "GC61QE",
+  "contactDetail": "NVENUSAS@HOTMAIL.COM",
+  "startedAt": "2026-05-11T15:30:34.708Z",
+  "pageUrlStart": "https://www.airindiaexpress.com/manage",
+  "response": {
+    "navToken": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiMDM3MmI3ZjEtZDg0Zi1jMTIzLWM2NDQtMTQ1NTRjNzczZWRmIiwiaXNzIjoiZG90UkVaIEFQSSJ9._395XoHc0dDl1flgBNgyHj4STD3wmPseAZJPp1i_ADs",
+      "idleTimeoutInMinutes": 15
+    },
+    "data": {
+      "selfServiceMoveAvailable": false,
+      "isDirectChannel": false,
+      "bookingKey": "NTQ0NTQxNTUzIUdDNjFRRSFmYWxzZQ--",
+      "recordLocator": "GC61QE",
+      "currencyCode": "INR",
+      "systemCode": null,
+      "groupName": null,
+      "locators": {
+        "numericRecordLocator": "130530203309",
+        "parentRecordLocator": null,
+        "parentId": "0",
+        "recordLocators": []
+      },
+      "info": {
+        "status": 2,
+        "paidStatus": 1,
+        "priceStatus": 2,
+        "profileStatus": 1,
+        "bookingType": null,
+        "channelType": 5,
+        "bookedDate": "2025-04-04T06:51:16.073Z",
+        "createdDate": "2025-04-04T06:51:16.073Z",
+        "expirationDate": "2025-04-12T04:50:00Z",
+        "modifiedDate": "2025-04-11T02:54:16.427Z",
+        "modifiedAgentId": "44121767",
+        "createdAgentId": "44115378",
+        "owningCarrierCode": "IX",
+        "changeAllowed": true
+      },
+      "sales": {
+        "created": {
+          "agentCode": "APITSCTRSE",
+          "domainCode": "TOP",
+          "locationCode": "API",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "source": {
+          "isoCountryCode": null,
+          "sourceSystemCode": null,
+          "agentCode": "APITSCTRSE",
+          "domainCode": "TOP",
+          "locationCode": "API",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "modified": null
+      },
+      "typeOfSale": {
+        "residentCountry": "AE",
+        "promotionCode": null,
+        "fareTypes": []
+      },
+      "hold": null,
+      "breakdown": {
+        "balanceDue": 0,
+        "pointsBalanceDue": 0,
+        "authorizedBalanceDue": 0,
+        "totalAmount": 19928,
+        "totalPoints": 0,
+        "totalToCollect": 19928,
+        "totalPointsToCollect": 0,
+        "totalCharged": 19928,
+        "passengerTotals": {
+          "services": null,
+          "specialServices": {
+            "total": null,
+            "taxes": null,
+            "adjustments": null,
+            "charges": [
+              {
+                "amount": 0,
+                "code": "WCFR",
+                "detail": "for free",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 0,
+                "ticketCode": "WCF"
+              },
+              {
+                "amount": 0,
+                "code": "WCFR",
+                "detail": "for free",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 0,
+                "ticketCode": "WCF"
+              }
+            ]
+          },
+          "seats": {
+            "total": 1150,
+            "taxes": null,
+            "adjustments": null,
+            "charges": [
+              {
+                "amount": 550,
+                "code": "SEAT",
+                "detail": "DXB-ATQ",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 550,
+                "ticketCode": "ST"
+              },
+              {
+                "amount": 600,
+                "code": "SEAT",
+                "detail": "DXB-ATQ",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 600,
+                "ticketCode": "ST"
+              }
+            ]
+          },
+          "upgrades": null,
+          "spoilage": null,
+          "nameChanges": null,
+          "convenience": null,
+          "infant": null
+        },
+        "passengers": {
+          "MCFBRFQ-": {
+            "passengerKey": "MCFBRFQ-",
+            "services": null,
+            "specialServices": {
+              "total": null,
+              "taxes": null,
+              "adjustments": null,
+              "charges": [
+                {
+                  "amount": 0,
+                  "code": "WCFR",
+                  "detail": "for free",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 0,
+                  "ticketCode": "WCF"
+                }
+              ]
+            },
+            "seats": {
+              "total": 550,
+              "taxes": null,
+              "adjustments": null,
+              "charges": [
+                {
+                  "amount": 550,
+                  "code": "SEAT",
+                  "detail": "DXB-ATQ",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 550,
+                  "ticketCode": "ST"
+                }
+              ]
+            },
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          },
+          "MSFBRFQ-": {
+            "passengerKey": "MSFBRFQ-",
+            "services": null,
+            "specialServices": {
+              "total": null,
+              "taxes": null,
+              "adjustments": null,
+              "charges": [
+                {
+                  "amount": 0,
+                  "code": "WCFR",
+                  "detail": "for free",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 0,
+                  "ticketCode": "WCF"
+                }
+              ]
+            },
+            "seats": {
+              "total": 600,
+              "taxes": null,
+              "adjustments": null,
+              "charges": [
+                {
+                  "amount": 600,
+                  "code": "SEAT",
+                  "detail": "DXB-ATQ",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 600,
+                  "ticketCode": "ST"
+                }
+              ]
+            },
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          }
+        },
+        "journeyTotals": {
+          "totalAmount": 12206,
+          "totalPoints": 0,
+          "totalTax": 6572,
+          "totalDiscount": 0
+        },
+        "journeys": {
+          "SVh_IDE5Mn4gfn5EWEJ_MDQvMTEvMjAyNSAwODo1MH5BVFF_MDQvMTEvMjAyNSAxMzo0MH5_": {
+            "journeyKey": "SVh_IDE5Mn4gfn5EWEJ_MDQvMTEvMjAyNSAwODo1MH5BVFF_MDQvMTEvMjAyNSAxMzo0MH5_",
+            "totalAmount": 6103,
+            "totalPoints": 0,
+            "totalTax": 3286,
+            "totalDiscount": 0
+          }
+        },
+        "addOnTotals": {
+          "car": null,
+          "hotel": null,
+          "activities": null
+        }
+      },
+      "receivedBy": {
+        "receivedBy": null,
+        "latestReceivedBy": null,
+        "receivedReference": null,
+        "latestReceivedReference": null,
+        "referralCode": null
+      },
+      "contacts": {
+        "P": {
+          "contactTypeCode": "P",
+          "phoneNumbers": [
+            {
+              "type": 0,
+              "number": "ElA7eaZjYAc4FKi57m7sTg=="
+            },
+            {
+              "type": 1,
+              "number": "ElA7eaZjYAc4FKi57m7sTg=="
+            }
+          ],
+          "cultureCode": null,
+          "address": {
+            "lineOne": "NA",
+            "lineTwo": "NA",
+            "lineThree": null,
+            "countryCode": "IN",
+            "provinceState": "NA",
+            "city": "NA",
+            "postalCode": null
+          },
+          "emailAddress": "rm0Ri1toFwB/nphAxizSVLYs3N/O8q+O/+cw6IYYToQ=",
+          "customerNumber": null,
+          "sourceOrganization": "OTATSCTRSE",
+          "distributionOption": 2,
+          "notificationPreference": 0,
+          "companyName": "TSC ONLINE",
+          "name": {
+            "first": "7fTz73pNGN+oUFcXZzLB3A==",
+            "middle": null,
+            "last": "z/pHmLiNStxJRGmoPxWAmg==",
+            "title": "MR",
+            "suffix": null
+          }
+        }
+      },
+      "passengers": [
+        {
+          "passengerKey": "MCFBRFQ-",
+          "passengerAlternateKey": "MTIyMTgyNjQ4Nw--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 9,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "SEAT",
+              "detail": null,
+              "passengerFeeKey": "MCEwITk-",
+              "override": false,
+              "flightReference": "20250411 IX 192 DXBATQ",
+              "note": null,
+              "createdDate": "2025-04-04T06:51:16.073Z",
+              "serviceCharges": [
+                {
+                  "amount": 550,
+                  "code": "SEAT",
+                  "detail": "DXB-ATQ",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 550,
+                  "ticketCode": "ST"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 550
+            },
+            {
+              "type": 6,
+              "ssrCode": "WCHR",
+              "ssrNumber": 1,
+              "paymentNumber": 0,
+              "code": "WCFR",
+              "detail": null,
+              "passengerFeeKey": "MCExITY-",
+              "override": false,
+              "flightReference": "20250411 IX 192 DXBATQ",
+              "note": null,
+              "createdDate": "2025-04-10T15:48:36.487Z",
+              "serviceCharges": [
+                {
+                  "amount": 0,
+                  "code": "WCFR",
+                  "detail": "for free",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 0,
+                  "ticketCode": "WCF"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 0
+            }
+          ],
+          "name": {
+            "first": "suV+O+ChSmGqO1pNgxy7zg==",
+            "middle": null,
+            "last": "z/pHmLiNStxJRGmoPxWAmg==",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": 1,
+            "dateOfBirth": "/MHgxZ9X1Cxcr/of5Hr0ppdsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [
+            {
+              "passengerTravelDocumentKey": "UCFJTiEg",
+              "documentTypeCode": "P",
+              "birthCountry": null,
+              "issuedByCode": "IN",
+              "name": {
+                "first": "suV+O+ChSmGqO1pNgxy7zg==",
+                "middle": null,
+                "last": "z/pHmLiNStxJRGmoPxWAmg==",
+                "title": "MR",
+                "suffix": null
+              },
+              "nationality": "IN",
+              "expirationDate": "2027-09-07T00:00:00Z",
+              "number": "O5OvHPXRp1VA4p+zQGMEYQ==",
+              "issuedDate": null,
+              "gender": 1,
+              "dateOfBirth": "/MHgxZ9X1Cxcr/of5Hr0ppdsmaqXxcq28hqj8xSFCwg="
+            }
+          ],
+          "addresses": [],
+          "weightCategory": 1,
+          "bagsInfo": [
+            {
+              "journeyKey": "SVh_IDE5Mn4gfn5EWEJ_MDQvMTEvMjAyNSAwODo1MH5BVFF_MDQvMTEvMjAyNSAxMzo0MH5_",
+              "CABG": 7,
+              "CHKBAG": 30,
+              "ICBG": null,
+              "STND": null
+            }
+          ]
+        },
+        {
+          "passengerKey": "MSFBRFQ-",
+          "passengerAlternateKey": "MTIyMTgyNjQ4OA--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 9,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "SEAT",
+              "detail": null,
+              "passengerFeeKey": "MSEwITk-",
+              "override": false,
+              "flightReference": "20250411 IX 192 DXBATQ",
+              "note": null,
+              "createdDate": "2025-04-04T06:51:16.073Z",
+              "serviceCharges": [
+                {
+                  "amount": 600,
+                  "code": "SEAT",
+                  "detail": "DXB-ATQ",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 600,
+                  "ticketCode": "ST"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 600
+            },
+            {
+              "type": 6,
+              "ssrCode": "WCHR",
+              "ssrNumber": 1,
+              "paymentNumber": 0,
+              "code": "WCFR",
+              "detail": null,
+              "passengerFeeKey": "MSExITY-",
+              "override": false,
+              "flightReference": "20250411 IX 192 DXBATQ",
+              "note": null,
+              "createdDate": "2025-04-10T15:48:36.487Z",
+              "serviceCharges": [
+                {
+                  "amount": 0,
+                  "code": "WCFR",
+                  "detail": "for free",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 0,
+                  "ticketCode": "WCF"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 0
+            }
+          ],
+          "name": {
+            "first": "A2zU7q7WD0DMpsmFKGBBMw==",
+            "middle": null,
+            "last": "A2zU7q7WD0DMpsmFKGBBMw==",
+            "title": "MRS",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": 2,
+            "dateOfBirth": "LDKhad8P7UPrPltEjwNJlpdsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [
+            {
+              "passengerTravelDocumentKey": "UCFJTiEg",
+              "documentTypeCode": "P",
+              "birthCountry": null,
+              "issuedByCode": "IN",
+              "name": {
+                "first": "A2zU7q7WD0DMpsmFKGBBMw==",
+                "middle": null,
+                "last": "A2zU7q7WD0DMpsmFKGBBMw==",
+                "title": "MRS",
+                "suffix": null
+              },
+              "nationality": "IN",
+              "expirationDate": "2027-09-07T00:00:00Z",
+              "number": "T3rjA4ntRU2rh5cpPRqZgg==",
+              "issuedDate": null,
+              "gender": 2,
+              "dateOfBirth": "LDKhad8P7UPrPltEjwNJlpdsmaqXxcq28hqj8xSFCwg="
+            }
+          ],
+          "addresses": [],
+          "weightCategory": 2,
+          "bagsInfo": [
+            {
+              "journeyKey": "SVh_IDE5Mn4gfn5EWEJ_MDQvMTEvMjAyNSAwODo1MH5BVFF_MDQvMTEvMjAyNSAxMzo0MH5_",
+              "CABG": 7,
+              "CHKBAG": 30,
+              "ICBG": null,
+              "STND": null
+            }
+          ]
+        }
+      ],
+      "journeys": [
+        {
+          "flightType": 1,
+          "stops": 0,
+          "designator": {
+            "destination": "ATQ",
+            "origin": "DXB",
+            "arrival": "2025-04-11T13:40:00",
+            "departure": "2025-04-11T08:50:00",
+            "originAirportName": "Dubai Intl Airport, T2",
+            "originCityName": "Dubai",
+            "destinationAirportName": "Amritsar",
+            "destinationCityName": "Amritsar",
+            "arrivalTerminal": null,
+            "departureTerminal": "2"
+          },
+          "move": {
+            "maxMoveBackDays": 490,
+            "maxMoveOutDays": 490
+          },
+          "segments": [
+            {
+              "isStandby": false,
+              "isConfirming": false,
+              "isConfirmingExternal": false,
+              "isBlocked": false,
+              "isHosted": true,
+              "isChangeOfGauge": false,
+              "designator": {
+                "destination": "ATQ",
+                "origin": "DXB",
+                "arrival": "2025-04-11T13:40:00",
+                "departure": "2025-04-11T08:50:00",
+                "originAirportName": "Dubai Intl Airport, T2",
+                "originCityName": "Dubai",
+                "destinationAirportName": "Amritsar",
+                "destinationCityName": "Amritsar",
+                "arrivalTerminal": null,
+                "departureTerminal": "2"
+              },
+              "isSeatmapViewable": true,
+              "identifier": {
+                "identifier": "192",
+                "carrierCode": "IX",
+                "opSuffix": null
+              },
+              "fares": [
+                {
+                  "isGoverning": true,
+                  "downgradeAvailable": false,
+                  "carrierCode": "I5",
+                  "fareKey": "MH5Ifn5JNX5ITlJBWDAwfk5SWDB_fjB_MH5_WA--",
+                  "classOfService": "H",
+                  "classType": null,
+                  "fareApplicationType": 0,
+                  "fareClassOfService": "H",
+                  "fareBasisCode": "HNRAX00",
+                  "fareSequence": 0,
+                  "inboundOutBound": 0,
+                  "fareStatus": 0,
+                  "isAllotmentMarketFare": false,
+                  "originalClassOfService": "H",
+                  "ruleNumber": "NRX0",
+                  "productClass": "EC",
+                  "ruleTariff": null,
+                  "travelClassCode": "Y",
+                  "crossReferenceClassOfService": null,
+                  "fareLink": 0,
+                  "passengerFares": [
+                    {
+                      "serviceCharges": [
+                        {
+                          "amount": 6103,
+                          "code": null,
+                          "detail": null,
+                          "type": "FarePrice",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 6103,
+                          "ticketCode": null
+                        },
+                        {
+                          "amount": 235,
+                          "code": "YR",
+                          "detail": "DXB-ATQ",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "AED",
+                          "foreignAmount": 10.01,
+                          "ticketCode": "YR"
+                        },
+                        {
+                          "amount": 1761,
+                          "code": "AE",
+                          "detail": "DXB-ATQ",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "AED",
+                          "foreignAmount": 75.02,
+                          "ticketCode": "AE"
+                        },
+                        {
+                          "amount": 1056,
+                          "code": "F6",
+                          "detail": "DXB-ATQ",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "AED",
+                          "foreignAmount": 44.99,
+                          "ticketCode": "F6"
+                        },
+                        {
+                          "amount": 117,
+                          "code": "TP",
+                          "detail": "DXB-ATQ",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "AED",
+                          "foreignAmount": 4.98,
+                          "ticketCode": "TP"
+                        },
+                        {
+                          "amount": 117,
+                          "code": "ZR",
+                          "detail": "DXB-ATQ",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "AED",
+                          "foreignAmount": 4.98,
+                          "ticketCode": "ZR"
+                        }
+                      ],
+                      "discountCode": null,
+                      "fareDiscountCode": null,
+                      "passengerType": "ADT"
+                    }
+                  ],
+                  "fareDesignator": {
+                    "fareTypeCodes": [
+                      "R"
+                    ]
+                  }
+                }
+              ],
+              "segmentKey": "SVh_IDE5Mn4gfn5EWEJ_MDQvMTEvMjAyNSAwODo1MH5BVFF_MDQvMTEvMjAyNSAxMzo0MH5_",
+              "passengerSegment": {
+                "MCFBRFQ-": {
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "3B",
+                      "isAutoAssigned": null,
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 15,
+                        "propertyList": {
+                          "LOCATION": "FRONT",
+                          "BRDZONE": "1",
+                          "SEATPOS": "FS2",
+                          "NEWPRIME": "TRUE",
+                          "TCC": "Y",
+                          "MIDDLE": "TRUE",
+                          "STANDARD": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "ATQ",
+                      "departureStation": "DXB",
+                      "passengerKey": "MCFBRFQ-",
+                      "unitKey": "SVghMTkyISAhNjM4Nzk5NTgyMDAwMDAwMDAwIURYQiFBVFEhM0IhWQ--"
+                    }
+                  ],
+                  "passengerKey": "MCFBRFQ-",
+                  "activityDate": "2025-04-11T04:10:47.24Z",
+                  "boardingSequence": "44",
+                  "createdDate": "2025-04-04T06:51:16.073Z",
+                  "liftStatus": 2,
+                  "modifiedDate": "2025-04-11T02:54:20.33Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-04-04T06:51:16.107Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": "P   IN  ",
+                  "sourcePointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "pointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "ssrs": [
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": null,
+                      "ssrDuration": 2,
+                      "ssrKey": "MCFNQ0ZCUkZRLSFXQ0hSITEhQVRRIUlYITYzODc5OTU4MjAwMDAwMDAwMCFEWEIhMTkyISA-",
+                      "count": 1,
+                      "ssrCode": "WCHR",
+                      "feeCode": "WCFR",
+                      "inBundle": false,
+                      "passengerKey": "MCFBRFQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "192",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "ATQ",
+                        "origin": "DXB",
+                        "departureDate": "2025-04-11T08:50:00"
+                      }
+                    }
+                  ],
+                  "tickets": [],
+                  "bags": [],
+                  "scores": [],
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": {
+                    "seat": 0,
+                    "travelClass": 0,
+                    "advancedPreferences": [
+                      {
+                        "seatMapCode": "LOCATION",
+                        "value": "FRONT"
+                      },
+                      {
+                        "seatMapCode": "STANDARD",
+                        "value": "TRUE"
+                      }
+                    ]
+                  },
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": [
+                    "UCFJTiEg"
+                  ],
+                  "referenceNumber": 0
+                },
+                "MSFBRFQ-": {
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "3A",
+                      "isAutoAssigned": null,
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 15,
+                        "propertyList": {
+                          "LOCATION": "FRONT",
+                          "BRDZONE": "1",
+                          "SEATPOS": "FS2",
+                          "NEWPRIME": "TRUE",
+                          "TCC": "Y",
+                          "WINDOW": "TRUE",
+                          "STANDARD": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "ATQ",
+                      "departureStation": "DXB",
+                      "passengerKey": "MSFBRFQ-",
+                      "unitKey": "SVghMTkyISAhNjM4Nzk5NTgyMDAwMDAwMDAwIURYQiFBVFEhM0EhWQ--"
+                    }
+                  ],
+                  "passengerKey": "MSFBRFQ-",
+                  "activityDate": "2025-04-11T04:10:58.82Z",
+                  "boardingSequence": "45",
+                  "createdDate": "2025-04-04T06:51:16.073Z",
+                  "liftStatus": 2,
+                  "modifiedDate": "2025-04-11T02:54:20.437Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-04-04T06:51:16.107Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": "P   IN  ",
+                  "sourcePointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "pointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "ssrs": [
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": null,
+                      "ssrDuration": 2,
+                      "ssrKey": "MCFNU0ZCUkZRLSFXQ0hSITEhQVRRIUlYITYzODc5OTU4MjAwMDAwMDAwMCFEWEIhMTkyISA-",
+                      "count": 1,
+                      "ssrCode": "WCHR",
+                      "feeCode": "WCFR",
+                      "inBundle": false,
+                      "passengerKey": "MSFBRFQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "192",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "ATQ",
+                        "origin": "DXB",
+                        "departureDate": "2025-04-11T08:50:00"
+                      }
+                    }
+                  ],
+                  "tickets": [],
+                  "bags": [],
+                  "scores": [],
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": {
+                    "seat": 0,
+                    "travelClass": 0,
+                    "advancedPreferences": [
+                      {
+                        "seatMapCode": "LOCATION",
+                        "value": "FRONT"
+                      },
+                      {
+                        "seatMapCode": "STANDARD",
+                        "value": "TRUE"
+                      }
+                    ]
+                  },
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": [
+                    "UCFJTiEg"
+                  ],
+                  "referenceNumber": 0
+                }
+              },
+              "channelType": 5,
+              "cabinOfService": "Y",
+              "externalIdentifier": null,
+              "priorityCode": null,
+              "changeReasonCode": 0,
+              "segmentType": 0,
+              "salesDate": "2025-04-04T06:51:16.073Z",
+              "international": true,
+              "flightReference": "20250411 IX 192 DXBATQ",
+              "legs": [
+                {
+                  "legKey": "NjM4Nzk5NTgyMDAwMDAwMDAwIUlYITE5MiEgIURYQiFBVFEhODQ5NDQxMg--",
+                  "operationsInfo": null,
+                  "designator": {
+                    "destination": "ATQ",
+                    "origin": "DXB",
+                    "arrival": "2025-04-11T13:40:00",
+                    "departure": "2025-04-11T08:50:00",
+                    "originAirportName": null,
+                    "originCityName": null,
+                    "destinationAirportName": null,
+                    "destinationCityName": null,
+                    "arrivalTerminal": null,
+                    "departureTerminal": null
+                  },
+                  "legInfo": {
+                    "departureTimeUtc": "2025-04-11T04:50:00Z",
+                    "arrivalTimeUtc": "2025-04-11T08:10:00Z",
+                    "adjustedCapacity": 186,
+                    "arrivalTerminal": null,
+                    "arrivalTimeVariant": 330,
+                    "backMoveDays": 490,
+                    "capacity": 186,
+                    "changeOfDirection": false,
+                    "codeShareIndicator": 0,
+                    "departureTerminal": "2",
+                    "departureTimeVariant": 240,
+                    "equipmentType": "738",
+                    "equipmentTypeSuffix": null,
+                    "eTicket": false,
+                    "irop": false,
+                    "lid": 186,
+                    "marketingCode": null,
+                    "marketingOverride": false,
+                    "operatedByText": null,
+                    "operatingCarrier": null,
+                    "operatingFlightNumber": null,
+                    "operatingOpSuffix": null,
+                    "outMoveDays": 490,
+                    "arrivalTime": "2025-04-11T13:40:00",
+                    "departureTime": "2025-04-11T08:50:00",
+                    "prbcCode": "Y186",
+                    "scheduleServiceType": null,
+                    "sold": 71,
+                    "status": 1,
+                    "subjectToGovtApproval": false,
+                    "eticket": false
+                  },
+                  "nests": [],
+                  "ssrs": [],
+                  "seatmapReference": "SVghIDE5MiEgITYzODc5OTU4MjAwMDAwMDAwMCFEWEIhQVRR",
+                  "flightReference": "20250411 IX 192 DXBATQ"
+                }
+              ],
+              "status": 6
+            }
+          ],
+          "journeyKey": "SVh_IDE5Mn4gfn5EWEJ_MDQvMTEvMjAyNSAwODo1MH5BVFF_MDQvMTEvMjAyNSAxMzo0MH5_",
+          "notForGeneralUser": false,
+          "isCorpFareJourney": false,
+          "isCancelAllowed": false,
+          "checkInAllowedFlatform": 0,
+          "scootModification": true,
+          "isCorpLiteJourney": false,
+          "umnr": false,
+          "corpFareJourney": false,
+          "cancelAllowed": false,
+          "CheckInWindow": "Close",
+          "CheckInOpens": null
+        }
+      ],
+      "comments": [
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919915119968, TimeStamp= 2025-04-04 12:25:47, MessageFor=NewBookingConfirmOneWaySingle-HoppingCampaign",
+          "createdDate": "2025-04-04T06:55:48.603Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI3NjczODIzNw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919915119968, TimeStamp= 2025-04-04 12:25:49, MessageFor=NewBookingConfirmOneWaySingle-HoppingCampaign",
+          "createdDate": "2025-04-04T06:55:50.72Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI3NjczODI2NQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919915119968, TimeStamp= 2025-04-09 10:18:43, MessageFor=AdditionalSMS_CheckInReminder",
+          "createdDate": "2025-04-09T04:48:45.193Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI3OTc5ODg1Mg--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919915119968, TimeStamp= 2025-04-09 10:18:47, MessageFor=AdditionalSMS_CheckInReminder",
+          "createdDate": "2025-04-09T04:48:50.827Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI3OTc5OTI3NQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919915119968, TimeStamp= 2025-04-10 10:22:30, MessageFor=AdditionalSMS_BaggagePolicy",
+          "createdDate": "2025-04-10T04:52:31.9Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4MDQ2ODkyNQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919915119968, TimeStamp= 2025-04-10 10:22:32, MessageFor=AdditionalSMS_BaggagePolicy",
+          "createdDate": "2025-04-10T04:52:36.217Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4MDQ2OTIyMg--"
+        },
+        {
+          "type": 0,
+          "text": "PNR divided to ZDZD5R",
+          "createdDate": "2025-04-10T16:38:38.35Z",
+          "pointOfSale": {
+            "agentCode": "tsconline",
+            "domainCode": "EXT",
+            "locationCode": "DELIX",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "commentKey": "MzI4MTE2NTA0Mg--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919915119968, TimeStamp= 2025-04-11 07:22:27, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-04-11T01:52:29.24Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4MTMzODY0Mw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919915119968, TimeStamp= 2025-04-11 07:22:29, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-04-11T01:52:31.41Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4MTMzODg0OA--"
+        }
+      ],
+      "queues": [],
+      "history": [],
+      "payments": [
+        {
+          "paymentKey": "NDY3MTQ5MDk2ITEhQUchNTQ0NTQxNTUz",
+          "code": "AG",
+          "approvalDate": "2025-04-04T06:51:16.23Z",
+          "details": {
+            "accountNumberId": 0,
+            "parentPaymentId": null,
+            "accountName": null,
+            "accountNumber": "OTATSCTRSE",
+            "expirationDate": null,
+            "text": null,
+            "installments": 1,
+            "binRange": 0,
+            "fields": {}
+          },
+          "amounts": {
+            "amount": 29867,
+            "currencyCode": "INR",
+            "collected": 29867,
+            "collectedCurrencyCode": "INR",
+            "quoted": 29867,
+            "quotedCurrencyCode": "INR"
+          },
+          "authorizationCode": null,
+          "authorizationStatus": 4,
+          "fundedDate": "1800-01-01T00:00:00Z",
+          "transactionCode": null,
+          "dcc": null,
+          "threeDSecure": null,
+          "attachments": [],
+          "createdDate": "2025-04-04T06:51:16.073Z",
+          "modifiedDate": "2025-04-04T06:51:16.23Z",
+          "type": 2,
+          "status": 3,
+          "transferred": false,
+          "channelType": 5,
+          "pointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "sourcePointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "deposit": false,
+          "accountId": 0,
+          "voucher": null,
+          "addedToState": true,
+          "createdAgentId": 44115378,
+          "modifiedAgentId": 44115378,
+          "reference": 467149096
+        },
+        {
+          "paymentKey": "NDY3NTU2ODgyITIhQUchNTQ0NTQxNTUz",
+          "code": "AG",
+          "approvalDate": "2025-04-04T06:51:16.23Z",
+          "details": {
+            "accountNumberId": 0,
+            "parentPaymentId": 467149096,
+            "accountName": null,
+            "accountNumber": "OTATSCTRSE",
+            "expirationDate": null,
+            "text": null,
+            "installments": 1,
+            "binRange": 0,
+            "fields": {}
+          },
+          "amounts": {
+            "amount": -9939,
+            "currencyCode": "INR",
+            "collected": -9939,
+            "collectedCurrencyCode": "INR",
+            "quoted": -9939,
+            "quotedCurrencyCode": "INR"
+          },
+          "authorizationCode": null,
+          "authorizationStatus": 4,
+          "fundedDate": "1800-01-01T00:00:00Z",
+          "transactionCode": null,
+          "dcc": null,
+          "threeDSecure": null,
+          "attachments": [],
+          "createdDate": "2025-04-10T16:38:38.35Z",
+          "modifiedDate": "2025-04-10T16:38:38.35Z",
+          "type": 2,
+          "status": 3,
+          "transferred": true,
+          "channelType": 5,
+          "pointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "sourcePointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "deposit": false,
+          "accountId": 0,
+          "voucher": null,
+          "addedToState": true,
+          "createdAgentId": 44123712,
+          "modifiedAgentId": 44123712,
+          "reference": 467556882
+        }
+      ],
+      "orders": [],
+      "isFareMaskingEnabled": false,
+      "isGroupBooking": false,
+      "vaccinationStatus": false,
+      "isCodeShareBooking": false,
+      "isFareLockBooking": false,
+      "isCodeSharePNR": false,
+      "isScootBooking": false,
+      "isCustomerBooking": false,
+      "isGHASOLBooking": false,
+      "isDeadHeadBooking": false,
+      "isDeadHeadCheckInAllowed": false,
+      "isMarineBooking": false,
+      "isMYIDBooking": false
+    },
+    "AnonymousToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiMDM3MmI3ZjEtZDg0Zi1jMTIzLWM2NDQtMTQ1NTRjNzczZWRmIiwiaXNzIjoiZG90UkVaIEFQSSJ9._395XoHc0dDl1flgBNgyHj4STD3wmPseAZJPp1i_ADs"
+  },
+  "responseStatus": 200,
+  "responseUrl": "https://api.airindiaexpress.com/b2c-CheckIn/v2/retrieve/mmb/byRecordLocator"
+}

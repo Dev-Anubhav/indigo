@@ -1,0 +1,993 @@
+{
+  "pnr": "VBQW4U",
+  "contactDetail": "TEJAS.VAISHNAV@MILESTONEHOLIDAYS.CO.IN",
+  "startedAt": "2026-05-11T15:44:33.269Z",
+  "pageUrlStart": "https://www.airindiaexpress.com/manage",
+  "response": {
+    "navToken": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiYTAyYzcyMTAtZWQ2Yy1hZTkyLWU0OWMtMzczY2FmZTVlOTJkIiwiaXNzIjoiZG90UkVaIEFQSSJ9.KO7AW53klT_zLgYwd4xcFsfGaU_VUW3MOi-24l_bJ3g",
+      "idleTimeoutInMinutes": 15
+    },
+    "data": {
+      "selfServiceMoveAvailable": false,
+      "isDirectChannel": false,
+      "bookingKey": "NTQ1NzI2NzI5IVZCUVc0VSFmYWxzZQ--",
+      "recordLocator": "VBQW4U",
+      "currencyCode": "INR",
+      "systemCode": null,
+      "groupName": null,
+      "locators": {
+        "numericRecordLocator": "080333102606",
+        "parentRecordLocator": null,
+        "parentId": "0",
+        "recordLocators": []
+      },
+      "info": {
+        "status": 2,
+        "paidStatus": 1,
+        "priceStatus": 2,
+        "profileStatus": 1,
+        "bookingType": null,
+        "channelType": 5,
+        "bookedDate": "2025-04-28T21:02:23.94Z",
+        "createdDate": "2025-04-28T21:02:23.94Z",
+        "expirationDate": "2025-04-30T08:35:00Z",
+        "modifiedDate": "2025-04-29T06:24:18.14Z",
+        "modifiedAgentId": "44124368",
+        "createdAgentId": "44115378",
+        "owningCarrierCode": "IX",
+        "changeAllowed": true
+      },
+      "sales": {
+        "created": {
+          "agentCode": "APITSCTRSE",
+          "domainCode": "TOP",
+          "locationCode": "API",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "source": {
+          "isoCountryCode": null,
+          "sourceSystemCode": null,
+          "agentCode": "APITSCTRSE",
+          "domainCode": "TOP",
+          "locationCode": "API",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "modified": null
+      },
+      "typeOfSale": {
+        "residentCountry": "TH",
+        "promotionCode": null,
+        "fareTypes": []
+      },
+      "hold": null,
+      "breakdown": {
+        "balanceDue": 0,
+        "pointsBalanceDue": 0,
+        "authorizedBalanceDue": 0,
+        "totalAmount": 28390,
+        "totalPoints": 0,
+        "totalToCollect": 28390,
+        "totalPointsToCollect": 0,
+        "totalCharged": 28390,
+        "passengerTotals": {
+          "services": null,
+          "specialServices": null,
+          "seats": {
+            "total": null,
+            "taxes": null,
+            "adjustments": 1272,
+            "charges": [
+              {
+                "amount": 636,
+                "code": "SEAT",
+                "detail": "BKK-PNQ",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "THB",
+                "foreignAmount": 250,
+                "ticketCode": "ST"
+              },
+              {
+                "amount": 636,
+                "code": "SEAT",
+                "detail": "Fee OR",
+                "type": 1,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "THB",
+                "foreignAmount": 250,
+                "ticketCode": null
+              },
+              {
+                "amount": 636,
+                "code": "SEAT",
+                "detail": "BKK-PNQ",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "THB",
+                "foreignAmount": 250,
+                "ticketCode": "ST"
+              },
+              {
+                "amount": 636,
+                "code": "SEAT",
+                "detail": "Fee OR",
+                "type": 1,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "THB",
+                "foreignAmount": 250,
+                "ticketCode": null
+              }
+            ]
+          },
+          "upgrades": null,
+          "spoilage": null,
+          "nameChanges": null,
+          "convenience": null,
+          "infant": null
+        },
+        "passengers": {
+          "MCFBRFQ-": {
+            "passengerKey": "MCFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": {
+              "total": null,
+              "taxes": null,
+              "adjustments": 636,
+              "charges": [
+                {
+                  "amount": 636,
+                  "code": "SEAT",
+                  "detail": "BKK-PNQ",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "THB",
+                  "foreignAmount": 250,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 636,
+                  "code": "SEAT",
+                  "detail": "Fee OR",
+                  "type": 1,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "THB",
+                  "foreignAmount": 250,
+                  "ticketCode": null
+                }
+              ]
+            },
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          },
+          "MSFBRFQ-": {
+            "passengerKey": "MSFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": {
+              "total": null,
+              "taxes": null,
+              "adjustments": 636,
+              "charges": [
+                {
+                  "amount": 636,
+                  "code": "SEAT",
+                  "detail": "BKK-PNQ",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "THB",
+                  "foreignAmount": 250,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 636,
+                  "code": "SEAT",
+                  "detail": "Fee OR",
+                  "type": 1,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "THB",
+                  "foreignAmount": 250,
+                  "ticketCode": null
+                }
+              ]
+            },
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          }
+        },
+        "journeyTotals": {
+          "totalAmount": 23914,
+          "totalPoints": 0,
+          "totalTax": 4476,
+          "totalDiscount": 0
+        },
+        "journeys": {
+          "SVh_IDI0MX4gfn5CS0t_MDQvMjkvMjAyNSAxNTozNX5QTlF_MDQvMjkvMjAyNSAxODoyNX5_": {
+            "journeyKey": "SVh_IDI0MX4gfn5CS0t_MDQvMjkvMjAyNSAxNTozNX5QTlF_MDQvMjkvMjAyNSAxODoyNX5_",
+            "totalAmount": 11957,
+            "totalPoints": 0,
+            "totalTax": 2238,
+            "totalDiscount": 0
+          }
+        },
+        "addOnTotals": {
+          "car": null,
+          "hotel": null,
+          "activities": null
+        }
+      },
+      "receivedBy": {
+        "receivedBy": null,
+        "latestReceivedBy": null,
+        "receivedReference": null,
+        "latestReceivedReference": null,
+        "referralCode": null
+      },
+      "contacts": {
+        "P": {
+          "contactTypeCode": "P",
+          "phoneNumbers": [
+            {
+              "type": 0,
+              "number": "ZQitOEL1Aub17FvWKsLxvQ=="
+            },
+            {
+              "type": 1,
+              "number": "ZQitOEL1Aub17FvWKsLxvQ=="
+            }
+          ],
+          "cultureCode": null,
+          "address": {
+            "lineOne": "NA",
+            "lineTwo": "NA",
+            "lineThree": null,
+            "countryCode": "IN",
+            "provinceState": "NA",
+            "city": "NA",
+            "postalCode": null
+          },
+          "emailAddress": "hteErQ+vPNr+yhC5A8Zd97pKD9b4gKSmDAXbw3W3fCr/Irvir0oVsmcHloq+si67",
+          "customerNumber": null,
+          "sourceOrganization": "OTATSCTRSE",
+          "distributionOption": 2,
+          "notificationPreference": 0,
+          "companyName": "TSC ONLINE",
+          "name": {
+            "first": "p6Xp6IuBr77VoNtf8xmRmA==",
+            "middle": null,
+            "last": "n6BlnWu9AfNxbgxhbarr/g==",
+            "title": "MR",
+            "suffix": null
+          }
+        }
+      },
+      "passengers": [
+        {
+          "passengerKey": "MCFBRFQ-",
+          "passengerAlternateKey": "MTIyMzY0MDk5Ng--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 9,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "SEAT",
+              "detail": null,
+              "passengerFeeKey": "MCEwITk-",
+              "override": true,
+              "flightReference": "20250429 IX 241 BKKPNQ",
+              "note": null,
+              "createdDate": "2025-04-29T06:23:34.317Z",
+              "serviceCharges": [
+                {
+                  "amount": 636,
+                  "code": "SEAT",
+                  "detail": "BKK-PNQ",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "THB",
+                  "foreignAmount": 250,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 636,
+                  "code": "SEAT",
+                  "detail": "Fee OR",
+                  "type": "Discount",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "THB",
+                  "foreignAmount": 250,
+                  "ticketCode": null
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 0
+            }
+          ],
+          "name": {
+            "first": "p6Xp6IuBr77VoNtf8xmRmA==",
+            "middle": null,
+            "last": "n6BlnWu9AfNxbgxhbarr/g==",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [
+            {
+              "identifier": "241",
+              "baggageKey": "MDIzNjMyMTMzNg--",
+              "nonStandard": false,
+              "type": "STND",
+              "osTag": "0236321336",
+              "osTagDate": "2025-04-29T00:00:00Z",
+              "taggedToStation": "PNQ",
+              "stationCode": "BKK",
+              "weight": 19,
+              "taggedToCarrierCode": "IX",
+              "weightType": 2
+            },
+            {
+              "identifier": "241",
+              "baggageKey": "MDIzNjMyMTM3Mw--",
+              "nonStandard": false,
+              "type": "STND",
+              "osTag": "0236321373",
+              "osTagDate": "2025-04-29T00:00:00Z",
+              "taggedToStation": "PNQ",
+              "stationCode": "BKK",
+              "weight": 19,
+              "taggedToCarrierCode": "IX",
+              "weightType": 2
+            }
+          ],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": 1,
+            "dateOfBirth": "1ARc/SMor7r2jzQktIKcfpdsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [
+            {
+              "passengerTravelDocumentKey": "UCFJTiEg",
+              "documentTypeCode": "P",
+              "birthCountry": null,
+              "issuedByCode": "IN",
+              "name": {
+                "first": "p6Xp6IuBr77VoNtf8xmRmA==",
+                "middle": null,
+                "last": "n6BlnWu9AfNxbgxhbarr/g==",
+                "title": "MR",
+                "suffix": null
+              },
+              "nationality": "IN",
+              "expirationDate": "2028-11-25T00:00:00Z",
+              "number": "otZ9xAJglQvbLqmrzgFgPw==",
+              "issuedDate": null,
+              "gender": 1,
+              "dateOfBirth": "1ARc/SMor7r2jzQktIKcfpdsmaqXxcq28hqj8xSFCwg="
+            }
+          ],
+          "addresses": [],
+          "weightCategory": 1,
+          "bagsInfo": [
+            {
+              "journeyKey": "SVh_IDI0MX4gfn5CS0t_MDQvMjkvMjAyNSAxNTozNX5QTlF_MDQvMjkvMjAyNSAxODoyNX5_",
+              "CABG": 7,
+              "CHKBAG": 20,
+              "ICBG": null,
+              "STND": null
+            }
+          ]
+        },
+        {
+          "passengerKey": "MSFBRFQ-",
+          "passengerAlternateKey": "MTIyMzY0MDk5Nw--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 9,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "SEAT",
+              "detail": null,
+              "passengerFeeKey": "MSEwITk-",
+              "override": true,
+              "flightReference": "20250429 IX 241 BKKPNQ",
+              "note": null,
+              "createdDate": "2025-04-29T06:23:34.317Z",
+              "serviceCharges": [
+                {
+                  "amount": 636,
+                  "code": "SEAT",
+                  "detail": "BKK-PNQ",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "THB",
+                  "foreignAmount": 250,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 636,
+                  "code": "SEAT",
+                  "detail": "Fee OR",
+                  "type": "Discount",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "THB",
+                  "foreignAmount": 250,
+                  "ticketCode": null
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 0
+            }
+          ],
+          "name": {
+            "first": "0yj+T+MlZ71uJdYpQsH3jw==",
+            "middle": null,
+            "last": "7/wzElqp16RQpqf52xLGpg==",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": 1,
+            "dateOfBirth": "h9epZ0dLNBh7rDpr1mO/65dsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [
+            {
+              "passengerTravelDocumentKey": "UCFJTiEg",
+              "documentTypeCode": "P",
+              "birthCountry": null,
+              "issuedByCode": "IN",
+              "name": {
+                "first": "0yj+T+MlZ71uJdYpQsH3jw==",
+                "middle": null,
+                "last": "7/wzElqp16RQpqf52xLGpg==",
+                "title": "MR",
+                "suffix": null
+              },
+              "nationality": "IN",
+              "expirationDate": "2028-07-19T00:00:00Z",
+              "number": "a23y2tcQ9Jw23BXEBGGgIQ==",
+              "issuedDate": null,
+              "gender": 1,
+              "dateOfBirth": "h9epZ0dLNBh7rDpr1mO/65dsmaqXxcq28hqj8xSFCwg="
+            }
+          ],
+          "addresses": [],
+          "weightCategory": 1,
+          "bagsInfo": [
+            {
+              "journeyKey": "SVh_IDI0MX4gfn5CS0t_MDQvMjkvMjAyNSAxNTozNX5QTlF_MDQvMjkvMjAyNSAxODoyNX5_",
+              "CABG": 7,
+              "CHKBAG": 20,
+              "ICBG": null,
+              "STND": null
+            }
+          ]
+        }
+      ],
+      "journeys": [
+        {
+          "flightType": 1,
+          "stops": 0,
+          "designator": {
+            "destination": "PNQ",
+            "origin": "BKK",
+            "arrival": "2025-04-29T18:25:00",
+            "departure": "2025-04-29T15:35:00",
+            "originAirportName": "Bangkok",
+            "originCityName": "Bangkok",
+            "destinationAirportName": "Pune Airport",
+            "destinationCityName": "Pune",
+            "arrivalTerminal": null,
+            "departureTerminal": null
+          },
+          "move": {
+            "maxMoveBackDays": 490,
+            "maxMoveOutDays": 490
+          },
+          "segments": [
+            {
+              "isStandby": false,
+              "isConfirming": false,
+              "isConfirmingExternal": false,
+              "isBlocked": false,
+              "isHosted": true,
+              "isChangeOfGauge": false,
+              "designator": {
+                "destination": "PNQ",
+                "origin": "BKK",
+                "arrival": "2025-04-29T18:25:00",
+                "departure": "2025-04-29T15:35:00",
+                "originAirportName": "Bangkok",
+                "originCityName": "Bangkok",
+                "destinationAirportName": "Pune Airport",
+                "destinationCityName": "Pune",
+                "arrivalTerminal": null,
+                "departureTerminal": null
+              },
+              "isSeatmapViewable": true,
+              "identifier": {
+                "identifier": "241",
+                "carrierCode": "IX",
+                "opSuffix": null
+              },
+              "fares": [
+                {
+                  "isGoverning": true,
+                  "downgradeAvailable": false,
+                  "carrierCode": "I5",
+                  "fareKey": "MH5Ffn5JNX5FTlJBWDAwfk5SWDB_fjB_MH5_WA--",
+                  "classOfService": "E",
+                  "classType": null,
+                  "fareApplicationType": 0,
+                  "fareClassOfService": "E",
+                  "fareBasisCode": "ENRAX00",
+                  "fareSequence": 0,
+                  "inboundOutBound": 0,
+                  "fareStatus": 0,
+                  "isAllotmentMarketFare": false,
+                  "originalClassOfService": "E",
+                  "ruleNumber": "NRX0",
+                  "productClass": "EC",
+                  "ruleTariff": null,
+                  "travelClassCode": "Y",
+                  "crossReferenceClassOfService": null,
+                  "fareLink": 0,
+                  "passengerFares": [
+                    {
+                      "serviceCharges": [
+                        {
+                          "amount": 11957,
+                          "code": null,
+                          "detail": null,
+                          "type": "FarePrice",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 11957,
+                          "ticketCode": null
+                        },
+                        {
+                          "amount": 254,
+                          "code": "YR",
+                          "detail": "BKK-PNQ",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "THB",
+                          "foreignAmount": 99.84,
+                          "ticketCode": "YR"
+                        },
+                        {
+                          "amount": 89,
+                          "code": "E7",
+                          "detail": "BKK-PNQ",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "THB",
+                          "foreignAmount": 34.98,
+                          "ticketCode": "E7"
+                        },
+                        {
+                          "amount": 38,
+                          "code": "G8",
+                          "detail": "BKK-PNQ",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "THB",
+                          "foreignAmount": 14.94,
+                          "ticketCode": "G8"
+                        },
+                        {
+                          "amount": 1857,
+                          "code": "TS",
+                          "detail": "BKK-PNQ",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "THB",
+                          "foreignAmount": 729.93,
+                          "ticketCode": "TS"
+                        }
+                      ],
+                      "discountCode": null,
+                      "fareDiscountCode": null,
+                      "passengerType": "ADT"
+                    }
+                  ],
+                  "fareDesignator": {
+                    "fareTypeCodes": [
+                      "R"
+                    ]
+                  }
+                }
+              ],
+              "segmentKey": "SVh_IDI0MX4gfn5CS0t_MDQvMjkvMjAyNSAxNTozNX5QTlF_MDQvMjkvMjAyNSAxODoyNX5_",
+              "passengerSegment": {
+                "MCFBRFQ-": {
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "28A",
+                      "isAutoAssigned": null,
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 55,
+                        "propertyList": {
+                          "LOCATION": "REAR",
+                          "BRDZONE": "3",
+                          "SEATPOS": "RS4",
+                          "TCC": "Y",
+                          "STNDRDBK": "TRUE",
+                          "WINDOW": "TRUE",
+                          "STANDARD": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "PNQ",
+                      "departureStation": "BKK",
+                      "passengerKey": "MCFBRFQ-",
+                      "unitKey": "SVghMjQxISAhNjM4ODE1Mzc3MDAwMDAwMDAwIUJLSyFQTlEhMjhBIVk-"
+                    }
+                  ],
+                  "passengerKey": "MCFBRFQ-",
+                  "activityDate": "2025-04-29T07:48:27.483Z",
+                  "boardingSequence": "133",
+                  "createdDate": "2025-04-28T21:02:23.94Z",
+                  "liftStatus": 2,
+                  "modifiedDate": "2025-04-29T06:23:40.267Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-04-28T21:02:23.957Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": "P   IN  ",
+                  "sourcePointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "pointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "ssrs": [],
+                  "tickets": [],
+                  "bags": [
+                    {
+                      "baggageKey": "MDIzNjMyMTMzNg--",
+                      "passengerKey": "MCFBRFQ-",
+                      "arrivalStation": "PNQ",
+                      "status": 1,
+                      "departureStation": "BKK",
+                      "osTag": "0236321336"
+                    },
+                    {
+                      "baggageKey": "MDIzNjMyMTM3Mw--",
+                      "passengerKey": "MCFBRFQ-",
+                      "arrivalStation": "PNQ",
+                      "status": 1,
+                      "departureStation": "BKK",
+                      "osTag": "0236321373"
+                    }
+                  ],
+                  "scores": [],
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": {
+                    "seat": 0,
+                    "travelClass": 0,
+                    "advancedPreferences": []
+                  },
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": [
+                    "UCFJTiEg"
+                  ],
+                  "referenceNumber": 0
+                },
+                "MSFBRFQ-": {
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "28B",
+                      "isAutoAssigned": null,
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 55,
+                        "propertyList": {
+                          "LOCATION": "REAR",
+                          "BRDZONE": "3",
+                          "SEATPOS": "RS4",
+                          "TCC": "Y",
+                          "STNDRDBK": "TRUE",
+                          "MIDDLE": "TRUE",
+                          "STANDARD": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "PNQ",
+                      "departureStation": "BKK",
+                      "passengerKey": "MSFBRFQ-",
+                      "unitKey": "SVghMjQxISAhNjM4ODE1Mzc3MDAwMDAwMDAwIUJLSyFQTlEhMjhCIVk-"
+                    }
+                  ],
+                  "passengerKey": "MSFBRFQ-",
+                  "activityDate": "2025-04-29T07:48:33.33Z",
+                  "boardingSequence": "134",
+                  "createdDate": "2025-04-28T21:02:23.94Z",
+                  "liftStatus": 2,
+                  "modifiedDate": "2025-04-29T06:23:40.383Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-04-28T21:02:23.957Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": "P   IN  ",
+                  "sourcePointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "pointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "ssrs": [],
+                  "tickets": [],
+                  "bags": [],
+                  "scores": [],
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": {
+                    "seat": 0,
+                    "travelClass": 0,
+                    "advancedPreferences": []
+                  },
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": [
+                    "UCFJTiEg"
+                  ],
+                  "referenceNumber": 0
+                }
+              },
+              "channelType": 5,
+              "cabinOfService": "Y",
+              "externalIdentifier": null,
+              "priorityCode": null,
+              "changeReasonCode": 0,
+              "segmentType": 0,
+              "salesDate": "2025-04-28T21:02:23.94Z",
+              "international": true,
+              "flightReference": "20250429 IX 241 BKKPNQ",
+              "legs": [
+                {
+                  "legKey": "NjM4ODE1Mzc3MDAwMDAwMDAwIUlYITI0MSEgIUJLSyFQTlEhODY0MTA2MA--",
+                  "operationsInfo": null,
+                  "designator": {
+                    "destination": "PNQ",
+                    "origin": "BKK",
+                    "arrival": "2025-04-29T18:25:00",
+                    "departure": "2025-04-29T15:35:00",
+                    "originAirportName": null,
+                    "originCityName": null,
+                    "destinationAirportName": null,
+                    "destinationCityName": null,
+                    "arrivalTerminal": null,
+                    "departureTerminal": null
+                  },
+                  "legInfo": {
+                    "departureTimeUtc": "2025-04-29T08:35:00Z",
+                    "arrivalTimeUtc": "2025-04-29T12:55:00Z",
+                    "adjustedCapacity": 184,
+                    "arrivalTerminal": null,
+                    "arrivalTimeVariant": 330,
+                    "backMoveDays": 490,
+                    "capacity": 184,
+                    "changeOfDirection": false,
+                    "codeShareIndicator": 0,
+                    "departureTerminal": null,
+                    "departureTimeVariant": 420,
+                    "equipmentType": "7M8",
+                    "equipmentTypeSuffix": "F",
+                    "eTicket": false,
+                    "irop": false,
+                    "lid": 184,
+                    "marketingCode": null,
+                    "marketingOverride": false,
+                    "operatedByText": null,
+                    "operatingCarrier": null,
+                    "operatingFlightNumber": null,
+                    "operatingOpSuffix": null,
+                    "outMoveDays": 490,
+                    "arrivalTime": "2025-04-29T18:25:00",
+                    "departureTime": "2025-04-29T15:35:00",
+                    "prbcCode": "Y184",
+                    "scheduleServiceType": null,
+                    "sold": 149,
+                    "status": 1,
+                    "subjectToGovtApproval": false,
+                    "eticket": false
+                  },
+                  "nests": [],
+                  "ssrs": [],
+                  "seatmapReference": "SVghIDI0MSEgITYzODgxNTM3NzAwMDAwMDAwMCFCS0shUE5R",
+                  "flightReference": "20250429 IX 241 BKKPNQ"
+                }
+              ],
+              "status": 6
+            }
+          ],
+          "journeyKey": "SVh_IDI0MX4gfn5CS0t_MDQvMjkvMjAyNSAxNTozNX5QTlF_MDQvMjkvMjAyNSAxODoyNX5_",
+          "notForGeneralUser": false,
+          "isCorpFareJourney": false,
+          "isCancelAllowed": false,
+          "checkInAllowedFlatform": 0,
+          "scootModification": true,
+          "isCorpLiteJourney": false,
+          "umnr": false,
+          "corpFareJourney": false,
+          "cancelAllowed": false,
+          "CheckInWindow": "Close",
+          "CheckInOpens": null
+        }
+      ],
+      "comments": [
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=918149832063, TimeStamp= 2025-04-29 02:36:07, MessageFor=NewBookingConfirmOneWaySingle-HoppingCampaign",
+          "createdDate": "2025-04-28T21:06:08.61Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5MTIwMzE0NA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=918149832063, TimeStamp= 2025-04-29 02:36:07, MessageFor=NewBookingConfirmOneWaySingle-HoppingCampaign",
+          "createdDate": "2025-04-28T21:06:09.317Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5MTIwMzE0OQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=918149832063, TimeStamp= 2025-04-29 11:02:41, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-04-29T05:33:08.957Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5MTMzMjM2NA--"
+        }
+      ],
+      "queues": [],
+      "history": [],
+      "payments": [
+        {
+          "paymentKey": "NDY4NTgxNzY5ITEhQUchNTQ1NzI2NzI5",
+          "code": "AG",
+          "approvalDate": "2025-04-28T21:02:24.06Z",
+          "details": {
+            "accountNumberId": 0,
+            "parentPaymentId": null,
+            "accountName": null,
+            "accountNumber": "OTATSCTRSE",
+            "expirationDate": null,
+            "text": null,
+            "installments": 1,
+            "binRange": 0,
+            "fields": {}
+          },
+          "amounts": {
+            "amount": 28390,
+            "currencyCode": "INR",
+            "collected": 28390,
+            "collectedCurrencyCode": "INR",
+            "quoted": 28390,
+            "quotedCurrencyCode": "INR"
+          },
+          "authorizationCode": null,
+          "authorizationStatus": 4,
+          "fundedDate": "1800-01-01T00:00:00Z",
+          "transactionCode": null,
+          "dcc": null,
+          "threeDSecure": null,
+          "attachments": [],
+          "createdDate": "2025-04-28T21:02:23.94Z",
+          "modifiedDate": "2025-04-28T21:02:24.057Z",
+          "type": 2,
+          "status": 3,
+          "transferred": false,
+          "channelType": 5,
+          "pointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "sourcePointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "deposit": false,
+          "accountId": 0,
+          "voucher": null,
+          "addedToState": true,
+          "createdAgentId": 44115378,
+          "modifiedAgentId": 44115378,
+          "reference": 468581769
+        }
+      ],
+      "orders": [],
+      "isFareMaskingEnabled": false,
+      "isGroupBooking": false,
+      "vaccinationStatus": false,
+      "isCodeShareBooking": false,
+      "isFareLockBooking": false,
+      "isCodeSharePNR": false,
+      "isScootBooking": false,
+      "isCustomerBooking": false,
+      "isGHASOLBooking": false,
+      "isDeadHeadBooking": false,
+      "isDeadHeadCheckInAllowed": false,
+      "isMarineBooking": false,
+      "isMYIDBooking": false
+    },
+    "AnonymousToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiYTAyYzcyMTAtZWQ2Yy1hZTkyLWU0OWMtMzczY2FmZTVlOTJkIiwiaXNzIjoiZG90UkVaIEFQSSJ9.KO7AW53klT_zLgYwd4xcFsfGaU_VUW3MOi-24l_bJ3g"
+  },
+  "responseStatus": 200,
+  "responseUrl": "https://api.airindiaexpress.com/b2c-CheckIn/v2/retrieve/mmb/byRecordLocator"
+}

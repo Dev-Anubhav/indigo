@@ -1,0 +1,25 @@
+2026/05/11-21:05:07.158 1c142d Reusing MANIFEST /Users/user/Downloads/indigo-scraper-v2/data/chrome-airindiaexpress-profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/11-21:05:07.162 1c142d Recovering log #17
+2026/05/11-21:05:07.163 1c142d Level-0 table #20: started
+2026/05/11-21:05:07.172 1c142d Level-0 table #20: 79032 bytes OK
+2026/05/11-21:05:07.172 1c142d Recovering log #19
+2026/05/11-21:05:07.173 1c142d Reusing old log /Users/user/Downloads/indigo-scraper-v2/data/chrome-airindiaexpress-profile/Default/Local Storage/leveldb/000019.log 
+2026/05/11-21:05:07.177 1c142d Delete type=0 #17
+2026/05/11-21:07:11.398 1c21aa Level-0 table #22: started
+2026/05/11-21:07:11.401 1c21aa Level-0 table #22: 79511 bytes OK
+2026/05/11-21:07:11.408 1c21aa Delete type=0 #19
+2026/05/11-21:09:11.401 1c1431 Level-0 table #24: started
+2026/05/11-21:09:11.406 1c1431 Level-0 table #24: 78655 bytes OK
+2026/05/11-21:09:11.412 1c1431 Delete type=0 #21
+2026/05/11-21:09:11.414 1c1431 Compacting 4@0 + 1@1 files
+2026/05/11-21:09:11.420 1c1431 Generated table #25@0: 18 keys, 39545 bytes
+2026/05/11-21:09:11.420 1c1431 Compacted 4@0 + 1@1 files => 39545 bytes
+2026/05/11-21:09:11.422 1c1431 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/11-21:09:11.423 1c1431 Delete type=2 #16
+2026/05/11-21:09:11.423 1c1431 Delete type=2 #20
+2026/05/11-21:09:11.423 1c1431 Delete type=2 #22
+2026/05/11-21:09:11.423 1c1431 Delete type=2 #18
+2026/05/11-21:09:11.423 1c1431 Delete type=2 #24
+2026/05/11-21:10:55.922 1c142d Level-0 table #27: started
+2026/05/11-21:10:55.925 1c142d Level-0 table #27: 78698 bytes OK
+2026/05/11-21:10:55.939 1c142d Delete type=0 #23

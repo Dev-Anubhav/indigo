@@ -1,0 +1,946 @@
+{
+  "pnr": "MB923U",
+  "contactDetail": "ADHYAHOLIDAYS@GMAIL.COM",
+  "startedAt": "2026-05-11T15:37:58.882Z",
+  "pageUrlStart": "https://www.airindiaexpress.com/manage",
+  "response": {
+    "navToken": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiZjEwZTNmY2EtNjhkZi1hYTI1LTE2MWUtYjIzMzM1OGU4MzE0IiwiaXNzIjoiZG90UkVaIEFQSSJ9.0gasCVroq6KiyB6ap1OoYMcUSqXjnA4hLscENwS6_Ms",
+      "idleTimeoutInMinutes": 15
+    },
+    "data": {
+      "selfServiceMoveAvailable": false,
+      "isDirectChannel": false,
+      "bookingKey": "NTQ1NTIzNzAwIU1COTIzVSFmYWxzZQ--",
+      "recordLocator": "MB923U",
+      "currencyCode": "INR",
+      "systemCode": null,
+      "groupName": null,
+      "locators": {
+        "numericRecordLocator": "250336222406",
+        "parentRecordLocator": null,
+        "parentId": "0",
+        "recordLocators": []
+      },
+      "info": {
+        "status": 3,
+        "paidStatus": 1,
+        "priceStatus": 2,
+        "profileStatus": 1,
+        "bookingType": null,
+        "channelType": 5,
+        "bookedDate": "2025-04-24T11:05:48.307Z",
+        "createdDate": "2025-04-24T11:05:48.307Z",
+        "expirationDate": "2025-06-09T13:00:00Z",
+        "modifiedDate": "2025-05-14T14:50:38.56Z",
+        "modifiedAgentId": "44059635",
+        "createdAgentId": "44123712",
+        "owningCarrierCode": "IX",
+        "changeAllowed": true
+      },
+      "sales": {
+        "created": {
+          "agentCode": "tsconline",
+          "domainCode": "EXT",
+          "locationCode": "DELIX",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "source": {
+          "isoCountryCode": null,
+          "sourceSystemCode": null,
+          "agentCode": "tsconline",
+          "domainCode": "EXT",
+          "locationCode": "DELIX",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "modified": null
+      },
+      "typeOfSale": {
+        "residentCountry": "IN",
+        "promotionCode": null,
+        "fareTypes": []
+      },
+      "hold": null,
+      "breakdown": {
+        "balanceDue": 0,
+        "pointsBalanceDue": 0,
+        "authorizedBalanceDue": 0,
+        "totalAmount": 69625,
+        "totalPoints": 0,
+        "totalToCollect": 69625,
+        "totalPointsToCollect": 0,
+        "totalCharged": 69625,
+        "passengerTotals": {
+          "services": null,
+          "specialServices": null,
+          "seats": null,
+          "upgrades": null,
+          "spoilage": null,
+          "nameChanges": null,
+          "convenience": null,
+          "infant": null
+        },
+        "passengers": {
+          "MyFBRFQ-": {
+            "passengerKey": "MyFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": null,
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          },
+          "MCFBRFQ-": {
+            "passengerKey": "MCFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": null,
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          },
+          "MSFBRFQ-": {
+            "passengerKey": "MSFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": null,
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          },
+          "NCFBRFQ-": {
+            "passengerKey": "NCFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": null,
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          },
+          "MiFBRFQ-": {
+            "passengerKey": "MiFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": null,
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          }
+        },
+        "journeyTotals": {
+          "totalAmount": 0,
+          "totalPoints": 0,
+          "totalTax": 0,
+          "totalDiscount": 0
+        },
+        "journeys": {},
+        "addOnTotals": {
+          "car": null,
+          "hotel": null,
+          "activities": null
+        }
+      },
+      "receivedBy": {
+        "receivedBy": null,
+        "latestReceivedBy": null,
+        "receivedReference": null,
+        "latestReceivedReference": null,
+        "referralCode": null
+      },
+      "contacts": {
+        "P": {
+          "contactTypeCode": "P",
+          "phoneNumbers": [
+            {
+              "type": 0,
+              "number": "4PidQHbD0IQtbR3wGpGxnA=="
+            },
+            {
+              "type": 4,
+              "number": "9cEl6yLR3OhiDkUkWWYS4Q=="
+            }
+          ],
+          "cultureCode": null,
+          "address": {
+            "lineOne": null,
+            "lineTwo": null,
+            "lineThree": null,
+            "countryCode": "IN",
+            "provinceState": null,
+            "city": null,
+            "postalCode": null
+          },
+          "emailAddress": "t0KDS0EA9YCGIjZPjO7DONbklsQFibFttMl38nIsE40=",
+          "customerNumber": null,
+          "sourceOrganization": null,
+          "distributionOption": 2,
+          "notificationPreference": 0,
+          "companyName": null,
+          "name": {
+            "first": "mVtgYtKDVmh5t5L9O3VzWPCvMN0gGRwu/6RW4Zs76tI=",
+            "middle": null,
+            "last": "1RZ/f6y0tGcwpIBr1tlNmQ==",
+            "title": "MR",
+            "suffix": null
+          }
+        }
+      },
+      "passengers": [
+        {
+          "passengerKey": "MCFBRFQ-",
+          "passengerAlternateKey": "MTIyMzMzMDY4MQ--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 5,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "CXL2",
+              "detail": "31May IX 173 STVDXB",
+              "passengerFeeKey": "MCE2ITU-",
+              "override": false,
+              "flightReference": null,
+              "note": null,
+              "createdDate": "2025-05-14T12:58:58.437Z",
+              "serviceCharges": [
+                {
+                  "amount": 6500,
+                  "code": "CXL2",
+                  "detail": "Cancellati",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 6500,
+                  "ticketCode": "CXL"
+                },
+                {
+                  "amount": 348,
+                  "code": "CGST",
+                  "detail": "STV-DXB",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 348,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 348,
+                  "code": "SGST",
+                  "detail": "STV-DXB",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 348,
+                  "ticketCode": "SST"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 6500
+            },
+            {
+              "type": 5,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "CXL2",
+              "detail": "08Jun IX 174 DXBSTV",
+              "passengerFeeKey": "MCE3ITU-",
+              "override": false,
+              "flightReference": null,
+              "note": null,
+              "createdDate": "2025-05-14T12:58:58.437Z",
+              "serviceCharges": [
+                {
+                  "amount": 7425,
+                  "code": "CXL2",
+                  "detail": "Cancellati",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 7425,
+                  "ticketCode": "CXL"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 7425
+            }
+          ],
+          "name": {
+            "first": "O23qT9AKGemhJ4sJ0m47OQ==",
+            "middle": null,
+            "last": "1RZ/f6y0tGcwpIBr1tlNmQ==",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": null,
+            "residentCountry": null,
+            "gender": 1,
+            "dateOfBirth": "1UPj5sj2Dxbpuj2wUyPX45dsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [],
+          "addresses": [],
+          "weightCategory": 1,
+          "bagsInfo": []
+        },
+        {
+          "passengerKey": "MSFBRFQ-",
+          "passengerAlternateKey": "MTIyMzMzMDY4Mg--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 5,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "CXL2",
+              "detail": "31May IX 173 STVDXB",
+              "passengerFeeKey": "MSE2ITU-",
+              "override": false,
+              "flightReference": null,
+              "note": null,
+              "createdDate": "2025-05-14T12:58:58.437Z",
+              "serviceCharges": [
+                {
+                  "amount": 6500,
+                  "code": "CXL2",
+                  "detail": "Cancellati",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 6500,
+                  "ticketCode": "CXL"
+                },
+                {
+                  "amount": 348,
+                  "code": "CGST",
+                  "detail": "STV-DXB",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 348,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 348,
+                  "code": "SGST",
+                  "detail": "STV-DXB",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 348,
+                  "ticketCode": "SST"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 6500
+            },
+            {
+              "type": 5,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "CXL2",
+              "detail": "08Jun IX 174 DXBSTV",
+              "passengerFeeKey": "MSE3ITU-",
+              "override": false,
+              "flightReference": null,
+              "note": null,
+              "createdDate": "2025-05-14T12:58:58.437Z",
+              "serviceCharges": [
+                {
+                  "amount": 7425,
+                  "code": "CXL2",
+                  "detail": "Cancellati",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 7425,
+                  "ticketCode": "CXL"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 7425
+            }
+          ],
+          "name": {
+            "first": "7auE9PSdJ5XrJWRBFJnb7w==",
+            "middle": null,
+            "last": "1RZ/f6y0tGcwpIBr1tlNmQ==",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": null,
+            "residentCountry": null,
+            "gender": 1,
+            "dateOfBirth": "sLUhgfshSLTcAkWYQy23CJdsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [],
+          "addresses": [],
+          "weightCategory": 1,
+          "bagsInfo": []
+        },
+        {
+          "passengerKey": "MiFBRFQ-",
+          "passengerAlternateKey": "MTIyMzMzMDY4Mw--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 5,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "CXL2",
+              "detail": "31May IX 173 STVDXB",
+              "passengerFeeKey": "MiE2ITU-",
+              "override": false,
+              "flightReference": null,
+              "note": null,
+              "createdDate": "2025-05-14T12:58:58.437Z",
+              "serviceCharges": [
+                {
+                  "amount": 6500,
+                  "code": "CXL2",
+                  "detail": "Cancellati",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 6500,
+                  "ticketCode": "CXL"
+                },
+                {
+                  "amount": 348,
+                  "code": "CGST",
+                  "detail": "STV-DXB",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 348,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 348,
+                  "code": "SGST",
+                  "detail": "STV-DXB",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 348,
+                  "ticketCode": "SST"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 6500
+            },
+            {
+              "type": 5,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "CXL2",
+              "detail": "08Jun IX 174 DXBSTV",
+              "passengerFeeKey": "MiE3ITU-",
+              "override": false,
+              "flightReference": null,
+              "note": null,
+              "createdDate": "2025-05-14T12:58:58.437Z",
+              "serviceCharges": [
+                {
+                  "amount": 7425,
+                  "code": "CXL2",
+                  "detail": "Cancellati",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 7425,
+                  "ticketCode": "CXL"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 7425
+            }
+          ],
+          "name": {
+            "first": "mVtgYtKDVmh5t5L9O3VzWPCvMN0gGRwu/6RW4Zs76tI=",
+            "middle": null,
+            "last": "1RZ/f6y0tGcwpIBr1tlNmQ==",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": null,
+            "residentCountry": null,
+            "gender": 1,
+            "dateOfBirth": "QAevlTg3JWJNAonh1aK4oZdsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [],
+          "addresses": [],
+          "weightCategory": 1,
+          "bagsInfo": []
+        },
+        {
+          "passengerKey": "MyFBRFQ-",
+          "passengerAlternateKey": "MTIyMzMzMDY4NA--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 5,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "CXL2",
+              "detail": "31May IX 173 STVDXB",
+              "passengerFeeKey": "MyE2ITU-",
+              "override": false,
+              "flightReference": null,
+              "note": null,
+              "createdDate": "2025-05-14T12:58:58.437Z",
+              "serviceCharges": [
+                {
+                  "amount": 6500,
+                  "code": "CXL2",
+                  "detail": "Cancellati",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 6500,
+                  "ticketCode": "CXL"
+                },
+                {
+                  "amount": 348,
+                  "code": "CGST",
+                  "detail": "STV-DXB",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 348,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 348,
+                  "code": "SGST",
+                  "detail": "STV-DXB",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 348,
+                  "ticketCode": "SST"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 6500
+            },
+            {
+              "type": 5,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "CXL2",
+              "detail": "08Jun IX 174 DXBSTV",
+              "passengerFeeKey": "MyE3ITU-",
+              "override": false,
+              "flightReference": null,
+              "note": null,
+              "createdDate": "2025-05-14T12:58:58.437Z",
+              "serviceCharges": [
+                {
+                  "amount": 7425,
+                  "code": "CXL2",
+                  "detail": "Cancellati",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 7425,
+                  "ticketCode": "CXL"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 7425
+            }
+          ],
+          "name": {
+            "first": "4/GCXc3FNUFVsINVjOm33Q==",
+            "middle": null,
+            "last": "1RZ/f6y0tGcwpIBr1tlNmQ==",
+            "title": "MS",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": null,
+            "residentCountry": null,
+            "gender": 1,
+            "dateOfBirth": "oYkov52FVcA8oQXXfL/xrZdsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [],
+          "addresses": [],
+          "weightCategory": 2,
+          "bagsInfo": []
+        },
+        {
+          "passengerKey": "NCFBRFQ-",
+          "passengerAlternateKey": "MTIyMzMzMDY4NQ--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 5,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "CXL2",
+              "detail": "31May IX 173 STVDXB",
+              "passengerFeeKey": "NCE2ITU-",
+              "override": false,
+              "flightReference": null,
+              "note": null,
+              "createdDate": "2025-05-14T12:58:58.437Z",
+              "serviceCharges": [
+                {
+                  "amount": 6500,
+                  "code": "CXL2",
+                  "detail": "Cancellati",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 6500,
+                  "ticketCode": "CXL"
+                },
+                {
+                  "amount": 348,
+                  "code": "CGST",
+                  "detail": "STV-DXB",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 348,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 348,
+                  "code": "SGST",
+                  "detail": "STV-DXB",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 348,
+                  "ticketCode": "SST"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 6500
+            },
+            {
+              "type": 5,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "CXL2",
+              "detail": "08Jun IX 174 DXBSTV",
+              "passengerFeeKey": "NCE3ITU-",
+              "override": false,
+              "flightReference": null,
+              "note": null,
+              "createdDate": "2025-05-14T12:58:58.437Z",
+              "serviceCharges": [
+                {
+                  "amount": 7425,
+                  "code": "CXL2",
+                  "detail": "Cancellati",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 7425,
+                  "ticketCode": "CXL"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 7425
+            }
+          ],
+          "name": {
+            "first": "2cqL4MDf2HWFRoRw48Y4WA==",
+            "middle": null,
+            "last": "1RZ/f6y0tGcwpIBr1tlNmQ==",
+            "title": "MS",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": null,
+            "residentCountry": null,
+            "gender": 1,
+            "dateOfBirth": "yqYpzmEwr+Y0ZRzGZ95RFJdsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [],
+          "addresses": [],
+          "weightCategory": 2,
+          "bagsInfo": []
+        }
+      ],
+      "journeys": [],
+      "comments": [
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp, Status=sent, PhoneNo=919998185851, TimeStamp= 2025-05-14 06:32:16, MessageFor=CancelledBookingOneWayCampaign",
+          "createdDate": "2025-05-14T13:02:17.773Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5OTYyMjQ1NA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp, Status=delivered, PhoneNo=919998185851, TimeStamp= 2025-05-14 06:32:16, MessageFor=CancelledBookingOneWayCampaign",
+          "createdDate": "2025-05-14T13:02:17.97Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5OTYyMjQ2Mw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp, Status=delivered, PhoneNo=919998185851, TimeStamp= 2025-05-14 06:32:16, MessageFor=CancelledBookingOneWayCampaign",
+          "createdDate": "2025-05-14T13:02:18.31Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5OTYyMjQ3Nw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp, Status=read, PhoneNo=919998185851, TimeStamp= 2025-05-14 08:20:37, MessageFor=CancelledBookingOneWayCampaign",
+          "createdDate": "2025-05-14T14:50:38.56Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5OTY2NjIwMA--"
+        }
+      ],
+      "queues": [],
+      "history": [],
+      "payments": [
+        {
+          "paymentKey": "NDY4MzM0MjI4ITEhQUchNTQ1NTIzNzAw",
+          "code": "AG",
+          "approvalDate": "2025-04-24T11:25:02.613Z",
+          "details": {
+            "accountNumberId": 0,
+            "parentPaymentId": null,
+            "accountName": null,
+            "accountNumber": "OTATSCTRSE",
+            "expirationDate": null,
+            "text": null,
+            "installments": 1,
+            "binRange": 0,
+            "fields": {}
+          },
+          "amounts": {
+            "amount": 422265,
+            "currencyCode": "INR",
+            "collected": 422265,
+            "collectedCurrencyCode": "INR",
+            "quoted": 422265,
+            "quotedCurrencyCode": "INR"
+          },
+          "authorizationCode": null,
+          "authorizationStatus": 4,
+          "fundedDate": "1800-01-01T00:00:00Z",
+          "transactionCode": null,
+          "dcc": null,
+          "threeDSecure": null,
+          "attachments": [],
+          "createdDate": "2025-04-24T11:25:02.41Z",
+          "modifiedDate": "2025-04-24T11:25:02.593Z",
+          "type": 2,
+          "status": 3,
+          "transferred": false,
+          "channelType": 5,
+          "pointOfSale": {
+            "agentCode": "tsconline",
+            "domainCode": "EXT",
+            "locationCode": "DELIX",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "sourcePointOfSale": {
+            "agentCode": "tsconline",
+            "domainCode": "EXT",
+            "locationCode": "DELIX",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "deposit": false,
+          "accountId": 0,
+          "voucher": null,
+          "addedToState": true,
+          "createdAgentId": 44123712,
+          "modifiedAgentId": 44123712,
+          "reference": 468334228
+        },
+        {
+          "paymentKey": "NDY5NDkwMzI4ITIhQUchNTQ1NTIzNzAw",
+          "code": "AG",
+          "approvalDate": "2025-05-14T14:34:05.713Z",
+          "details": {
+            "accountNumberId": 0,
+            "parentPaymentId": 468334228,
+            "accountName": null,
+            "accountNumber": "OTATSCTRSE",
+            "expirationDate": null,
+            "text": "Refund by utility: PMTID:468334228, RL:MB923U",
+            "installments": 1,
+            "binRange": 0,
+            "fields": {}
+          },
+          "amounts": {
+            "amount": -352640,
+            "currencyCode": "INR",
+            "collected": -352640,
+            "collectedCurrencyCode": "INR",
+            "quoted": -352640,
+            "quotedCurrencyCode": "INR"
+          },
+          "authorizationCode": null,
+          "authorizationStatus": 4,
+          "fundedDate": "1800-01-01T00:00:00Z",
+          "transactionCode": null,
+          "dcc": null,
+          "threeDSecure": null,
+          "attachments": [],
+          "createdDate": "2025-05-14T14:34:05.64Z",
+          "modifiedDate": "2025-05-14T14:34:05.71Z",
+          "type": 2,
+          "status": 3,
+          "transferred": false,
+          "channelType": 5,
+          "pointOfSale": {
+            "agentCode": "refundadmin",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "I5"
+          },
+          "sourcePointOfSale": {
+            "agentCode": "tsconline",
+            "domainCode": "EXT",
+            "locationCode": "DELIX",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "deposit": false,
+          "accountId": 0,
+          "voucher": null,
+          "addedToState": true,
+          "createdAgentId": 44059636,
+          "modifiedAgentId": 44059636,
+          "reference": 469490328
+        }
+      ],
+      "orders": [],
+      "isFareMaskingEnabled": true,
+      "isGroupBooking": false,
+      "vaccinationStatus": false,
+      "isCodeShareBooking": false,
+      "isFareLockBooking": false,
+      "isCodeSharePNR": false,
+      "isScootBooking": false,
+      "isCustomerBooking": false,
+      "isGHASOLBooking": false,
+      "isDeadHeadBooking": false,
+      "isDeadHeadCheckInAllowed": false,
+      "isMarineBooking": false,
+      "isMYIDBooking": false
+    },
+    "AnonymousToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiZjEwZTNmY2EtNjhkZi1hYTI1LTE2MWUtYjIzMzM1OGU4MzE0IiwiaXNzIjoiZG90UkVaIEFQSSJ9.0gasCVroq6KiyB6ap1OoYMcUSqXjnA4hLscENwS6_Ms"
+  },
+  "responseStatus": 200,
+  "responseUrl": "https://api.airindiaexpress.com/b2c-CheckIn/v2/retrieve/mmb/byRecordLocator"
+}

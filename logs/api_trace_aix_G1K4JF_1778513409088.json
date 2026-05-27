@@ -1,0 +1,2409 @@
+{
+  "pnr": "G1K4JF",
+  "contactDetail": "DECCAN.TOUR@GMAIL.COM",
+  "startedAt": "2026-05-11T15:30:00.465Z",
+  "pageUrlStart": "https://www.airindiaexpress.com/manage",
+  "response": {
+    "navToken": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiYWIxNmU2ODUtOWJiYS0xZDI1LTE2ZDAtNzQ1Y2ZkNDMxYzhjIiwiaXNzIjoiZG90UkVaIEFQSSJ9.FzhXs2eA5TQwwUyBU7ZUm69oqEmuP1hxW8gOWMFp8u8",
+      "idleTimeoutInMinutes": 15
+    },
+    "data": {
+      "selfServiceMoveAvailable": false,
+      "isDirectChannel": false,
+      "bookingKey": "NTQ1MDA5NzgxIUcxSzRKRiFmYWxzZQ--",
+      "recordLocator": "G1K4JF",
+      "currencyCode": "INR",
+      "systemCode": null,
+      "groupName": null,
+      "locators": {
+        "numericRecordLocator": "132021261911",
+        "parentRecordLocator": null,
+        "parentId": "0",
+        "recordLocators": []
+      },
+      "info": {
+        "status": 2,
+        "paidStatus": 1,
+        "priceStatus": 2,
+        "profileStatus": 1,
+        "bookingType": null,
+        "channelType": 5,
+        "bookedDate": "2025-04-13T11:07:11.173Z",
+        "createdDate": "2025-04-13T11:07:11.173Z",
+        "expirationDate": "2025-04-23T10:45:00Z",
+        "modifiedDate": "2025-04-22T08:45:26.653Z",
+        "modifiedAgentId": "44126666",
+        "createdAgentId": "44115378",
+        "owningCarrierCode": "IX",
+        "changeAllowed": true
+      },
+      "sales": {
+        "created": {
+          "agentCode": "APITSCTRSE",
+          "domainCode": "TOP",
+          "locationCode": "API",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "source": {
+          "isoCountryCode": null,
+          "sourceSystemCode": null,
+          "agentCode": "APITSCTRSE",
+          "domainCode": "TOP",
+          "locationCode": "API",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "modified": null
+      },
+      "typeOfSale": {
+        "residentCountry": "IN",
+        "promotionCode": null,
+        "fareTypes": []
+      },
+      "hold": null,
+      "breakdown": {
+        "balanceDue": 0,
+        "pointsBalanceDue": 0,
+        "authorizedBalanceDue": 0,
+        "totalAmount": 42120,
+        "totalPoints": 0,
+        "totalToCollect": 42120,
+        "totalPointsToCollect": 0,
+        "totalCharged": 42120,
+        "passengerTotals": {
+          "services": null,
+          "specialServices": null,
+          "seats": {
+            "total": 5764,
+            "taxes": 286,
+            "adjustments": null,
+            "charges": [
+              {
+                "amount": 1400,
+                "code": "SEAT",
+                "detail": "VNS-BOM",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 1400,
+                "ticketCode": "ST"
+              },
+              {
+                "amount": 33,
+                "code": "CGST",
+                "detail": "VNS-BOM",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 33,
+                "ticketCode": "CST"
+              },
+              {
+                "amount": 33,
+                "code": "SGST",
+                "detail": "VNS-BOM",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 33,
+                "ticketCode": "SST"
+              },
+              {
+                "amount": 1300,
+                "code": "SEAT",
+                "detail": "VNS-BOM",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 1300,
+                "ticketCode": "ST"
+              },
+              {
+                "amount": 31,
+                "code": "CGST",
+                "detail": "VNS-BOM",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 31,
+                "ticketCode": "CST"
+              },
+              {
+                "amount": 31,
+                "code": "SGST",
+                "detail": "VNS-BOM",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 31,
+                "ticketCode": "SST"
+              },
+              {
+                "amount": 1300,
+                "code": "SEAT",
+                "detail": "VNS-BOM",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 1300,
+                "ticketCode": "ST"
+              },
+              {
+                "amount": 31,
+                "code": "CGST",
+                "detail": "VNS-BOM",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 31,
+                "ticketCode": "CST"
+              },
+              {
+                "amount": 31,
+                "code": "SGST",
+                "detail": "VNS-BOM",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 31,
+                "ticketCode": "SST"
+              },
+              {
+                "amount": 1400,
+                "code": "SEAT",
+                "detail": "VNS-BOM",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 1400,
+                "ticketCode": "ST"
+              },
+              {
+                "amount": 33,
+                "code": "CGST",
+                "detail": "VNS-BOM",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 33,
+                "ticketCode": "CST"
+              },
+              {
+                "amount": 33,
+                "code": "SGST",
+                "detail": "VNS-BOM",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 33,
+                "ticketCode": "SST"
+              },
+              {
+                "amount": 650,
+                "code": "SEAT",
+                "detail": "VNS-BOM",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 650,
+                "ticketCode": "ST"
+              },
+              {
+                "amount": 15,
+                "code": "CGST",
+                "detail": "VNS-BOM",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 15,
+                "ticketCode": "CST"
+              },
+              {
+                "amount": 15,
+                "code": "SGST",
+                "detail": "VNS-BOM",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 15,
+                "ticketCode": "SST"
+              }
+            ]
+          },
+          "upgrades": null,
+          "spoilage": null,
+          "nameChanges": null,
+          "convenience": null,
+          "infant": null
+        },
+        "passengers": {
+          "MyFBRFQ-": {
+            "passengerKey": "MyFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": {
+              "total": 1334,
+              "taxes": 66,
+              "adjustments": null,
+              "charges": [
+                {
+                  "amount": 1400,
+                  "code": "SEAT",
+                  "detail": "VNS-BOM",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 1400,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 33,
+                  "code": "CGST",
+                  "detail": "VNS-BOM",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 33,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 33,
+                  "code": "SGST",
+                  "detail": "VNS-BOM",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 33,
+                  "ticketCode": "SST"
+                }
+              ]
+            },
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          },
+          "NCFDSEQ-": {
+            "passengerKey": "NCFDSEQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": {
+              "total": 620,
+              "taxes": 30,
+              "adjustments": null,
+              "charges": [
+                {
+                  "amount": 650,
+                  "code": "SEAT",
+                  "detail": "VNS-BOM",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 650,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 15,
+                  "code": "CGST",
+                  "detail": "VNS-BOM",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 15,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 15,
+                  "code": "SGST",
+                  "detail": "VNS-BOM",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 15,
+                  "ticketCode": "SST"
+                }
+              ]
+            },
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          },
+          "MCFBRFQ-": {
+            "passengerKey": "MCFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": {
+              "total": 1334,
+              "taxes": 66,
+              "adjustments": null,
+              "charges": [
+                {
+                  "amount": 1400,
+                  "code": "SEAT",
+                  "detail": "VNS-BOM",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 1400,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 33,
+                  "code": "CGST",
+                  "detail": "VNS-BOM",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 33,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 33,
+                  "code": "SGST",
+                  "detail": "VNS-BOM",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 33,
+                  "ticketCode": "SST"
+                }
+              ]
+            },
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          },
+          "MSFBRFQ-": {
+            "passengerKey": "MSFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": {
+              "total": 1238,
+              "taxes": 62,
+              "adjustments": null,
+              "charges": [
+                {
+                  "amount": 1300,
+                  "code": "SEAT",
+                  "detail": "VNS-BOM",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 1300,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 31,
+                  "code": "CGST",
+                  "detail": "VNS-BOM",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 31,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 31,
+                  "code": "SGST",
+                  "detail": "VNS-BOM",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 31,
+                  "ticketCode": "SST"
+                }
+              ]
+            },
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          },
+          "MiFBRFQ-": {
+            "passengerKey": "MiFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": {
+              "total": 1238,
+              "taxes": 62,
+              "adjustments": null,
+              "charges": [
+                {
+                  "amount": 1300,
+                  "code": "SEAT",
+                  "detail": "VNS-BOM",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 1300,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 31,
+                  "code": "CGST",
+                  "detail": "VNS-BOM",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 31,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 31,
+                  "code": "SGST",
+                  "detail": "VNS-BOM",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 31,
+                  "ticketCode": "SST"
+                }
+              ]
+            },
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          }
+        },
+        "journeyTotals": {
+          "totalAmount": 29770,
+          "totalPoints": 0,
+          "totalTax": 6300,
+          "totalDiscount": 0
+        },
+        "journeys": {
+          "SVh_MjU0N34gfn5WTlN_MDQvMjIvMjAyNSAxNjoxNX5CT01_MDQvMjIvMjAyNSAxODozMH5_": {
+            "journeyKey": "SVh_MjU0N34gfn5WTlN_MDQvMjIvMjAyNSAxNjoxNX5CT01_MDQvMjIvMjAyNSAxODozMH5_",
+            "totalAmount": 5954,
+            "totalPoints": 0,
+            "totalTax": 1260,
+            "totalDiscount": 0
+          }
+        },
+        "addOnTotals": {
+          "car": null,
+          "hotel": null,
+          "activities": null
+        }
+      },
+      "receivedBy": {
+        "receivedBy": null,
+        "latestReceivedBy": null,
+        "receivedReference": null,
+        "latestReceivedReference": null,
+        "referralCode": null
+      },
+      "contacts": {
+        "P": {
+          "contactTypeCode": "P",
+          "phoneNumbers": [
+            {
+              "type": 0,
+              "number": "EdjPGYVw4ovhEoyr7hTjXA=="
+            },
+            {
+              "type": 1,
+              "number": "EdjPGYVw4ovhEoyr7hTjXA=="
+            }
+          ],
+          "cultureCode": null,
+          "address": {
+            "lineOne": "NA",
+            "lineTwo": "NA",
+            "lineThree": null,
+            "countryCode": "IN",
+            "provinceState": "NA",
+            "city": "NA",
+            "postalCode": null
+          },
+          "emailAddress": "t69pCIcveIAscHCRSjtCZKUiWk3XuKb/LtKUPqo83lM=",
+          "customerNumber": null,
+          "sourceOrganization": "OTATSCTRSE",
+          "distributionOption": 2,
+          "notificationPreference": 0,
+          "companyName": "TSC ONLINE",
+          "name": {
+            "first": "9EKX2U1RDIuraZE9dGd57g==",
+            "middle": null,
+            "last": "xyHeLXhKDpnd4rg2tSy/1g==",
+            "title": "MR",
+            "suffix": null
+          }
+        }
+      },
+      "passengers": [
+        {
+          "passengerKey": "MCFBRFQ-",
+          "passengerAlternateKey": "MTIyMjU0OTMwNw--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 9,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "SEAT",
+              "detail": null,
+              "passengerFeeKey": "MCEwITk-",
+              "override": false,
+              "flightReference": "20250422 IX2547 VNSBOM",
+              "note": null,
+              "createdDate": "2025-04-18T05:51:25.91Z",
+              "serviceCharges": [
+                {
+                  "amount": 1400,
+                  "code": "SEAT",
+                  "detail": "VNS-BOM",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 1400,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 33,
+                  "code": "CGST",
+                  "detail": "VNS-BOM",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 33,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 33,
+                  "code": "SGST",
+                  "detail": "VNS-BOM",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 33,
+                  "ticketCode": "SST"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 1400
+            }
+          ],
+          "name": {
+            "first": "9EKX2U1RDIuraZE9dGd57g==",
+            "middle": null,
+            "last": "xyHeLXhKDpnd4rg2tSy/1g==",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [
+            {
+              "identifier": "2547",
+              "baggageKey": "MDIzNjg2NDcwNw--",
+              "nonStandard": false,
+              "type": "STND",
+              "osTag": "0236864707",
+              "osTagDate": "2025-04-22T00:00:00Z",
+              "taggedToStation": "BOM",
+              "stationCode": "VNS",
+              "weight": 12,
+              "taggedToCarrierCode": "IX",
+              "weightType": 2
+            },
+            {
+              "identifier": "2547",
+              "baggageKey": "MDIzNjg2NDg0Nw--",
+              "nonStandard": false,
+              "type": "CBAG",
+              "osTag": "0236864847",
+              "osTagDate": "2025-04-22T00:00:00Z",
+              "taggedToStation": "BOM",
+              "stationCode": "VNS",
+              "weight": 7,
+              "taggedToCarrierCode": "IX",
+              "weightType": 2
+            }
+          ],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": 1,
+            "dateOfBirth": "9Vt2afj06EC4gAkDfWE8KpdsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [],
+          "addresses": [
+            {
+              "status": "Residence",
+              "companyName": null,
+              "lineOne": null,
+              "passengerAddressKey": "yqlN7Ssb65dT4PJyE6jezg==",
+              "phone": "EdjPGYVw4ovhEoyr7hTjXA==",
+              "lineTwo": null,
+              "stationCode": "VNS",
+              "lineThree": null,
+              "emailAddress": "t69pCIcveIAscHCRSjtCZKUiWk3XuKb/LtKUPqo83lM=",
+              "countryCode": null,
+              "cultureCode": null,
+              "provinceState": null,
+              "refusedContact": false,
+              "city": null,
+              "postalCode": null
+            }
+          ],
+          "weightCategory": 1,
+          "bagsInfo": [
+            {
+              "journeyKey": "SVh_MjU0N34gfn5WTlN_MDQvMjIvMjAyNSAxNjoxNX5CT01_MDQvMjIvMjAyNSAxODozMH5_",
+              "CABG": 7,
+              "CHKBAG": 15,
+              "ICBG": null,
+              "STND": null
+            }
+          ]
+        },
+        {
+          "passengerKey": "MSFBRFQ-",
+          "passengerAlternateKey": "MTIyMjU0OTMwOA--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 9,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "SEAT",
+              "detail": null,
+              "passengerFeeKey": "MSEwITk-",
+              "override": false,
+              "flightReference": "20250422 IX2547 VNSBOM",
+              "note": null,
+              "createdDate": "2025-04-18T05:51:25.91Z",
+              "serviceCharges": [
+                {
+                  "amount": 1300,
+                  "code": "SEAT",
+                  "detail": "VNS-BOM",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 1300,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 31,
+                  "code": "CGST",
+                  "detail": "VNS-BOM",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 31,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 31,
+                  "code": "SGST",
+                  "detail": "VNS-BOM",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 31,
+                  "ticketCode": "SST"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 1300
+            }
+          ],
+          "name": {
+            "first": "+m4JZGyLQvlnJCFabzLjYA==",
+            "middle": null,
+            "last": "xyHeLXhKDpnd4rg2tSy/1g==",
+            "title": "MRS",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [
+            {
+              "identifier": "2547",
+              "baggageKey": "MDIzNjg2NDcxNQ--",
+              "nonStandard": false,
+              "type": "STND",
+              "osTag": "0236864715",
+              "osTagDate": "2025-04-22T00:00:00Z",
+              "taggedToStation": "BOM",
+              "stationCode": "VNS",
+              "weight": 18,
+              "taggedToCarrierCode": "IX",
+              "weightType": 2
+            }
+          ],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": 2,
+            "dateOfBirth": "9Vt2afj06EC4gAkDfWE8KpdsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [],
+          "addresses": [
+            {
+              "status": "Residence",
+              "companyName": null,
+              "lineOne": null,
+              "passengerAddressKey": "yqlN7Ssb65dT4PJyE6jezg==",
+              "phone": "EdjPGYVw4ovhEoyr7hTjXA==",
+              "lineTwo": null,
+              "stationCode": "VNS",
+              "lineThree": null,
+              "emailAddress": "t69pCIcveIAscHCRSjtCZKUiWk3XuKb/LtKUPqo83lM=",
+              "countryCode": null,
+              "cultureCode": null,
+              "provinceState": null,
+              "refusedContact": false,
+              "city": null,
+              "postalCode": null
+            }
+          ],
+          "weightCategory": 2,
+          "bagsInfo": [
+            {
+              "journeyKey": "SVh_MjU0N34gfn5WTlN_MDQvMjIvMjAyNSAxNjoxNX5CT01_MDQvMjIvMjAyNSAxODozMH5_",
+              "CABG": 7,
+              "CHKBAG": 15,
+              "ICBG": null,
+              "STND": null
+            }
+          ]
+        },
+        {
+          "passengerKey": "MiFBRFQ-",
+          "passengerAlternateKey": "MTIyMjU0OTMwOQ--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 9,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "SEAT",
+              "detail": null,
+              "passengerFeeKey": "MiEwITk-",
+              "override": false,
+              "flightReference": "20250422 IX2547 VNSBOM",
+              "note": null,
+              "createdDate": "2025-04-18T05:51:25.91Z",
+              "serviceCharges": [
+                {
+                  "amount": 1300,
+                  "code": "SEAT",
+                  "detail": "VNS-BOM",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 1300,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 31,
+                  "code": "CGST",
+                  "detail": "VNS-BOM",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 31,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 31,
+                  "code": "SGST",
+                  "detail": "VNS-BOM",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 31,
+                  "ticketCode": "SST"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 1300
+            }
+          ],
+          "name": {
+            "first": "7axsc87CK8gJq9Tm+VPTYQ==",
+            "middle": null,
+            "last": "xyHeLXhKDpnd4rg2tSy/1g==",
+            "title": "MRS",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [
+            {
+              "identifier": "2547",
+              "baggageKey": "MDIzNjg2NDcyNw--",
+              "nonStandard": false,
+              "type": "STND",
+              "osTag": "0236864727",
+              "osTagDate": "2025-04-22T00:00:00Z",
+              "taggedToStation": "BOM",
+              "stationCode": "VNS",
+              "weight": 14,
+              "taggedToCarrierCode": "IX",
+              "weightType": 2
+            }
+          ],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": 2,
+            "dateOfBirth": "9Vt2afj06EC4gAkDfWE8KpdsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [],
+          "addresses": [
+            {
+              "status": "Residence",
+              "companyName": null,
+              "lineOne": null,
+              "passengerAddressKey": "yqlN7Ssb65dT4PJyE6jezg==",
+              "phone": "EdjPGYVw4ovhEoyr7hTjXA==",
+              "lineTwo": null,
+              "stationCode": "VNS",
+              "lineThree": null,
+              "emailAddress": "t69pCIcveIAscHCRSjtCZKUiWk3XuKb/LtKUPqo83lM=",
+              "countryCode": null,
+              "cultureCode": null,
+              "provinceState": null,
+              "refusedContact": false,
+              "city": null,
+              "postalCode": null
+            }
+          ],
+          "weightCategory": 2,
+          "bagsInfo": [
+            {
+              "journeyKey": "SVh_MjU0N34gfn5WTlN_MDQvMjIvMjAyNSAxNjoxNX5CT01_MDQvMjIvMjAyNSAxODozMH5_",
+              "CABG": 7,
+              "CHKBAG": 15,
+              "ICBG": null,
+              "STND": null
+            }
+          ]
+        },
+        {
+          "passengerKey": "MyFBRFQ-",
+          "passengerAlternateKey": "MTIyMjU0OTMxMA--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 9,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "SEAT",
+              "detail": null,
+              "passengerFeeKey": "MyEwITk-",
+              "override": false,
+              "flightReference": "20250422 IX2547 VNSBOM",
+              "note": null,
+              "createdDate": "2025-04-18T05:51:25.91Z",
+              "serviceCharges": [
+                {
+                  "amount": 1400,
+                  "code": "SEAT",
+                  "detail": "VNS-BOM",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 1400,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 33,
+                  "code": "CGST",
+                  "detail": "VNS-BOM",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 33,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 33,
+                  "code": "SGST",
+                  "detail": "VNS-BOM",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 33,
+                  "ticketCode": "SST"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 1400
+            }
+          ],
+          "name": {
+            "first": "M2E1EL3ikXxJUrtglznDTg==",
+            "middle": null,
+            "last": "xyHeLXhKDpnd4rg2tSy/1g==",
+            "title": "MRS",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [
+            {
+              "identifier": "2547",
+              "baggageKey": "MDIzNjg2NDc0Mg--",
+              "nonStandard": false,
+              "type": "STND",
+              "osTag": "0236864742",
+              "osTagDate": "2025-04-22T00:00:00Z",
+              "taggedToStation": "BOM",
+              "stationCode": "VNS",
+              "weight": 11,
+              "taggedToCarrierCode": "IX",
+              "weightType": 2
+            }
+          ],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": 2,
+            "dateOfBirth": "9Vt2afj06EC4gAkDfWE8KpdsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [],
+          "addresses": [
+            {
+              "status": "Residence",
+              "companyName": null,
+              "lineOne": null,
+              "passengerAddressKey": "yqlN7Ssb65dT4PJyE6jezg==",
+              "phone": "EdjPGYVw4ovhEoyr7hTjXA==",
+              "lineTwo": null,
+              "stationCode": "VNS",
+              "lineThree": null,
+              "emailAddress": "t69pCIcveIAscHCRSjtCZKUiWk3XuKb/LtKUPqo83lM=",
+              "countryCode": null,
+              "cultureCode": null,
+              "provinceState": null,
+              "refusedContact": false,
+              "city": null,
+              "postalCode": null
+            }
+          ],
+          "weightCategory": 2,
+          "bagsInfo": [
+            {
+              "journeyKey": "SVh_MjU0N34gfn5WTlN_MDQvMjIvMjAyNSAxNjoxNX5CT01_MDQvMjIvMjAyNSAxODozMH5_",
+              "CABG": 7,
+              "CHKBAG": 15,
+              "ICBG": null,
+              "STND": null
+            }
+          ]
+        },
+        {
+          "passengerKey": "NCFDSEQ-",
+          "passengerAlternateKey": "MTIyMjU0OTMxMQ--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 9,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "SEAT",
+              "detail": null,
+              "passengerFeeKey": "NCEwITk-",
+              "override": true,
+              "flightReference": "20250422 IX2547 VNSBOM",
+              "note": null,
+              "createdDate": "2025-04-18T05:51:25.91Z",
+              "serviceCharges": [
+                {
+                  "amount": 650,
+                  "code": "SEAT",
+                  "detail": "VNS-BOM",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 650,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 15,
+                  "code": "CGST",
+                  "detail": "VNS-BOM",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 15,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 15,
+                  "code": "SGST",
+                  "detail": "VNS-BOM",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 15,
+                  "ticketCode": "SST"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 650
+            }
+          ],
+          "name": {
+            "first": "AAxjG2OKLxrFRYAS7xdQrg==",
+            "middle": null,
+            "last": "xyHeLXhKDpnd4rg2tSy/1g==",
+            "title": "CHD",
+            "suffix": null
+          },
+          "passengerTypeCode": "CHD",
+          "discountCode": null,
+          "bags": [
+            {
+              "identifier": "2547",
+              "baggageKey": "MDIzNjg2NDc1Nw--",
+              "nonStandard": false,
+              "type": "STND",
+              "osTag": "0236864757",
+              "osTagDate": "2025-04-22T00:00:00Z",
+              "taggedToStation": "BOM",
+              "stationCode": "VNS",
+              "weight": 10,
+              "taggedToCarrierCode": "IX",
+              "weightType": 2
+            }
+          ],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": 1,
+            "dateOfBirth": "obzjarCVVTBmDyJ4give+JdsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [],
+          "addresses": [
+            {
+              "status": "Residence",
+              "companyName": null,
+              "lineOne": null,
+              "passengerAddressKey": "yqlN7Ssb65dT4PJyE6jezg==",
+              "phone": "EdjPGYVw4ovhEoyr7hTjXA==",
+              "lineTwo": null,
+              "stationCode": "VNS",
+              "lineThree": null,
+              "emailAddress": "t69pCIcveIAscHCRSjtCZKUiWk3XuKb/LtKUPqo83lM=",
+              "countryCode": null,
+              "cultureCode": null,
+              "provinceState": null,
+              "refusedContact": false,
+              "city": null,
+              "postalCode": null
+            }
+          ],
+          "weightCategory": 3,
+          "bagsInfo": [
+            {
+              "journeyKey": "SVh_MjU0N34gfn5WTlN_MDQvMjIvMjAyNSAxNjoxNX5CT01_MDQvMjIvMjAyNSAxODozMH5_",
+              "CABG": 7,
+              "CHKBAG": 15,
+              "ICBG": null,
+              "STND": null
+            }
+          ]
+        }
+      ],
+      "journeys": [
+        {
+          "flightType": 1,
+          "stops": 0,
+          "designator": {
+            "destination": "BOM",
+            "origin": "VNS",
+            "arrival": "2025-04-22T18:30:00",
+            "departure": "2025-04-22T16:15:00",
+            "originAirportName": "Lal Bahadur Shastri Intl Airport",
+            "originCityName": "Varanasi",
+            "destinationAirportName": "Chhatrapati Shivaji International Airport, T2",
+            "destinationCityName": "Mumbai",
+            "arrivalTerminal": "2",
+            "departureTerminal": null
+          },
+          "move": {
+            "maxMoveBackDays": 490,
+            "maxMoveOutDays": 490
+          },
+          "segments": [
+            {
+              "isStandby": false,
+              "isConfirming": false,
+              "isConfirmingExternal": false,
+              "isBlocked": false,
+              "isHosted": true,
+              "isChangeOfGauge": false,
+              "designator": {
+                "destination": "BOM",
+                "origin": "VNS",
+                "arrival": "2025-04-22T18:30:00",
+                "departure": "2025-04-22T16:15:00",
+                "originAirportName": "Lal Bahadur Shastri Intl Airport",
+                "originCityName": "Varanasi",
+                "destinationAirportName": "Chhatrapati Shivaji International Airport, T2",
+                "destinationCityName": "Mumbai",
+                "arrivalTerminal": "2",
+                "departureTerminal": null
+              },
+              "isSeatmapViewable": true,
+              "identifier": {
+                "identifier": "2547",
+                "carrierCode": "IX",
+                "opSuffix": null
+              },
+              "fares": [
+                {
+                  "isGoverning": true,
+                  "downgradeAvailable": false,
+                  "carrierCode": "I5",
+                  "fareKey": "MH5Jfn5JNX5JTlNBMDAwfk5TMDB_fjB_MH5_WA--",
+                  "classOfService": "I",
+                  "classType": null,
+                  "fareApplicationType": 0,
+                  "fareClassOfService": "I",
+                  "fareBasisCode": "INSA000",
+                  "fareSequence": 0,
+                  "inboundOutBound": 0,
+                  "fareStatus": 0,
+                  "isAllotmentMarketFare": false,
+                  "originalClassOfService": "I",
+                  "ruleNumber": "NS00",
+                  "productClass": "SM",
+                  "ruleTariff": null,
+                  "travelClassCode": "Y",
+                  "crossReferenceClassOfService": null,
+                  "fareLink": 0,
+                  "passengerFares": [
+                    {
+                      "serviceCharges": [
+                        {
+                          "amount": 5954,
+                          "code": null,
+                          "detail": null,
+                          "type": "FarePrice",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 5954,
+                          "ticketCode": null
+                        },
+                        {
+                          "amount": 75,
+                          "code": "CUTE",
+                          "detail": "VNS-BOM",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 75,
+                          "ticketCode": "CUT"
+                        },
+                        {
+                          "amount": 100,
+                          "code": "RCS",
+                          "detail": "VNS-BOM",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 100,
+                          "ticketCode": "RCS"
+                        },
+                        {
+                          "amount": 543,
+                          "code": "IN",
+                          "detail": "VNS-BOM",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 543,
+                          "ticketCode": "IN"
+                        },
+                        {
+                          "amount": 236,
+                          "code": "P2",
+                          "detail": "VNS-BOM",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 236,
+                          "ticketCode": "P2"
+                        },
+                        {
+                          "amount": 153,
+                          "code": "CGST",
+                          "detail": "VNS-BOM",
+                          "type": "Tax",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 153,
+                          "ticketCode": "CST"
+                        },
+                        {
+                          "amount": 153,
+                          "code": "SGST",
+                          "detail": "VNS-BOM",
+                          "type": "Tax",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 153,
+                          "ticketCode": "SST"
+                        }
+                      ],
+                      "discountCode": null,
+                      "fareDiscountCode": null,
+                      "passengerType": "ADT"
+                    },
+                    {
+                      "serviceCharges": [
+                        {
+                          "amount": 5954,
+                          "code": null,
+                          "detail": null,
+                          "type": "FarePrice",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 5954,
+                          "ticketCode": null
+                        },
+                        {
+                          "amount": 75,
+                          "code": "CUTE",
+                          "detail": "VNS-BOM",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 75,
+                          "ticketCode": "CUT"
+                        },
+                        {
+                          "amount": 100,
+                          "code": "RCS",
+                          "detail": "VNS-BOM",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 100,
+                          "ticketCode": "RCS"
+                        },
+                        {
+                          "amount": 543,
+                          "code": "IN",
+                          "detail": "VNS-BOM",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 543,
+                          "ticketCode": "IN"
+                        },
+                        {
+                          "amount": 236,
+                          "code": "P2",
+                          "detail": "VNS-BOM",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 236,
+                          "ticketCode": "P2"
+                        },
+                        {
+                          "amount": 153,
+                          "code": "CGST",
+                          "detail": "VNS-BOM",
+                          "type": "Tax",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 153,
+                          "ticketCode": "CST"
+                        },
+                        {
+                          "amount": 153,
+                          "code": "SGST",
+                          "detail": "VNS-BOM",
+                          "type": "Tax",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 153,
+                          "ticketCode": "SST"
+                        }
+                      ],
+                      "discountCode": null,
+                      "fareDiscountCode": null,
+                      "passengerType": "CHD"
+                    }
+                  ],
+                  "fareDesignator": {
+                    "fareTypeCodes": [
+                      "SC"
+                    ]
+                  }
+                }
+              ],
+              "segmentKey": "SVh_MjU0N34gfn5WTlN_MDQvMjIvMjAyNSAxNjoxNX5CT01_MDQvMjIvMjAyNSAxODozMH5_",
+              "passengerSegment": {
+                "MCFBRFQ-": {
+                  "seats": [
+                    {
+                      "compartmentDesignator": "C",
+                      "penalty": 0,
+                      "unitDesignator": "2A",
+                      "isAutoAssigned": null,
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 3,
+                        "propertyList": {
+                          "LOCATION": "FRONT",
+                          "BRDZONE": "1",
+                          "SEATPOS": "BIZ",
+                          "TCC": "C",
+                          "VIP": "TRUE",
+                          "WINDOW": "TRUE",
+                          "LEGROOM": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "BOM",
+                      "departureStation": "VNS",
+                      "passengerKey": "MCFBRFQ-",
+                      "unitKey": "SVghMjU0NyEgITYzODgwOTM1MzAwMDAwMDAwMCFWTlMhQk9NITJBIUM-"
+                    }
+                  ],
+                  "passengerKey": "MCFBRFQ-",
+                  "activityDate": "2025-04-22T10:19:40.02Z",
+                  "boardingSequence": "98",
+                  "createdDate": "2025-04-13T11:07:11.173Z",
+                  "liftStatus": 2,
+                  "modifiedDate": "2025-04-22T08:44:03.887Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-04-13T11:07:11.183Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": null,
+                  "sourcePointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "pointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "ssrs": [
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": "C BAG",
+                      "ssrDuration": 2,
+                      "ssrKey": "MCFNQ0ZCUkZRLSFDQkFHITEhQk9NIUlYITYzODgwOTM1MzAwMDAwMDAwMCFWTlMhMjU0NyEg",
+                      "count": 1,
+                      "ssrCode": "CBAG",
+                      "feeCode": null,
+                      "inBundle": false,
+                      "passengerKey": "MCFBRFQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "2547",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "BOM",
+                        "origin": "VNS",
+                        "departureDate": "2025-04-22T16:15:00"
+                      }
+                    },
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": null,
+                      "ssrDuration": 2,
+                      "ssrKey": "MCFNQ0ZCUkZRLSFTTUUhMSFCT00hSVghNjM4ODA5MzUzMDAwMDAwMDAwIVZOUyEyNTQ3ISA-",
+                      "count": 1,
+                      "ssrCode": "SME",
+                      "feeCode": null,
+                      "inBundle": false,
+                      "passengerKey": "MCFBRFQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "2547",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "BOM",
+                        "origin": "VNS",
+                        "departureDate": "2025-04-22T16:15:00"
+                      }
+                    }
+                  ],
+                  "tickets": [],
+                  "bags": [
+                    {
+                      "baggageKey": "MDIzNjg2NDcwNw--",
+                      "passengerKey": "MCFBRFQ-",
+                      "arrivalStation": "BOM",
+                      "status": 1,
+                      "departureStation": "VNS",
+                      "osTag": "0236864707"
+                    },
+                    {
+                      "baggageKey": "MDIzNjg2NDg0Nw--",
+                      "passengerKey": "MCFBRFQ-",
+                      "arrivalStation": "BOM",
+                      "status": 1,
+                      "departureStation": "VNS",
+                      "osTag": "0236864847"
+                    }
+                  ],
+                  "scores": [],
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": {
+                    "seat": 0,
+                    "travelClass": 0,
+                    "advancedPreferences": [
+                      {
+                        "seatMapCode": "FRONTROW",
+                        "value": "TRUE"
+                      },
+                      {
+                        "seatMapCode": "PRIME",
+                        "value": "TRUE"
+                      }
+                    ]
+                  },
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": null,
+                  "referenceNumber": 0
+                },
+                "MSFBRFQ-": {
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "3C",
+                      "isAutoAssigned": null,
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 5,
+                        "propertyList": {
+                          "BRDZONE": "1",
+                          "SEATPOS": "PM1",
+                          "AISLE": "TRUE",
+                          "PRIME": "TRUE",
+                          "FRONTROW": "TRUE",
+                          "TCC": "Y",
+                          "FLEXSEAT": "TRUE",
+                          "LEGROOM": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "BOM",
+                      "departureStation": "VNS",
+                      "passengerKey": "MSFBRFQ-",
+                      "unitKey": "SVghMjU0NyEgITYzODgwOTM1MzAwMDAwMDAwMCFWTlMhQk9NITNDIVk-"
+                    }
+                  ],
+                  "passengerKey": "MSFBRFQ-",
+                  "activityDate": "2025-04-22T10:20:14.737Z",
+                  "boardingSequence": "99",
+                  "createdDate": "2025-04-13T11:07:11.173Z",
+                  "liftStatus": 2,
+                  "modifiedDate": "2025-04-22T08:44:03.887Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-04-13T11:07:11.183Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": null,
+                  "sourcePointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "pointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "ssrs": [
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": null,
+                      "ssrDuration": 2,
+                      "ssrKey": "MCFNU0ZCUkZRLSFTTUUhMSFCT00hSVghNjM4ODA5MzUzMDAwMDAwMDAwIVZOUyEyNTQ3ISA-",
+                      "count": 1,
+                      "ssrCode": "SME",
+                      "feeCode": null,
+                      "inBundle": false,
+                      "passengerKey": "MSFBRFQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "2547",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "BOM",
+                        "origin": "VNS",
+                        "departureDate": "2025-04-22T16:15:00"
+                      }
+                    }
+                  ],
+                  "tickets": [],
+                  "bags": [
+                    {
+                      "baggageKey": "MDIzNjg2NDcxNQ--",
+                      "passengerKey": "MSFBRFQ-",
+                      "arrivalStation": "BOM",
+                      "status": 1,
+                      "departureStation": "VNS",
+                      "osTag": "0236864715"
+                    }
+                  ],
+                  "scores": [],
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": {
+                    "seat": 0,
+                    "travelClass": 0,
+                    "advancedPreferences": [
+                      {
+                        "seatMapCode": "FRONTROW",
+                        "value": "TRUE"
+                      },
+                      {
+                        "seatMapCode": "PRIME",
+                        "value": "TRUE"
+                      }
+                    ]
+                  },
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": null,
+                  "referenceNumber": 0
+                },
+                "MiFBRFQ-": {
+                  "seats": [
+                    {
+                      "compartmentDesignator": "C",
+                      "penalty": 0,
+                      "unitDesignator": "2C",
+                      "isAutoAssigned": null,
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 3,
+                        "propertyList": {
+                          "LOCATION": "FRONT",
+                          "BRDZONE": "1",
+                          "SEATPOS": "BIZ",
+                          "AISLE": "TRUE",
+                          "TCC": "C",
+                          "VIP": "TRUE",
+                          "LEGROOM": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "BOM",
+                      "departureStation": "VNS",
+                      "passengerKey": "MiFBRFQ-",
+                      "unitKey": "SVghMjU0NyEgITYzODgwOTM1MzAwMDAwMDAwMCFWTlMhQk9NITJDIUM-"
+                    }
+                  ],
+                  "passengerKey": "MiFBRFQ-",
+                  "activityDate": "2025-04-22T10:20:21.593Z",
+                  "boardingSequence": "100",
+                  "createdDate": "2025-04-13T11:07:11.173Z",
+                  "liftStatus": 2,
+                  "modifiedDate": "2025-04-22T08:44:03.887Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-04-13T11:07:11.183Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": null,
+                  "sourcePointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "pointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "ssrs": [
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": null,
+                      "ssrDuration": 2,
+                      "ssrKey": "MCFNaUZCUkZRLSFTTUUhMSFCT00hSVghNjM4ODA5MzUzMDAwMDAwMDAwIVZOUyEyNTQ3ISA-",
+                      "count": 1,
+                      "ssrCode": "SME",
+                      "feeCode": null,
+                      "inBundle": false,
+                      "passengerKey": "MiFBRFQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "2547",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "BOM",
+                        "origin": "VNS",
+                        "departureDate": "2025-04-22T16:15:00"
+                      }
+                    }
+                  ],
+                  "tickets": [],
+                  "bags": [
+                    {
+                      "baggageKey": "MDIzNjg2NDcyNw--",
+                      "passengerKey": "MiFBRFQ-",
+                      "arrivalStation": "BOM",
+                      "status": 1,
+                      "departureStation": "VNS",
+                      "osTag": "0236864727"
+                    }
+                  ],
+                  "scores": [],
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": {
+                    "seat": 0,
+                    "travelClass": 0,
+                    "advancedPreferences": [
+                      {
+                        "seatMapCode": "FRONTROW",
+                        "value": "TRUE"
+                      },
+                      {
+                        "seatMapCode": "PRIME",
+                        "value": "TRUE"
+                      }
+                    ]
+                  },
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": null,
+                  "referenceNumber": 0
+                },
+                "MyFBRFQ-": {
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "3A",
+                      "isAutoAssigned": null,
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 5,
+                        "propertyList": {
+                          "BRDZONE": "1",
+                          "SEATPOS": "PM1",
+                          "PRIME": "TRUE",
+                          "FRONTROW": "TRUE",
+                          "TCC": "Y",
+                          "FLEXSEAT": "TRUE",
+                          "WINDOW": "TRUE",
+                          "LEGROOM": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "BOM",
+                      "departureStation": "VNS",
+                      "passengerKey": "MyFBRFQ-",
+                      "unitKey": "SVghMjU0NyEgITYzODgwOTM1MzAwMDAwMDAwMCFWTlMhQk9NITNBIVk-"
+                    }
+                  ],
+                  "passengerKey": "MyFBRFQ-",
+                  "activityDate": "2025-04-22T10:21:26.887Z",
+                  "boardingSequence": "101",
+                  "createdDate": "2025-04-13T11:07:11.173Z",
+                  "liftStatus": 2,
+                  "modifiedDate": "2025-04-22T08:44:03.887Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-04-13T11:07:11.183Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": null,
+                  "sourcePointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "pointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "ssrs": [
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": null,
+                      "ssrDuration": 2,
+                      "ssrKey": "MCFNeUZCUkZRLSFTTUUhMSFCT00hSVghNjM4ODA5MzUzMDAwMDAwMDAwIVZOUyEyNTQ3ISA-",
+                      "count": 1,
+                      "ssrCode": "SME",
+                      "feeCode": null,
+                      "inBundle": false,
+                      "passengerKey": "MyFBRFQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "2547",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "BOM",
+                        "origin": "VNS",
+                        "departureDate": "2025-04-22T16:15:00"
+                      }
+                    }
+                  ],
+                  "tickets": [],
+                  "bags": [
+                    {
+                      "baggageKey": "MDIzNjg2NDc0Mg--",
+                      "passengerKey": "MyFBRFQ-",
+                      "arrivalStation": "BOM",
+                      "status": 1,
+                      "departureStation": "VNS",
+                      "osTag": "0236864742"
+                    }
+                  ],
+                  "scores": [],
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": {
+                    "seat": 0,
+                    "travelClass": 0,
+                    "advancedPreferences": [
+                      {
+                        "seatMapCode": "FRONTROW",
+                        "value": "TRUE"
+                      },
+                      {
+                        "seatMapCode": "PRIME",
+                        "value": "TRUE"
+                      }
+                    ]
+                  },
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": null,
+                  "referenceNumber": 0
+                },
+                "NCFDSEQ-": {
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "3B",
+                      "isAutoAssigned": null,
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 5,
+                        "propertyList": {
+                          "BRDZONE": "1",
+                          "SEATPOS": "PM1",
+                          "PRIME": "TRUE",
+                          "FRONTROW": "TRUE",
+                          "TCC": "Y",
+                          "FLEXSEAT": "TRUE",
+                          "MIDDLE": "TRUE",
+                          "LEGROOM": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "BOM",
+                      "departureStation": "VNS",
+                      "passengerKey": "NCFDSEQ-",
+                      "unitKey": "SVghMjU0NyEgITYzODgwOTM1MzAwMDAwMDAwMCFWTlMhQk9NITNCIVk-"
+                    }
+                  ],
+                  "passengerKey": "NCFDSEQ-",
+                  "activityDate": "2025-04-22T10:21:24.81Z",
+                  "boardingSequence": "102",
+                  "createdDate": "2025-04-13T11:07:11.173Z",
+                  "liftStatus": 2,
+                  "modifiedDate": "2025-04-22T08:44:03.887Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-04-13T11:07:11.183Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": null,
+                  "sourcePointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "pointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "ssrs": [
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": null,
+                      "ssrDuration": 2,
+                      "ssrKey": "MCFOQ0ZEU0VRLSFTTUUhMSFCT00hSVghNjM4ODA5MzUzMDAwMDAwMDAwIVZOUyEyNTQ3ISA-",
+                      "count": 1,
+                      "ssrCode": "SME",
+                      "feeCode": null,
+                      "inBundle": false,
+                      "passengerKey": "NCFDSEQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "2547",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "BOM",
+                        "origin": "VNS",
+                        "departureDate": "2025-04-22T16:15:00"
+                      }
+                    }
+                  ],
+                  "tickets": [],
+                  "bags": [
+                    {
+                      "baggageKey": "MDIzNjg2NDc1Nw--",
+                      "passengerKey": "NCFDSEQ-",
+                      "arrivalStation": "BOM",
+                      "status": 1,
+                      "departureStation": "VNS",
+                      "osTag": "0236864757"
+                    }
+                  ],
+                  "scores": [],
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": {
+                    "seat": 0,
+                    "travelClass": 0,
+                    "advancedPreferences": [
+                      {
+                        "seatMapCode": "FRONTROW",
+                        "value": "TRUE"
+                      },
+                      {
+                        "seatMapCode": "PRIME",
+                        "value": "TRUE"
+                      }
+                    ]
+                  },
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": null,
+                  "referenceNumber": 0
+                }
+              },
+              "channelType": 5,
+              "cabinOfService": "Y",
+              "externalIdentifier": null,
+              "priorityCode": null,
+              "changeReasonCode": 0,
+              "segmentType": 0,
+              "salesDate": "2025-04-13T11:07:11.173Z",
+              "international": false,
+              "flightReference": "20250422 IX2547 VNSBOM",
+              "legs": [
+                {
+                  "legKey": "NjM4ODA5MzUzMDAwMDAwMDAwIUlYITI1NDchICFWTlMhQk9NITg2NjM2Mzc-",
+                  "operationsInfo": null,
+                  "designator": {
+                    "destination": "BOM",
+                    "origin": "VNS",
+                    "arrival": "2025-04-22T18:30:00",
+                    "departure": "2025-04-22T16:15:00",
+                    "originAirportName": null,
+                    "originCityName": null,
+                    "destinationAirportName": null,
+                    "destinationCityName": null,
+                    "arrivalTerminal": null,
+                    "departureTerminal": null
+                  },
+                  "legInfo": {
+                    "departureTimeUtc": "2025-04-22T10:45:00Z",
+                    "arrivalTimeUtc": "2025-04-22T13:00:00Z",
+                    "adjustedCapacity": 176,
+                    "arrivalTerminal": "2",
+                    "arrivalTimeVariant": 330,
+                    "backMoveDays": 490,
+                    "capacity": 176,
+                    "changeOfDirection": false,
+                    "codeShareIndicator": 0,
+                    "departureTerminal": null,
+                    "departureTimeVariant": 330,
+                    "equipmentType": "7M8",
+                    "equipmentTypeSuffix": null,
+                    "eTicket": false,
+                    "irop": false,
+                    "lid": 176,
+                    "marketingCode": null,
+                    "marketingOverride": false,
+                    "operatedByText": null,
+                    "operatingCarrier": null,
+                    "operatingFlightNumber": null,
+                    "operatingOpSuffix": null,
+                    "outMoveDays": 490,
+                    "arrivalTime": "2025-04-22T18:30:00",
+                    "departureTime": "2025-04-22T16:15:00",
+                    "prbcCode": "Y168C8",
+                    "scheduleServiceType": null,
+                    "sold": 174,
+                    "status": 1,
+                    "subjectToGovtApproval": false,
+                    "eticket": false
+                  },
+                  "nests": [],
+                  "ssrs": [],
+                  "seatmapReference": "SVghMjU0NyEgITYzODgwOTM1MzAwMDAwMDAwMCFWTlMhQk9N",
+                  "flightReference": "20250422 IX2547 VNSBOM"
+                }
+              ],
+              "status": 6
+            }
+          ],
+          "journeyKey": "SVh_MjU0N34gfn5WTlN_MDQvMjIvMjAyNSAxNjoxNX5CT01_MDQvMjIvMjAyNSAxODozMH5_",
+          "notForGeneralUser": false,
+          "isCorpFareJourney": false,
+          "isCancelAllowed": false,
+          "checkInAllowedFlatform": 0,
+          "scootModification": true,
+          "isCorpLiteJourney": false,
+          "umnr": false,
+          "corpFareJourney": false,
+          "cancelAllowed": false,
+          "CheckInWindow": "Close",
+          "CheckInOpens": null
+        }
+      ],
+      "comments": [
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919881737246, TimeStamp= 2025-04-13 04:43:25, MessageFor=NewBookingConfirmOneWaySingle-HoppingCampaign",
+          "createdDate": "2025-04-13T11:13:26.753Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4Mjc3NDUyMg--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919881737246, TimeStamp= 2025-04-13 04:43:27, MessageFor=NewBookingConfirmOneWaySingle-HoppingCampaign",
+          "createdDate": "2025-04-13T11:13:28.7Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4Mjc3NDUzMA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919881737246, TimeStamp= 2025-04-20 04:04:30, MessageFor=AdditionalSMS_CheckInReminder",
+          "createdDate": "2025-04-20T10:34:31.727Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4Njg4NTY4NA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919881737246, TimeStamp= 2025-04-20 04:04:32, MessageFor=AdditionalSMS_CheckInReminder",
+          "createdDate": "2025-04-20T10:34:34.57Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4Njg4NTkyMQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919881737246, TimeStamp= 2025-04-22 11:48:19, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-04-22T06:18:21.183Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4NzcyOTAzNA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919881737246, TimeStamp= 2025-04-22 11:48:20, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-04-22T06:18:21.563Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4NzcyOTAzOA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919881737246, TimeStamp= 2025-04-22 11:48:20, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-04-22T06:18:22Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4NzcyOTA0Mw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919881737246, TimeStamp= 2025-04-22 11:48:25, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-04-22T06:18:27.04Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4NzcyOTE1Mw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919881737246, TimeStamp= 2025-04-22 11:48:26, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-04-22T06:18:27.497Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4NzcyOTE1OQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919881737246, TimeStamp= 2025-04-22 11:48:26, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-04-22T06:18:27.95Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4NzcyOTE2NA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919881737246, TimeStamp= 2025-04-22 11:48:27, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-04-22T06:18:28.447Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4NzcyOTE3Mw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919881737246, TimeStamp= 2025-04-22 01:12:20, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-04-22T07:42:24.187Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4Nzc3MDA4NQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919881737246, TimeStamp= 2025-04-22 01:12:21, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-04-22T07:42:25.113Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4Nzc3MDE1MA--"
+        },
+        {
+          "type": 2,
+          "text": "9881737246//",
+          "createdDate": "2025-04-22T08:44:03.887Z",
+          "pointOfSale": {
+            "agentCode": "GHVNS_SUJITY",
+            "domainCode": "DEF",
+            "locationCode": "VNS",
+            "organizationCode": "IX"
+          },
+          "commentKey": "MzI4NzgzMDU2Mw--"
+        }
+      ],
+      "queues": [],
+      "history": [],
+      "payments": [
+        {
+          "paymentKey": "NDY3NzA4NjM4ITEhQUchNTQ1MDA5Nzgx",
+          "code": "AG",
+          "approvalDate": "2025-04-13T11:07:11.33Z",
+          "details": {
+            "accountNumberId": 0,
+            "parentPaymentId": null,
+            "accountName": null,
+            "accountNumber": "OTATSCTRSE",
+            "expirationDate": null,
+            "text": null,
+            "installments": 1,
+            "binRange": 0,
+            "fields": {}
+          },
+          "amounts": {
+            "amount": 36070,
+            "currencyCode": "INR",
+            "collected": 36070,
+            "collectedCurrencyCode": "INR",
+            "quoted": 36070,
+            "quotedCurrencyCode": "INR"
+          },
+          "authorizationCode": null,
+          "authorizationStatus": 4,
+          "fundedDate": "1800-01-01T00:00:00Z",
+          "transactionCode": null,
+          "dcc": null,
+          "threeDSecure": null,
+          "attachments": [],
+          "createdDate": "2025-04-13T11:07:11.173Z",
+          "modifiedDate": "2025-04-13T11:07:11.327Z",
+          "type": 2,
+          "status": 3,
+          "transferred": false,
+          "channelType": 5,
+          "pointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "sourcePointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "deposit": false,
+          "accountId": 0,
+          "voucher": null,
+          "addedToState": true,
+          "createdAgentId": 44115378,
+          "modifiedAgentId": 44115378,
+          "reference": 467708638
+        },
+        {
+          "paymentKey": "NDY3OTg0NzQ2ITIhN1YhNTQ1MDA5Nzgx",
+          "code": "7V",
+          "approvalDate": "2025-04-18T05:51:48.577Z",
+          "details": {
+            "accountNumberId": 0,
+            "parentPaymentId": null,
+            "accountName": "Kunal Jadhav",
+            "accountNumber": "XXXXXXXXXXXX3787",
+            "expirationDate": null,
+            "text": null,
+            "installments": 0,
+            "binRange": 0,
+            "fields": {
+              "bankcode": "+Idgm7/PwkomMDRO/uQvfQ==",
+              "BillTo::Email": "t69pCIcveIAscHCRSjtCZKUiWk3XuKb/LtKUPqo83lM=",
+              "BillTo::FirstName": "9EKX2U1RDIuraZE9dGd57g==",
+              "BillTo::LastName": "xyHeLXhKDpnd4rg2tSy/1g==",
+              "CC::CarrierCode": "v2UASJ3B+egtQ4/nzxXTDA==",
+              "FPS::Enabled": "ClmLwEJ+11ECj0AUEwVlpg==",
+              "furl": "AZVFCl0NxOSPRpjoXtNLegRNRePukOfwZDtbqfjg1hnudI3o+0CPePGLysmhsJb2imeZXLZF1ue7JRNDbVfryTxVT4P0xAsKXQ3khYbrduyY8sWKnqKP4P/Wd2Bgc5SJEtrtPAnm5gqqezG3PkcEHtIEHg0/aT1+Elwa6uuxhOIy7HPdmqNY0swgfLGff5fj1/0G1gSfYL3I8I2Gsc/cVg==",
+              "OriginalLocation": "nhZp8/h31WUN79DK9Dg68Q==",
+              "pg": "HDvIq1C2p+wA/a/7uu1AQw==",
+              "SP:PAYID": "Mooi59nUnn/CIiBcdq5/lQ==",
+              "surl": "AZVFCl0NxOSPRpjoXtNLegRNRePukOfwZDtbqfjg1hnudI3o+0CPePGLysmhsJb2fjOsTBAnmbBFSn3VkAbgvbC/OhDYztCVAFtJyZ6TwnqY8sWKnqKP4P/Wd2Bgc5SJEtrtPAnm5gqqezG3PkcEHmA7rdTp/LTkRrIAsYwm6ZE+4A9LmV8nuw80afl1gBsWTiRqpDkzLj0cAM1AatArwg==",
+              "TransactionTypeIndicator": "ihSXtiVF6gqRDCeeIRX2nA=="
+            }
+          },
+          "amounts": {
+            "amount": 6050,
+            "currencyCode": "INR",
+            "collected": 6050,
+            "collectedCurrencyCode": "INR",
+            "quoted": 6050,
+            "quotedCurrencyCode": "INR"
+          },
+          "authorizationCode": "2320738011",
+          "authorizationStatus": 4,
+          "fundedDate": "1800-01-01T00:00:00Z",
+          "transactionCode": null,
+          "dcc": null,
+          "threeDSecure": null,
+          "attachments": [],
+          "createdDate": "2025-04-18T05:51:25.91Z",
+          "modifiedDate": "2025-04-18T05:51:48.573Z",
+          "type": 0,
+          "status": 3,
+          "transferred": false,
+          "channelType": 5,
+          "pointOfSale": {
+            "agentCode": "i5@webloyal",
+            "domainCode": "WWW",
+            "locationCode": "API",
+            "organizationCode": "I5WEBLOYAL"
+          },
+          "sourcePointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "deposit": false,
+          "accountId": 0,
+          "voucher": null,
+          "addedToState": true,
+          "createdAgentId": 44060884,
+          "modifiedAgentId": 18,
+          "reference": 467984746
+        }
+      ],
+      "orders": [],
+      "isFareMaskingEnabled": false,
+      "isGroupBooking": false,
+      "vaccinationStatus": false,
+      "isCodeShareBooking": false,
+      "isFareLockBooking": false,
+      "isCodeSharePNR": false,
+      "isScootBooking": false,
+      "isCustomerBooking": false,
+      "isGHASOLBooking": false,
+      "isDeadHeadBooking": false,
+      "isDeadHeadCheckInAllowed": false,
+      "isMarineBooking": false,
+      "isMYIDBooking": false
+    },
+    "AnonymousToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiYWIxNmU2ODUtOWJiYS0xZDI1LTE2ZDAtNzQ1Y2ZkNDMxYzhjIiwiaXNzIjoiZG90UkVaIEFQSSJ9.FzhXs2eA5TQwwUyBU7ZUm69oqEmuP1hxW8gOWMFp8u8"
+  },
+  "responseStatus": 200,
+  "responseUrl": "https://api.airindiaexpress.com/b2c-CheckIn/v2/retrieve/mmb/byRecordLocator"
+}

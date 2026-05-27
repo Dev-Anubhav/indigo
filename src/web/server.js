@@ -134,8 +134,11 @@ function startRun(airline, processType = 'status') {
   if (activeRun && !activeRun.proc.killed) {
     throw new Error('Run already in progress');
   }
-  if (airline !== 'indigo') {
-    throw new Error('Only indigo is currently implemented');
+  if (!['indigo', 'airindiaexpress'].includes(airline)) {
+    throw new Error('Unsupported airline');
+  }
+  if (processType === 'refund' && airline !== 'indigo') {
+    throw new Error('Refund flow is only implemented for indigo');
   }
 
   const proc = spawn(NODE_BINARY, [runScriptPath(processType)], {
@@ -144,6 +147,7 @@ function startRun(airline, processType = 'status') {
       ...process.env,
       APP_ROOT,
       WORK_ROOT,
+      AIRLINE: airline,
     },
     stdio: ['ignore', 'pipe', 'pipe'],
   });
@@ -315,7 +319,9 @@ const server = http.createServer(async (req, res) => {
       const raw = await readBody(req);
       const body = JSON.parse(raw || '{}');
       const airline = String(body.airline || 'indigo').toLowerCase();
-      if (airline !== 'indigo') return json(res, 400, { ok: false, error: 'Only indigo is supported now' });
+      if (!['indigo', 'airindiaexpress'].includes(airline)) {
+        return json(res, 400, { ok: false, error: 'Unsupported airline' });
+      }
 
       const b64 = String(body.contentBase64 || '');
       if (!b64) return json(res, 400, { ok: false, error: 'Missing file data' });
@@ -343,10 +349,11 @@ const server = http.createServer(async (req, res) => {
       const raw = await readBody(req);
       const body = JSON.parse(raw || '{}');
       const processType = String(body.processType || 'status').toLowerCase();
+      const airline = String(body.airline || 'indigo').toLowerCase();
       if (!['status', 'refund'].includes(processType)) {
         return json(res, 400, { ok: false, error: 'Invalid process type' });
       }
-      startRun(String(body.airline || 'indigo').toLowerCase(), processType);
+      startRun(airline, processType);
       return json(res, 200, { ok: true });
     }
 

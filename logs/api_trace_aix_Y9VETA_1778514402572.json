@@ -1,0 +1,930 @@
+{
+  "pnr": "Y9VETA",
+  "contactDetail": "BHAVNA.SUSWAL@TSCPL.BIZ",
+  "startedAt": "2026-05-11T15:46:31.251Z",
+  "pageUrlStart": "https://www.airindiaexpress.com/manage",
+  "response": {
+    "navToken": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiZDc0OGQ3NjYtMGM2Yi1hNDc5LWMyOGMtNjMwZDIwNWY1ZjViIiwiaXNzIjoiZG90UkVaIEFQSSJ9.tP8s-noSvI0tgGW59ZTlKYAw__JNYuYsWGc0VElRxM0",
+      "idleTimeoutInMinutes": 15
+    },
+    "data": {
+      "selfServiceMoveAvailable": false,
+      "isDirectChannel": false,
+      "bookingKey": "NTQ1MTA2NjU4IVk5VkVUQSFmYWxzZQ--",
+      "recordLocator": "Y9VETA",
+      "currencyCode": "INR",
+      "systemCode": null,
+      "groupName": null,
+      "locators": {
+        "numericRecordLocator": "143608090401",
+        "parentRecordLocator": null,
+        "parentId": "0",
+        "recordLocators": []
+      },
+      "info": {
+        "status": 2,
+        "paidStatus": 1,
+        "priceStatus": 2,
+        "profileStatus": 1,
+        "bookingType": null,
+        "channelType": 5,
+        "bookedDate": "2025-04-15T11:36:58.43Z",
+        "createdDate": "2025-04-15T11:36:58.43Z",
+        "expirationDate": "2025-05-19T03:25:00Z",
+        "modifiedDate": "2025-05-18T03:51:17.313Z",
+        "modifiedAgentId": "44059635",
+        "createdAgentId": "44115681",
+        "owningCarrierCode": "IX",
+        "changeAllowed": true
+      },
+      "sales": {
+        "created": {
+          "agentCode": "Bsuswal",
+          "domainCode": "EXT",
+          "locationCode": "DELIX",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "source": {
+          "isoCountryCode": null,
+          "sourceSystemCode": null,
+          "agentCode": "Bsuswal",
+          "domainCode": "EXT",
+          "locationCode": "DELIX",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "modified": null
+      },
+      "typeOfSale": {
+        "residentCountry": "IN",
+        "promotionCode": null,
+        "fareTypes": []
+      },
+      "hold": null,
+      "breakdown": {
+        "balanceDue": 0,
+        "pointsBalanceDue": 0,
+        "authorizedBalanceDue": 0,
+        "totalAmount": 18644,
+        "totalPoints": 0,
+        "totalToCollect": 18644,
+        "totalPointsToCollect": 0,
+        "totalCharged": 18644,
+        "passengerTotals": {
+          "services": null,
+          "specialServices": null,
+          "seats": null,
+          "upgrades": null,
+          "spoilage": null,
+          "nameChanges": null,
+          "convenience": null,
+          "infant": null
+        },
+        "passengers": {
+          "MCFBRFQ-": {
+            "passengerKey": "MCFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": null,
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          },
+          "MSFBRFQ-": {
+            "passengerKey": "MSFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": null,
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          }
+        },
+        "journeyTotals": {
+          "totalAmount": 16348,
+          "totalPoints": 0,
+          "totalTax": 2296,
+          "totalDiscount": 0
+        },
+        "journeys": {
+          "SVh_MTE0Mn4gfn5DT0t_MDUvMTgvMjAyNSAwODo1NX5ERUx_MDUvMTgvMjAyNSAxMjowNX5_": {
+            "journeyKey": "SVh_MTE0Mn4gfn5DT0t_MDUvMTgvMjAyNSAwODo1NX5ERUx_MDUvMTgvMjAyNSAxMjowNX5_",
+            "totalAmount": 8174,
+            "totalPoints": 0,
+            "totalTax": 1148,
+            "totalDiscount": 0
+          }
+        },
+        "addOnTotals": {
+          "car": null,
+          "hotel": null,
+          "activities": null
+        }
+      },
+      "receivedBy": {
+        "receivedBy": null,
+        "latestReceivedBy": null,
+        "receivedReference": null,
+        "latestReceivedReference": null,
+        "referralCode": null
+      },
+      "contacts": {
+        "P": {
+          "contactTypeCode": "P",
+          "phoneNumbers": [
+            {
+              "type": 0,
+              "number": "Cpx71lGf5FilnbASKRDQDQ=="
+            },
+            {
+              "type": 4,
+              "number": "9cEl6yLR3OhiDkUkWWYS4Q=="
+            }
+          ],
+          "cultureCode": null,
+          "address": {
+            "lineOne": null,
+            "lineTwo": null,
+            "lineThree": null,
+            "countryCode": "IN",
+            "provinceState": null,
+            "city": null,
+            "postalCode": null
+          },
+          "emailAddress": "2rbnQTLaXJfn0I82M3vhWtyjWOCu7sI9ue2uQNhJWDM=",
+          "customerNumber": null,
+          "sourceOrganization": null,
+          "distributionOption": 2,
+          "notificationPreference": 0,
+          "companyName": null,
+          "name": {
+            "first": "R7dykQo0SZ0vRWtUTjr3ug==",
+            "middle": null,
+            "last": "KWyxbqX98fg5fh/5d/4vMg==",
+            "title": "MR",
+            "suffix": null
+          }
+        }
+      },
+      "passengers": [
+        {
+          "passengerKey": "MCFBRFQ-",
+          "passengerAlternateKey": "MTIyMjY5NTY0NQ--",
+          "customerNumber": null,
+          "fees": [],
+          "name": {
+            "first": "R7dykQo0SZ0vRWtUTjr3ug==",
+            "middle": null,
+            "last": "KWyxbqX98fg5fh/5d/4vMg==",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [
+            {
+              "identifier": "1142",
+              "baggageKey": "MDIzNjUwNzc2Mg--",
+              "nonStandard": false,
+              "type": "STND",
+              "osTag": "0236507762",
+              "osTagDate": "2025-05-18T00:00:00Z",
+              "taggedToStation": "DEL",
+              "stationCode": "COK",
+              "weight": 11,
+              "taggedToCarrierCode": "IX",
+              "weightType": 2
+            },
+            {
+              "identifier": "1142",
+              "baggageKey": "MDIzNjUwNzc2Mw--",
+              "nonStandard": false,
+              "type": "STND",
+              "osTag": "0236507763",
+              "osTagDate": "2025-05-18T00:00:00Z",
+              "taggedToStation": "DEL",
+              "stationCode": "COK",
+              "weight": 16,
+              "taggedToCarrierCode": "IX",
+              "weightType": 2
+            }
+          ],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": null,
+            "residentCountry": null,
+            "gender": 1,
+            "dateOfBirth": null,
+            "familyNumber": 0
+          },
+          "travelDocuments": [],
+          "addresses": [
+            {
+              "status": "Residence",
+              "companyName": "IN",
+              "lineOne": null,
+              "passengerAddressKey": "uW8qHxjeBYmawlK/SgUaFw==",
+              "phone": "Cpx71lGf5FilnbASKRDQDQ==",
+              "lineTwo": null,
+              "stationCode": "COK",
+              "lineThree": null,
+              "emailAddress": "2rbnQTLaXJfn0I82M3vhWtyjWOCu7sI9ue2uQNhJWDM=",
+              "countryCode": null,
+              "cultureCode": null,
+              "provinceState": null,
+              "refusedContact": false,
+              "city": null,
+              "postalCode": null
+            }
+          ],
+          "weightCategory": 1,
+          "bagsInfo": [
+            {
+              "journeyKey": "SVh_MTE0Mn4gfn5DT0t_MDUvMTgvMjAyNSAwODo1NX5ERUx_MDUvMTgvMjAyNSAxMjowNX5_",
+              "CABG": 7,
+              "CHKBAG": 15,
+              "ICBG": null,
+              "STND": null
+            }
+          ]
+        },
+        {
+          "passengerKey": "MSFBRFQ-",
+          "passengerAlternateKey": "MTIyMjY5NTY0Ng--",
+          "customerNumber": null,
+          "fees": [],
+          "name": {
+            "first": "U9UkV4kfW+EKan41OwKJ1Q==",
+            "middle": null,
+            "last": "KWyxbqX98fg5fh/5d/4vMg==",
+            "title": "MS",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": null,
+            "residentCountry": null,
+            "gender": 1,
+            "dateOfBirth": null,
+            "familyNumber": 0
+          },
+          "travelDocuments": [],
+          "addresses": [
+            {
+              "status": "Residence",
+              "companyName": "IN",
+              "lineOne": null,
+              "passengerAddressKey": "uW8qHxjeBYmawlK/SgUaFw==",
+              "phone": "Cpx71lGf5FilnbASKRDQDQ==",
+              "lineTwo": null,
+              "stationCode": "COK",
+              "lineThree": null,
+              "emailAddress": "2rbnQTLaXJfn0I82M3vhWtyjWOCu7sI9ue2uQNhJWDM=",
+              "countryCode": null,
+              "cultureCode": null,
+              "provinceState": null,
+              "refusedContact": false,
+              "city": null,
+              "postalCode": null
+            }
+          ],
+          "weightCategory": 2,
+          "bagsInfo": [
+            {
+              "journeyKey": "SVh_MTE0Mn4gfn5DT0t_MDUvMTgvMjAyNSAwODo1NX5ERUx_MDUvMTgvMjAyNSAxMjowNX5_",
+              "CABG": 7,
+              "CHKBAG": 15,
+              "ICBG": null,
+              "STND": null
+            }
+          ]
+        }
+      ],
+      "journeys": [
+        {
+          "flightType": 1,
+          "stops": 0,
+          "designator": {
+            "destination": "DEL",
+            "origin": "COK",
+            "arrival": "2025-05-18T12:05:00",
+            "departure": "2025-05-18T08:55:00",
+            "originAirportName": "Cochin International Airport, T1",
+            "originCityName": "Kochi",
+            "destinationAirportName": "Indira Gandhi International Airport, T3",
+            "destinationCityName": "New Delhi",
+            "arrivalTerminal": "3",
+            "departureTerminal": "1"
+          },
+          "move": {
+            "maxMoveBackDays": 490,
+            "maxMoveOutDays": 490
+          },
+          "segments": [
+            {
+              "isStandby": false,
+              "isConfirming": false,
+              "isConfirmingExternal": false,
+              "isBlocked": false,
+              "isHosted": true,
+              "isChangeOfGauge": false,
+              "designator": {
+                "destination": "DEL",
+                "origin": "COK",
+                "arrival": "2025-05-18T12:05:00",
+                "departure": "2025-05-18T08:55:00",
+                "originAirportName": "Cochin International Airport, T1",
+                "originCityName": "Kochi",
+                "destinationAirportName": "Indira Gandhi International Airport, T3",
+                "destinationCityName": "New Delhi",
+                "arrivalTerminal": "3",
+                "departureTerminal": "1"
+              },
+              "isSeatmapViewable": true,
+              "identifier": {
+                "identifier": "1142",
+                "carrierCode": "IX",
+                "opSuffix": null
+              },
+              "fares": [
+                {
+                  "isGoverning": true,
+                  "downgradeAvailable": false,
+                  "carrierCode": "I5",
+                  "fareKey": "MH5afn5JNX5aTlJBMDAwfk5SMDB_fjB_MH5_WA--",
+                  "classOfService": "Z",
+                  "classType": null,
+                  "fareApplicationType": 0,
+                  "fareClassOfService": "Z",
+                  "fareBasisCode": "ZNRA000",
+                  "fareSequence": 0,
+                  "inboundOutBound": 0,
+                  "fareStatus": 0,
+                  "isAllotmentMarketFare": false,
+                  "originalClassOfService": "Z",
+                  "ruleNumber": "NR00",
+                  "productClass": "EC",
+                  "ruleTariff": null,
+                  "travelClassCode": "Y",
+                  "crossReferenceClassOfService": null,
+                  "fareLink": 0,
+                  "passengerFares": [
+                    {
+                      "serviceCharges": [
+                        {
+                          "amount": 8174,
+                          "code": null,
+                          "detail": null,
+                          "type": "FarePrice",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 8174,
+                          "ticketCode": null
+                        },
+                        {
+                          "amount": 75,
+                          "code": "CUTE",
+                          "detail": "COK-DEL",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 75,
+                          "ticketCode": "CUT"
+                        },
+                        {
+                          "amount": 100,
+                          "code": "RCS",
+                          "detail": "COK-DEL",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 100,
+                          "ticketCode": "RCS"
+                        },
+                        {
+                          "amount": 319,
+                          "code": "IN",
+                          "detail": "COK-DEL",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 319,
+                          "ticketCode": "IN"
+                        },
+                        {
+                          "amount": 236,
+                          "code": "P2",
+                          "detail": "COK-DEL",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 236,
+                          "ticketCode": "P2"
+                        },
+                        {
+                          "amount": 209,
+                          "code": "CGST",
+                          "detail": "COK-DEL",
+                          "type": "Tax",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 209,
+                          "ticketCode": "CST"
+                        },
+                        {
+                          "amount": 209,
+                          "code": "SGST",
+                          "detail": "COK-DEL",
+                          "type": "Tax",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 209,
+                          "ticketCode": "SST"
+                        }
+                      ],
+                      "discountCode": null,
+                      "fareDiscountCode": null,
+                      "passengerType": "ADT"
+                    }
+                  ],
+                  "fareDesignator": {
+                    "fareTypeCodes": [
+                      "M",
+                      "R"
+                    ]
+                  }
+                }
+              ],
+              "segmentKey": "SVh_MTE0Mn4gfn5DT0t_MDUvMTgvMjAyNSAwODo1NX5ERUx_MDUvMTgvMjAyNSAxMjowNX5_",
+              "passengerSegment": {
+                "MCFBRFQ-": {
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "10E",
+                      "isAutoAssigned": null,
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 20,
+                        "propertyList": {
+                          "LOCATION": "FRONT",
+                          "BRDZONE": "2",
+                          "SEATPOS": "FS3",
+                          "TCC": "Y",
+                          "MIDDLE": "TRUE",
+                          "STANDARD": "TRUE",
+                          "STNDRDFR": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "DEL",
+                      "departureStation": "COK",
+                      "passengerKey": "MCFBRFQ-",
+                      "unitKey": "SVghMTE0MiEgITYzODgzMTU1MzAwMDAwMDAwMCFDT0shREVMITEwRSFZ"
+                    }
+                  ],
+                  "passengerKey": "MCFBRFQ-",
+                  "activityDate": "2025-05-18T03:27:30.9Z",
+                  "boardingSequence": "128",
+                  "createdDate": "2025-04-15T11:36:58.43Z",
+                  "liftStatus": 2,
+                  "modifiedDate": "2025-05-18T01:57:41.81Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-04-15T11:36:58.423Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": null,
+                  "sourcePointOfSale": {
+                    "agentCode": "Bsuswal",
+                    "domainCode": "EXT",
+                    "locationCode": "DELIX",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "pointOfSale": {
+                    "agentCode": "Bsuswal",
+                    "domainCode": "EXT",
+                    "locationCode": "DELIX",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "ssrs": [
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": null,
+                      "ssrDuration": 2,
+                      "ssrKey": "MCFNQ0ZCUkZRLSFNS0ZSITEhREVMIUlYITYzODgzMTU1MzAwMDAwMDAwMCFDT0shMTE0MiEg",
+                      "count": 1,
+                      "ssrCode": "MKFR",
+                      "feeCode": null,
+                      "inBundle": false,
+                      "passengerKey": "MCFBRFQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "1142",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "DEL",
+                        "origin": "COK",
+                        "departureDate": "2025-05-18T08:55:00"
+                      }
+                    }
+                  ],
+                  "tickets": [],
+                  "bags": [
+                    {
+                      "baggageKey": "MDIzNjUwNzc2Mg--",
+                      "passengerKey": "MCFBRFQ-",
+                      "arrivalStation": "DEL",
+                      "status": 1,
+                      "departureStation": "COK",
+                      "osTag": "0236507762"
+                    },
+                    {
+                      "baggageKey": "MDIzNjUwNzc2Mw--",
+                      "passengerKey": "MCFBRFQ-",
+                      "arrivalStation": "DEL",
+                      "status": 1,
+                      "departureStation": "COK",
+                      "osTag": "0236507763"
+                    }
+                  ],
+                  "scores": [],
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": {
+                    "seat": 0,
+                    "travelClass": 0,
+                    "advancedPreferences": []
+                  },
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": null,
+                  "referenceNumber": 0
+                },
+                "MSFBRFQ-": {
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "10D",
+                      "isAutoAssigned": null,
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 20,
+                        "propertyList": {
+                          "LOCATION": "FRONT",
+                          "BRDZONE": "2",
+                          "SEATPOS": "FS3",
+                          "AISLE": "TRUE",
+                          "TCC": "Y",
+                          "STANDARD": "TRUE",
+                          "STNDRDFR": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "DEL",
+                      "departureStation": "COK",
+                      "passengerKey": "MSFBRFQ-",
+                      "unitKey": "SVghMTE0MiEgITYzODgzMTU1MzAwMDAwMDAwMCFDT0shREVMITEwRCFZ"
+                    }
+                  ],
+                  "passengerKey": "MSFBRFQ-",
+                  "activityDate": "2025-05-18T03:26:59.253Z",
+                  "boardingSequence": "129",
+                  "createdDate": "2025-04-15T11:36:58.43Z",
+                  "liftStatus": 2,
+                  "modifiedDate": "2025-05-18T01:57:41.81Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-04-15T11:36:58.423Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": null,
+                  "sourcePointOfSale": {
+                    "agentCode": "Bsuswal",
+                    "domainCode": "EXT",
+                    "locationCode": "DELIX",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "pointOfSale": {
+                    "agentCode": "Bsuswal",
+                    "domainCode": "EXT",
+                    "locationCode": "DELIX",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "ssrs": [
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": null,
+                      "ssrDuration": 2,
+                      "ssrKey": "MCFNU0ZCUkZRLSFNS0ZSITEhREVMIUlYITYzODgzMTU1MzAwMDAwMDAwMCFDT0shMTE0MiEg",
+                      "count": 1,
+                      "ssrCode": "MKFR",
+                      "feeCode": null,
+                      "inBundle": false,
+                      "passengerKey": "MSFBRFQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "1142",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "DEL",
+                        "origin": "COK",
+                        "departureDate": "2025-05-18T08:55:00"
+                      }
+                    }
+                  ],
+                  "tickets": [],
+                  "bags": [],
+                  "scores": [],
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": {
+                    "seat": 0,
+                    "travelClass": 0,
+                    "advancedPreferences": []
+                  },
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": null,
+                  "referenceNumber": 0
+                }
+              },
+              "channelType": 5,
+              "cabinOfService": "Y",
+              "externalIdentifier": null,
+              "priorityCode": null,
+              "changeReasonCode": 0,
+              "segmentType": 0,
+              "salesDate": "2025-04-15T11:36:58.43Z",
+              "international": false,
+              "flightReference": "20250518 IX1142 COKDEL",
+              "legs": [
+                {
+                  "legKey": "NjM4ODMxNTUzMDAwMDAwMDAwIUlYITExNDIhICFDT0shREVMITg1MTAzODI-",
+                  "operationsInfo": null,
+                  "designator": {
+                    "destination": "DEL",
+                    "origin": "COK",
+                    "arrival": "2025-05-18T12:05:00",
+                    "departure": "2025-05-18T08:55:00",
+                    "originAirportName": null,
+                    "originCityName": null,
+                    "destinationAirportName": null,
+                    "destinationCityName": null,
+                    "arrivalTerminal": null,
+                    "departureTerminal": null
+                  },
+                  "legInfo": {
+                    "departureTimeUtc": "2025-05-18T03:25:00Z",
+                    "arrivalTimeUtc": "2025-05-18T06:35:00Z",
+                    "adjustedCapacity": 176,
+                    "arrivalTerminal": "3",
+                    "arrivalTimeVariant": 330,
+                    "backMoveDays": 490,
+                    "capacity": 176,
+                    "changeOfDirection": false,
+                    "codeShareIndicator": 0,
+                    "departureTerminal": "1",
+                    "departureTimeVariant": 330,
+                    "equipmentType": "7M8",
+                    "equipmentTypeSuffix": null,
+                    "eTicket": false,
+                    "irop": false,
+                    "lid": 176,
+                    "marketingCode": null,
+                    "marketingOverride": false,
+                    "operatedByText": null,
+                    "operatingCarrier": null,
+                    "operatingFlightNumber": null,
+                    "operatingOpSuffix": null,
+                    "outMoveDays": 490,
+                    "arrivalTime": "2025-05-18T12:05:00",
+                    "departureTime": "2025-05-18T08:55:00",
+                    "prbcCode": "Y168C8",
+                    "scheduleServiceType": null,
+                    "sold": 152,
+                    "status": 1,
+                    "subjectToGovtApproval": false,
+                    "eticket": false
+                  },
+                  "nests": [],
+                  "ssrs": [],
+                  "seatmapReference": "SVghMTE0MiEgITYzODgzMTU1MzAwMDAwMDAwMCFDT0shREVM",
+                  "flightReference": "20250518 IX1142 COKDEL"
+                }
+              ],
+              "status": 6
+            }
+          ],
+          "journeyKey": "SVh_MTE0Mn4gfn5DT0t_MDUvMTgvMjAyNSAwODo1NX5ERUx_MDUvMTgvMjAyNSAxMjowNX5_",
+          "notForGeneralUser": false,
+          "isCorpFareJourney": false,
+          "isCancelAllowed": false,
+          "checkInAllowedFlatform": 0,
+          "scootModification": true,
+          "isCorpLiteJourney": false,
+          "umnr": false,
+          "corpFareJourney": false,
+          "cancelAllowed": false,
+          "CheckInWindow": "Close",
+          "CheckInOpens": null
+        }
+      ],
+      "comments": [
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp, Status=sent, PhoneNo=919814080501, TimeStamp= 2025-05-16 08:48:39, MessageFor=AdditionalSMS_CheckInReminder, MessageContent=Reminder: Web check-in for flight under PNR Y9VETA from Kochi (COK) to New Delhi (DEL) on 18/05/2025. Complete online to save time. Earn Neu Coins after your journey by logging in.",
+          "createdDate": "2025-05-16T03:18:40.923Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwMDMwNzYzMA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp, Status=delivered, PhoneNo=919814080501, TimeStamp= 2025-05-16 08:48:42, MessageFor=AdditionalSMS_CheckInReminder",
+          "createdDate": "2025-05-16T03:18:44.38Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwMDMwNzgyMA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp, Status=read, PhoneNo=919814080501, TimeStamp= 2025-05-16 10:02:56, MessageFor=AdditionalSMS_CheckInReminder",
+          "createdDate": "2025-05-16T04:32:58.03Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwMDMzMzMzMw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp, Status=sent, PhoneNo=919814080501, TimeStamp= 2025-05-18 05:52:14, MessageFor=GateSMSCampaign, MessageContent=Gate confirmed for flight IX-1142 from Kochi (COK) to New Delhi (DEL). Proceed to gate 04. Check your boarding pass. Highflyer & JetSetter members enjoy priority boarding.",
+          "createdDate": "2025-05-18T00:22:16.817Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwMTI1MDE1MQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp, Status=delivered, PhoneNo=919814080501, TimeStamp= 2025-05-18 05:52:15, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-05-18T00:22:18.42Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwMTI1MDI5MQ--"
+        },
+        {
+          "type": 2,
+          "text": "9814080501",
+          "createdDate": "2025-05-18T01:59:28.54Z",
+          "pointOfSale": {
+            "agentCode": "GHCOK_SNEHAS",
+            "domainCode": "DEF",
+            "locationCode": "COK",
+            "organizationCode": "IX"
+          },
+          "commentKey": "MzMwMTI3MDY5Nw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp, Status=read, PhoneNo=919814080501, TimeStamp= 2025-05-18 09:21:15, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-05-18T03:51:17.313Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzMwMTMwNzUyNA--"
+        }
+      ],
+      "queues": [
+        {
+          "code": "CHKIN",
+          "subCode": null,
+          "name": "Check In",
+          "queueId": 145393637,
+          "passengerId": 0,
+          "watchListId": 0,
+          "note": "null",
+          "type": 0,
+          "action": 0,
+          "mode": 0,
+          "flightReference": null
+        }
+      ],
+      "history": [],
+      "payments": [
+        {
+          "paymentKey": "NDY3ODI1MDY2ITEhQUchNTQ1MTA2NjU4",
+          "code": "AG",
+          "approvalDate": "2025-04-15T11:44:28.74Z",
+          "details": {
+            "accountNumberId": 0,
+            "parentPaymentId": null,
+            "accountName": null,
+            "accountNumber": "OTATSCTRSE",
+            "expirationDate": null,
+            "text": null,
+            "installments": 1,
+            "binRange": 0,
+            "fields": {}
+          },
+          "amounts": {
+            "amount": 18644,
+            "currencyCode": "INR",
+            "collected": 18644,
+            "collectedCurrencyCode": "INR",
+            "quoted": 18644,
+            "quotedCurrencyCode": "INR"
+          },
+          "authorizationCode": null,
+          "authorizationStatus": 4,
+          "fundedDate": "1800-01-01T00:00:00Z",
+          "transactionCode": null,
+          "dcc": null,
+          "threeDSecure": null,
+          "attachments": [],
+          "createdDate": "2025-04-15T11:44:28.7Z",
+          "modifiedDate": "2025-04-15T11:44:28.737Z",
+          "type": 2,
+          "status": 3,
+          "transferred": false,
+          "channelType": 5,
+          "pointOfSale": {
+            "agentCode": "Bsuswal",
+            "domainCode": "EXT",
+            "locationCode": "DELIX",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "sourcePointOfSale": {
+            "agentCode": "Bsuswal",
+            "domainCode": "EXT",
+            "locationCode": "DELIX",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "deposit": false,
+          "accountId": 0,
+          "voucher": null,
+          "addedToState": true,
+          "createdAgentId": 44115681,
+          "modifiedAgentId": 44115681,
+          "reference": 467825066
+        }
+      ],
+      "orders": [],
+      "isFareMaskingEnabled": true,
+      "isGroupBooking": false,
+      "vaccinationStatus": false,
+      "isCodeShareBooking": false,
+      "isFareLockBooking": false,
+      "isCodeSharePNR": false,
+      "isScootBooking": false,
+      "isCustomerBooking": false,
+      "isGHASOLBooking": false,
+      "isDeadHeadBooking": false,
+      "isDeadHeadCheckInAllowed": false,
+      "isMarineBooking": false,
+      "isMYIDBooking": false
+    },
+    "AnonymousToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiZDc0OGQ3NjYtMGM2Yi1hNDc5LWMyOGMtNjMwZDIwNWY1ZjViIiwiaXNzIjoiZG90UkVaIEFQSSJ9.tP8s-noSvI0tgGW59ZTlKYAw__JNYuYsWGc0VElRxM0"
+  },
+  "responseStatus": 200,
+  "responseUrl": "https://api.airindiaexpress.com/b2c-CheckIn/v2/retrieve/mmb/byRecordLocator"
+}

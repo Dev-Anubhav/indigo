@@ -1,0 +1,1247 @@
+{
+  "pnr": "Q911NA",
+  "contactDetail": "FYI.PVT.LTD@GMAIL.COM",
+  "startedAt": "2026-05-11T15:39:20.252Z",
+  "pageUrlStart": "https://www.airindiaexpress.com/manage",
+  "response": {
+    "navToken": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiOWM4NmQxOGQtYjBlZS1hMDcxLWNkNDQtZWZkOGY3MDRhYWY1IiwiaXNzIjoiZG90UkVaIEFQSSJ9.eAczAbfyluK4NrHBykNjlNZ89yWgtj3CknWob6JPzlw",
+      "idleTimeoutInMinutes": 15
+    },
+    "data": {
+      "selfServiceMoveAvailable": false,
+      "isDirectChannel": false,
+      "bookingKey": "NTQ1MDU1Njk2IVE5MTFOQSFmYWxzZQ--",
+      "recordLocator": "Q911NA",
+      "currencyCode": "INR",
+      "systemCode": null,
+      "groupName": null,
+      "locators": {
+        "numericRecordLocator": "333620202701",
+        "parentRecordLocator": null,
+        "parentId": "0",
+        "recordLocators": []
+      },
+      "info": {
+        "status": 3,
+        "paidStatus": 1,
+        "priceStatus": 2,
+        "profileStatus": 1,
+        "bookingType": null,
+        "channelType": 5,
+        "bookedDate": "2025-04-14T12:14:31.9Z",
+        "createdDate": "2025-04-14T12:14:31.9Z",
+        "expirationDate": "2025-04-15T17:15:00Z",
+        "modifiedDate": "2025-04-22T05:42:41.49Z",
+        "modifiedAgentId": "44059635",
+        "createdAgentId": "44115378",
+        "owningCarrierCode": "IX",
+        "changeAllowed": true
+      },
+      "sales": {
+        "created": {
+          "agentCode": "APITSCTRSE",
+          "domainCode": "TOP",
+          "locationCode": "API",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "source": {
+          "isoCountryCode": null,
+          "sourceSystemCode": null,
+          "agentCode": "APITSCTRSE",
+          "domainCode": "TOP",
+          "locationCode": "API",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "modified": null
+      },
+      "typeOfSale": {
+        "residentCountry": "KW",
+        "promotionCode": null,
+        "fareTypes": []
+      },
+      "hold": null,
+      "breakdown": {
+        "balanceDue": 0,
+        "pointsBalanceDue": 0,
+        "authorizedBalanceDue": 0,
+        "totalAmount": 15821,
+        "totalPoints": 0,
+        "totalToCollect": 15821,
+        "totalPointsToCollect": 0,
+        "totalCharged": 15821,
+        "passengerTotals": {
+          "services": null,
+          "specialServices": null,
+          "seats": {
+            "total": null,
+            "taxes": null,
+            "adjustments": 1118,
+            "charges": [
+              {
+                "amount": 559,
+                "code": "SEAT",
+                "detail": "KWI-COK",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "KWD",
+                "foreignAmount": 2,
+                "ticketCode": "ST"
+              },
+              {
+                "amount": 559,
+                "code": "SEAT",
+                "detail": "Fee OR",
+                "type": 1,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "KWD",
+                "foreignAmount": 2,
+                "ticketCode": null
+              },
+              {
+                "amount": 559,
+                "code": "SEAT",
+                "detail": "COK-DEL",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "KWD",
+                "foreignAmount": 2,
+                "ticketCode": "ST"
+              },
+              {
+                "amount": 559,
+                "code": "SEAT",
+                "detail": "Fee OR",
+                "type": 1,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "KWD",
+                "foreignAmount": 2,
+                "ticketCode": null
+              }
+            ]
+          },
+          "upgrades": null,
+          "spoilage": null,
+          "nameChanges": null,
+          "convenience": null,
+          "infant": null
+        },
+        "passengers": {
+          "MCFBRFQ-": {
+            "passengerKey": "MCFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": {
+              "total": null,
+              "taxes": null,
+              "adjustments": 1118,
+              "charges": [
+                {
+                  "amount": 559,
+                  "code": "SEAT",
+                  "detail": "KWI-COK",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "KWD",
+                  "foreignAmount": 2,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 559,
+                  "code": "SEAT",
+                  "detail": "Fee OR",
+                  "type": 1,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "KWD",
+                  "foreignAmount": 2,
+                  "ticketCode": null
+                },
+                {
+                  "amount": 559,
+                  "code": "SEAT",
+                  "detail": "COK-DEL",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "KWD",
+                  "foreignAmount": 2,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 559,
+                  "code": "SEAT",
+                  "detail": "Fee OR",
+                  "type": 1,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "KWD",
+                  "foreignAmount": 2,
+                  "ticketCode": null
+                }
+              ]
+            },
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          }
+        },
+        "journeyTotals": {
+          "totalAmount": 13849,
+          "totalPoints": 0,
+          "totalTax": 1972,
+          "totalDiscount": 0
+        },
+        "journeys": {
+          "SVh_IDQ5NH4gfn5LV0l_MDQvMTQvMjAyNSAyMDoxNX5DT0t_MDQvMTUvMjAyNSAwNDowMH5_XklYfjExNDJ_IH5_Q09LfjA0LzE1LzIwMjUgMDg6NTV_REVMfjA0LzE1LzIwMjUgMTI6MDV_fg--": {
+            "journeyKey": "SVh_IDQ5NH4gfn5LV0l_MDQvMTQvMjAyNSAyMDoxNX5DT0t_MDQvMTUvMjAyNSAwNDowMH5_XklYfjExNDJ_IH5_Q09LfjA0LzE1LzIwMjUgMDg6NTV_REVMfjA0LzE1LzIwMjUgMTI6MDV_fg--",
+            "totalAmount": 13849,
+            "totalPoints": 0,
+            "totalTax": 1972,
+            "totalDiscount": 0
+          }
+        },
+        "addOnTotals": {
+          "car": null,
+          "hotel": null,
+          "activities": null
+        }
+      },
+      "receivedBy": {
+        "receivedBy": null,
+        "latestReceivedBy": null,
+        "receivedReference": null,
+        "latestReceivedReference": null,
+        "referralCode": null
+      },
+      "contacts": {
+        "P": {
+          "contactTypeCode": "P",
+          "phoneNumbers": [
+            {
+              "type": 0,
+              "number": "z8bSvNyEcixhXyf/UoFIMw=="
+            },
+            {
+              "type": 1,
+              "number": "z8bSvNyEcixhXyf/UoFIMw=="
+            }
+          ],
+          "cultureCode": null,
+          "address": {
+            "lineOne": "NA",
+            "lineTwo": "NA",
+            "lineThree": null,
+            "countryCode": "IN",
+            "provinceState": "NA",
+            "city": "NA",
+            "postalCode": null
+          },
+          "emailAddress": "GdVmwsUvxGrxJlWqdp0n5MhvKEyhzAJj+PsUdThdgjc=",
+          "customerNumber": null,
+          "sourceOrganization": "OTATSCTRSE",
+          "distributionOption": 2,
+          "notificationPreference": 0,
+          "companyName": "TSC ONLINE",
+          "name": {
+            "first": "6qaiExCbEW039wRLpjgkLw==",
+            "middle": null,
+            "last": "6qaiExCbEW039wRLpjgkLw==",
+            "title": "MR",
+            "suffix": null
+          }
+        }
+      },
+      "passengers": [
+        {
+          "passengerKey": "MCFBRFQ-",
+          "passengerAlternateKey": "MTIyMjYxODM5Mg--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 9,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "SEAT",
+              "detail": null,
+              "passengerFeeKey": "MCEwITk-",
+              "override": true,
+              "flightReference": "20250414 IX 494 KWICOK",
+              "note": null,
+              "createdDate": "2025-04-14T13:37:03.047Z",
+              "serviceCharges": [
+                {
+                  "amount": 559,
+                  "code": "SEAT",
+                  "detail": "KWI-COK",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "KWD",
+                  "foreignAmount": 2,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 559,
+                  "code": "SEAT",
+                  "detail": "Fee OR",
+                  "type": "Discount",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "KWD",
+                  "foreignAmount": 2,
+                  "ticketCode": null
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 0
+            },
+            {
+              "type": 9,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "SEAT",
+              "detail": null,
+              "passengerFeeKey": "MCExITk-",
+              "override": true,
+              "flightReference": "20250415 IX1142 COKDEL",
+              "note": null,
+              "createdDate": "2025-04-14T13:37:03.047Z",
+              "serviceCharges": [
+                {
+                  "amount": 559,
+                  "code": "SEAT",
+                  "detail": "COK-DEL",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "KWD",
+                  "foreignAmount": 2,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 559,
+                  "code": "SEAT",
+                  "detail": "Fee OR",
+                  "type": "Discount",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "KWD",
+                  "foreignAmount": 2,
+                  "ticketCode": null
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 0
+            }
+          ],
+          "name": {
+            "first": "6qaiExCbEW039wRLpjgkLw==",
+            "middle": null,
+            "last": "6qaiExCbEW039wRLpjgkLw==",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [
+            {
+              "identifier": "1142",
+              "baggageKey": "MDIzNjM0Mjk1NA--",
+              "nonStandard": false,
+              "type": "STND",
+              "osTag": "0236342954",
+              "osTagDate": "2025-04-14T00:00:00Z",
+              "taggedToStation": "DEL",
+              "stationCode": "KWI",
+              "weight": 15,
+              "taggedToCarrierCode": "IX",
+              "weightType": 2
+            }
+          ],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": 1,
+            "dateOfBirth": "Fd4x8a8ChZ0vMxzAQ+zPxZdsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [
+            {
+              "passengerTravelDocumentKey": "UCFJTiEg",
+              "documentTypeCode": "P",
+              "birthCountry": null,
+              "issuedByCode": "IN",
+              "name": {
+                "first": "6qaiExCbEW039wRLpjgkLw==",
+                "middle": null,
+                "last": "6qaiExCbEW039wRLpjgkLw==",
+                "title": "MR",
+                "suffix": null
+              },
+              "nationality": "IN",
+              "expirationDate": "2027-10-29T00:00:00Z",
+              "number": "i8wG0aYrVkHBX2tGZh1E9Q==",
+              "issuedDate": null,
+              "gender": 1,
+              "dateOfBirth": "Fd4x8a8ChZ0vMxzAQ+zPxZdsmaqXxcq28hqj8xSFCwg="
+            }
+          ],
+          "addresses": [],
+          "weightCategory": 1,
+          "bagsInfo": [
+            {
+              "journeyKey": "SVh_IDQ5NH4gfn5LV0l_MDQvMTQvMjAyNSAyMDoxNX5DT0t_MDQvMTUvMjAyNSAwNDowMH5_XklYfjExNDJ_IH5_Q09LfjA0LzE1LzIwMjUgMDg6NTV_REVMfjA0LzE1LzIwMjUgMTI6MDV_fg--",
+              "CABG": 7,
+              "CHKBAG": 30,
+              "ICBG": null,
+              "STND": null
+            }
+          ]
+        }
+      ],
+      "journeys": [
+        {
+          "flightType": 4,
+          "stops": 1,
+          "designator": {
+            "destination": "DEL",
+            "origin": "KWI",
+            "arrival": "2025-04-15T12:05:00",
+            "departure": "2025-04-14T20:15:00",
+            "originAirportName": "Kuwait Intl Airport, T1",
+            "originCityName": "Kuwait",
+            "destinationAirportName": "Indira Gandhi International Airport, T3",
+            "destinationCityName": "New Delhi",
+            "arrivalTerminal": "3",
+            "departureTerminal": "1"
+          },
+          "move": {
+            "maxMoveBackDays": 490,
+            "maxMoveOutDays": 490
+          },
+          "segments": [
+            {
+              "isStandby": false,
+              "isConfirming": false,
+              "isConfirmingExternal": false,
+              "isBlocked": false,
+              "isHosted": true,
+              "isChangeOfGauge": false,
+              "designator": {
+                "destination": "COK",
+                "origin": "KWI",
+                "arrival": "2025-04-15T04:00:00",
+                "departure": "2025-04-14T20:15:00",
+                "originAirportName": "Kuwait Intl Airport, T1",
+                "originCityName": "Kuwait",
+                "destinationAirportName": "Cochin International Airport, T3",
+                "destinationCityName": "Kochi",
+                "arrivalTerminal": "3",
+                "departureTerminal": "1"
+              },
+              "isSeatmapViewable": true,
+              "identifier": {
+                "identifier": "494",
+                "carrierCode": "IX",
+                "opSuffix": null
+              },
+              "fares": [
+                {
+                  "isGoverning": true,
+                  "downgradeAvailable": false,
+                  "carrierCode": "I5",
+                  "fareKey": "MH5afn5JNX5aQ1JBWDAwfkNSWDB_fjB_MH5_WA--",
+                  "classOfService": "Z",
+                  "classType": null,
+                  "fareApplicationType": 0,
+                  "fareClassOfService": "Z",
+                  "fareBasisCode": "ZCRAX00",
+                  "fareSequence": 0,
+                  "inboundOutBound": 0,
+                  "fareStatus": 0,
+                  "isAllotmentMarketFare": false,
+                  "originalClassOfService": "Z",
+                  "ruleNumber": "CRX0",
+                  "productClass": "EC",
+                  "ruleTariff": null,
+                  "travelClassCode": "Y",
+                  "crossReferenceClassOfService": null,
+                  "fareLink": 0,
+                  "passengerFares": [
+                    {
+                      "serviceCharges": [
+                        {
+                          "amount": 13849,
+                          "code": null,
+                          "detail": null,
+                          "type": "FarePrice",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 13849,
+                          "ticketCode": null
+                        },
+                        {
+                          "amount": 126,
+                          "code": "YR",
+                          "detail": "KWI-COK",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "KWD",
+                          "foreignAmount": 0.451,
+                          "ticketCode": "YR"
+                        },
+                        {
+                          "amount": 279,
+                          "code": "GZ",
+                          "detail": "KWI-COK",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "KWD",
+                          "foreignAmount": 0.999,
+                          "ticketCode": "GZ"
+                        },
+                        {
+                          "amount": 1397,
+                          "code": "KW",
+                          "detail": "KWI-COK",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "KWD",
+                          "foreignAmount": 5.001,
+                          "ticketCode": "KW"
+                        },
+                        {
+                          "amount": 70,
+                          "code": "YX",
+                          "detail": "KWI-COK",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "KWD",
+                          "foreignAmount": 0.251,
+                          "ticketCode": "YX"
+                        },
+                        {
+                          "amount": 100,
+                          "code": "RCS",
+                          "detail": "COK-DEL",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 100,
+                          "ticketCode": "RCS"
+                        }
+                      ],
+                      "discountCode": null,
+                      "fareDiscountCode": null,
+                      "passengerType": "ADT"
+                    }
+                  ],
+                  "fareDesignator": {
+                    "fareTypeCodes": [
+                      "R"
+                    ]
+                  }
+                }
+              ],
+              "segmentKey": "SVh_IDQ5NH4gfn5LV0l_MDQvMTQvMjAyNSAyMDoxNX5DT0t_MDQvMTUvMjAyNSAwNDowMH5_",
+              "passengerSegment": {
+                "MCFBRFQ-": {
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "29A",
+                      "isAutoAssigned": null,
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 6,
+                        "propertyList": {
+                          "LOCATION": "REAR",
+                          "BRDZONE": "3",
+                          "SEATPOS": "RS3",
+                          "TCC": "Y",
+                          "STNDRDBK": "TRUE",
+                          "WINDOW": "TRUE",
+                          "STANDARD": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "COK",
+                      "departureStation": "KWI",
+                      "passengerKey": "MCFBRFQ-",
+                      "unitKey": "SVghNDk0ISAhNjM4ODAyNTg1MDAwMDAwMDAwIUtXSSFDT0shMjlBIVk-"
+                    }
+                  ],
+                  "passengerKey": "MCFBRFQ-",
+                  "activityDate": "2025-04-15T03:33:00.55Z",
+                  "boardingSequence": "6",
+                  "createdDate": "2025-04-14T12:14:31.9Z",
+                  "liftStatus": 2,
+                  "modifiedDate": "2025-04-14T13:37:03.293Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-04-14T12:14:31.91Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": "P   IN  ",
+                  "sourcePointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "pointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "ssrs": [
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": "Manual SSR added by Utility",
+                      "ssrDuration": 2,
+                      "ssrKey": "MCFNQ0ZCUkZRLSFMVEZTITEhQ09LIUlYITYzODgwMjU4NTAwMDAwMDAwMCFLV0khNDk0ISA-",
+                      "count": 1,
+                      "ssrCode": "LTFS",
+                      "feeCode": null,
+                      "inBundle": false,
+                      "passengerKey": "MCFBRFQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "494",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "COK",
+                        "origin": "KWI",
+                        "departureDate": "2025-04-14T20:15:00"
+                      }
+                    }
+                  ],
+                  "tickets": [],
+                  "bags": [
+                    {
+                      "baggageKey": "MDIzNjM0Mjk1NA--",
+                      "passengerKey": "MCFBRFQ-",
+                      "arrivalStation": "COK",
+                      "status": 1,
+                      "departureStation": "KWI",
+                      "osTag": "0236342954"
+                    }
+                  ],
+                  "scores": [],
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": {
+                    "seat": 0,
+                    "travelClass": 0,
+                    "advancedPreferences": []
+                  },
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": [
+                    "UCFJTiEg"
+                  ],
+                  "referenceNumber": 0
+                }
+              },
+              "channelType": 5,
+              "cabinOfService": "Y",
+              "externalIdentifier": null,
+              "priorityCode": null,
+              "changeReasonCode": 0,
+              "segmentType": 0,
+              "salesDate": "2025-04-14T12:14:31.9Z",
+              "international": true,
+              "flightReference": "20250414 IX 494 KWICOK",
+              "legs": [
+                {
+                  "legKey": "NjM4ODAyNTg1MDAwMDAwMDAwIUlYITQ5NCEgIUtXSSFDT0shODQ5NTc1MA--",
+                  "operationsInfo": null,
+                  "designator": {
+                    "destination": "COK",
+                    "origin": "KWI",
+                    "arrival": "2025-04-15T04:00:00",
+                    "departure": "2025-04-14T20:15:00",
+                    "originAirportName": null,
+                    "originCityName": null,
+                    "destinationAirportName": null,
+                    "destinationCityName": null,
+                    "arrivalTerminal": null,
+                    "departureTerminal": null
+                  },
+                  "legInfo": {
+                    "departureTimeUtc": "2025-04-14T17:15:00Z",
+                    "arrivalTimeUtc": "2025-04-14T22:30:00Z",
+                    "adjustedCapacity": 186,
+                    "arrivalTerminal": "3",
+                    "arrivalTimeVariant": 330,
+                    "backMoveDays": 490,
+                    "capacity": 186,
+                    "changeOfDirection": false,
+                    "codeShareIndicator": 0,
+                    "departureTerminal": "1",
+                    "departureTimeVariant": 180,
+                    "equipmentType": "738",
+                    "equipmentTypeSuffix": null,
+                    "eTicket": false,
+                    "irop": false,
+                    "lid": 179,
+                    "marketingCode": null,
+                    "marketingOverride": false,
+                    "operatedByText": null,
+                    "operatingCarrier": null,
+                    "operatingFlightNumber": null,
+                    "operatingOpSuffix": null,
+                    "outMoveDays": 490,
+                    "arrivalTime": "2025-04-15T04:00:00",
+                    "departureTime": "2025-04-14T20:15:00",
+                    "prbcCode": "Y186",
+                    "scheduleServiceType": null,
+                    "sold": 64,
+                    "status": 1,
+                    "subjectToGovtApproval": false,
+                    "eticket": false
+                  },
+                  "nests": [],
+                  "ssrs": [],
+                  "seatmapReference": "SVghIDQ5NCEgITYzODgwMjU4NTAwMDAwMDAwMCFLV0khQ09L",
+                  "flightReference": "20250414 IX 494 KWICOK"
+                }
+              ],
+              "status": 6
+            },
+            {
+              "isStandby": false,
+              "isConfirming": false,
+              "isConfirmingExternal": false,
+              "isBlocked": false,
+              "isHosted": true,
+              "isChangeOfGauge": false,
+              "designator": {
+                "destination": "DEL",
+                "origin": "COK",
+                "arrival": "2025-04-15T12:05:00",
+                "departure": "2025-04-15T08:55:00",
+                "originAirportName": "Cochin International Airport, T1",
+                "originCityName": "Kochi",
+                "destinationAirportName": "Indira Gandhi International Airport, T3",
+                "destinationCityName": "New Delhi",
+                "arrivalTerminal": "3",
+                "departureTerminal": "1"
+              },
+              "isSeatmapViewable": true,
+              "identifier": {
+                "identifier": "1142",
+                "carrierCode": "IX",
+                "opSuffix": null
+              },
+              "fares": [
+                {
+                  "isGoverning": true,
+                  "downgradeAvailable": false,
+                  "carrierCode": "I5",
+                  "fareKey": "MH5afn5JNX5aQ1JBWDAwfkNSWDB_fjB_MH5_WA--",
+                  "classOfService": "Z",
+                  "classType": null,
+                  "fareApplicationType": 0,
+                  "fareClassOfService": "Z",
+                  "fareBasisCode": "ZCRAX00",
+                  "fareSequence": 0,
+                  "inboundOutBound": 0,
+                  "fareStatus": 0,
+                  "isAllotmentMarketFare": false,
+                  "originalClassOfService": "Z",
+                  "ruleNumber": "CRX0",
+                  "productClass": "EC",
+                  "ruleTariff": null,
+                  "travelClassCode": "Y",
+                  "crossReferenceClassOfService": null,
+                  "fareLink": 0,
+                  "passengerFares": [],
+                  "fareDesignator": {
+                    "fareTypeCodes": [
+                      "R"
+                    ]
+                  }
+                }
+              ],
+              "segmentKey": "SVh_MTE0Mn4gfn5DT0t_MDQvMTUvMjAyNSAwODo1NX5ERUx_MDQvMTUvMjAyNSAxMjowNX5_",
+              "passengerSegment": {
+                "MCFBRFQ-": {
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "26A",
+                      "isAutoAssigned": null,
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 51,
+                        "propertyList": {
+                          "LOCATION": "REAR",
+                          "BRDZONE": "3",
+                          "SEATPOS": "RS3",
+                          "TCC": "Y",
+                          "STNDRDBK": "TRUE",
+                          "WINDOW": "TRUE",
+                          "STANDARD": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "DEL",
+                      "departureStation": "COK",
+                      "passengerKey": "MCFBRFQ-",
+                      "unitKey": "SVghMTE0MiEgITYzODgwMzA0MTAwMDAwMDAwMCFDT0shREVMITI2QSFZ"
+                    }
+                  ],
+                  "passengerKey": "MCFBRFQ-",
+                  "activityDate": "2025-04-15T03:33:00.553Z",
+                  "boardingSequence": "66",
+                  "createdDate": "2025-04-14T12:14:31.9Z",
+                  "liftStatus": 2,
+                  "modifiedDate": "2025-04-14T13:37:03.293Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-04-14T12:14:31.91Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": "P   IN  ",
+                  "sourcePointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "pointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "ssrs": [
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": "Manual SSR added by Utility",
+                      "ssrDuration": 2,
+                      "ssrKey": "MCFNQ0ZCUkZRLSFMVEZTITEhREVMIUlYITYzODgwMzA0MTAwMDAwMDAwMCFDT0shMTE0MiEg",
+                      "count": 1,
+                      "ssrCode": "LTFS",
+                      "feeCode": null,
+                      "inBundle": false,
+                      "passengerKey": "MCFBRFQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "1142",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "DEL",
+                        "origin": "COK",
+                        "departureDate": "2025-04-15T08:55:00"
+                      }
+                    }
+                  ],
+                  "tickets": [],
+                  "bags": [
+                    {
+                      "baggageKey": "MDIzNjM0Mjk1NA--",
+                      "passengerKey": "MCFBRFQ-",
+                      "arrivalStation": "DEL",
+                      "status": 1,
+                      "departureStation": "COK",
+                      "osTag": "0236342954"
+                    }
+                  ],
+                  "scores": [],
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": {
+                    "seat": 0,
+                    "travelClass": 0,
+                    "advancedPreferences": []
+                  },
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": [
+                    "UCFJTiEg"
+                  ],
+                  "referenceNumber": 0
+                }
+              },
+              "channelType": 5,
+              "cabinOfService": "Y",
+              "externalIdentifier": null,
+              "priorityCode": null,
+              "changeReasonCode": 0,
+              "segmentType": 0,
+              "salesDate": "2025-04-14T12:14:31.9Z",
+              "international": false,
+              "flightReference": "20250415 IX1142 COKDEL",
+              "legs": [
+                {
+                  "legKey": "NjM4ODAzMDQxMDAwMDAwMDAwIUlYITExNDIhICFDT0shREVMITg0OTYyODQ-",
+                  "operationsInfo": null,
+                  "designator": {
+                    "destination": "DEL",
+                    "origin": "COK",
+                    "arrival": "2025-04-15T12:05:00",
+                    "departure": "2025-04-15T08:55:00",
+                    "originAirportName": null,
+                    "originCityName": null,
+                    "destinationAirportName": null,
+                    "destinationCityName": null,
+                    "arrivalTerminal": null,
+                    "departureTerminal": null
+                  },
+                  "legInfo": {
+                    "departureTimeUtc": "2025-04-15T03:25:00Z",
+                    "arrivalTimeUtc": "2025-04-15T06:35:00Z",
+                    "adjustedCapacity": 176,
+                    "arrivalTerminal": "3",
+                    "arrivalTimeVariant": 330,
+                    "backMoveDays": 490,
+                    "capacity": 176,
+                    "changeOfDirection": false,
+                    "codeShareIndicator": 0,
+                    "departureTerminal": "1",
+                    "departureTimeVariant": 330,
+                    "equipmentType": "7M8",
+                    "equipmentTypeSuffix": null,
+                    "eTicket": false,
+                    "irop": false,
+                    "lid": 176,
+                    "marketingCode": null,
+                    "marketingOverride": false,
+                    "operatedByText": null,
+                    "operatingCarrier": null,
+                    "operatingFlightNumber": null,
+                    "operatingOpSuffix": null,
+                    "outMoveDays": 490,
+                    "arrivalTime": "2025-04-15T12:05:00",
+                    "departureTime": "2025-04-15T08:55:00",
+                    "prbcCode": "Y168C8",
+                    "scheduleServiceType": null,
+                    "sold": 152,
+                    "status": 1,
+                    "subjectToGovtApproval": false,
+                    "eticket": false
+                  },
+                  "nests": [],
+                  "ssrs": [],
+                  "seatmapReference": "SVghMTE0MiEgITYzODgwMzA0MTAwMDAwMDAwMCFDT0shREVM",
+                  "flightReference": "20250415 IX1142 COKDEL"
+                }
+              ],
+              "status": 6
+            }
+          ],
+          "journeyKey": "SVh_IDQ5NH4gfn5LV0l_MDQvMTQvMjAyNSAyMDoxNX5DT0t_MDQvMTUvMjAyNSAwNDowMH5_XklYfjExNDJ_IH5_Q09LfjA0LzE1LzIwMjUgMDg6NTV_REVMfjA0LzE1LzIwMjUgMTI6MDV_fg--",
+          "notForGeneralUser": false,
+          "isCorpFareJourney": false,
+          "isCancelAllowed": false,
+          "checkInAllowedFlatform": 0,
+          "scootModification": true,
+          "isCorpLiteJourney": false,
+          "umnr": false,
+          "corpFareJourney": false,
+          "cancelAllowed": false,
+          "CheckInWindow": "Close",
+          "CheckInOpens": null
+        }
+      ],
+      "comments": [
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919536040404, TimeStamp= 2025-04-14 05:52:37, MessageFor=NewBookingConfirmOneWayConnectingCampaign",
+          "createdDate": "2025-04-14T12:22:38.63Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4MzM0MTkxNA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919536040404, TimeStamp= 2025-04-14 05:52:39, MessageFor=NewBookingConfirmOneWayConnectingCampaign",
+          "createdDate": "2025-04-14T12:22:40.46Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4MzM0MTk3MQ--"
+        },
+        {
+          "type": 2,
+          "text": "66302146",
+          "createdDate": "2025-04-14T13:37:03.047Z",
+          "pointOfSale": {
+            "agentCode": "GHKWI_SUMITR",
+            "domainCode": "DEF",
+            "locationCode": "KWIIX",
+            "organizationCode": "IX"
+          },
+          "commentKey": "MzI4MzM3Njk0Nw--"
+        },
+        {
+          "type": 2,
+          "text": "Guest Name: Ganga\r\nQuery: I don't have a last name is that a problem?\r\nResolution: Guest made a booking but he has only first name on his document \" Ganga Prasad \", ho he entered twice the same in first and last name, Information shared.\r\nPNR: q911na\r\n",
+          "createdDate": "2025-04-14T13:47:40.207Z",
+          "pointOfSale": {
+            "agentCode": "CLCAL_DIPANKAJK",
+            "domainCode": "DEF",
+            "locationCode": "CAL",
+            "organizationCode": "IX"
+          },
+          "commentKey": "MzI4MzM4MTM3Ng--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919536040404, TimeStamp= 2025-04-14 07:42:22, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-04-14T14:12:24.443Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4MzM5MTAwMA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919536040404, TimeStamp= 2025-04-14 07:43:20, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-04-14T14:13:22.107Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4MzM5MTY5NA--"
+        },
+        {
+          "type": 2,
+          "text": "inbound reported wid 1 pc of bag// 9458226230",
+          "createdDate": "2025-04-14T23:57:29.48Z",
+          "pointOfSale": {
+            "agentCode": "GHCOK_ANANYAA",
+            "domainCode": "DEF",
+            "locationCode": "COK",
+            "organizationCode": "IX"
+          },
+          "commentKey": "MzI4MzUzOTkwOQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919536040404, TimeStamp= 2025-04-15 05:52:27, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-04-15T00:22:29.423Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4MzU0Mzg5NA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919536040404, TimeStamp= 2025-04-15 05:59:25, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-04-15T00:29:26.783Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4MzU0NTE0OA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919536040404, TimeStamp= 2025-04-15 07:00:27, MessageFor=IRROPs_Delay_Less_Than_3_Hours(Unplanned)",
+          "createdDate": "2025-04-15T01:30:28.917Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4MzU2MTQyOA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919536040404, TimeStamp= 2025-04-15 07:01:10, MessageFor=IRROPs_Delay_Less_Than_3_Hours(Unplanned)",
+          "createdDate": "2025-04-15T01:31:11.563Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4MzU2MTcyOA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=Email , Status=Delivered, SentTime= 2025-04-15 07:01:13, DeliveryFor= IRROPs_Delay_Less_Than_3_Hours(Unplanned)",
+          "createdDate": "2025-04-15T01:37:28.773Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4MzU2MzQ3OQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=Voice , Status=connected, SentTime= 2025-04-15 07:15:09,ConnTine=2025-04-15 07:15:37 , EndTime=2025-04-15 07:16:12, Attempts=2, DeliveryFor= IRROPs_Delay_Less_Than_3_Hours(Unplanned)",
+          "createdDate": "2025-04-15T01:46:17.72Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4MzU2NjA5Ng--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=read, PhoneNo=919536040404, TimeStamp= 2025-04-22 11:12:39, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-04-22T05:42:41.053Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4NzcxMjQ3OA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=read, PhoneNo=919536040404, TimeStamp= 2025-04-22 11:12:39, MessageFor=IRROPs_Delay_Less_Than_3_Hours(Unplanned)",
+          "createdDate": "2025-04-22T05:42:41.277Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4NzcxMjQ4Mw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=read, PhoneNo=919536040404, TimeStamp= 2025-04-22 11:12:39, MessageFor=NewBookingConfirmOneWayConnectingCampaign",
+          "createdDate": "2025-04-22T05:42:41.49Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4NzcxMjQ4OQ--"
+        }
+      ],
+      "queues": [],
+      "history": [],
+      "payments": [
+        {
+          "paymentKey": "NDY3NzY0NDA0ITEhQUchNTQ1MDU1Njk2",
+          "code": "AG",
+          "approvalDate": "2025-04-14T12:14:32.02Z",
+          "details": {
+            "accountNumberId": 0,
+            "parentPaymentId": null,
+            "accountName": null,
+            "accountNumber": "OTATSCTRSE",
+            "expirationDate": null,
+            "text": null,
+            "installments": 1,
+            "binRange": 0,
+            "fields": {}
+          },
+          "amounts": {
+            "amount": 15821,
+            "currencyCode": "INR",
+            "collected": 15821,
+            "collectedCurrencyCode": "INR",
+            "quoted": 15821,
+            "quotedCurrencyCode": "INR"
+          },
+          "authorizationCode": null,
+          "authorizationStatus": 4,
+          "fundedDate": "1800-01-01T00:00:00Z",
+          "transactionCode": null,
+          "dcc": null,
+          "threeDSecure": null,
+          "attachments": [],
+          "createdDate": "2025-04-14T12:14:31.9Z",
+          "modifiedDate": "2025-04-14T12:14:32.017Z",
+          "type": 2,
+          "status": 3,
+          "transferred": false,
+          "channelType": 5,
+          "pointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "sourcePointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "deposit": false,
+          "accountId": 0,
+          "voucher": null,
+          "addedToState": true,
+          "createdAgentId": 44115378,
+          "modifiedAgentId": 44115378,
+          "reference": 467764404
+        }
+      ],
+      "orders": [],
+      "isFareMaskingEnabled": false,
+      "isGroupBooking": false,
+      "vaccinationStatus": false,
+      "isCodeShareBooking": false,
+      "isFareLockBooking": false,
+      "isCodeSharePNR": false,
+      "isScootBooking": false,
+      "isCustomerBooking": false,
+      "isGHASOLBooking": false,
+      "isDeadHeadBooking": false,
+      "isDeadHeadCheckInAllowed": false,
+      "isMarineBooking": false,
+      "isMYIDBooking": false
+    },
+    "AnonymousToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiOWM4NmQxOGQtYjBlZS1hMDcxLWNkNDQtZWZkOGY3MDRhYWY1IiwiaXNzIjoiZG90UkVaIEFQSSJ9.eAczAbfyluK4NrHBykNjlNZ89yWgtj3CknWob6JPzlw"
+  },
+  "responseStatus": 200,
+  "responseUrl": "https://api.airindiaexpress.com/b2c-CheckIn/v2/retrieve/mmb/byRecordLocator"
+}

@@ -1,0 +1,1081 @@
+{
+  "pnr": "J4ND8J",
+  "contactDetail": "BOOKNFLY112@GMAIL.COM",
+  "startedAt": "2026-05-11T15:35:41.716Z",
+  "pageUrlStart": "https://www.airindiaexpress.com/manage",
+  "response": {
+    "navToken": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiMmZjNGFmOWYtMzdiZC1kZTBmLTVjMWEtMGUxOGMyNWYwMTAwIiwiaXNzIjoiZG90UkVaIEFQSSJ9.hBp4GKl3SuTjL-IPyPhmpozpubLDJmtv5pAZpVupTh8",
+      "idleTimeoutInMinutes": 15
+    },
+    "data": {
+      "selfServiceMoveAvailable": false,
+      "isDirectChannel": false,
+      "bookingKey": "NTQ0Njk1Nzg2IUo0TkQ4SiFmYWxzZQ--",
+      "recordLocator": "J4ND8J",
+      "currencyCode": "INR",
+      "systemCode": null,
+      "groupName": null,
+      "locators": {
+        "numericRecordLocator": "192627073419",
+        "parentRecordLocator": null,
+        "parentId": "0",
+        "recordLocators": []
+      },
+      "info": {
+        "status": 3,
+        "paidStatus": 1,
+        "priceStatus": 2,
+        "profileStatus": 1,
+        "bookingType": null,
+        "channelType": 5,
+        "bookedDate": "2025-04-07T11:07:14.03Z",
+        "createdDate": "2025-04-07T11:07:14.03Z",
+        "expirationDate": "2025-04-25T05:35:00Z",
+        "modifiedDate": "2025-05-07T06:01:53.64Z",
+        "modifiedAgentId": "44059635",
+        "createdAgentId": "44115378",
+        "owningCarrierCode": "IX",
+        "changeAllowed": true
+      },
+      "sales": {
+        "created": {
+          "agentCode": "APITSCTRSE",
+          "domainCode": "TOP",
+          "locationCode": "API",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "source": {
+          "isoCountryCode": null,
+          "sourceSystemCode": null,
+          "agentCode": "APITSCTRSE",
+          "domainCode": "TOP",
+          "locationCode": "API",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "modified": null
+      },
+      "typeOfSale": {
+        "residentCountry": "IN",
+        "promotionCode": null,
+        "fareTypes": []
+      },
+      "hold": null,
+      "breakdown": {
+        "balanceDue": 0,
+        "pointsBalanceDue": 0,
+        "authorizedBalanceDue": 0,
+        "totalAmount": 8399,
+        "totalPoints": 0,
+        "totalToCollect": 8399,
+        "totalPointsToCollect": 0,
+        "totalCharged": 8399,
+        "passengerTotals": {
+          "services": null,
+          "specialServices": {
+            "total": 508,
+            "taxes": 92,
+            "adjustments": null,
+            "charges": [
+              {
+                "amount": 600,
+                "code": "NCBB",
+                "detail": "Awadhi Chi",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 600,
+                "ticketCode": "NCB"
+              },
+              {
+                "amount": 46,
+                "code": "CGST",
+                "detail": "BLR-GWL",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 46,
+                "ticketCode": "CST"
+              },
+              {
+                "amount": 46,
+                "code": "SGST",
+                "detail": "BLR-GWL",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 46,
+                "ticketCode": "SST"
+              }
+            ]
+          },
+          "seats": {
+            "total": 858,
+            "taxes": 42,
+            "adjustments": null,
+            "charges": [
+              {
+                "amount": 900,
+                "code": "SEAT",
+                "detail": "BLR-GWL",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 900,
+                "ticketCode": "ST"
+              },
+              {
+                "amount": 21,
+                "code": "CGST",
+                "detail": "BLR-GWL",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 21,
+                "ticketCode": "CST"
+              },
+              {
+                "amount": 21,
+                "code": "SGST",
+                "detail": "BLR-GWL",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 21,
+                "ticketCode": "SST"
+              }
+            ]
+          },
+          "upgrades": null,
+          "spoilage": null,
+          "nameChanges": null,
+          "convenience": null,
+          "infant": null
+        },
+        "passengers": {
+          "MCFBRFQ-": {
+            "passengerKey": "MCFBRFQ-",
+            "services": null,
+            "specialServices": {
+              "total": 508,
+              "taxes": 92,
+              "adjustments": null,
+              "charges": [
+                {
+                  "amount": 600,
+                  "code": "NCBB",
+                  "detail": "Awadhi Chi",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 600,
+                  "ticketCode": "NCB"
+                },
+                {
+                  "amount": 46,
+                  "code": "CGST",
+                  "detail": "BLR-GWL",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 46,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 46,
+                  "code": "SGST",
+                  "detail": "BLR-GWL",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 46,
+                  "ticketCode": "SST"
+                }
+              ]
+            },
+            "seats": {
+              "total": 858,
+              "taxes": 42,
+              "adjustments": null,
+              "charges": [
+                {
+                  "amount": 900,
+                  "code": "SEAT",
+                  "detail": "BLR-GWL",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 900,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 21,
+                  "code": "CGST",
+                  "detail": "BLR-GWL",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 21,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 21,
+                  "code": "SGST",
+                  "detail": "BLR-GWL",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 21,
+                  "ticketCode": "SST"
+                }
+              ]
+            },
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          }
+        },
+        "journeyTotals": {
+          "totalAmount": 5553,
+          "totalPoints": 0,
+          "totalTax": 1346,
+          "totalDiscount": 0
+        },
+        "journeys": {
+          "SVh_MjU0Mn4gfn5CTFJ_MDQvMjQvMjAyNSAxMTowNX5HV0x_MDQvMjQvMjAyNSAxMzo1MH5_": {
+            "journeyKey": "SVh_MjU0Mn4gfn5CTFJ_MDQvMjQvMjAyNSAxMTowNX5HV0x_MDQvMjQvMjAyNSAxMzo1MH5_",
+            "totalAmount": 5553,
+            "totalPoints": 0,
+            "totalTax": 1346,
+            "totalDiscount": 0
+          }
+        },
+        "addOnTotals": {
+          "car": null,
+          "hotel": null,
+          "activities": null
+        }
+      },
+      "receivedBy": {
+        "receivedBy": null,
+        "latestReceivedBy": null,
+        "receivedReference": null,
+        "latestReceivedReference": null,
+        "referralCode": null
+      },
+      "contacts": {
+        "P": {
+          "contactTypeCode": "P",
+          "phoneNumbers": [
+            {
+              "type": 0,
+              "number": "qe5weX5/lZ0uQfTe7klRCw=="
+            },
+            {
+              "type": 1,
+              "number": "qe5weX5/lZ0uQfTe7klRCw=="
+            }
+          ],
+          "cultureCode": null,
+          "address": {
+            "lineOne": "NA",
+            "lineTwo": "NA",
+            "lineThree": null,
+            "countryCode": "IN",
+            "provinceState": "NA",
+            "city": "NA",
+            "postalCode": null
+          },
+          "emailAddress": "lcN7NCPX6snTkCl4hTJGo6UiWk3XuKb/LtKUPqo83lM=",
+          "customerNumber": null,
+          "sourceOrganization": "OTATSCTRSE",
+          "distributionOption": 2,
+          "notificationPreference": 0,
+          "companyName": "TSC ONLINE",
+          "name": {
+            "first": "yIt8RuC8w9tmgctzchKypA==",
+            "middle": null,
+            "last": "iXAUKB4/Am2rdLqLGQEEog==",
+            "title": "MR",
+            "suffix": null
+          }
+        }
+      },
+      "passengers": [
+        {
+          "passengerKey": "MCFBRFQ-",
+          "passengerAlternateKey": "MTIyMjA2MzM3OQ--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 6,
+              "ssrCode": "NCBB",
+              "ssrNumber": 1,
+              "paymentNumber": 0,
+              "code": "NCBB",
+              "detail": null,
+              "passengerFeeKey": "MCEwITY-",
+              "override": false,
+              "flightReference": "20250424 IX2542 BLRGWL",
+              "note": null,
+              "createdDate": "2025-04-07T11:07:14.03Z",
+              "serviceCharges": [
+                {
+                  "amount": 600,
+                  "code": "NCBB",
+                  "detail": "Awadhi Chi",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 600,
+                  "ticketCode": "NCB"
+                },
+                {
+                  "amount": 46,
+                  "code": "CGST",
+                  "detail": "BLR-GWL",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 46,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 46,
+                  "code": "SGST",
+                  "detail": "BLR-GWL",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 46,
+                  "ticketCode": "SST"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 600
+            },
+            {
+              "type": 9,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "SEAT",
+              "detail": null,
+              "passengerFeeKey": "MCExITk-",
+              "override": false,
+              "flightReference": "20250424 IX2542 BLRGWL",
+              "note": null,
+              "createdDate": "2025-04-07T11:07:14.03Z",
+              "serviceCharges": [
+                {
+                  "amount": 900,
+                  "code": "SEAT",
+                  "detail": "BLR-GWL",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 900,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 21,
+                  "code": "CGST",
+                  "detail": "BLR-GWL",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 21,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 21,
+                  "code": "SGST",
+                  "detail": "BLR-GWL",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 21,
+                  "ticketCode": "SST"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 900
+            }
+          ],
+          "name": {
+            "first": "yIt8RuC8w9tmgctzchKypA==",
+            "middle": null,
+            "last": "iXAUKB4/Am2rdLqLGQEEog==",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [
+            {
+              "identifier": "2542",
+              "baggageKey": "MDIzNjk3NDU3OA--",
+              "nonStandard": false,
+              "type": "STND",
+              "osTag": "0236974578",
+              "osTagDate": "2025-04-24T00:00:00Z",
+              "taggedToStation": "GWL",
+              "stationCode": "BLR",
+              "weight": 9,
+              "taggedToCarrierCode": "IX",
+              "weightType": 2
+            }
+          ],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": 1,
+            "dateOfBirth": "tqN3OJ1DkeAr6gzsOU/SH5dsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [],
+          "addresses": [
+            {
+              "status": "Residence",
+              "companyName": null,
+              "lineOne": null,
+              "passengerAddressKey": "lFGAYBexgwoz+e0Vcm8Dug==",
+              "phone": "qe5weX5/lZ0uQfTe7klRCw==",
+              "lineTwo": null,
+              "stationCode": "BLR",
+              "lineThree": null,
+              "emailAddress": "3gOZVDGxNZoRnAeocIifcaUiWk3XuKb/LtKUPqo83lM=",
+              "countryCode": null,
+              "cultureCode": null,
+              "provinceState": null,
+              "refusedContact": false,
+              "city": null,
+              "postalCode": null
+            }
+          ],
+          "weightCategory": 1,
+          "bagsInfo": [
+            {
+              "journeyKey": "SVh_MjU0Mn4gfn5CTFJ_MDQvMjQvMjAyNSAxMTowNX5HV0x_MDQvMjQvMjAyNSAxMzo1MH5_",
+              "CABG": 7,
+              "CHKBAG": 15,
+              "ICBG": null,
+              "STND": null
+            }
+          ]
+        }
+      ],
+      "journeys": [
+        {
+          "flightType": 1,
+          "stops": 0,
+          "designator": {
+            "destination": "GWL",
+            "origin": "BLR",
+            "arrival": "2025-04-24T13:50:00",
+            "departure": "2025-04-24T11:05:00",
+            "originAirportName": "Kempegowda International Airport Bengaluru, T2",
+            "originCityName": "Bengaluru",
+            "destinationAirportName": "Gwalior Airport",
+            "destinationCityName": "Gwalior",
+            "arrivalTerminal": null,
+            "departureTerminal": "2"
+          },
+          "move": {
+            "maxMoveBackDays": 490,
+            "maxMoveOutDays": 490
+          },
+          "segments": [
+            {
+              "isStandby": false,
+              "isConfirming": false,
+              "isConfirmingExternal": false,
+              "isBlocked": false,
+              "isHosted": true,
+              "isChangeOfGauge": false,
+              "designator": {
+                "destination": "GWL",
+                "origin": "BLR",
+                "arrival": "2025-04-24T13:50:00",
+                "departure": "2025-04-24T11:05:00",
+                "originAirportName": "Kempegowda International Airport Bengaluru, T2",
+                "originCityName": "Bengaluru",
+                "destinationAirportName": "Gwalior Airport",
+                "destinationCityName": "Gwalior",
+                "arrivalTerminal": null,
+                "departureTerminal": "2"
+              },
+              "isSeatmapViewable": true,
+              "identifier": {
+                "identifier": "2542",
+                "carrierCode": "IX",
+                "opSuffix": null
+              },
+              "fares": [
+                {
+                  "isGoverning": true,
+                  "downgradeAvailable": false,
+                  "carrierCode": "I5",
+                  "fareKey": "MH5Pfn5JNX5PTlNBMDAwfk5TMDB_fjB_MH5_WA--",
+                  "classOfService": "O",
+                  "classType": null,
+                  "fareApplicationType": 0,
+                  "fareClassOfService": "O",
+                  "fareBasisCode": "ONSA000",
+                  "fareSequence": 0,
+                  "inboundOutBound": 0,
+                  "fareStatus": 0,
+                  "isAllotmentMarketFare": false,
+                  "originalClassOfService": "O",
+                  "ruleNumber": "NS00",
+                  "productClass": "SM",
+                  "ruleTariff": null,
+                  "travelClassCode": "Y",
+                  "crossReferenceClassOfService": null,
+                  "fareLink": 0,
+                  "passengerFares": [
+                    {
+                      "serviceCharges": [
+                        {
+                          "amount": 5553,
+                          "code": null,
+                          "detail": null,
+                          "type": "FarePrice",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 5553,
+                          "ticketCode": null
+                        },
+                        {
+                          "amount": 75,
+                          "code": "CUTE",
+                          "detail": "BLR-GWL",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 75,
+                          "ticketCode": "CUT"
+                        },
+                        {
+                          "amount": 100,
+                          "code": "RCS",
+                          "detail": "BLR-GWL",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 100,
+                          "ticketCode": "RCS"
+                        },
+                        {
+                          "amount": 649,
+                          "code": "IN",
+                          "detail": "BLR-GWL",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 649,
+                          "ticketCode": "IN"
+                        },
+                        {
+                          "amount": 236,
+                          "code": "P2",
+                          "detail": "BLR-GWL",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 236,
+                          "ticketCode": "P2"
+                        },
+                        {
+                          "amount": 143,
+                          "code": "CGST",
+                          "detail": "BLR-GWL",
+                          "type": "Tax",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 143,
+                          "ticketCode": "CST"
+                        },
+                        {
+                          "amount": 143,
+                          "code": "SGST",
+                          "detail": "BLR-GWL",
+                          "type": "Tax",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 143,
+                          "ticketCode": "SST"
+                        }
+                      ],
+                      "discountCode": null,
+                      "fareDiscountCode": null,
+                      "passengerType": "ADT"
+                    }
+                  ],
+                  "fareDesignator": {
+                    "fareTypeCodes": [
+                      "SC"
+                    ]
+                  }
+                }
+              ],
+              "segmentKey": "SVh_MjU0Mn4gfn5CTFJ_MDQvMjQvMjAyNSAxMTowNX5HV0x_MDQvMjQvMjAyNSAxMzo1MH5_",
+              "passengerSegment": {
+                "MCFBRFQ-": {
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "14C",
+                      "isAutoAssigned": null,
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 27,
+                        "propertyList": {
+                          "LOCATION": "REAR",
+                          "BRDZONE": "2",
+                          "SEATPOS": "EMX2",
+                          "AISLE": "TRUE",
+                          "PRIME": "TRUE",
+                          "NCHILD": "TRUE",
+                          "TCC": "Y",
+                          "FLEXSEAT": "TRUE",
+                          "EXITROW": "TRUE",
+                          "LEGROOM": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "GWL",
+                      "departureStation": "BLR",
+                      "passengerKey": "MCFBRFQ-",
+                      "unitKey": "SVghMjU0MiEgITYzODgxMDg5NTAwMDAwMDAwMCFCTFIhR1dMITE0QyFZ"
+                    }
+                  ],
+                  "passengerKey": "MCFBRFQ-",
+                  "activityDate": "2025-04-24T05:06:04.447Z",
+                  "boardingSequence": "23",
+                  "createdDate": "2025-04-07T11:07:14.03Z",
+                  "liftStatus": 2,
+                  "modifiedDate": "2025-04-24T03:39:58.477Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-04-07T11:07:14.05Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": null,
+                  "sourcePointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "pointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "ssrs": [
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": "DevTest",
+                      "ssrDuration": 2,
+                      "ssrKey": "MCFNQ0ZCUkZRLSFOQ0JCITEhR1dMIUlYITYzODgxMDg5NTAwMDAwMDAwMCFCTFIhMjU0MiEg",
+                      "count": 1,
+                      "ssrCode": "NCBB",
+                      "feeCode": "NCBB",
+                      "inBundle": false,
+                      "passengerKey": "MCFBRFQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "2542",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "GWL",
+                        "origin": "BLR",
+                        "departureDate": "2025-04-24T11:05:00"
+                      }
+                    },
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": null,
+                      "ssrDuration": 2,
+                      "ssrKey": "MCFNQ0ZCUkZRLSFTTUUhMSFHV0whSVghNjM4ODEwODk1MDAwMDAwMDAwIUJMUiEyNTQyISA-",
+                      "count": 1,
+                      "ssrCode": "SME",
+                      "feeCode": null,
+                      "inBundle": false,
+                      "passengerKey": "MCFBRFQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "2542",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "GWL",
+                        "origin": "BLR",
+                        "departureDate": "2025-04-24T11:05:00"
+                      }
+                    }
+                  ],
+                  "tickets": [],
+                  "bags": [
+                    {
+                      "baggageKey": "MDIzNjk3NDU3OA--",
+                      "passengerKey": "MCFBRFQ-",
+                      "arrivalStation": "GWL",
+                      "status": 1,
+                      "departureStation": "BLR",
+                      "osTag": "0236974578"
+                    }
+                  ],
+                  "scores": [],
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": {
+                    "seat": 0,
+                    "travelClass": 0,
+                    "advancedPreferences": [
+                      {
+                        "seatMapCode": "EXITROW",
+                        "value": "TRUE"
+                      },
+                      {
+                        "seatMapCode": "LEGROOM",
+                        "value": "TRUE"
+                      },
+                      {
+                        "seatMapCode": "LOCATION",
+                        "value": "REAR"
+                      },
+                      {
+                        "seatMapCode": "PRIME",
+                        "value": "TRUE"
+                      }
+                    ]
+                  },
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": null,
+                  "referenceNumber": 0
+                }
+              },
+              "channelType": 5,
+              "cabinOfService": "Y",
+              "externalIdentifier": null,
+              "priorityCode": null,
+              "changeReasonCode": 0,
+              "segmentType": 0,
+              "salesDate": "2025-04-07T11:07:14.03Z",
+              "international": false,
+              "flightReference": "20250424 IX2542 BLRGWL",
+              "legs": [
+                {
+                  "legKey": "NjM4ODEwODk1MDAwMDAwMDAwIUlYITI1NDIhICFCTFIhR1dMITg1MDAyMjQ-",
+                  "operationsInfo": null,
+                  "designator": {
+                    "destination": "GWL",
+                    "origin": "BLR",
+                    "arrival": "2025-04-24T13:50:00",
+                    "departure": "2025-04-24T11:05:00",
+                    "originAirportName": null,
+                    "originCityName": null,
+                    "destinationAirportName": null,
+                    "destinationCityName": null,
+                    "arrivalTerminal": null,
+                    "departureTerminal": null
+                  },
+                  "legInfo": {
+                    "departureTimeUtc": "2025-04-24T05:35:00Z",
+                    "arrivalTimeUtc": "2025-04-24T08:20:00Z",
+                    "adjustedCapacity": 176,
+                    "arrivalTerminal": null,
+                    "arrivalTimeVariant": 330,
+                    "backMoveDays": 490,
+                    "capacity": 176,
+                    "changeOfDirection": false,
+                    "codeShareIndicator": 0,
+                    "departureTerminal": "2",
+                    "departureTimeVariant": 330,
+                    "equipmentType": "7M8",
+                    "equipmentTypeSuffix": "B",
+                    "eTicket": false,
+                    "irop": false,
+                    "lid": 176,
+                    "marketingCode": null,
+                    "marketingOverride": false,
+                    "operatedByText": null,
+                    "operatingCarrier": null,
+                    "operatingFlightNumber": null,
+                    "operatingOpSuffix": null,
+                    "outMoveDays": 490,
+                    "arrivalTime": "2025-04-24T13:50:00",
+                    "departureTime": "2025-04-24T11:05:00",
+                    "prbcCode": "Y168C8",
+                    "scheduleServiceType": null,
+                    "sold": 152,
+                    "status": 1,
+                    "subjectToGovtApproval": false,
+                    "eticket": false
+                  },
+                  "nests": [],
+                  "ssrs": [],
+                  "seatmapReference": "SVghMjU0MiEgITYzODgxMDg5NTAwMDAwMDAwMCFCTFIhR1dM",
+                  "flightReference": "20250424 IX2542 BLRGWL"
+                }
+              ],
+              "status": 6
+            }
+          ],
+          "journeyKey": "SVh_MjU0Mn4gfn5CTFJ_MDQvMjQvMjAyNSAxMTowNX5HV0x_MDQvMjQvMjAyNSAxMzo1MH5_",
+          "notForGeneralUser": false,
+          "isCorpFareJourney": false,
+          "isCancelAllowed": false,
+          "checkInAllowedFlatform": 0,
+          "scootModification": true,
+          "isCorpLiteJourney": false,
+          "umnr": false,
+          "corpFareJourney": false,
+          "cancelAllowed": false,
+          "CheckInWindow": "Close",
+          "CheckInOpens": null
+        }
+      ],
+      "comments": [
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919717887301, TimeStamp= 2025-04-07 04:41:46, MessageFor=NewBookingConfirmOneWaySingle-HoppingCampaign",
+          "createdDate": "2025-04-07T11:11:48.067Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI3ODc0NzU1MA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919717887301, TimeStamp= 2025-04-07 04:45:44, MessageFor=NewBookingConfirmOneWaySingle-HoppingCampaign",
+          "createdDate": "2025-04-07T11:15:46.363Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI3ODc1MTE1NQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919717887301, TimeStamp= 2025-04-22 11:04:36, MessageFor=AdditionalSMS_CheckInReminder",
+          "createdDate": "2025-04-22T05:34:37.36Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4NzcwOTI4OA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919717887301, TimeStamp= 2025-04-22 11:04:37, MessageFor=AdditionalSMS_CheckInReminder",
+          "createdDate": "2025-04-22T05:34:39.167Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4NzcwOTM1OA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919717887301, TimeStamp= 2025-04-22 11:40:19, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-04-22T06:10:21.46Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4NzcyNTQxNw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919717887301, TimeStamp= 2025-04-22 11:40:21, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-04-22T06:10:22.85Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4NzcyNTQzNg--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919717887301, TimeStamp= 2025-04-24 08:02:25, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-04-24T02:32:28.173Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4ODY4NjcxMA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919717887301, TimeStamp= 2025-04-24 08:02:27, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-04-24T02:32:28.6Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI4ODY4Njc2MA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=read, PhoneNo=919717887301, TimeStamp= 2025-05-07 10:08:20, MessageFor=AdditionalSMS_CheckInReminder",
+          "createdDate": "2025-05-07T04:38:22.197Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5NTc3OTY3NQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=read, PhoneNo=919717887301, TimeStamp= 2025-05-07 11:31:51, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-05-07T06:01:53.64Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5NTgxNTI3Nw--"
+        }
+      ],
+      "queues": [],
+      "history": [],
+      "payments": [
+        {
+          "paymentKey": "NDY3MzMyODcyITEhQUchNTQ0Njk1Nzg2",
+          "code": "AG",
+          "approvalDate": "2025-04-07T11:07:14.197Z",
+          "details": {
+            "accountNumberId": 0,
+            "parentPaymentId": null,
+            "accountName": null,
+            "accountNumber": "OTATSCTRSE",
+            "expirationDate": null,
+            "text": null,
+            "installments": 1,
+            "binRange": 0,
+            "fields": {}
+          },
+          "amounts": {
+            "amount": 8399,
+            "currencyCode": "INR",
+            "collected": 8399,
+            "collectedCurrencyCode": "INR",
+            "quoted": 8399,
+            "quotedCurrencyCode": "INR"
+          },
+          "authorizationCode": null,
+          "authorizationStatus": 4,
+          "fundedDate": "1800-01-01T00:00:00Z",
+          "transactionCode": null,
+          "dcc": null,
+          "threeDSecure": null,
+          "attachments": [],
+          "createdDate": "2025-04-07T11:07:14.03Z",
+          "modifiedDate": "2025-04-07T11:07:14.18Z",
+          "type": 2,
+          "status": 3,
+          "transferred": false,
+          "channelType": 5,
+          "pointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "sourcePointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "deposit": false,
+          "accountId": 0,
+          "voucher": null,
+          "addedToState": true,
+          "createdAgentId": 44115378,
+          "modifiedAgentId": 44115378,
+          "reference": 467332872
+        }
+      ],
+      "orders": [],
+      "isFareMaskingEnabled": false,
+      "isGroupBooking": false,
+      "vaccinationStatus": false,
+      "isCodeShareBooking": false,
+      "isFareLockBooking": false,
+      "isCodeSharePNR": false,
+      "isScootBooking": false,
+      "isCustomerBooking": false,
+      "isGHASOLBooking": false,
+      "isDeadHeadBooking": false,
+      "isDeadHeadCheckInAllowed": false,
+      "isMarineBooking": false,
+      "isMYIDBooking": false
+    },
+    "AnonymousToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiMmZjNGFmOWYtMzdiZC1kZTBmLTVjMWEtMGUxOGMyNWYwMTAwIiwiaXNzIjoiZG90UkVaIEFQSSJ9.hBp4GKl3SuTjL-IPyPhmpozpubLDJmtv5pAZpVupTh8"
+  },
+  "responseStatus": 200,
+  "responseUrl": "https://api.airindiaexpress.com/b2c-CheckIn/v2/retrieve/mmb/byRecordLocator"
+}

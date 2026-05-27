@@ -1,0 +1,45 @@
+2026/05/11-21:13:38.628 1c4166 Reusing MANIFEST /Users/user/Downloads/indigo-scraper-v2/data/chrome-airindiaexpress-profile/Default/Session Storage/MANIFEST-000001
+2026/05/11-21:13:38.629 1c4166 Recovering log #83
+2026/05/11-21:13:38.630 1c4166 Level-0 table #86: started
+2026/05/11-21:13:38.636 1c4166 Level-0 table #86: 30567 bytes OK
+2026/05/11-21:13:38.636 1c4166 Recovering log #85
+2026/05/11-21:13:38.637 1c4166 Reusing old log /Users/user/Downloads/indigo-scraper-v2/data/chrome-airindiaexpress-profile/Default/Session Storage/000085.log 
+2026/05/11-21:13:38.640 1c4166 Delete type=0 #83
+2026/05/11-21:15:03.881 1c416a Level-0 table #88: started
+2026/05/11-21:15:03.885 1c416a Level-0 table #88: 40492 bytes OK
+2026/05/11-21:15:03.887 1c416a Delete type=0 #85
+2026/05/11-21:15:03.888 1c416a Compacting 4@0 + 1@1 files
+2026/05/11-21:15:03.893 1c416a Generated table #89@0: 181 keys, 27099 bytes
+2026/05/11-21:15:03.893 1c416a Compacted 4@0 + 1@1 files => 27099 bytes
+2026/05/11-21:15:03.894 1c416a compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/11-21:15:03.895 1c416a Delete type=2 #88
+2026/05/11-21:15:03.895 1c416a Delete type=2 #80
+2026/05/11-21:15:03.895 1c416a Delete type=2 #82
+2026/05/11-21:15:03.895 1c416a Delete type=2 #86
+2026/05/11-21:15:03.895 1c416a Delete type=2 #84
+2026/05/11-21:15:12.786 1c416a Level-0 table #91: started
+2026/05/11-21:15:12.789 1c416a Level-0 table #91: 23507 bytes OK
+2026/05/11-21:15:12.795 1c416a Delete type=0 #87
+2026/05/11-21:15:44.125 1c489b Level-0 table #93: started
+2026/05/11-21:15:44.130 1c489b Level-0 table #93: 29597 bytes OK
+2026/05/11-21:15:44.134 1c489b Delete type=0 #90
+2026/05/11-21:15:45.529 1c416a Level-0 table #95: started
+2026/05/11-21:15:45.531 1c416a Level-0 table #95: 26023 bytes OK
+2026/05/11-21:15:45.534 1c416a Delete type=0 #92
+2026/05/11-21:16:44.126 1c489b Level-0 table #97: started
+2026/05/11-21:16:44.133 1c489b Level-0 table #97: 27947 bytes OK
+2026/05/11-21:16:44.137 1c489b Delete type=0 #94
+2026/05/11-21:16:44.140 1c489b Compacting 4@0 + 1@1 files
+2026/05/11-21:16:44.146 1c489b Generated table #98@0: 181 keys, 31255 bytes
+2026/05/11-21:16:44.146 1c489b Compacted 4@0 + 1@1 files => 31255 bytes
+2026/05/11-21:16:44.148 1c489b compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/11-21:16:44.149 1c489b Delete type=2 #89
+2026/05/11-21:16:44.149 1c489b Delete type=2 #95
+2026/05/11-21:16:44.149 1c489b Delete type=2 #97
+2026/05/11-21:16:44.149 1c489b Delete type=2 #93
+2026/05/11-21:16:44.149 1c489b Delete type=2 #91
+2026/05/11-21:17:10.472 1c489b Level-0 table #100: started
+2026/05/11-21:17:10.477 1c489b Level-0 table #100: 25037 bytes OK
+2026/05/11-21:17:10.481 1c489b Delete type=0 #96
+2026/05/11-21:17:10.483 1c416a Level-0 table #102: started
+2026/05/11-21:17:10.507 1c416a Level-0 table #102: 23588 bytes OK

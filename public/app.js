@@ -31,6 +31,13 @@ function currentProcessType() {
 }
 
 function applyProcessUi() {
+  const isIndigo = airlineSelect.value === 'indigo';
+  if (!isIndigo && processTypeSelect.value === 'refund') {
+    processTypeSelect.value = 'status';
+  }
+  const refundOption = processTypeSelect.querySelector('option[value="refund"]');
+  if (refundOption) refundOption.disabled = !isIndigo;
+
   const mode = currentProcessType();
   const isRefund = mode === 'refund';
   startBtn.textContent = isRefund ? 'Start Refund Run' : 'Start Run';
@@ -182,6 +189,9 @@ resetBtn.addEventListener('click', async () => {
 refreshLogsBtn.addEventListener('click', refreshLogs);
 if (processTypeSelect) {
   processTypeSelect.addEventListener('change', applyProcessUi);
+}
+if (airlineSelect) {
+  airlineSelect.addEventListener('change', applyProcessUi);
 }
 
 async function refreshStatus() {

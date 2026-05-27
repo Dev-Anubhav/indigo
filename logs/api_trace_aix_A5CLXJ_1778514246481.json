@@ -1,0 +1,9 @@
+{
+  "pnr": "A5CLXJ",
+  "contactDetail": "TICKETING@SHIV-TRAVEL.COM",
+  "startedAt": "2026-05-11T15:43:39.261Z",
+  "pageUrlStart": "about:blank",
+  "response": null,
+  "error": "page.waitForResponse: Timeout 20000ms exceeded while waiting for event \"response\"",
+  "doneAt": "2026-05-11T15:44:06.481Z"
+}

@@ -36,9 +36,9 @@ function buildPassengerRows(job) {
   const itinerary = parsed?.itinerary || null;
   const data = itinerary?.data || null;
   const passengers = Array.isArray(data?.passengers) ? data.passengers : [];
-  const firstJourney = data?.journeysDetail?.[0] || {};
+  const firstJourney = data?.journeysDetail?.[0] || data?.journeys?.[0] || {};
   const firstSegment = firstJourney?.segments?.[0] || {};
-  const firstSegmentDetails = firstSegment?.segmentDetails || firstSegment?.legDetails || {};
+  const firstSegmentDetails = firstSegment?.segmentDetails || firstSegment?.legDetails || firstSegment?.designator || {};
 
   if (!passengers.length) {
     return [{
@@ -54,7 +54,8 @@ function buildPassengerRows(job) {
   }
 
   return passengers.map((p) => {
-    const paxSeg = p?.seatsAndSsrs?.journeys?.[0]?.segments?.[0] || {};
+    const aixPaxSeg = firstSegment?.passengerSegment?.[p?.passengerKey] || {};
+    const paxSeg = p?.seatsAndSsrs?.journeys?.[0]?.segments?.[0] || aixPaxSeg || {};
     const paxDesignator = paxSeg?.designator || {};
     const departureRaw =
       paxDesignator?.departure ||

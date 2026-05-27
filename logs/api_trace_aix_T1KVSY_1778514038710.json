@@ -1,0 +1,794 @@
+{
+  "pnr": "T1KVSY",
+  "contactDetail": "SUDANSHU786.CA@GMAIL.COM",
+  "startedAt": "2026-05-11T15:40:31.296Z",
+  "pageUrlStart": "https://www.airindiaexpress.com/manage",
+  "response": {
+    "navToken": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiNDZkZDljYTEtOWRkNi0wYTMxLTdmNmUtZjEzNTdlMGU0NjE5IiwiaXNzIjoiZG90UkVaIEFQSSJ9.q0Luc5NCbhkRXqC6X_jgVuwqUVCNj1vOLl3_9dt1XXo",
+      "idleTimeoutInMinutes": 15
+    },
+    "data": {
+      "selfServiceMoveAvailable": false,
+      "isDirectChannel": false,
+      "bookingKey": "NTQ1NjQ5ODk1IVQxS1ZTWSFmYWxzZQ--",
+      "recordLocator": "T1KVSY",
+      "currencyCode": "INR",
+      "systemCode": null,
+      "groupName": null,
+      "locators": {
+        "numericRecordLocator": "042021080214",
+        "parentRecordLocator": null,
+        "parentId": "0",
+        "recordLocators": []
+      },
+      "info": {
+        "status": 2,
+        "paidStatus": 1,
+        "priceStatus": 2,
+        "profileStatus": 1,
+        "bookingType": null,
+        "channelType": 5,
+        "bookedDate": "2025-04-27T06:59:39.517Z",
+        "createdDate": "2025-04-27T06:59:39.517Z",
+        "expirationDate": "2025-04-28T18:35:00Z",
+        "modifiedDate": "2025-04-28T05:03:09.82Z",
+        "modifiedAgentId": "44059635",
+        "createdAgentId": "44115378",
+        "owningCarrierCode": "IX",
+        "changeAllowed": true
+      },
+      "sales": {
+        "created": {
+          "agentCode": "APITSCTRSE",
+          "domainCode": "TOP",
+          "locationCode": "API",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "source": {
+          "isoCountryCode": null,
+          "sourceSystemCode": null,
+          "agentCode": "APITSCTRSE",
+          "domainCode": "TOP",
+          "locationCode": "API",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "modified": null
+      },
+      "typeOfSale": {
+        "residentCountry": "OM",
+        "promotionCode": null,
+        "fareTypes": []
+      },
+      "hold": null,
+      "breakdown": {
+        "balanceDue": 0,
+        "pointsBalanceDue": 0,
+        "authorizedBalanceDue": 0,
+        "totalAmount": 7726,
+        "totalPoints": 0,
+        "totalToCollect": 7726,
+        "totalPointsToCollect": 0,
+        "totalCharged": 7726,
+        "passengerTotals": {
+          "services": null,
+          "specialServices": null,
+          "seats": {
+            "total": null,
+            "taxes": null,
+            "adjustments": 673,
+            "charges": [
+              {
+                "amount": 673,
+                "code": "SEAT",
+                "detail": "MCT-DEL",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "OMR",
+                "foreignAmount": 3,
+                "ticketCode": "ST"
+              },
+              {
+                "amount": 673,
+                "code": "SEAT",
+                "detail": "Fee OR",
+                "type": 1,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "OMR",
+                "foreignAmount": 3,
+                "ticketCode": null
+              }
+            ]
+          },
+          "upgrades": null,
+          "spoilage": null,
+          "nameChanges": null,
+          "convenience": null,
+          "infant": null
+        },
+        "passengers": {
+          "MCFBRFQ-": {
+            "passengerKey": "MCFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": {
+              "total": null,
+              "taxes": null,
+              "adjustments": 673,
+              "charges": [
+                {
+                  "amount": 673,
+                  "code": "SEAT",
+                  "detail": "MCT-DEL",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "OMR",
+                  "foreignAmount": 3,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 673,
+                  "code": "SEAT",
+                  "detail": "Fee OR",
+                  "type": 1,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "OMR",
+                  "foreignAmount": 3,
+                  "ticketCode": null
+                }
+              ]
+            },
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          }
+        },
+        "journeyTotals": {
+          "totalAmount": 4306,
+          "totalPoints": 0,
+          "totalTax": 3420,
+          "totalDiscount": 0
+        },
+        "journeys": {
+          "SVh_IDE2NH4gfn5NQ1R_MDQvMjcvMjAyNSAyMjozNX5ERUx_MDQvMjgvMjAyNSAwMzoxNX5_": {
+            "journeyKey": "SVh_IDE2NH4gfn5NQ1R_MDQvMjcvMjAyNSAyMjozNX5ERUx_MDQvMjgvMjAyNSAwMzoxNX5_",
+            "totalAmount": 4306,
+            "totalPoints": 0,
+            "totalTax": 3420,
+            "totalDiscount": 0
+          }
+        },
+        "addOnTotals": {
+          "car": null,
+          "hotel": null,
+          "activities": null
+        }
+      },
+      "receivedBy": {
+        "receivedBy": null,
+        "latestReceivedBy": null,
+        "receivedReference": null,
+        "latestReceivedReference": null,
+        "referralCode": null
+      },
+      "contacts": {
+        "P": {
+          "contactTypeCode": "P",
+          "phoneNumbers": [
+            {
+              "type": 0,
+              "number": "VGZV2vDLaaT/Rtt+Jwx7Mw=="
+            },
+            {
+              "type": 1,
+              "number": "VGZV2vDLaaT/Rtt+Jwx7Mw=="
+            }
+          ],
+          "cultureCode": null,
+          "address": {
+            "lineOne": "NA",
+            "lineTwo": "NA",
+            "lineThree": null,
+            "countryCode": "IN",
+            "provinceState": "NA",
+            "city": "NA",
+            "postalCode": null
+          },
+          "emailAddress": "v91BoyJJQtNzZsNl7pcwPDNVeZNf4ybty8M7WXXR2MM=",
+          "customerNumber": null,
+          "sourceOrganization": "OTATSCTRSE",
+          "distributionOption": 2,
+          "notificationPreference": 0,
+          "companyName": "TSC ONLINE",
+          "name": {
+            "first": "DiDuP9af9I/mTD9bSyQuxg==",
+            "middle": null,
+            "last": "DiDuP9af9I/mTD9bSyQuxg==",
+            "title": "MS",
+            "suffix": null
+          }
+        }
+      },
+      "passengers": [
+        {
+          "passengerKey": "MCFBRFQ-",
+          "passengerAlternateKey": "MTIyMzUyNTQ4MQ--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 9,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "SEAT",
+              "detail": null,
+              "passengerFeeKey": "MCEwITk-",
+              "override": true,
+              "flightReference": "20250427 IX 164 MCTDEL",
+              "note": null,
+              "createdDate": "2025-04-27T16:27:26.05Z",
+              "serviceCharges": [
+                {
+                  "amount": 673,
+                  "code": "SEAT",
+                  "detail": "MCT-DEL",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "OMR",
+                  "foreignAmount": 3,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 673,
+                  "code": "SEAT",
+                  "detail": "Fee OR",
+                  "type": "Discount",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "OMR",
+                  "foreignAmount": 3,
+                  "ticketCode": null
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "confirmed": false,
+              "amount": 0
+            }
+          ],
+          "name": {
+            "first": "DiDuP9af9I/mTD9bSyQuxg==",
+            "middle": null,
+            "last": "DiDuP9af9I/mTD9bSyQuxg==",
+            "title": "MS",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [
+            {
+              "identifier": "164",
+              "baggageKey": "MDIzNjIyNDAxNQ--",
+              "nonStandard": false,
+              "type": "STND",
+              "osTag": "0236224015",
+              "osTagDate": "2025-04-27T00:00:00Z",
+              "taggedToStation": "DEL",
+              "stationCode": "MCT",
+              "weight": 8,
+              "taggedToCarrierCode": "IX",
+              "weightType": 2
+            }
+          ],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": 2,
+            "dateOfBirth": "IV7I3lD0QYEzQSwhnoUJXJdsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [
+            {
+              "passengerTravelDocumentKey": "UCFJTiEg",
+              "documentTypeCode": "P",
+              "birthCountry": null,
+              "issuedByCode": "IN",
+              "name": {
+                "first": "DiDuP9af9I/mTD9bSyQuxg==",
+                "middle": null,
+                "last": "DiDuP9af9I/mTD9bSyQuxg==",
+                "title": "MS",
+                "suffix": null
+              },
+              "nationality": "IN",
+              "expirationDate": "2033-10-24T00:00:00Z",
+              "number": "9JNvIyVQz5dVt8YLd/9PWg==",
+              "issuedDate": null,
+              "gender": 2,
+              "dateOfBirth": "IV7I3lD0QYEzQSwhnoUJXJdsmaqXxcq28hqj8xSFCwg="
+            }
+          ],
+          "addresses": [],
+          "weightCategory": 2,
+          "bagsInfo": [
+            {
+              "journeyKey": "SVh_IDE2NH4gfn5NQ1R_MDQvMjcvMjAyNSAyMjozNX5ERUx_MDQvMjgvMjAyNSAwMzoxNX5_",
+              "CABG": 7,
+              "CHKBAG": 30,
+              "ICBG": null,
+              "STND": null
+            }
+          ]
+        }
+      ],
+      "journeys": [
+        {
+          "flightType": 1,
+          "stops": 0,
+          "designator": {
+            "destination": "DEL",
+            "origin": "MCT",
+            "arrival": "2025-04-28T03:15:00",
+            "departure": "2025-04-27T22:35:00",
+            "originAirportName": "Muscat Intl Airport, T1",
+            "originCityName": "Muscat",
+            "destinationAirportName": "Indira Gandhi International Airport, T3",
+            "destinationCityName": "New Delhi",
+            "arrivalTerminal": "3",
+            "departureTerminal": "1"
+          },
+          "move": {
+            "maxMoveBackDays": 490,
+            "maxMoveOutDays": 490
+          },
+          "segments": [
+            {
+              "isStandby": false,
+              "isConfirming": false,
+              "isConfirmingExternal": false,
+              "isBlocked": false,
+              "isHosted": true,
+              "isChangeOfGauge": false,
+              "designator": {
+                "destination": "DEL",
+                "origin": "MCT",
+                "arrival": "2025-04-28T03:15:00",
+                "departure": "2025-04-27T22:35:00",
+                "originAirportName": "Muscat Intl Airport, T1",
+                "originCityName": "Muscat",
+                "destinationAirportName": "Indira Gandhi International Airport, T3",
+                "destinationCityName": "New Delhi",
+                "arrivalTerminal": "3",
+                "departureTerminal": "1"
+              },
+              "isSeatmapViewable": true,
+              "identifier": {
+                "identifier": "164",
+                "carrierCode": "IX",
+                "opSuffix": null
+              },
+              "fares": [
+                {
+                  "isGoverning": true,
+                  "downgradeAvailable": false,
+                  "carrierCode": "I5",
+                  "fareKey": "MH5Hfn5JNX5HTlJBWDAwfk5SWDB_fjB_MH5_WA--",
+                  "classOfService": "G",
+                  "classType": null,
+                  "fareApplicationType": 0,
+                  "fareClassOfService": "G",
+                  "fareBasisCode": "GNRAX00",
+                  "fareSequence": 0,
+                  "inboundOutBound": 0,
+                  "fareStatus": 0,
+                  "isAllotmentMarketFare": false,
+                  "originalClassOfService": "G",
+                  "ruleNumber": "NRX0",
+                  "productClass": "EC",
+                  "ruleTariff": null,
+                  "travelClassCode": "Y",
+                  "crossReferenceClassOfService": null,
+                  "fareLink": 0,
+                  "passengerFares": [
+                    {
+                      "serviceCharges": [
+                        {
+                          "amount": 4306,
+                          "code": null,
+                          "detail": null,
+                          "type": "FarePrice",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 4306,
+                          "ticketCode": null
+                        },
+                        {
+                          "amount": 135,
+                          "code": "YR",
+                          "detail": "MCT-DEL",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "OMR",
+                          "foreignAmount": 0.602,
+                          "ticketCode": "YR"
+                        },
+                        {
+                          "amount": 224,
+                          "code": "I2",
+                          "detail": "MCT-DEL",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "OMR",
+                          "foreignAmount": 0.999,
+                          "ticketCode": "I2"
+                        },
+                        {
+                          "amount": 325,
+                          "code": "IN",
+                          "detail": "MCT-DEL",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 325,
+                          "ticketCode": "IN"
+                        },
+                        {
+                          "amount": 2243,
+                          "code": "OM",
+                          "detail": "MCT-DEL",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "OMR",
+                          "foreignAmount": 10.004,
+                          "ticketCode": "OM"
+                        },
+                        {
+                          "amount": 493,
+                          "code": "S6",
+                          "detail": "MCT-DEL",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "OMR",
+                          "foreignAmount": 2.199,
+                          "ticketCode": "S6"
+                        }
+                      ],
+                      "discountCode": null,
+                      "fareDiscountCode": null,
+                      "passengerType": "ADT"
+                    }
+                  ],
+                  "fareDesignator": {
+                    "fareTypeCodes": [
+                      "R"
+                    ]
+                  }
+                }
+              ],
+              "segmentKey": "SVh_IDE2NH4gfn5NQ1R_MDQvMjcvMjAyNSAyMjozNX5ERUx_MDQvMjgvMjAyNSAwMzoxNX5_",
+              "passengerSegment": {
+                "MCFBRFQ-": {
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "9A",
+                      "isAutoAssigned": null,
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 17,
+                        "propertyList": {
+                          "LOCATION": "FRONT",
+                          "BRDZONE": "2",
+                          "SEATPOS": "FS4",
+                          "WING": "FALSE",
+                          "TCC": "Y",
+                          "SRVZONE": "1",
+                          "INFANT": "FALSE",
+                          "WINDOW": "TRUE",
+                          "STANDARD": "TRUE",
+                          "STNDRDFR": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "DEL",
+                      "departureStation": "MCT",
+                      "passengerKey": "MCFBRFQ-",
+                      "unitKey": "SVghMTY0ISAhNjM4ODEzOTAxMDAwMDAwMDAwIU1DVCFERUwhOUEhWQ--"
+                    }
+                  ],
+                  "passengerKey": "MCFBRFQ-",
+                  "activityDate": "2025-04-27T17:25:08.313Z",
+                  "boardingSequence": "78",
+                  "createdDate": "2025-04-27T06:59:39.517Z",
+                  "liftStatus": 2,
+                  "modifiedDate": "2025-04-27T16:27:27.677Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-04-27T06:59:39.527Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": "P   IN  ",
+                  "sourcePointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "pointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "ssrs": [],
+                  "tickets": [],
+                  "bags": [
+                    {
+                      "baggageKey": "MDIzNjIyNDAxNQ--",
+                      "passengerKey": "MCFBRFQ-",
+                      "arrivalStation": "DEL",
+                      "status": 1,
+                      "departureStation": "MCT",
+                      "osTag": "0236224015"
+                    }
+                  ],
+                  "scores": [],
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": {
+                    "seat": 0,
+                    "travelClass": 0,
+                    "advancedPreferences": [
+                      {
+                        "seatMapCode": "LOCATION",
+                        "value": "FRONT"
+                      },
+                      {
+                        "seatMapCode": "STANDARD",
+                        "value": "TRUE"
+                      }
+                    ]
+                  },
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": [
+                    "UCFJTiEg"
+                  ],
+                  "referenceNumber": 0
+                }
+              },
+              "channelType": 5,
+              "cabinOfService": "Y",
+              "externalIdentifier": null,
+              "priorityCode": null,
+              "changeReasonCode": 0,
+              "segmentType": 0,
+              "salesDate": "2025-04-27T06:59:39.517Z",
+              "international": true,
+              "flightReference": "20250427 IX 164 MCTDEL",
+              "legs": [
+                {
+                  "legKey": "NjM4ODEzOTAxMDAwMDAwMDAwIUlYITE2NCEgIU1DVCFERUwhODU4NTYxMQ--",
+                  "operationsInfo": null,
+                  "designator": {
+                    "destination": "DEL",
+                    "origin": "MCT",
+                    "arrival": "2025-04-28T03:15:00",
+                    "departure": "2025-04-27T22:35:00",
+                    "originAirportName": null,
+                    "originCityName": null,
+                    "destinationAirportName": null,
+                    "destinationCityName": null,
+                    "arrivalTerminal": null,
+                    "departureTerminal": null
+                  },
+                  "legInfo": {
+                    "departureTimeUtc": "2025-04-27T18:35:00Z",
+                    "arrivalTimeUtc": "2025-04-27T21:45:00Z",
+                    "adjustedCapacity": 180,
+                    "arrivalTerminal": "3",
+                    "arrivalTimeVariant": 330,
+                    "backMoveDays": 490,
+                    "capacity": 180,
+                    "changeOfDirection": false,
+                    "codeShareIndicator": 0,
+                    "departureTerminal": "1",
+                    "departureTimeVariant": 240,
+                    "equipmentType": "320",
+                    "equipmentTypeSuffix": "F",
+                    "eTicket": false,
+                    "irop": false,
+                    "lid": 180,
+                    "marketingCode": null,
+                    "marketingOverride": false,
+                    "operatedByText": null,
+                    "operatingCarrier": null,
+                    "operatingFlightNumber": null,
+                    "operatingOpSuffix": null,
+                    "outMoveDays": 490,
+                    "arrivalTime": "2025-04-28T03:15:00",
+                    "departureTime": "2025-04-27T22:35:00",
+                    "prbcCode": "Y180",
+                    "scheduleServiceType": null,
+                    "sold": 95,
+                    "status": 1,
+                    "subjectToGovtApproval": false,
+                    "eticket": false
+                  },
+                  "nests": [],
+                  "ssrs": [],
+                  "seatmapReference": "SVghIDE2NCEgITYzODgxMzkwMTAwMDAwMDAwMCFNQ1QhREVM",
+                  "flightReference": "20250427 IX 164 MCTDEL"
+                }
+              ],
+              "status": 6
+            }
+          ],
+          "journeyKey": "SVh_IDE2NH4gfn5NQ1R_MDQvMjcvMjAyNSAyMjozNX5ERUx_MDQvMjgvMjAyNSAwMzoxNX5_",
+          "notForGeneralUser": false,
+          "isCorpFareJourney": false,
+          "isCancelAllowed": false,
+          "checkInAllowedFlatform": 0,
+          "scootModification": true,
+          "isCorpLiteJourney": false,
+          "umnr": false,
+          "corpFareJourney": false,
+          "cancelAllowed": false,
+          "CheckInWindow": "Close",
+          "CheckInOpens": null
+        }
+      ],
+      "comments": [
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=916239683296, TimeStamp= 2025-04-27 12:37:03, MessageFor=NewBookingConfirmOneWaySingle-HoppingStrikeThroughCampaign",
+          "createdDate": "2025-04-27T07:07:05.24Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5MDM5MTE4Ng--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=916239683296, TimeStamp= 2025-04-27 12:37:05, MessageFor=NewBookingConfirmOneWaySingle-HoppingStrikeThroughCampaign",
+          "createdDate": "2025-04-27T07:07:07.05Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5MDM5MTE5OA--"
+        },
+        {
+          "type": 0,
+          "text": "SEAT - WAIVED FEE - t - IX 164 MCT-DEL 27Apr25 - ARTI/ARTIMS",
+          "createdDate": "2025-04-27T16:27:26.05Z",
+          "pointOfSale": {
+            "agentCode": "GHMCT_OMARS",
+            "domainCode": "DEF",
+            "locationCode": "MCT",
+            "organizationCode": "IX"
+          },
+          "commentKey": "MzI5MDYyMzE4Ng--"
+        },
+        {
+          "type": 2,
+          "text": "no ctc",
+          "createdDate": "2025-04-27T16:27:26.05Z",
+          "pointOfSale": {
+            "agentCode": "GHMCT_OMARS",
+            "domainCode": "DEF",
+            "locationCode": "MCT",
+            "organizationCode": "IX"
+          },
+          "commentKey": "MzI5MDYyMzE4Nw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=read, PhoneNo=916239683296, TimeStamp= 2025-04-28 10:33:08, MessageFor=NewBookingConfirmOneWaySingle-HoppingStrikeThroughCampaign",
+          "createdDate": "2025-04-28T05:03:09.82Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI5MDgwMTIyOA--"
+        }
+      ],
+      "queues": [],
+      "history": [],
+      "payments": [
+        {
+          "paymentKey": "NDY4NDg4NzcwITEhQUchNTQ1NjQ5ODk1",
+          "code": "AG",
+          "approvalDate": "2025-04-27T06:59:39.627Z",
+          "details": {
+            "accountNumberId": 0,
+            "parentPaymentId": null,
+            "accountName": null,
+            "accountNumber": "OTATSCTRSE",
+            "expirationDate": null,
+            "text": null,
+            "installments": 1,
+            "binRange": 0,
+            "fields": {}
+          },
+          "amounts": {
+            "amount": 7726,
+            "currencyCode": "INR",
+            "collected": 7726,
+            "collectedCurrencyCode": "INR",
+            "quoted": 7726,
+            "quotedCurrencyCode": "INR"
+          },
+          "authorizationCode": null,
+          "authorizationStatus": 4,
+          "fundedDate": "1800-01-01T00:00:00Z",
+          "transactionCode": null,
+          "dcc": null,
+          "threeDSecure": null,
+          "attachments": [],
+          "createdDate": "2025-04-27T06:59:39.517Z",
+          "modifiedDate": "2025-04-27T06:59:39.623Z",
+          "type": 2,
+          "status": 3,
+          "transferred": false,
+          "channelType": 5,
+          "pointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "sourcePointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "deposit": false,
+          "accountId": 0,
+          "voucher": null,
+          "addedToState": true,
+          "createdAgentId": 44115378,
+          "modifiedAgentId": 44115378,
+          "reference": 468488770
+        }
+      ],
+      "orders": [],
+      "isFareMaskingEnabled": false,
+      "isGroupBooking": false,
+      "vaccinationStatus": false,
+      "isCodeShareBooking": false,
+      "isFareLockBooking": false,
+      "isCodeSharePNR": false,
+      "isScootBooking": false,
+      "isCustomerBooking": false,
+      "isGHASOLBooking": false,
+      "isDeadHeadBooking": false,
+      "isDeadHeadCheckInAllowed": false,
+      "isMarineBooking": false,
+      "isMYIDBooking": false
+    },
+    "AnonymousToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiNDZkZDljYTEtOWRkNi0wYTMxLTdmNmUtZjEzNTdlMGU0NjE5IiwiaXNzIjoiZG90UkVaIEFQSSJ9.q0Luc5NCbhkRXqC6X_jgVuwqUVCNj1vOLl3_9dt1XXo"
+  },
+  "responseStatus": 200,
+  "responseUrl": "https://api.airindiaexpress.com/b2c-CheckIn/v2/retrieve/mmb/byRecordLocator"
+}

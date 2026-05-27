@@ -1,0 +1,516 @@
+"""
+IndiGo No-Show Refund Scraper — Nodriver + curl_cffi Edition
+"""
+
+import sys
+import json
+import asyncio
+import random
+import re
+import os
+import nodriver as uc
+
+try:
+    from curl_cffi.requests import AsyncSession as CurlSession
+    CURL_CFFI_AVAILABLE = True
+except ImportError:
+    CURL_CFFI_AVAILABLE = False
+    print("[Warning] curl_cffi not installed: pip install curl_cffi", file=sys.stderr)
+
+if sys.platform == "darwin":
+    BASE_PROFILE_DIR = os.path.join(
+        os.path.expanduser("~"), "Library", "Application Support", "Chrome-Indigo-Scraper"
+    )
+else:
+    BASE_PROFILE_DIR = os.path.join(
+        os.path.expanduser("~"), "AppData", "Local", "Chrome-Indigo-Scraper"
+    )
+
+PNR_SELECTORS = [
+    'input[name="pnr-booking-ref"]',
+    'input[placeholder*="PNR"]',
+    'input[maxlength="6"]',
+]
+NAME_SELECTORS = [
+    'input[name="email-last-name"]',
+    'input[placeholder*="Last Name"]',
+    'input[placeholder*="Email"]',
+]
+TOAST_MESSAGE_SELECTORS = [
+    ".notifi-variation-container .desc",
+    ".notifi-variation-container li.desc",
+]
+
+async def sleep(ms):
+    await asyncio.sleep(ms / 1000.0)
+
+def rand(min_val, max_val):
+    return random.randint(min_val, max_val)
+
+def cookies_list_to_header(cookies_list):
+    return "; ".join(f"{c['name']}={c['value']}" for c in cookies_list)
+
+def parse_refund_from_response(payload):
+    try:
+        data = json.loads(payload) if isinstance(payload, str) else payload
+        return (
+            data.get("refundAmount")
+            or data.get("data", {}).get("refundAmount")
+            or data.get("itinerary", {}).get("refundAmount")
+        )
+    except Exception:
+        return None
+
+def extract_inr_amount(message):
+    if not message:
+        return None
+    match = re.search(r'(?:INR|Rs\.?|₹)\s*([\d,]+(?:\.\d{1,2})?)', message, re.IGNORECASE)
+    if match:
+        return float(match.group(1).replace(",", ""))
+    return None
+
+async def get_cookies_as_list(browser):
+    raw = await browser.cookies.get_all()
+    result = []
+    for c in raw:
+        try:
+            result.append({
+                "name": c.name,
+                "value": c.value,
+                "domain": getattr(c, "domain", ""),
+                "path": getattr(c, "path", "/"),
+            })
+        except Exception:
+            pass
+    return result
+
+async def get_abck_value(browser):
+    cookies = await get_cookies_as_list(browser)
+    return next((c["value"] for c in cookies if c["name"] == "_abck"), None)
+
+async def get_bmsz_value(browser):
+    cookies = await get_cookies_as_list(browser)
+    return next((c["value"] for c in cookies if c["name"] == "bm_sz"), None)
+
+async def wait_for_valid_abck(browser, timeout_ms=20000):
+    print("[Akamai] Waiting for valid _abck...", file=sys.stderr)
+    start = asyncio.get_event_loop().time()
+    while (asyncio.get_event_loop().time() - start) * 1000 < timeout_ms:
+        abck = await get_abck_value(browser)
+        if abck and "~0~" not in abck and len(abck) > 100:
+            print(f"[Akamai] Valid _abck: {abck[:60]}...", file=sys.stderr)
+            return True
+        await asyncio.sleep(0.5)
+    print("[Akamai] WARNING: _abck never validated", file=sys.stderr)
+    return False
+
+async def wait_for_bm_sz(browser, timeout_ms=15000):
+    print("[Akamai] Waiting for bm_sz...", file=sys.stderr)
+    start = asyncio.get_event_loop().time()
+    while (asyncio.get_event_loop().time() - start) * 1000 < timeout_ms:
+        bmsz = await get_bmsz_value(browser)
+        if bmsz:
+            print(f"[Akamai] bm_sz found: {bmsz[:60]}...", file=sys.stderr)
+            return True
+        await asyncio.sleep(0.5)
+    return False
+
+async def bezier_mouse_move(page, start_x, start_y, end_x, end_y, steps=None):
+    if steps is None:
+        steps = rand(18, 30)
+    cp1_x = start_x + rand(-80, 80) + (end_x - start_x) * 0.25
+    cp1_y = start_y + rand(-60, 60) + (end_y - start_y) * 0.1
+    cp2_x = start_x + rand(-80, 80) + (end_x - start_x) * 0.75
+    cp2_y = end_y + rand(-60, 60) - (end_y - start_y) * 0.1
+    for i in range(steps + 1):
+        t = i / steps
+        x = (1-t)**3*start_x + 3*(1-t)**2*t*cp1_x + 3*(1-t)*t**2*cp2_x + t**3*end_x
+        y = (1-t)**3*start_y + 3*(1-t)**2*t*cp1_y + 3*(1-t)*t**2*cp2_y + t**3*end_y
+        ease = t * t * (3 - 2 * t)
+        delay = int(10 + (1 - abs(ease - 0.5) * 2) * rand(15, 35))
+        await page.mouse_move(x, y)
+        await asyncio.sleep(delay / 1000.0)
+
+class NoshowInterceptor:
+    def __init__(self):
+        self.url = None
+        self.post_body = None
+        self.headers = {}
+        self.captured = False
+
+    def handle_request(self, event):
+        try:
+            req = event.request if hasattr(event, 'request') else event.get('request', {})
+            req_url = req.url if hasattr(req, 'url') else req.get('url', '')
+            if "noshowrefund" in req_url and not self.captured:
+                self.url = req_url
+                raw_headers = req.headers if hasattr(req, 'headers') else req.get('headers', {})
+                self.headers = dict(raw_headers) if raw_headers else {}
+                self.post_body = (
+                    req.post_data if hasattr(req, 'post_data')
+                    else req.get('postData', '')
+                ) or ''
+                self.captured = True
+                print(f"[Interceptor] Captured: {self.url}", file=sys.stderr)
+                print(f"[Interceptor] Body: {self.post_body}", file=sys.stderr)
+        except Exception as e:
+            print(f"[Interceptor] Error: {e}", file=sys.stderr)
+
+async def warm_up_akamai_score(page, browser):
+    print("[WarmUp] Navigating to homepage...", file=sys.stderr)
+    await page.get("https://www.goindigo.in/")
+    await sleep(rand(2000, 3500))
+    await page.evaluate("""
+        () => new Promise(resolve => {
+            let total = 0;
+            const timer = setInterval(() => {
+                window.scrollBy(0, Math.random() * 80 + 20);
+                total += 80;
+                if (total > 700) { clearInterval(timer); resolve(); }
+            }, 130);
+        })
+    """)
+    await sleep(rand(800, 1500))
+    sx, sy = rand(300, 700), rand(200, 500)
+    await page.mouse_move(sx, sy)
+    for _ in range(10):
+        ex, ey = rand(200, 1100), rand(100, 700)
+        await bezier_mouse_move(page, sx, sy, ex, ey, steps=rand(14, 24))
+        sx, sy = ex, ey
+        await sleep(rand(200, 500))
+    await page.evaluate("window.scrollTo({ top: 0, behavior: 'smooth' })")
+    await sleep(rand(500, 1000))
+    await wait_for_valid_abck(browser, 15000)
+    await wait_for_bm_sz(browser, 10000)
+
+async def fill_input(page, selectors, value):
+    for selector in selectors:
+        try:
+            el = await page.select(selector)
+            if el:
+                await el.click()
+                await sleep(rand(200, 400))
+                for char in str(value).strip():
+                    await el.send_keys(char)
+                    await sleep(rand(25, 70))
+                return True
+        except Exception:
+            pass
+    return False
+
+async def human_click(page, selector):
+    try:
+        el = await page.select(selector)
+        if not el:
+            return False
+        await page.evaluate(
+            f"document.querySelector('{selector}')?.scrollIntoView({{behavior:'smooth',block:'center'}})"
+        )
+        await sleep(rand(500, 900))
+        box = await page.evaluate(f"""
+            () => {{
+                const el = document.querySelector('{selector}');
+                if (!el) return null;
+                const r = el.getBoundingClientRect();
+                return {{x: r.left + r.width/2, y: r.top + r.height/2}};
+            }}
+        """)
+        if box and box.get('x') and box.get('y'):
+            sx, sy = rand(150, 700), rand(100, 500)
+            await page.mouse_move(sx, sy)
+            await sleep(rand(80, 180))
+            await bezier_mouse_move(page, sx, sy, box['x'], box['y'])
+            await sleep(rand(180, 380))
+        await el.click()
+        return True
+    except Exception as e:
+        print(f"[human_click] Failed on {selector}: {e}", file=sys.stderr)
+        return False
+
+async def click_first_match(page, selectors):
+    for sel in selectors:
+        if await human_click(page, sel):
+            return True
+    return False
+
+async def wait_for_no_show_container(page, pnr="", timeout_ms=20000):
+    start = asyncio.get_event_loop().time()
+    while (asyncio.get_event_loop().time() - start) * 1000 < timeout_ms:
+        result = await page.evaluate(
+            "() => !!document.querySelector('.passenger-no-show-container')"
+        )
+        if result:
+            await page.evaluate("""
+                () => document.querySelector('.passenger-no-show-container')
+                    ?.scrollIntoView({behavior:'smooth', block:'center'})
+            """)
+            await sleep(800)
+            return True
+        await asyncio.sleep(0.4)
+    try:
+        screenshot_path = f"/tmp/noshow_debug_{pnr}_{int(asyncio.get_event_loop().time())}.png"
+        await page.save_screenshot(screenshot_path)
+        print(f"[Debug] Screenshot: {screenshot_path}", file=sys.stderr)
+    except Exception:
+        pass
+    return False
+
+async def get_toast_message(page):
+    for sel in TOAST_MESSAGE_SELECTORS:
+        try:
+            result = await page.evaluate(f"""
+                () => document.querySelector('{sel}')?.textContent?.trim() || null
+            """)
+            if result:
+                return result
+        except Exception:
+            pass
+    return None
+
+async def wait_for_refund_toast(page, timeout_ms=25000):
+    start = asyncio.get_event_loop().time()
+    while (asyncio.get_event_loop().time() - start) * 1000 < timeout_ms:
+        msg = await get_toast_message(page)
+        if msg:
+            return msg
+        await asyncio.sleep(0.5)
+    return None
+
+async def fire_noshow_with_curl_cffi(interceptor: NoshowInterceptor, cookies_list):
+    url = interceptor.url
+    post_body = interceptor.post_body
+    original_headers = interceptor.headers
+
+    if not post_body or len(post_body.strip()) < 5:
+        post_body = '{"indigoTaxRefund":{"taxQueueFlag":true}}'
+        print("[curl_cffi] Using fallback POST body", file=sys.stderr)
+
+    headers = {k: v for k, v in original_headers.items()}
+    headers["cookie"] = cookies_list_to_header(cookies_list)
+
+    for h in (":authority", ":method", ":path", ":scheme",
+              "host", "content-length", "transfer-encoding", "connection"):
+        headers.pop(h, None)
+
+    print(f"[curl_cffi] POST → {url}", file=sys.stderr)
+    print(f"[curl_cffi] Body: {post_body}", file=sys.stderr)
+
+    async with CurlSession(impersonate="chrome131") as session:
+        try:
+            response = await session.post(
+                url,
+                data=post_body.encode() if isinstance(post_body, str) else post_body,
+                headers=headers,
+                timeout=30,
+            )
+            print(f"[curl_cffi] Status: {response.status_code}", file=sys.stderr)
+            print(f"[curl_cffi] Response: {response.text[:500]}", file=sys.stderr)
+            return response.status_code, response.text
+        except Exception as e:
+            print(f"[curl_cffi] Failed: {e}", file=sys.stderr)
+            return None, None
+
+async def fetch_refund(pnr, last_name):
+    no_show_api_response = None
+    no_show_api_status = None
+
+    job_profile_dir = os.path.join(BASE_PROFILE_DIR, f"job_{pnr.upper()}")
+    os.makedirs(job_profile_dir, exist_ok=True)
+
+    interceptor = NoshowInterceptor()
+
+    print("[Setup] Launching Nodriver (Chrome)...", file=sys.stderr)
+    browser = await uc.start(
+        user_data_dir=job_profile_dir,
+        headless=False,
+        browser_args=[
+            "--no-first-run",
+            "--no-default-browser-check",
+            "--disable-popup-blocking",
+        ],
+    )
+
+    try:
+        page = await browser.get("about:blank")
+
+        page.add_handler(
+            uc.cdp.network.RequestWillBeSent,
+            interceptor.handle_request
+        )
+
+        await page.send(uc.cdp.network.enable())
+
+        await warm_up_akamai_score(page, browser)
+
+        print("[Nav] Going to homepage...", file=sys.stderr)
+        await page.get("https://www.goindigo.in/")
+        await sleep(rand(2200, 3200))
+
+        print("[Nav] Clicking Trips...", file=sys.stderr)
+        trips_clicked = False
+        for sel in ['.headerv2__navbar-item:has-text("Trips")', 'div.headerv2__navbar-item']:
+            if await human_click(page, sel):
+                trips_clicked = True
+                break
+            await sleep(rand(300, 500))
+
+        if not trips_clicked:
+            await page.evaluate("""
+                () => {
+                    const items = document.querySelectorAll('.headerv2__navbar-item');
+                    for (const el of items) {
+                        if (el.textContent.trim().startsWith('Trips')) {
+                            el.dispatchEvent(new MouseEvent('click', {bubbles: true}));
+                            break;
+                        }
+                    }
+                }
+            """)
+        await sleep(rand(1300, 2200))
+
+        print("[Nav] Clicking Find & view booking...", file=sys.stderr)
+        booking_clicked = await click_first_match(page, [
+            'a[aria-label="CTA to find & view Booking"]',
+            'a[href*="my-bookings"]',
+            '.headerv2__menu__column__section-item',
+        ])
+
+        if not booking_clicked:
+            print("[Nav] Direct URL fallback...", file=sys.stderr)
+            await page.get(
+                "https://www.goindigo.in/account/my-bookings.html"
+                "?linkNav=Find%20%26%20view%20booking%7CMy%20trips%7CTrips"
+            )
+
+        await sleep(rand(1800, 2800))
+        await wait_for_bm_sz(browser, 12000)
+
+        await page.evaluate("window.scrollBy(0, 200)")
+        await sleep(rand(400, 800))
+
+        print(f"[Form] Filling PNR: {pnr}", file=sys.stderr)
+        if not await fill_input(page, PNR_SELECTORS, pnr):
+            raise Exception("PNR input not found")
+        await sleep(rand(400, 800))
+
+        print(f"[Form] Filling last name: {last_name}", file=sys.stderr)
+        if not await fill_input(page, NAME_SELECTORS, last_name):
+            raise Exception("Last name input not found")
+        await sleep(rand(600, 1200))
+
+        print("[Form] Submitting...", file=sys.stderr)
+        await click_first_match(page, [
+            'button[type="submit"]',
+            ".booking-search__cta",
+            "button.btn-primary",
+        ])
+
+        await sleep(rand(1500, 2500))
+
+        if not await wait_for_no_show_container(page, pnr=pnr, timeout_ms=20000):
+            raise Exception(
+                "SKIP: No Show container not found — booking ineligible or already processed"
+            )
+
+        await wait_for_valid_abck(browser, 8000)
+
+        print("[Behavior] Simulating page read...", file=sys.stderr)
+        for pos in [rand(100, 300), rand(300, 600), rand(150, 400)]:
+            await page.evaluate(f"window.scrollTo({{top:{pos},behavior:'smooth'}})")
+            await sleep(rand(800, 1800))
+        sx, sy = rand(200, 900), rand(150, 600)
+        await page.mouse_move(sx, sy)
+        for _ in range(rand(4, 8)):
+            ex, ey = rand(200, 900), rand(150, 600)
+            await bezier_mouse_move(page, sx, sy, ex, ey, steps=rand(8, 15))
+            sx, sy = ex, ey
+            await sleep(rand(200, 600))
+        await sleep(rand(1500, 3000))
+
+        print("[NoShow] Clicking NoShow button...", file=sys.stderr)
+        await page.evaluate("window.scrollBy(0, 150)")
+        await sleep(rand(600, 1100))
+
+        if not await human_click(page, ".passenger-no-show-container__link"):
+            raise Exception("Failed to click no-show button")
+
+        print("[NoShow] Waiting for CDP capture...", file=sys.stderr)
+        start_wait = asyncio.get_event_loop().time()
+        while (asyncio.get_event_loop().time() - start_wait) < 15:
+            if interceptor.captured:
+                break
+            await asyncio.sleep(0.3)
+
+        if not interceptor.captured:
+            print("[Warning] CDP never captured noshowrefund request", file=sys.stderr)
+
+        toast_message = None
+        if CURL_CFFI_AVAILABLE and interceptor.captured:
+            print("[curl_cffi] Firing real request with Chrome TLS...", file=sys.stderr)
+            live_cookies = await get_cookies_as_list(browser)
+            print(f"[curl_cffi] {len(live_cookies)} cookies from browser", file=sys.stderr)
+
+            status, body_text = await fire_noshow_with_curl_cffi(interceptor, live_cookies)
+
+            if status is not None:
+                no_show_api_status = status
+                try:
+                    no_show_api_response = json.loads(body_text)
+                except Exception:
+                    no_show_api_response = {"raw": body_text}
+
+            toast_message = await wait_for_refund_toast(page, 10000)
+        else:
+            toast_message = await wait_for_refund_toast(page, 20000)
+
+        refund_amount = None
+        if no_show_api_response:
+            refund_amount = parse_refund_from_response(no_show_api_response)
+        if not refund_amount and toast_message:
+            refund_amount = extract_inr_amount(toast_message)
+
+        if toast_message and any(
+            p in toast_message.lower()
+            for p in ["something went wrong", "error", "failed", "unable"]
+        ):
+            raise Exception(f"API rejected: {toast_message}")
+
+        if no_show_api_status and no_show_api_status >= 400:
+            raise Exception(
+                f"HTTP {no_show_api_status} — blocked. Body: {str(no_show_api_response)[:200]}"
+            )
+
+        return {
+            "pnr": pnr,
+            "lastName": last_name,
+            "success": True,
+            "refundAmount": refund_amount,
+            "toastMessage": toast_message,
+            "rawApiResponse": no_show_api_response,
+            "apiStatus": no_show_api_status,
+        }
+
+    finally:
+        try:
+            await browser.stop()
+        except Exception:
+            pass
+
+if __name__ == "__main__":
+    if len(sys.argv) < 3:
+        print(json.dumps({"success": False, "error": "Usage: python scraper.py <PNR> <LastName>"}))
+        sys.exit(1)
+
+    pnr_arg = sys.argv[1].upper().strip()
+    last_name_arg = sys.argv[2].strip()
+
+    try:
+        result = uc.loop().run_until_complete(fetch_refund(pnr_arg, last_name_arg))
+        print(json.dumps(result))
+    except Exception as exc:
+        err_str = str(exc)
+        print(json.dumps({
+            "success": False,
+            "skip": err_str.startswith("SKIP:"),
+            "error": err_str,
+        }))

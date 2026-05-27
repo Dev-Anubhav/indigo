@@ -2,17 +2,14 @@
   "name": "indigo-pnr-scraper",
   "version": "1.0.0",
   "description": "IndiGo PNR bulk booking details extractor",
-  "main": "src/desktop/main.js",
+  "main": "src/web/server.js",
   "scripts": {
+    "dev": "npm run web:open",
     "start": "node src/index.js",
     "refund:start": "node src/refund.js",
     "refund:export": "node src/exportRefund.js",
     "web": "node src/web/server.js",
     "web:open": "AUTO_OPEN_BROWSER=true node src/web/server.js",
-    "desktop": "electron src/desktop/main.js",
-    "desktop:dev": "electron src/desktop/main.js",
-    "desktop:pack": "electron-builder --dir",
-    "desktop:dist": "electron-builder --mac dmg",
     "import": "node src/import.js",
     "export": "node src/export.js",
     "status": "node src/status.js",
@@ -21,32 +18,17 @@
   "dependencies": {
     "axios": "^1.6.8",
     "better-sqlite3": "^12.8.0",
+    "camoufox-js": "^0.10.2",
     "chalk": "^4.1.2",
     "cli-progress": "^3.12.0",
     "dotenv": "^16.4.5",
+    "electron-store": "^11.0.2",
     "exceljs": "^4.4.0",
-    "playwright": "^1.43.0",
+    "node-machine-id": "^1.1.12",
+    "patchright": "^1.59.4",
+    "playwright": "^1.59.1",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
     "winston": "^3.13.0"
-  },
-  "devDependencies": {
-    "electron": "^33.2.1",
-    "electron-builder": "^25.1.8"
-  },
-  "build": {
-    "appId": "com.local.airlineextractor",
-    "productName": "Airline Data Extractor",
-    "files": [
-      "src/**/*",
-      "public/**/*",
-      "package.json",
-      "node_modules/**/*"
-    ],
-    "asar": true,
-    "mac": {
-      "target": [
-        "dmg"
-      ],
-      "category": "public.app-category.business"
-    }
   }
 }

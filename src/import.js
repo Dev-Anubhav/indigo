@@ -21,6 +21,7 @@ async function importExcel() {
   // Auto-detect column positions by header name
   let pnrCol      = 1;  // default: column A
   let lastNameCol = 2;  // default: column B
+  let emailCol    = -1;
 
   const headerRow = worksheet.getRow(1);
   headerRow.eachCell((cell, colNumber) => {
@@ -30,6 +31,9 @@ async function importExcel() {
     }
     if (val.includes('last') || val.includes('surname') || val.includes('name')) {
       lastNameCol = colNumber;
+    }
+    if (val.includes('email') || val.includes('mobile') || val.includes('phone') || val.includes('contact')) {
+      emailCol = colNumber;
     }
   });
 
@@ -42,11 +46,15 @@ async function importExcel() {
 
     const pnr      = String(row.getCell(pnrCol).value      || '').trim().toUpperCase();
     const lastName = String(row.getCell(lastNameCol).value || '').trim().toUpperCase();
+    const altContact = emailCol > 0
+      ? String(row.getCell(emailCol).value || '').trim()
+      : '';
+    const contactDetail = (lastName || altContact).toUpperCase();
 
-    if (!pnr || !lastName) return; // skip empty rows
+    if (!pnr || !contactDetail) return; // skip empty rows
     if (pnr.length < 4)    return; // skip obviously invalid PNRs
 
-    rows.push({ pnr, last_name: lastName });
+    rows.push({ pnr, last_name: contactDetail });
   });
 
   if (rows.length === 0) {

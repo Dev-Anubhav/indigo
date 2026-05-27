@@ -1,23 +1,53 @@
-'use strict';
+"use strict";
 
-const fs = require('fs');
-const path = require('path');
-const { chromium } = require('playwright');
+const fs = require("fs");
+const path = require("path");
+const { chromium } = require("playwright");
 
 const MANAGE_BOOKING_URL =
-  'https://www.goindigo.in/account/my-bookings.html?linkNav=Find%20%26%20view%20booking%7CMy%20trips%7CTrips';
-const ITINERARY_API_HINT = 'api-prod-itinerary-skyplus6e.goindigo.in/v2/Itinerary';
+  "https://www.goindigo.in/account/my-bookings.html?linkNav=Find%20%26%20view%20booking%7CMy%20trips%7CTrips";
+const ITINERARY_API_HINT =
+  "api-prod-itinerary-skyplus6e.goindigo.in/v2/Itinerary";
 
-const HEADLESS = String(process.env.HEADLESS || 'false').toLowerCase() !== 'false';
-const ACTION_MIN_DELAY = parseInt(process.env.ACTION_MIN_DELAY_MS || '180', 10);
-const ACTION_MAX_DELAY = parseInt(process.env.ACTION_MAX_DELAY_MS || '550', 10);
-const TYPE_MIN_DELAY = parseInt(process.env.TYPE_MIN_DELAY_MS || '20', 10);
-const TYPE_MAX_DELAY = parseInt(process.env.TYPE_MAX_DELAY_MS || '70', 10);
+const HEADLESS =
+  String(process.env.HEADLESS || "false").toLowerCase() !== "false";
+const SPEED_PROFILE = String(
+  process.env.SPEED_PROFILE || "normal"
+).toLowerCase();
+const FAST_MODE = SPEED_PROFILE === "fast" || SPEED_PROFILE === "turbo";
+const ACTION_MIN_DELAY = parseInt(
+  process.env.ACTION_MIN_DELAY_MS || (FAST_MODE ? "50" : "180"),
+  10
+);
+const ACTION_MAX_DELAY = parseInt(
+  process.env.ACTION_MAX_DELAY_MS || (FAST_MODE ? "180" : "550"),
+  10
+);
+const TYPE_MIN_DELAY = parseInt(
+  process.env.TYPE_MIN_DELAY_MS || (FAST_MODE ? "8" : "20"),
+  10
+);
+const TYPE_MAX_DELAY = parseInt(
+  process.env.TYPE_MAX_DELAY_MS || (FAST_MODE ? "24" : "70"),
+  10
+);
 
-const STABLE_MAIN_TIMEOUT_MS = parseInt(process.env.STABLE_MAIN_TIMEOUT_MS || '6000', 10);
-const STABLE_POST_TIMEOUT_MS = parseInt(process.env.STABLE_POST_TIMEOUT_MS || '5000', 10);
-const FORM_READY_TIMEOUT_MS = parseInt(process.env.FORM_READY_TIMEOUT_MS || '8000', 10);
-const ITINERARY_RESPONSE_TIMEOUT_MS = parseInt(process.env.ITINERARY_RESPONSE_TIMEOUT_MS || '12000', 10);
+const STABLE_MAIN_TIMEOUT_MS = parseInt(
+  process.env.STABLE_MAIN_TIMEOUT_MS || (FAST_MODE ? "3200" : "6000"),
+  10
+);
+const STABLE_POST_TIMEOUT_MS = parseInt(
+  process.env.STABLE_POST_TIMEOUT_MS || (FAST_MODE ? "2600" : "5000"),
+  10
+);
+const FORM_READY_TIMEOUT_MS = parseInt(
+  process.env.FORM_READY_TIMEOUT_MS || (FAST_MODE ? "4200" : "8000"),
+  10
+);
+const ITINERARY_RESPONSE_TIMEOUT_MS = parseInt(
+  process.env.ITINERARY_RESPONSE_TIMEOUT_MS || (FAST_MODE ? "7500" : "12000"),
+  10
+);
 
 const PNR_SELECTORS = [
   'input[name="pnr-booking-ref"]',
@@ -45,15 +75,18 @@ let browser = null;
 let context = null;
 let page = null;
 
-let currentEntryMode = 'main_page';
+let currentEntryMode = "main_page";
 let modeRunsRemaining = 0;
 
 function rand(min, max) {
-  return Math.floor(Math.random() * (Math.max(min, max) - Math.min(min, max) + 1)) + Math.min(min, max);
+  return (
+    Math.floor(Math.random() * (Math.max(min, max) - Math.min(min, max) + 1)) +
+    Math.min(min, max)
+  );
 }
 
 function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 async function humanPause(min = ACTION_MIN_DELAY, max = ACTION_MAX_DELAY) {
@@ -62,26 +95,34 @@ async function humanPause(min = ACTION_MIN_DELAY, max = ACTION_MAX_DELAY) {
 
 async function waitForPageStable(pageRef, timeoutMs) {
   try {
-    await pageRef.waitForLoadState('domcontentloaded', { timeout: Math.min(timeoutMs, 4000) });
+    await pageRef.waitForLoadState("domcontentloaded", {
+      timeout: Math.min(timeoutMs, 4000),
+    });
   } catch (_) {
     // continue
   }
+  if (FAST_MODE) {
+    await sleep(120);
+    return;
+  }
   try {
-    await pageRef.waitForLoadState('networkidle', { timeout: timeoutMs });
+    await pageRef.waitForLoadState("networkidle", { timeout: timeoutMs });
   } catch (_) {
     await sleep(350);
   }
 }
 
 function logDir() {
-  const dir = path.resolve(process.env.LOG_PATH ? path.dirname(process.env.LOG_PATH) : './logs');
+  const dir = path.resolve(
+    process.env.LOG_PATH ? path.dirname(process.env.LOG_PATH) : "./logs"
+  );
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
   return dir;
 }
 
 function safeText(value) {
-  if (value == null) return '';
-  if (typeof value === 'string') return value;
+  if (value == null) return "";
+  if (typeof value === "string") return value;
   try {
     return JSON.stringify(value);
   } catch (_) {
@@ -98,7 +139,7 @@ function writeTrace(pnr, trace) {
   try {
     const stamp = Date.now();
     const file = path.join(logDir(), `api_trace_${pnr}_${stamp}.json`);
-    fs.writeFileSync(file, JSON.stringify(trace, null, 2), 'utf8');
+    fs.writeFileSync(file, JSON.stringify(trace, null, 2), "utf8");
   } catch (_) {
     // non-blocking
   }
@@ -106,7 +147,7 @@ function writeTrace(pnr, trace) {
 
 function pickEntryMode(canUseSidePanel) {
   if (!canUseSidePanel) {
-    currentEntryMode = 'main_page';
+    currentEntryMode = "main_page";
     modeRunsRemaining = 0;
     return currentEntryMode;
   }
@@ -116,26 +157,33 @@ function pickEntryMode(canUseSidePanel) {
     return currentEntryMode;
   }
 
-  currentEntryMode = Math.random() < 0.62 ? 'side_panel' : 'main_page';
+  currentEntryMode = Math.random() < 0.62 ? "side_panel" : "main_page";
   modeRunsRemaining = Math.random() < 0.55 ? 1 : 0;
   return currentEntryMode;
 }
 
 function oppositeMode(mode) {
-  return mode === 'side_panel' ? 'main_page' : 'side_panel';
+  return mode === "side_panel" ? "main_page" : "side_panel";
 }
 
 async function isBlockedOrFailoverPage(pageRef, trace) {
-  const url = String(pageRef.url() || '').toLowerCase();
-  if (url.includes('akamfailoverpage')) return true;
+  const url = String(pageRef.url() || "").toLowerCase();
+  if (url.includes("akamfailoverpage")) return true;
 
-  const hadFailoverResponse = (trace.responses || []).some(r => String(r.url || '').toLowerCase().includes('/akamfailoverpage/'));
+  const hadFailoverResponse = (trace.responses || []).some((r) =>
+    String(r.url || "")
+      .toLowerCase()
+      .includes("/akamfailoverpage/")
+  );
   if (hadFailoverResponse) return true;
 
-  const text = await pageRef.evaluate(() => (document.body ? document.body.innerText : '')).catch(() => '');
+  const text = await pageRef
+    .evaluate(() => (document.body ? document.body.innerText : ""))
+    .catch(() => "");
   const low = String(text).toLowerCase();
-  if (low.includes('something went wrong') && low.includes('customer support')) return true;
-  if (low.includes('access denied') || low.includes('forbidden')) return true;
+  if (low.includes("something went wrong") && low.includes("customer support"))
+    return true;
+  if (low.includes("access denied") || low.includes("forbidden")) return true;
   return false;
 }
 
@@ -145,16 +193,16 @@ async function ensureBrowser() {
   if (!browser) {
     browser = await chromium.launch({
       headless: HEADLESS,
-      args: ['--disable-blink-features=AutomationControlled'],
+      args: ["--disable-blink-features=AutomationControlled"],
     });
   }
 
   context = await browser.newContext({
     viewport: { width: 1366, height: 820 },
     userAgent:
-      'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
-    locale: 'en-IN',
-    timezoneId: 'Asia/Kolkata',
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+    locale: "en-IN",
+    timezoneId: "Asia/Kolkata",
   });
 
   page = await context.newPage();
@@ -164,17 +212,19 @@ async function ensureBrowser() {
 }
 
 async function isItineraryContext(pageRef) {
-  const url = String(pageRef.url() || '').toLowerCase();
-  if (url.includes('/book/itinerary')) return true;
+  const url = String(pageRef.url() || "").toLowerCase();
+  if (url.includes("/book/itinerary")) return true;
   const hasRetrieveAnother = await pageRef
-    .locator('button:has-text("Retrieve another booking"), a:has-text("RETRIEVE ANOTHER BOOKING")')
+    .locator(
+      'button:has-text("Retrieve another booking"), a:has-text("RETRIEVE ANOTHER BOOKING")'
+    )
     .count()
     .catch(() => 0);
   return hasRetrieveAnother > 0;
 }
 
 function deepFindFirst(obj, predicates, seen = new Set()) {
-  if (!obj || typeof obj !== 'object') return null;
+  if (!obj || typeof obj !== "object") return null;
   if (seen.has(obj)) return null;
   seen.add(obj);
 
@@ -188,7 +238,7 @@ function deepFindFirst(obj, predicates, seen = new Set()) {
 
   for (const [k, v] of Object.entries(obj)) {
     const key = k.toLowerCase();
-    if (predicates.some(fn => fn(key, v))) return v;
+    if (predicates.some((fn) => fn(key, v))) return v;
   }
 
   for (const v of Object.values(obj)) {
@@ -200,7 +250,7 @@ function deepFindFirst(obj, predicates, seen = new Set()) {
 }
 
 function deepFindNode(obj, predicate, seen = new Set()) {
-  if (!obj || typeof obj !== 'object') return null;
+  if (!obj || typeof obj !== "object") return null;
   if (seen.has(obj)) return null;
   seen.add(obj);
 
@@ -223,12 +273,14 @@ function deepFindNode(obj, predicate, seen = new Set()) {
 }
 
 function normalizeStatus(value) {
-  return String(value || '').trim().toUpperCase();
+  return String(value || "")
+    .trim()
+    .toUpperCase();
 }
 
 function splitIsoDateTime(value) {
-  const raw = String(value || '').trim();
-  if (!raw) return { date: '', time: '' };
+  const raw = String(value || "").trim();
+  if (!raw) return { date: "", time: "" };
   const dt = new Date(raw);
   if (!Number.isNaN(dt.getTime())) {
     const iso = dt.toISOString();
@@ -236,49 +288,58 @@ function splitIsoDateTime(value) {
   }
   const m = raw.match(/^(\d{4}-\d{2}-\d{2})[T\s](\d{2}:\d{2})/);
   if (m) return { date: m[1], time: m[2] };
-  return { date: raw.slice(0, 10), time: '' };
+  return { date: raw.slice(0, 10), time: "" };
 }
 
 function extractFromItinerary(payload, pnr, lastName) {
   const data = payload?.data || payload || {};
   const bookingStatus =
     data?.bookingDetails?.bookingStatus ||
-    deepFindFirst(payload, [key => key === 'bookingstatus' || key.endsWith('bookingstatus')]) ||
-    '';
+    deepFindFirst(payload, [
+      (key) => key === "bookingstatus" || key.endsWith("bookingstatus"),
+    ]) ||
+    "";
 
   const firstJourney = data?.journeysDetail?.[0] || {};
   const firstSegment = firstJourney?.segments?.[0] || {};
-  const segmentDetails = firstSegment?.segmentDetails || firstSegment?.legDetails || {};
+  const segmentDetails =
+    firstSegment?.segmentDetails || firstSegment?.legDetails || {};
 
   const flightNo =
     firstSegment?.segmentDetails?.flightDesignator ||
     firstSegment?.flightDesignator ||
     firstSegment?.identifier ||
-    deepFindFirst(payload, [key => key === 'flightnumber' || key === 'flightno']) ||
-    '';
+    deepFindFirst(payload, [
+      (key) => key === "flightnumber" || key === "flightno",
+    ]) ||
+    "";
   const origin =
     segmentDetails.origin ||
     firstJourney?.journeydetail?.origin ||
-    deepFindFirst(payload, [key => key === 'origin']) ||
-    '';
+    deepFindFirst(payload, [(key) => key === "origin"]) ||
+    "";
   const destination =
     segmentDetails.destination ||
     firstJourney?.journeydetail?.destination ||
-    deepFindFirst(payload, [key => key === 'destination']) ||
-    '';
+    deepFindFirst(payload, [(key) => key === "destination"]) ||
+    "";
 
   const departureRaw =
     segmentDetails.departure ||
     firstSegment?.designator?.departure ||
     firstJourney?.journeydetail?.departure ||
-    deepFindFirst(payload, [key => key === 'departure' || key === 'utcdeparture']) ||
-    '';
+    deepFindFirst(payload, [
+      (key) => key === "departure" || key === "utcdeparture",
+    ]) ||
+    "";
   const arrivalRaw =
     segmentDetails.arrival ||
     firstSegment?.designator?.arrival ||
     firstJourney?.journeydetail?.arrival ||
-    deepFindFirst(payload, [key => key === 'arrival' || key === 'utcarrival']) ||
-    '';
+    deepFindFirst(payload, [
+      (key) => key === "arrival" || key === "utcarrival",
+    ]) ||
+    "";
 
   const departureParts = splitIsoDateTime(departureRaw);
   const arrivalParts = splitIsoDateTime(arrivalRaw);
@@ -288,26 +349,35 @@ function extractFromItinerary(payload, pnr, lastName) {
 
   const passengers = Array.isArray(data?.passengers) ? data.passengers : [];
   const passengerName = passengers
-    .map(p => String(p?.passengerName || p?.name || p?.firstName || p?.firstname || '').trim())
+    .map((p) =>
+      String(
+        p?.passengerName || p?.name || p?.firstName || p?.firstname || ""
+      ).trim()
+    )
     .filter(Boolean)
-    .join(' | ');
+    .join(" | ");
 
   const passengerLiftStatuses = passengers
     .map((p, idx) => {
       const lift =
         p?.seatsAndSsrs?.journeys?.[0]?.segments?.[0]?.liftStatus ||
         p?.liftStatus ||
-        '';
-      return `P${idx + 1}:${String(lift || '').trim() || 'NA'}`;
+        "";
+      return `P${idx + 1}:${String(lift || "").trim() || "NA"}`;
     })
-    .join(' | ');
+    .join(" | ");
 
-  const segmentLiftStatus = firstSegment?.liftStatus || '';
-  const liftStatus = segmentLiftStatus || passengerLiftStatuses || '';
+  const segmentLiftStatus = firstSegment?.liftStatus || "";
+  const liftStatus = segmentLiftStatus || passengerLiftStatuses || "";
   const seatNumber =
-    deepFindFirst(payload, [key => key === 'seatnumber' || key === 'seatno' || key === 'seat']) || '';
+    deepFindFirst(payload, [
+      (key) => key === "seatnumber" || key === "seatno" || key === "seat",
+    ]) || "";
   const fareAmount =
-    deepFindFirst(payload, [key => key === 'fareamount' || key === 'amountpaid' || key === 'totalfare']) || '';
+    deepFindFirst(payload, [
+      (key) =>
+        key === "fareamount" || key === "amountpaid" || key === "totalfare",
+    ]) || "";
 
   return {
     success: true,
@@ -340,8 +410,10 @@ async function tryFill(pageRef, selectors, value) {
       if (await locator.count()) {
         await locator.click({ timeout: 1600 });
         await humanPause(40, 140);
-        await locator.fill('');
-        await locator.type(value, { delay: rand(TYPE_MIN_DELAY, TYPE_MAX_DELAY) });
+        await locator.fill("");
+        await locator.type(value, {
+          delay: rand(TYPE_MIN_DELAY, TYPE_MAX_DELAY),
+        });
         return true;
       }
     } catch (_) {
@@ -366,61 +438,65 @@ async function waitForInteractiveInput(pageRef, selectors, timeoutMs = 7000) {
         // keep trying
       }
     }
-    await sleep(200);
+    await sleep(FAST_MODE ? 120 : 200);
   }
   return false;
 }
 
 async function fillByHeuristic(pageRef, kind, value) {
-  return pageRef.evaluate(({ kind, value }) => {
-    const normalize = text => String(text || '').toLowerCase();
-    const visible = el => {
-      if (!el) return false;
-      const style = window.getComputedStyle(el);
-      if (!style) return false;
-      if (style.display === 'none' || style.visibility === 'hidden') return false;
-      return el.getClientRects().length > 0;
-    };
+  return pageRef.evaluate(
+    ({ kind, value }) => {
+      const normalize = (text) => String(text || "").toLowerCase();
+      const visible = (el) => {
+        if (!el) return false;
+        const style = window.getComputedStyle(el);
+        if (!style) return false;
+        if (style.display === "none" || style.visibility === "hidden")
+          return false;
+        return el.getClientRects().length > 0;
+      };
 
-    const inputs = Array.from(document.querySelectorAll('input'));
-    const scored = inputs
-      .filter(el => !el.disabled && !el.readOnly && visible(el))
-      .map(el => {
-        const name = normalize(el.getAttribute('name'));
-        const placeholder = normalize(el.getAttribute('placeholder'));
-        const aria = normalize(el.getAttribute('aria-label'));
-        const cls = normalize(el.getAttribute('class'));
-        const text = `${name} ${placeholder} ${aria} ${cls}`;
+      const inputs = Array.from(document.querySelectorAll("input"));
+      const scored = inputs
+        .filter((el) => !el.disabled && !el.readOnly && visible(el))
+        .map((el) => {
+          const name = normalize(el.getAttribute("name"));
+          const placeholder = normalize(el.getAttribute("placeholder"));
+          const aria = normalize(el.getAttribute("aria-label"));
+          const cls = normalize(el.getAttribute("class"));
+          const text = `${name} ${placeholder} ${aria} ${cls}`;
 
-        let score = 0;
-        if (kind === 'pnr') {
-          if (text.includes('pnr')) score += 5;
-          if (text.includes('booking')) score += 3;
-          if (text.includes('reference')) score += 3;
-          if (el.maxLength === 6) score += 1;
-        } else {
-          if (text.includes('last')) score += 4;
-          if (text.includes('surname')) score += 4;
-          if (text.includes('email')) score += 3;
-          if (text.includes('name')) score += 2;
-        }
-        return { el, score };
-      })
-      .filter(item => item.score > 0)
-      .sort((a, b) => b.score - a.score);
+          let score = 0;
+          if (kind === "pnr") {
+            if (text.includes("pnr")) score += 5;
+            if (text.includes("booking")) score += 3;
+            if (text.includes("reference")) score += 3;
+            if (el.maxLength === 6) score += 1;
+          } else {
+            if (text.includes("last")) score += 4;
+            if (text.includes("surname")) score += 4;
+            if (text.includes("email")) score += 3;
+            if (text.includes("name")) score += 2;
+          }
+          return { el, score };
+        })
+        .filter((item) => item.score > 0)
+        .sort((a, b) => b.score - a.score);
 
-    if (!scored.length) return false;
+      if (!scored.length) return false;
 
-    const target = scored[0].el;
-    target.focus();
-    target.value = '';
-    target.dispatchEvent(new Event('input', { bubbles: true }));
-    target.value = String(value || '');
-    target.dispatchEvent(new Event('input', { bubbles: true }));
-    target.dispatchEvent(new Event('change', { bubbles: true }));
-    target.blur();
-    return true;
-  }, { kind, value });
+      const target = scored[0].el;
+      target.focus();
+      target.value = "";
+      target.dispatchEvent(new Event("input", { bubbles: true }));
+      target.value = String(value || "");
+      target.dispatchEvent(new Event("input", { bubbles: true }));
+      target.dispatchEvent(new Event("change", { bubbles: true }));
+      target.blur();
+      return true;
+    },
+    { kind, value }
+  );
 }
 
 async function clickFirst(pageRef, selectors) {
@@ -446,11 +522,14 @@ async function openRetrievePanelIfNeeded(pageRef) {
   await clickFirst(pageRef, [
     'button:has-text("Retrieve another booking")',
     'a:has-text("RETRIEVE ANOTHER BOOKING")',
-    '.retrieve-another-itinerary button',
+    ".retrieve-another-itinerary button",
   ]);
 
   try {
-    await pageRef.locator(PANEL_PNR_SELECTOR).first().waitFor({ state: 'visible', timeout: 5000 });
+    await pageRef
+      .locator(PANEL_PNR_SELECTOR)
+      .first()
+      .waitFor({ state: "visible", timeout: 5000 });
   } catch (_) {
     // fallback to generic stabilization
     await waitForPageStable(pageRef, 3000);
@@ -462,15 +541,23 @@ async function openRetrievePanelIfNeeded(pageRef) {
 async function waitForFormReady(pageRef, timeoutMs = FORM_READY_TIMEOUT_MS) {
   const started = Date.now();
   while (Date.now() - started < timeoutMs) {
-    const hasInputs = await pageRef.locator('input').count();
+    const hasInputs = await pageRef.locator("input").count();
     if (hasInputs > 0) {
-      const looksReady = await pageRef.evaluate(() => {
-        const txt = document.body ? document.body.innerText.toLowerCase() : '';
-        return txt.includes('pnr') || txt.includes('booking reference') || txt.includes('find your booking');
-      }).catch(() => false);
+      const looksReady = await pageRef
+        .evaluate(() => {
+          const txt = document.body
+            ? document.body.innerText.toLowerCase()
+            : "";
+          return (
+            txt.includes("pnr") ||
+            txt.includes("booking reference") ||
+            txt.includes("find your booking")
+          );
+        })
+        .catch(() => false);
       if (looksReady) return true;
     }
-    await sleep(220);
+    await sleep(FAST_MODE ? 120 : 220);
   }
   return false;
 }
@@ -486,21 +573,28 @@ async function submitLookup(pageRef) {
   ]);
 
   if (!clicked) {
-    throw new Error('Submit button not found (Get Started / Retrieve Itinerary).');
+    throw new Error(
+      "Submit button not found (Get Started / Retrieve Itinerary)."
+    );
   }
 }
 
 async function prepareMode(pageRef, mode, trace, pnr) {
-  if (mode === 'main_page') {
-    await pageRef.goto(MANAGE_BOOKING_URL, { waitUntil: 'domcontentloaded' });
+  if (mode === "main_page") {
+    await pageRef.goto(MANAGE_BOOKING_URL, { waitUntil: "domcontentloaded" });
     await waitForPageStable(pageRef, STABLE_MAIN_TIMEOUT_MS);
     await humanPause(180, 420);
 
     const blockedAtLanding = await isBlockedOrFailoverPage(pageRef, trace);
     if (blockedAtLanding) {
-      const snapPath = path.join(logDir(), `error_failover_${pnr}_${Date.now()}.png`);
-      await pageRef.screenshot({ path: snapPath, fullPage: true }).catch(() => {});
-      throw new Error('Akamai failover page detected');
+      const snapPath = path.join(
+        logDir(),
+        `error_failover_${pnr}_${Date.now()}.png`
+      );
+      await pageRef
+        .screenshot({ path: snapPath, fullPage: true })
+        .catch(() => {});
+      throw new Error("Akamai failover page detected");
     }
 
     await waitForFormReady(pageRef, FORM_READY_TIMEOUT_MS);
@@ -519,12 +613,28 @@ async function fillLookupInputs(pageRef, pnr, lastName) {
   await waitForInteractiveInput(pageRef, PNR_SELECTORS, 7000);
   await waitForInteractiveInput(pageRef, NAME_SELECTORS, 7000);
 
-  let pnrFilled = await tryFill(pageRef, PNR_SELECTORS, String(pnr).trim().toUpperCase());
-  let nameFilled = await tryFill(pageRef, NAME_SELECTORS, String(lastName).trim().toUpperCase());
+  let pnrFilled = await tryFill(
+    pageRef,
+    PNR_SELECTORS,
+    String(pnr).trim().toUpperCase()
+  );
+  let nameFilled = await tryFill(
+    pageRef,
+    NAME_SELECTORS,
+    String(lastName).trim().toUpperCase()
+  );
 
   if (!pnrFilled || !nameFilled) {
-    const pnrFallback = await fillByHeuristic(pageRef, 'pnr', String(pnr).trim().toUpperCase());
-    const nameFallback = await fillByHeuristic(pageRef, 'lastname', String(lastName).trim().toUpperCase());
+    const pnrFallback = await fillByHeuristic(
+      pageRef,
+      "pnr",
+      String(pnr).trim().toUpperCase()
+    );
+    const nameFallback = await fillByHeuristic(
+      pageRef,
+      "lastname",
+      String(lastName).trim().toUpperCase()
+    );
     pnrFilled = pnrFilled || pnrFallback;
     nameFilled = nameFilled || nameFallback;
   }
@@ -544,13 +654,13 @@ async function fetchPNR(pnr, lastName, attempt = 1) {
     itineraryResponse: null,
     cookiesAtCapture: [],
     attempt,
-    entryMode: '',
-    fallbackMode: '',
+    entryMode: "",
+    fallbackMode: "",
   };
 
-  const onRequest = request => {
+  const onRequest = (request) => {
     const url = request.url();
-    if (!url.includes('goindigo.in') && !url.includes('skyplus6e')) return;
+    if (!url.includes("goindigo.in") && !url.includes("skyplus6e")) return;
 
     trace.requests.push({
       time: new Date().toISOString(),
@@ -558,21 +668,21 @@ async function fetchPNR(pnr, lastName, attempt = 1) {
       url,
       resourceType: request.resourceType(),
       headers: request.headers(),
-      postData: truncate(request.postData() || ''),
+      postData: truncate(request.postData() || ""),
     });
   };
 
-  const onResponse = async response => {
+  const onResponse = async (response) => {
     const url = response.url();
-    if (!url.includes('goindigo.in') && !url.includes('skyplus6e')) return;
+    if (!url.includes("goindigo.in") && !url.includes("skyplus6e")) return;
 
-    let body = '';
-    const ct = (response.headers()['content-type'] || '').toLowerCase();
-    if (ct.includes('json') || url.includes('/v2/')) {
+    let body = "";
+    const ct = (response.headers()["content-type"] || "").toLowerCase();
+    if (ct.includes("json") || url.includes("/v2/")) {
       try {
         body = truncate(await response.text(), 50000);
       } catch (_) {
-        body = '';
+        body = "";
       }
     }
 
@@ -593,8 +703,8 @@ async function fetchPNR(pnr, lastName, attempt = 1) {
     }
   };
 
-  pageRef.on('request', onRequest);
-  pageRef.on('response', onResponse);
+  pageRef.on("request", onRequest);
+  pageRef.on("response", onResponse);
 
   try {
     const canUseSidePanel = await isItineraryContext(pageRef);
@@ -604,13 +714,13 @@ async function fetchPNR(pnr, lastName, attempt = 1) {
     let activeMode = selectedMode;
     let prepared = await prepareMode(pageRef, selectedMode, trace, pnr);
 
-    if (!prepared && selectedMode !== 'main_page') {
-      activeMode = 'main_page';
+    if (!prepared && selectedMode !== "main_page") {
+      activeMode = "main_page";
       prepared = await prepareMode(pageRef, activeMode, trace, pnr);
     }
 
     if (!prepared) {
-      throw new Error('Could not prepare booking page in selected mode.');
+      throw new Error("Could not prepare booking page in selected mode.");
     }
 
     let inputsFilled = await fillLookupInputs(pageRef, pnr, lastName);
@@ -618,23 +728,36 @@ async function fetchPNR(pnr, lastName, attempt = 1) {
     if (!inputsFilled) {
       const fallbackMode = oppositeMode(activeMode);
       trace.fallbackMode = fallbackMode;
-      const fallbackPrepared = await prepareMode(pageRef, fallbackMode, trace, pnr);
+      const fallbackPrepared = await prepareMode(
+        pageRef,
+        fallbackMode,
+        trace,
+        pnr
+      );
       if (fallbackPrepared) {
         inputsFilled = await fillLookupInputs(pageRef, pnr, lastName);
       }
     }
 
     if (!inputsFilled) {
-      const snapPath = path.join(logDir(), `error_fields_${pnr}_${Date.now()}.png`);
-      await pageRef.screenshot({ path: snapPath, fullPage: true }).catch(() => {});
-      throw new Error('Could not find input fields for PNR/Last Name in both modes.');
+      const snapPath = path.join(
+        logDir(),
+        `error_fields_${pnr}_${Date.now()}.png`
+      );
+      await pageRef
+        .screenshot({ path: snapPath, fullPage: true })
+        .catch(() => {});
+      throw new Error(
+        "Could not find input fields for PNR/Last Name in both modes."
+      );
     }
 
     await humanPause(120, 260);
 
     const waitItinerary = pageRef
       .waitForResponse(
-        resp => resp.url().includes(ITINERARY_API_HINT) && resp.status() < 500,
+        (resp) =>
+          resp.url().includes(ITINERARY_API_HINT) && resp.status() < 500,
         { timeout: ITINERARY_RESPONSE_TIMEOUT_MS }
       )
       .catch(() => null);
@@ -655,10 +778,14 @@ async function fetchPNR(pnr, lastName, attempt = 1) {
     trace.cookiesAtCapture = await context.cookies();
 
     if (!trace.itineraryResponse) {
-      throw new Error('Itinerary API response not captured.');
+      throw new Error("Itinerary API response not captured.");
     }
 
-    const extracted = extractFromItinerary(trace.itineraryResponse, pnr, lastName);
+    const extracted = extractFromItinerary(
+      trace.itineraryResponse,
+      pnr,
+      lastName
+    );
     writeTrace(pnr, {
       ...trace,
       doneAt: new Date().toISOString(),
@@ -667,7 +794,10 @@ async function fetchPNR(pnr, lastName, attempt = 1) {
 
     return extracted;
   } catch (err) {
-    if (String(err.message || '').includes('Akamai failover page detected') && attempt < 2) {
+    if (
+      String(err.message || "").includes("Akamai failover page detected") &&
+      attempt < 2
+    ) {
       await closeBrowser();
       await sleep(rand(2500, 5000));
       return fetchPNR(pnr, lastName, attempt + 1);
@@ -681,11 +811,11 @@ async function fetchPNR(pnr, lastName, attempt = 1) {
 
     return {
       success: false,
-      error: err.message || 'Unknown scraping error',
+      error: err.message || "Unknown scraping error",
     };
   } finally {
-    pageRef.off('request', onRequest);
-    pageRef.off('response', onResponse);
+    pageRef.off("request", onRequest);
+    pageRef.off("response", onResponse);
   }
 }
 

@@ -9,17 +9,24 @@ const { fetchPNR, closeBrowser } = require('./scraper');
 const { initStatusWriter, enqueueStatusRow, shutdownStatusWriter } = require('./statusWriter');
 const { rotateIP, waitForNetwork, sleep, getCurrentIP } = require('./rotator');
 
-const BATCH_SIZE  = parseInt(process.env.BATCH_SIZE  || 40);
-const MIN_DELAY   = parseInt(process.env.PER_PNR_DELAY_MIN_MS || process.env.MIN_DELAY_MS || 1200);
-const MAX_DELAY   = parseInt(process.env.PER_PNR_DELAY_MAX_MS || process.env.MAX_DELAY_MS || 4500);
+const SPEED_PROFILE = String(process.env.SPEED_PROFILE || 'normal').toLowerCase();
+const FAST_MODE = SPEED_PROFILE === 'fast' || SPEED_PROFILE === 'turbo';
 
-const AUTO_PAUSE_EVERY_N = parseInt(process.env.AUTO_PAUSE_EVERY_N || 25);
+const BATCH_SIZE  = parseInt(process.env.BATCH_SIZE  || 40);
+const MIN_DELAY   = parseInt(
+  process.env.PER_PNR_DELAY_MIN_MS || process.env.MIN_DELAY_MS || (FAST_MODE ? 120 : 1200)
+);
+const MAX_DELAY   = parseInt(
+  process.env.PER_PNR_DELAY_MAX_MS || process.env.MAX_DELAY_MS || (FAST_MODE ? 320 : 4500)
+);
+
+const AUTO_PAUSE_EVERY_N = parseInt(process.env.AUTO_PAUSE_EVERY_N || (FAST_MODE ? 0 : 25));
 const AUTO_PAUSE_MIN_MS  = parseInt(process.env.AUTO_PAUSE_MIN_MS || 240000); // 4 min
 const AUTO_PAUSE_MAX_MS  = parseInt(process.env.AUTO_PAUSE_MAX_MS || 420000); // 7 min
 
-const HEALTH_WINDOW_SIZE = parseInt(process.env.HEALTH_WINDOW_SIZE || 20);
-const HEALTH_FAIL_RATE_THRESHOLD = parseFloat(process.env.HEALTH_FAIL_RATE_THRESHOLD || 0.35);
-const HEALTH_BLOCK_THRESHOLD = parseInt(process.env.HEALTH_BLOCK_THRESHOLD || 3);
+const HEALTH_WINDOW_SIZE = parseInt(process.env.HEALTH_WINDOW_SIZE || (FAST_MODE ? 30 : 20));
+const HEALTH_FAIL_RATE_THRESHOLD = parseFloat(process.env.HEALTH_FAIL_RATE_THRESHOLD || (FAST_MODE ? 0.8 : 0.35));
+const HEALTH_BLOCK_THRESHOLD = parseInt(process.env.HEALTH_BLOCK_THRESHOLD || (FAST_MODE ? 10 : 3));
 const HEALTH_PAUSE_MIN_MS = parseInt(process.env.HEALTH_PAUSE_MIN_MS || 600000); // 10 min
 const HEALTH_PAUSE_MAX_MS = parseInt(process.env.HEALTH_PAUSE_MAX_MS || 900000); // 15 min
 
@@ -73,6 +80,7 @@ async function printBanner() {
   console.log(chalk.white(`  Done         : ${chalk.green(stats.done)}`));
   console.log(chalk.white(`  Failed       : ${chalk.red(stats.failed)}`));
   console.log(chalk.white(`  Batch size   : ${chalk.yellow(BATCH_SIZE)} (rotate IP every ${BATCH_SIZE} records)`));
+  console.log(chalk.white(`  Speed mode   : ${chalk.yellow(SPEED_PROFILE)}`));
   console.log(chalk.white(`  Delay range  : ${chalk.yellow(MIN_DELAY / 1000)}s – ${chalk.yellow(MAX_DELAY / 1000)}s`));
   console.log(chalk.white(`  Cooldown     : every ${chalk.yellow(AUTO_PAUSE_EVERY_N)} records pause ${chalk.yellow(Math.floor(AUTO_PAUSE_MIN_MS / 60000))}-${chalk.yellow(Math.floor(AUTO_PAUSE_MAX_MS / 60000))} min`));
   console.log(chalk.white(`  Health pause : fail-rate>${chalk.yellow((HEALTH_FAIL_RATE_THRESHOLD * 100).toFixed(0))}% in ${chalk.yellow(HEALTH_WINDOW_SIZE)} or blocks>=${chalk.yellow(HEALTH_BLOCK_THRESHOLD)}`));
