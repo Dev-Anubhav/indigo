@@ -1,0 +1,224 @@
+{
+  "pnr": "YZSNPE",
+  "contactDetail": "AJAWALIYA",
+  "startedAt": "2026-06-10T06:29:30.717Z",
+  "pageUrlStart": "https://www.akasaair.com/manage-booking",
+  "response": {
+    "data": {
+      "bookingKey": "MTQ0OTE1MTMhWVpTTlBFIWZhbHNl",
+      "breakdown": {
+        "balanceDue": 0,
+        "journeyTotals": {
+          "totalAmount": 0,
+          "totalDiscount": 0,
+          "totalTax": 0
+        },
+        "journeys": null,
+        "passengerTotals": {
+          "infant": null,
+          "seats": null,
+          "spoilage": null
+        },
+        "passengers": [
+          {
+            "infant": null,
+            "passengerKey": "MCFBRFQ-",
+            "seats": null,
+            "spoilage": null
+          }
+        ],
+        "showPriceBreakdown": true,
+        "totalAmount": 2918,
+        "totalCharged": 2918,
+        "totalToCollect": 2918
+      },
+      "contacts": [
+        {
+          "address": {
+            "lineOne": "NA",
+            "lineTwo": "NA",
+            "lineThree": null,
+            "countryCode": "IN",
+            "provinceState": null,
+            "city": "NA",
+            "postalCode": null
+          },
+          "companyName": "TSC ONLINE",
+          "contactTypeCode": "P",
+          "cultureCode": null,
+          "customerNumber": null,
+          "distributionOption": "Email",
+          "emailAddress": "",
+          "encryptedEmailAddress": "0727D7F358624691135B4A402DD54A42DB689C2A932B85C17E18271E752C2536FD6B049F5E77AB5EC9EF311A31294B9FAF563A8523E594",
+          "maskedEmailAddress": "p****.******1@g***l.com",
+          "name": {
+            "first": "DAXABEN VISHNUBHAI",
+            "middle": null,
+            "last": "AJWALIA",
+            "title": "MS",
+            "suffix": null
+          },
+          "notificationPreference": "None",
+          "phoneNumbers": [
+            {
+              "number": "",
+              "type": "Other",
+              "encryptedNumber": "66BAE02D56E2EE46EA4E5D19EAE4987226B271920D77133BC3768C9D18EC1CF6AD849AFB9076B5E9829C",
+              "maskedNumber": "89******87"
+            },
+            {
+              "number": "",
+              "type": "Home",
+              "encryptedNumber": "542358F262071FFBB4FFE84EC10A87AFC0653093E478C8E200C3A9122901A936D1ACD0785780C081BCAC",
+              "maskedNumber": "89******87"
+            }
+          ],
+          "sourceOrganization": "QPQJU9122B"
+        }
+      ],
+      "currencyCode": "INR",
+      "extraSeatPassengers": [],
+      "gst": null,
+      "hold": null,
+      "info": {
+        "bookedDate": "2025-09-03T10:15:41.277",
+        "bookingType": null,
+        "changeAllowed": true,
+        "createdDate": "2025-09-18T09:12:25.65",
+        "expirationDate": "2025-09-25T01:00:00",
+        "modifiedDate": "2025-09-18T09:12:39.06",
+        "owningCarrierCode": "QP",
+        "paidStatus": "PaidInFull",
+        "priceStatus": "Valid",
+        "status": "Closed"
+      },
+      "isFareLockBooking": false,
+      "isGdsBooking": false,
+      "isGroupBooking": false,
+      "isMaxVoucherLimitReached": false,
+      "isStandBy": false,
+      "journeys": [],
+      "passengerFees": [
+        {
+          "fees": [
+            {
+              "applicableFor": [],
+              "code": "CXLL"
+            }
+          ],
+          "passengerKey": "MCFBRFQ-"
+        }
+      ],
+      "passengers": [
+        {
+          "addresses": [],
+          "bags": [],
+          "customerNumber": null,
+          "discountCode": null,
+          "emdCoupons": [],
+          "fees": [
+            {
+              "isConfirmed": true,
+              "isConfirming": false,
+              "isConfirmingExternal": false,
+              "code": "CXLL",
+              "detail": "24Sep QP1905 AMDBLR",
+              "passengerFeeKey": "MCEwITU-",
+              "override": false,
+              "flightReference": null,
+              "note": null,
+              "createdDate": "2025-09-18T09:12:39.06",
+              "isProtected": false,
+              "serviceCharges": [
+                {
+                  "amount": 2918,
+                  "code": "CXLL",
+                  "detail": ">3 Days Ca",
+                  "type": "ServiceCharge",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 2918,
+                  "ticketCode": "CX3"
+                },
+                {
+                  "amount": 69,
+                  "code": "C24",
+                  "detail": "AMD-BLR",
+                  "type": "IncludedTax",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 69,
+                  "ticketCode": "C24"
+                },
+                {
+                  "amount": 69,
+                  "code": "S24",
+                  "detail": "AMD-BLR",
+                  "type": "IncludedTax",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 69,
+                  "ticketCode": "S24"
+                }
+              ],
+              "type": "PenaltyFee",
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0
+            }
+          ],
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": "Female",
+            "dateOfBirth": null,
+            "familyNumber": null
+          },
+          "name": {
+            "first": "BINABEN LALITBHAI",
+            "middle": null,
+            "last": "AJAWALIYA",
+            "title": "MS",
+            "suffix": null
+          },
+          "passengerAlternateKey": "MjQ2NDU1MjI-",
+          "passengerKey": "MCFBRFQ-",
+          "passengerTypeCode": "ADT",
+          "program": null,
+          "travelDocuments": [],
+          "weightCategory": "Female"
+        }
+      ],
+      "primaryContactTypeCode": "P",
+      "recordLocator": "YZSNPE",
+      "restriction": {
+        "allowAddOns": false,
+        "allowCancelBooking": false,
+        "allowCancellationPolicy": false,
+        "allowChangeDate": false,
+        "allowCheckIn": false,
+        "allowEmailItinerary": false,
+        "allowManageBooking": false,
+        "allowNoShowRefundClaim": false,
+        "allowTravelCertificate": true,
+        "allowUndoCheckIn": false,
+        "allowUpdateContact": false,
+        "allowViewGst": true,
+        "allowViewRefundReceipt": true
+      },
+      "showMaskedFare": false,
+      "typeOfSale": {
+        "isCorporateFare": false,
+        "promotionCode": null
+      },
+      "voucherDiscounts": []
+    }
+  },
+  "responseStatus": 200,
+  "responseUrl": "https://prod-bl.qp.akasaair.com/api/ibe/booking/retrieve?recordLocator=YZSNPE&lastName=AJAWALIYA",
+  "responseBodySnippet": "{\"data\":{\"bookingKey\":\"MTQ0OTE1MTMhWVpTTlBFIWZhbHNl\",\"breakdown\":{\"balanceDue\":0.0000,\"journeyTotals\":{\"totalAmount\":0.0,\"totalDiscount\":0.0,\"totalTax\":0.0},\"journeys\":null,\"passengerTotals\":{\"infant\":null,\"seats\":null,\"spoilage\":null},\"passengers\":[{\"infant\":null,\"passengerKey\":\"MCFBRFQ-\",\"seats\":null,\"spoilage\":null}],\"showPriceBreakdown\":true,\"totalAmount\":2918.0000,\"totalCharged\":2918.0000,\"totalToCollect\":2918.0000},\"contacts\":[{\"address\":{\"lineOne\":\"NA\",\"lineTwo\":\"NA\",\"lineThree\":null,\"countryCode\":\"IN\",\"provinceState\":null,\"city\":\"NA\",\"postalCode\":null},\"companyName\":\"TSC ONLINE\",\"contactTypeCode\":\"P\",\"cultureCode\":null,\"customerNumber\":null,\"distributionOption\":\"Email\",\"emailAddress\":\"\",\"encryptedEmailAddress\":\"0727D7F358624691135B4A402DD54A42DB689C2A932B85C17E18271E752C2536FD6B049F5E77AB5EC9EF311A31294B9FAF563A8523E594\",\"maskedEmailAddress\":\"p****.******1@g***l.com\",\"name\":{\"first\":\"DAXABEN VISHNUBHAI\",\"middle\":null,\"last\":\"AJWALIA\",\"title\":\"MS\",\"suffix\":null},\"notificationPreference\":\"None\",\"phoneNumbers\":[{\"number\":\"\",\"type\":\"Other\",\"encryptedNumber\":\"66BAE02D56E2EE46EA4E5D19EAE4987226B271920D77133BC3768C9D18EC1CF6AD849AFB9076B5E9829C\",\"maskedNumber\":\"89******87\"},{\"number\":\"\",\"type\":\"Home\",\"encryptedNumber\":\"542358F262071FFBB4FFE84EC10A87AFC0653093E478C8E200C3A9122901A936D1ACD0785780C081BCAC\",\"maskedNumber\":\"89******87\"}],\"sourceOrganization\":\"QPQJU9122B\"}],\"currencyCode\":\"INR\",\"extraSeatPassengers\":[],\"gst\":null,\"hold\":null,\"info\":{\"bookedDate\":\"2025-09-03T10:15:41.277\",\"bookingType\":null,\"changeAllowed\":true,\"createdDate\":\"2025-09-18T09:12:25.65\",\"expirationDate\":\"2025-09-25T01:00:00\",\"modifiedDate\":\"2025-09-18T09:12:39.06\",\"owningCarrierCode\":\"QP\",\"paidStatus\":\"PaidInFull\",\"priceStatus\":\"Valid\",\"status\":\"Closed\"},\"isFareLockBooking\":false,\"isGdsBooking\":false,\"isGroupBooking\":false,\"isMaxVoucherLimitReached\":false,\"isStandBy\":false,\"journeys\":[],\"passengerFees\":[{\"fees\":[{\"applicableFor\":[],\"code\":\"CXLL\"}],\"passengerKey\":\"MCFBRFQ-\"}],\"passengers\":[{\"addresses\":[],\"bags\":[],\"customerNumber\":null,\"discountCode\":null,\"emdCoupons\":[],\"fees\":[{\"isConfirmed\":true,\"isConfirming\":false,\"isConfirmingExternal\":false,\"code\":\"CXLL\",\"detail\":\"24Sep QP1905 AMDBLR\",\"passengerFeeKey\":\"MCEwITU-\",\"override\":false,\"flightReference\":null,\"note\":null,\"createdDate\":\"2025-09-18T09:12:39.06\",\"isProtected\":false,\"serviceCharges\":[{\"amount\":2918.0000,\"code\":\"CXLL\",\"detail\":\">3 Days Ca\",\"type\":\"ServiceCharge\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":2918.0000,\"ticketCode\":\"CX3\"},{\"amount\":69.0000,\"code\":\"C24\",\"detail\":\"AMD-BLR\",\"type\":\"IncludedTax\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":69.0000,\"ticketCode\":\"C24\"},{\"amount\":69.0000,\"code\":\"S24\",\"detail\":\"AMD-BLR\",\"type\":\"IncludedTax\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":69.0000,\"ticketCode\":\"S24\"}],\"type\":\"PenaltyFee\",\"ssrCode\":null,\""
+}

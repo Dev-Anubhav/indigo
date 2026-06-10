@@ -1,0 +1,35 @@
+{
+  "pnr": "SJDH5U",
+  "detail": "JOSHI",
+  "startedAt": "2026-06-08T06:50:06.724Z",
+  "pageUrlStart": "https://www.spicejet.com/trips/details?pnr=VH798N&last=PREETI",
+  "response": null,
+  "waitForResponseError": "Timed out waiting for /api/v1/booking/retrieveBookingByPNR response",
+  "usedDomScrape": true,
+  "domData": {
+    "pnr": "SJDH5U",
+    "ticket_number": "37442873",
+    "booking_status": "Completed",
+    "booking_date": "Tue, 25 Nov 2025",
+    "payment_status": "Paid",
+    "origin": "DEL",
+    "destination": "VNS",
+    "flight_number": "SG 718",
+    "travel_date": "Fri, 28 Nov 2025",
+    "departure_time": "10:15",
+    "arrival_time": "",
+    "duration": "",
+    "terminal": "",
+    "flight_status": "Completed",
+    "passengers": [],
+    "total_amount": "5,522",
+    "fare_breakdown": "",
+    "label_value_map": {
+      "PNR/Booking No": "SJDH5U",
+      "Ticket Number": "37442873",
+      "Status": "Completed",
+      "Booking Date": "Tue, 25 Nov 2025",
+      "Payment status": "Paid"
+    }
+  }
+}

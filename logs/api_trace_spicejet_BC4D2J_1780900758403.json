@@ -1,0 +1,35 @@
+{
+  "pnr": "BC4D2J",
+  "detail": "NASERY",
+  "startedAt": "2026-06-08T06:38:43.574Z",
+  "pageUrlStart": "https://www.spicejet.com/trips/details?pnr=GYHEVS&last=AGARWAL",
+  "response": null,
+  "waitForResponseError": "Timed out waiting for /api/v1/booking/retrieveBookingByPNR response",
+  "usedDomScrape": true,
+  "domData": {
+    "pnr": "BC4D2J",
+    "ticket_number": "55108468",
+    "booking_status": "Cancelled",
+    "booking_date": "Fri, 8 Aug 2025",
+    "payment_status": "Paid",
+    "origin": "This booking has been cancelled.",
+    "destination": "BC4D2J",
+    "flight_number": "",
+    "travel_date": "",
+    "departure_time": "",
+    "arrival_time": "",
+    "duration": "",
+    "terminal": "",
+    "flight_status": "Cancelled",
+    "passengers": [],
+    "total_amount": "55108468",
+    "fare_breakdown": "",
+    "label_value_map": {
+      "PNR/Booking No": "BC4D2J",
+      "Ticket Number": "55108468",
+      "Status": "Cancelled",
+      "Booking Date": "Fri, 8 Aug 2025",
+      "Payment status": "Paid"
+    }
+  }
+}

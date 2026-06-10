@@ -1,0 +1,35 @@
+{
+  "pnr": "R9D57V",
+  "detail": "KARMULA",
+  "startedAt": "2026-06-08T06:44:38.109Z",
+  "pageUrlStart": "https://www.spicejet.com/trips/details?pnr=F93P9F&last=SINGH",
+  "response": null,
+  "waitForResponseError": "Timed out waiting for /api/v1/booking/retrieveBookingByPNR response",
+  "usedDomScrape": true,
+  "domData": {
+    "pnr": "R9D57V",
+    "ticket_number": "55947644",
+    "booking_status": "Completed",
+    "booking_date": "Mon, 27 Oct 2025",
+    "payment_status": "Paid",
+    "origin": "IXZ",
+    "destination": "CCU",
+    "flight_number": "SG 254",
+    "travel_date": "Fri, 31 Oct 2025",
+    "departure_time": "13:15",
+    "arrival_time": "",
+    "duration": "",
+    "terminal": "",
+    "flight_status": "Completed",
+    "passengers": [],
+    "total_amount": "22,072",
+    "fare_breakdown": "",
+    "label_value_map": {
+      "PNR/Booking No": "R9D57V",
+      "Ticket Number": "55947644",
+      "Status": "Completed",
+      "Booking Date": "Mon, 27 Oct 2025",
+      "Payment status": "Paid"
+    }
+  }
+}

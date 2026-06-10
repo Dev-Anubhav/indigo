@@ -1,0 +1,393 @@
+{
+  "pnr": "X9VB2D",
+  "contactDetail": "BAGAN",
+  "startedAt": "2026-06-10T06:30:46.404Z",
+  "pageUrlStart": "https://www.akasaair.com/manage-booking",
+  "response": {
+    "data": {
+      "bookingKey": "MTMxOTg5MjIhWDlWQjJEIWZhbHNl",
+      "breakdown": {
+        "balanceDue": 0,
+        "journeyTotals": {
+          "totalAmount": 6952,
+          "totalDiscount": 0,
+          "totalTax": 1364
+        },
+        "journeys": [
+          {
+            "journeyKey": "UVB_MTQzN34gfn5CTFJ_MDcvMDYvMjAyNSAyMDowMH5QTlF_MDcvMDYvMjAyNSAyMTozNX5_",
+            "totalAmount": 6952,
+            "totalDiscount": 0,
+            "totalTax": 1364
+          }
+        ],
+        "passengerTotals": {
+          "infant": null,
+          "seats": null,
+          "spoilage": null
+        },
+        "passengers": [
+          {
+            "infant": null,
+            "passengerKey": "MCFBRFQ-",
+            "seats": null,
+            "spoilage": null
+          }
+        ],
+        "showPriceBreakdown": true,
+        "totalAmount": 8316,
+        "totalCharged": 8316,
+        "totalToCollect": 8316
+      },
+      "contacts": [
+        {
+          "address": {
+            "lineOne": "NA",
+            "lineTwo": "NA",
+            "lineThree": null,
+            "countryCode": "IN",
+            "provinceState": null,
+            "city": "NA",
+            "postalCode": null
+          },
+          "companyName": "TSC ONLINE",
+          "contactTypeCode": "P",
+          "cultureCode": null,
+          "customerNumber": null,
+          "distributionOption": "Email",
+          "emailAddress": "",
+          "encryptedEmailAddress": "FEE1B6303A66B0E16ABFD209A5CC09F6839BA809CDBB4BEA4126637E09B7DFDC4895DE28F176D78C0508344D7D17BEE276BF85900DCB04388A",
+          "maskedEmailAddress": "d*************s@g***l.com",
+          "name": {
+            "first": "RAJESH BABULAL",
+            "middle": null,
+            "last": "BAGAN",
+            "title": "MR",
+            "suffix": null
+          },
+          "notificationPreference": "None",
+          "phoneNumbers": [
+            {
+              "number": "",
+              "type": "Other",
+              "encryptedNumber": "9EB1CCC992FE1B65D276BD8680F09C5126F7B02313DEA96B06110420E1B4F8DFD93D486BBBA75BBB2EEB",
+              "maskedNumber": "98******44"
+            },
+            {
+              "number": "",
+              "type": "Home",
+              "encryptedNumber": "FCDF31786F57F7D1FA468687AED66FC2975ABE14035E5B756DAB610C4924A3FFEFE60F35F7094613C855",
+              "maskedNumber": "98******44"
+            }
+          ],
+          "sourceOrganization": "QPQJU9122B"
+        }
+      ],
+      "currencyCode": "INR",
+      "extraSeatPassengers": [],
+      "gst": null,
+      "hold": null,
+      "info": {
+        "bookedDate": "2025-07-06T11:23:07.98",
+        "bookingType": null,
+        "changeAllowed": true,
+        "createdDate": "2025-07-06T11:23:07.98",
+        "expirationDate": "2025-07-07T14:30:00",
+        "modifiedDate": "2025-07-06T11:23:07.98",
+        "owningCarrierCode": "QP",
+        "paidStatus": "PaidInFull",
+        "priceStatus": "Valid",
+        "status": "Confirmed"
+      },
+      "isFareLockBooking": false,
+      "isGdsBooking": false,
+      "isGroupBooking": false,
+      "isMaxVoucherLimitReached": false,
+      "isStandBy": false,
+      "journeys": [
+        {
+          "designator": {
+            "destination": "PNQ",
+            "origin": "BLR",
+            "arrival": "2025-07-06T21:35:00",
+            "departure": "2025-07-06T20:00:00"
+          },
+          "flightType": "NonStop",
+          "journeyKey": "UVB_MTQzN34gfn5CTFJ_MDcvMDYvMjAyNSAyMDowMH5QTlF_MDcvMDYvMjAyNSAyMTozNX5_",
+          "segments": [
+            {
+              "designator": {
+                "destination": "PNQ",
+                "origin": "BLR",
+                "arrival": "2025-07-06T21:35:00",
+                "departure": "2025-07-06T20:00:00"
+              },
+              "fares": [
+                {
+                  "carrierCode": "QP",
+                  "classOfService": "Q5",
+                  "fareApplicationType": "Route",
+                  "fareBasisCode": "Q5O7MBIX",
+                  "inboundOutBound": "None",
+                  "isAllotmentMarketFare": false,
+                  "ruleNumber": "2001",
+                  "ruleTariff": null,
+                  "isGoverning": true,
+                  "fareKey": "MH5RNX5_UVB_UTVPN01CSVh_MjAwMX5_OX4xfk5CTFJQTlEwMDkwMDEwflg-",
+                  "classType": null,
+                  "fareClassOfService": "Q5",
+                  "fareSequence": 1,
+                  "fareStatus": "Default",
+                  "originalClassOfService": "Q5",
+                  "productClass": "SP",
+                  "travelClassCode": "Y",
+                  "crossReferenceClassOfService": null,
+                  "passengerFares": [
+                    {
+                      "fareDiscountCode": null,
+                      "passengerType": "ADT",
+                      "serviceCharges": [
+                        {
+                          "amount": 6952,
+                          "code": null,
+                          "detail": null,
+                          "type": "FarePrice",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 6952,
+                          "ticketCode": null
+                        },
+                        {
+                          "amount": 75,
+                          "code": "CUTE",
+                          "detail": "BLR-PNQ",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 75,
+                          "ticketCode": "PHF"
+                        },
+                        {
+                          "amount": 50,
+                          "code": "RCS",
+                          "detail": "BLR-PNQ",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 50,
+                          "ticketCode": "RCS"
+                        },
+                        {
+                          "amount": 236,
+                          "code": "ASF",
+                          "detail": "BLR-PNQ",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 236,
+                          "ticketCode": "ASF"
+                        },
+                        {
+                          "amount": 649,
+                          "code": "UDF",
+                          "detail": "BLR-PNQ",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 649,
+                          "ticketCode": "UDF"
+                        },
+                        {
+                          "amount": 174,
+                          "code": "C29",
+                          "detail": "BLR-PNQ",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 174,
+                          "ticketCode": "C29"
+                        },
+                        {
+                          "amount": 3,
+                          "code": "C29",
+                          "detail": "BLR-PNQ",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 3,
+                          "ticketCode": "C29"
+                        },
+                        {
+                          "amount": 174,
+                          "code": "S29",
+                          "detail": "BLR-PNQ",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 174,
+                          "ticketCode": "S29"
+                        },
+                        {
+                          "amount": 3,
+                          "code": "S29",
+                          "detail": "BLR-PNQ",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 3,
+                          "ticketCode": "S29"
+                        }
+                      ],
+                      "discountCode": null
+                    }
+                  ],
+                  "fareLink": 9
+                }
+              ],
+              "flightReference": "20250706 QP1437 BLRPNQ",
+              "identifier": {
+                "identifier": "1437",
+                "carrierCode": "QP",
+                "opSuffix": null
+              },
+              "international": false,
+              "legs": [
+                {
+                  "designator": {
+                    "destination": "PNQ",
+                    "origin": "BLR",
+                    "arrival": "2025-07-06T21:35:00",
+                    "departure": "2025-07-06T20:00:00"
+                  },
+                  "flightReference": "20250706 QP1437 BLRPNQ",
+                  "legInfo": {
+                    "arrivalTerminal": "Terminal T1",
+                    "arrivalTime": "2025-07-06T21:35:00",
+                    "arrivalTimeUtc": "2025-07-06T16:05:00",
+                    "departureTerminal": "Terminal T1",
+                    "departureTime": "2025-07-06T20:00:00",
+                    "departureTimeUtc": "2025-07-06T14:30:00",
+                    "status": "Closed"
+                  },
+                  "legKey": "NjM4ODc0Mjg4MDAwMDAwMDAwIVFQITE0MzchICFCTFIhUE5RITIzMjA3MA--",
+                  "operationsInfo": null,
+                  "seatmapReference": "UVAhMTQzNyEgITYzODg3NDI4ODAwMDAwMDAwMCFCTFIhUE5R"
+                }
+              ],
+              "passengerSegment": [
+                {
+                  "activityDate": "2025-07-06T13:56:35.603",
+                  "baggageGroupNumber": null,
+                  "bags": [],
+                  "boardingPassDetail": null,
+                  "bundleCode": null,
+                  "hasInfant": false,
+                  "liftStatus": "Boarded",
+                  "passAllowCheckIn": true,
+                  "passengerKey": "MCFBRFQ-",
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "3E",
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 6,
+                        "propertyList": {
+                          "BRDZONE": "1",
+                          "TCC": "Y"
+                        }
+                      },
+                      "arrivalStation": "PNQ",
+                      "departureStation": "BLR",
+                      "passengerKey": "MCFBRFQ-",
+                      "unitKey": "UVAhMTQzNyEgITYzODg3NDI4ODAwMDAwMDAwMCFCTFIhUE5RITNFIVk-",
+                      "crossReferenceSeatingPreference": null,
+                      "isPending": false
+                    }
+                  ],
+                  "ssrs": []
+                }
+              ],
+              "salesDate": "2025-07-06T11:23:07.98",
+              "segmentKey": "UVB_MTQzN34gfn5CTFJ_MDcvMDYvMjAyNSAyMDowMH5QTlF_MDcvMDYvMjAyNSAyMTozNX5_"
+            }
+          ],
+          "stops": 0
+        }
+      ],
+      "passengerFees": [
+        {
+          "fees": [],
+          "passengerKey": "MCFBRFQ-"
+        }
+      ],
+      "passengers": [
+        {
+          "addresses": [],
+          "bags": [],
+          "customerNumber": null,
+          "discountCode": null,
+          "emdCoupons": [],
+          "fees": [],
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": "Male",
+            "dateOfBirth": null,
+            "familyNumber": null
+          },
+          "name": {
+            "first": "RAJESH BABULAL",
+            "middle": null,
+            "last": "BAGAN",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerAlternateKey": "MjMwMTkyNDY-",
+          "passengerKey": "MCFBRFQ-",
+          "passengerTypeCode": "ADT",
+          "program": null,
+          "travelDocuments": [],
+          "weightCategory": "Male"
+        }
+      ],
+      "primaryContactTypeCode": "P",
+      "recordLocator": "X9VB2D",
+      "restriction": {
+        "allowAddOns": true,
+        "allowCancelBooking": false,
+        "allowCancellationPolicy": true,
+        "allowChangeDate": true,
+        "allowCheckIn": true,
+        "allowEmailItinerary": true,
+        "allowManageBooking": true,
+        "allowNoShowRefundClaim": false,
+        "allowTravelCertificate": false,
+        "allowUndoCheckIn": true,
+        "allowUpdateContact": true,
+        "allowViewGst": true,
+        "allowViewRefundReceipt": false
+      },
+      "showMaskedFare": false,
+      "typeOfSale": {
+        "isCorporateFare": false,
+        "promotionCode": null
+      },
+      "voucherDiscounts": []
+    }
+  },
+  "responseStatus": 200,
+  "responseUrl": "https://prod-bl.qp.akasaair.com/api/ibe/booking/retrieve?recordLocator=X9VB2D&lastName=BAGAN",
+  "responseBodySnippet": "{\"data\":{\"bookingKey\":\"MTMxOTg5MjIhWDlWQjJEIWZhbHNl\",\"breakdown\":{\"balanceDue\":0.0000,\"journeyTotals\":{\"totalAmount\":6952.0000,\"totalDiscount\":0.0,\"totalTax\":1364.0000},\"journeys\":[{\"journeyKey\":\"UVB_MTQzN34gfn5CTFJ_MDcvMDYvMjAyNSAyMDowMH5QTlF_MDcvMDYvMjAyNSAyMTozNX5_\",\"totalAmount\":6952.0000,\"totalDiscount\":0.0,\"totalTax\":1364.0000}],\"passengerTotals\":{\"infant\":null,\"seats\":null,\"spoilage\":null},\"passengers\":[{\"infant\":null,\"passengerKey\":\"MCFBRFQ-\",\"seats\":null,\"spoilage\":null}],\"showPriceBreakdown\":true,\"totalAmount\":8316.0000,\"totalCharged\":8316.0000,\"totalToCollect\":8316.0000},\"contacts\":[{\"address\":{\"lineOne\":\"NA\",\"lineTwo\":\"NA\",\"lineThree\":null,\"countryCode\":\"IN\",\"provinceState\":null,\"city\":\"NA\",\"postalCode\":null},\"companyName\":\"TSC ONLINE\",\"contactTypeCode\":\"P\",\"cultureCode\":null,\"customerNumber\":null,\"distributionOption\":\"Email\",\"emailAddress\":\"\",\"encryptedEmailAddress\":\"FEE1B6303A66B0E16ABFD209A5CC09F6839BA809CDBB4BEA4126637E09B7DFDC4895DE28F176D78C0508344D7D17BEE276BF85900DCB04388A\",\"maskedEmailAddress\":\"d*************s@g***l.com\",\"name\":{\"first\":\"RAJESH BABULAL\",\"middle\":null,\"last\":\"BAGAN\",\"title\":\"MR\",\"suffix\":null},\"notificationPreference\":\"None\",\"phoneNumbers\":[{\"number\":\"\",\"type\":\"Other\",\"encryptedNumber\":\"9EB1CCC992FE1B65D276BD8680F09C5126F7B02313DEA96B06110420E1B4F8DFD93D486BBBA75BBB2EEB\",\"maskedNumber\":\"98******44\"},{\"number\":\"\",\"type\":\"Home\",\"encryptedNumber\":\"FCDF31786F57F7D1FA468687AED66FC2975ABE14035E5B756DAB610C4924A3FFEFE60F35F7094613C855\",\"maskedNumber\":\"98******44\"}],\"sourceOrganization\":\"QPQJU9122B\"}],\"currencyCode\":\"INR\",\"extraSeatPassengers\":[],\"gst\":null,\"hold\":null,\"info\":{\"bookedDate\":\"2025-07-06T11:23:07.98\",\"bookingType\":null,\"changeAllowed\":true,\"createdDate\":\"2025-07-06T11:23:07.98\",\"expirationDate\":\"2025-07-07T14:30:00\",\"modifiedDate\":\"2025-07-06T11:23:07.98\",\"owningCarrierCode\":\"QP\",\"paidStatus\":\"PaidInFull\",\"priceStatus\":\"Valid\",\"status\":\"Confirmed\"},\"isFareLockBooking\":false,\"isGdsBooking\":false,\"isGroupBooking\":false,\"isMaxVoucherLimitReached\":false,\"isStandBy\":false,\"journeys\":[{\"designator\":{\"destination\":\"PNQ\",\"origin\":\"BLR\",\"arrival\":\"2025-07-06T21:35:00\",\"departure\":\"2025-07-06T20:00:00\"},\"flightType\":\"NonStop\",\"journeyKey\":\"UVB_MTQzN34gfn5CTFJ_MDcvMDYvMjAyNSAyMDowMH5QTlF_MDcvMDYvMjAyNSAyMTozNX5_\",\"segments\":[{\"designator\":{\"destination\":\"PNQ\",\"origin\":\"BLR\",\"arrival\":\"2025-07-06T21:35:00\",\"departure\":\"2025-07-06T20:00:00\"},\"fares\":[{\"carrierCode\":\"QP\",\"classOfService\":\"Q5\",\"fareApplicationType\":\"Route\",\"fareBasisCode\":\"Q5O7MBIX\",\"inboundOutBound\":\"None\",\"isAllotmentMarketFare\":false,\"ruleNumber\":\"2001\",\"ruleTariff\":null,\"isGoverning\":true,\"fareKey\":\"MH5RNX5_UVB_UTVPN01CSVh_MjAwMX5_OX4xfk5CTFJQTlEwMDkwMDEwflg-\",\"classType\":null,\"fareClassOfService\":\"Q5\",\"fareSequence\":1,\"fareStatus\":\"Default\",\"originalClassOfService\":\"Q5\",\"productClass\":\"SP\",\"travelClassCode\":\"Y\",\"crossReferenceClassOfService\":null,\"passengerFares\":[{\"fareDiscountCode\":null,\"passengerType\":\"ADT\",\"serviceCharges\":[{\"amount\":6952.0000"
+}

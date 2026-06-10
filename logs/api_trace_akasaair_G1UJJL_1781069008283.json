@@ -1,0 +1,10 @@
+{
+  "pnr": "G1UJJL",
+  "contactDetail": "MASIH",
+  "startedAt": "2026-06-10T05:23:25.503Z",
+  "pageUrlStart": "about:blank",
+  "response": null,
+  "inlineError": "",
+  "error": "page.goto: Target page, context or browser has been closed",
+  "doneAt": "2026-06-10T05:23:28.283Z"
+}

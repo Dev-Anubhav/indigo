@@ -9,6 +9,15 @@ const { fetchPNR, closeBrowser } = require('./scraper');
 const { initStatusWriter, enqueueStatusRow, shutdownStatusWriter } = require('./statusWriter');
 const { rotateIP, waitForNetwork, sleep, getCurrentIP } = require('./rotator');
 
+const AIRLINE = String(process.env.AIRLINE || 'indigo').toLowerCase();
+const AIRLINE_LABEL = AIRLINE === 'airindiaexpress'
+  ? 'Air India Express'
+  : AIRLINE === 'spicejet'
+    ? 'SpiceJet'
+    : AIRLINE === 'akasaair'
+      ? 'Akasa Air'
+      : 'IndiGo';
+
 const SPEED_PROFILE = String(process.env.SPEED_PROFILE || 'normal').toLowerCase();
 const FAST_MODE = SPEED_PROFILE === 'fast' || SPEED_PROFILE === 'turbo';
 
@@ -72,7 +81,7 @@ async function printBanner() {
   const stats = db.getStats();
   const ip    = await getCurrentIP();
   console.log('\n' + chalk.bold.blue('═══════════════════════════════════════════════════'));
-  console.log(chalk.bold.blue('   IndiGo PNR Bulk Scraper'));
+  console.log(chalk.bold.blue(`   ${AIRLINE_LABEL} PNR Bulk Scraper`));
   console.log(chalk.bold.blue('═══════════════════════════════════════════════════'));
   console.log(chalk.white(`  Current IP   : ${chalk.yellow(ip || 'unknown')}`));
   console.log(chalk.white(`  Total jobs   : ${chalk.yellow(stats.total)}`));
@@ -100,6 +109,7 @@ async function processJob(job) {
       pnr: job.pnr,
       last_name: job.last_name,
       booking_status: result.data.booking_status || '',
+      travel_status: result.data.travel_status || '',
       lift_status: result.data.lift_status || '',
       flight_number: result.data.flight_number || '',
       travel_date: result.data.travel_date || '',
@@ -115,6 +125,7 @@ async function processJob(job) {
       pnr: job.pnr,
       last_name: job.last_name,
       booking_status: '',
+      travel_status: '',
       lift_status: '',
       flight_number: '',
       travel_date: '',

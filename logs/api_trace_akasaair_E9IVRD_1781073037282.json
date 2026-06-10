@@ -1,0 +1,406 @@
+{
+  "pnr": "E9IVRD",
+  "contactDetail": "ATTAR",
+  "startedAt": "2026-06-10T06:30:29.371Z",
+  "pageUrlStart": "https://www.akasaair.com/manage-booking",
+  "response": {
+    "data": {
+      "bookingKey": "MTI3NDY4MjchRTlJVlJEIWZhbHNl",
+      "breakdown": {
+        "balanceDue": 0,
+        "journeyTotals": {
+          "totalAmount": 5069,
+          "totalDiscount": 0,
+          "totalTax": 1144
+        },
+        "journeys": [
+          {
+            "journeyKey": "UVB_MTYwN34gfn5QTlF_MDYvMTUvMjAyNSAwNzo0NX5ERUx_MDYvMTUvMjAyNSAxMDoxMH5_",
+            "totalAmount": 5069,
+            "totalDiscount": 0,
+            "totalTax": 1144
+          }
+        ],
+        "passengerTotals": {
+          "infant": null,
+          "seats": null,
+          "spoilage": null
+        },
+        "passengers": [
+          {
+            "infant": null,
+            "passengerKey": "MCFBRFQ-",
+            "seats": null,
+            "spoilage": null
+          }
+        ],
+        "showPriceBreakdown": true,
+        "totalAmount": 6213,
+        "totalCharged": 6213,
+        "totalToCollect": 6213
+      },
+      "contacts": [
+        {
+          "address": {
+            "lineOne": "NA",
+            "lineTwo": "NA",
+            "lineThree": null,
+            "countryCode": "IN",
+            "provinceState": null,
+            "city": "NA",
+            "postalCode": null
+          },
+          "companyName": "TSC ONLINE",
+          "contactTypeCode": "P",
+          "cultureCode": null,
+          "customerNumber": null,
+          "distributionOption": "Email",
+          "emailAddress": "",
+          "encryptedEmailAddress": "A0EBA31189E8576CB7150DDF1D4DBA1A8A69BD13AD574479D8FFBA2A96011BB5236D3F8BAE7D1BC01A77E9DED74AC2",
+          "maskedEmailAddress": "t****l@y***o.in",
+          "name": {
+            "first": "ABDULLAH AHMED",
+            "middle": null,
+            "last": "ATTAR",
+            "title": "MR",
+            "suffix": null
+          },
+          "notificationPreference": "None",
+          "phoneNumbers": [
+            {
+              "number": "",
+              "type": "Other",
+              "encryptedNumber": "8349C7078B7451B4F30611A40FDCAB2345622857518AC8C590161F2CB9CFA8FD69D307789C1978F56429",
+              "maskedNumber": "97******63"
+            },
+            {
+              "number": "",
+              "type": "Home",
+              "encryptedNumber": "2A763CA41A5D3A6572E76042E4FCFFF03AF74E7B852CD2E3EED39CE94D75A7C8B5C9E0690C96B92E5B55",
+              "maskedNumber": "97******63"
+            }
+          ],
+          "sourceOrganization": "QPQJU9122B"
+        }
+      ],
+      "currencyCode": "INR",
+      "extraSeatPassengers": [],
+      "gst": null,
+      "hold": null,
+      "info": {
+        "bookedDate": "2025-06-10T16:12:29.73",
+        "bookingType": null,
+        "changeAllowed": true,
+        "createdDate": "2025-06-10T16:12:29.73",
+        "expirationDate": "2025-06-16T02:15:00",
+        "modifiedDate": "2025-06-10T16:12:29.73",
+        "owningCarrierCode": "QP",
+        "paidStatus": "PaidInFull",
+        "priceStatus": "Valid",
+        "status": "Confirmed"
+      },
+      "isFareLockBooking": false,
+      "isGdsBooking": false,
+      "isGroupBooking": false,
+      "isMaxVoucherLimitReached": false,
+      "isStandBy": false,
+      "journeys": [
+        {
+          "designator": {
+            "destination": "DEL",
+            "origin": "PNQ",
+            "arrival": "2025-06-15T10:10:00",
+            "departure": "2025-06-15T07:45:00"
+          },
+          "flightType": "NonStop",
+          "journeyKey": "UVB_MTYwN34gfn5QTlF_MDYvMTUvMjAyNSAwNzo0NX5ERUx_MDYvMTUvMjAyNSAxMDoxMH5_",
+          "segments": [
+            {
+              "designator": {
+                "destination": "DEL",
+                "origin": "PNQ",
+                "arrival": "2025-06-15T10:10:00",
+                "departure": "2025-06-15T07:45:00"
+              },
+              "fares": [
+                {
+                  "carrierCode": "QP",
+                  "classOfService": "Z5",
+                  "fareApplicationType": "Route",
+                  "fareBasisCode": "Z5O7MBIX",
+                  "inboundOutBound": "None",
+                  "isAllotmentMarketFare": false,
+                  "ruleNumber": "2001",
+                  "ruleTariff": null,
+                  "isGoverning": true,
+                  "fareKey": "MH5aNX5_UVB_WjVPN01CSVh_MjAwMX5_MTR_MX5OREVMUE5RMDE0MDAxMH5Y",
+                  "classType": null,
+                  "fareClassOfService": "Z5",
+                  "fareSequence": 1,
+                  "fareStatus": "Default",
+                  "originalClassOfService": "Z5",
+                  "productClass": "SP",
+                  "travelClassCode": "Y",
+                  "crossReferenceClassOfService": null,
+                  "passengerFares": [
+                    {
+                      "fareDiscountCode": null,
+                      "passengerType": "ADT",
+                      "serviceCharges": [
+                        {
+                          "amount": 5069,
+                          "code": null,
+                          "detail": null,
+                          "type": "FarePrice",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 5069,
+                          "ticketCode": null
+                        },
+                        {
+                          "amount": 75,
+                          "code": "CUTE",
+                          "detail": "PNQ-DEL",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 75,
+                          "ticketCode": "PHF"
+                        },
+                        {
+                          "amount": 50,
+                          "code": "RCS",
+                          "detail": "PNQ-DEL",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 50,
+                          "ticketCode": "RCS"
+                        },
+                        {
+                          "amount": 236,
+                          "code": "ASF",
+                          "detail": "PNQ-DEL",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 236,
+                          "ticketCode": "ASF"
+                        },
+                        {
+                          "amount": 457,
+                          "code": "UDF",
+                          "detail": "PNQ-DEL",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 457,
+                          "ticketCode": "UDF"
+                        },
+                        {
+                          "amount": 66,
+                          "code": "DUDF",
+                          "detail": "PNQ-DEL",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 66,
+                          "ticketCode": "DUF"
+                        },
+                        {
+                          "amount": 127,
+                          "code": "C27",
+                          "detail": "PNQ-DEL",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 127,
+                          "ticketCode": "C27"
+                        },
+                        {
+                          "amount": 3,
+                          "code": "C27",
+                          "detail": "PNQ-DEL",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 3,
+                          "ticketCode": "C27"
+                        },
+                        {
+                          "amount": 127,
+                          "code": "S27",
+                          "detail": "PNQ-DEL",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 127,
+                          "ticketCode": "S27"
+                        },
+                        {
+                          "amount": 3,
+                          "code": "S27",
+                          "detail": "PNQ-DEL",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 3,
+                          "ticketCode": "S27"
+                        }
+                      ],
+                      "discountCode": null
+                    }
+                  ],
+                  "fareLink": 14
+                }
+              ],
+              "flightReference": "20250615 QP1607 PNQDEL",
+              "identifier": {
+                "identifier": "1607",
+                "carrierCode": "QP",
+                "opSuffix": null
+              },
+              "international": false,
+              "legs": [
+                {
+                  "designator": {
+                    "destination": "DEL",
+                    "origin": "PNQ",
+                    "arrival": "2025-06-15T10:10:00",
+                    "departure": "2025-06-15T07:45:00"
+                  },
+                  "flightReference": "20250615 QP1607 PNQDEL",
+                  "legInfo": {
+                    "arrivalTerminal": "Terminal 1D",
+                    "arrivalTime": "2025-06-15T10:10:00",
+                    "arrivalTimeUtc": "2025-06-15T04:40:00",
+                    "departureTerminal": "Terminal T1",
+                    "departureTime": "2025-06-15T07:45:00",
+                    "departureTimeUtc": "2025-06-15T02:15:00",
+                    "status": "Closed"
+                  },
+                  "legKey": "NjM4ODU1NzAzMDAwMDAwMDAwIVFQITE2MDchICFQTlEhREVMITIwMDA0NA--",
+                  "operationsInfo": null,
+                  "seatmapReference": "UVAhMTYwNyEgITYzODg1NTcwMzAwMDAwMDAwMCFQTlEhREVM"
+                }
+              ],
+              "passengerSegment": [
+                {
+                  "activityDate": "2025-06-15T01:48:15.143",
+                  "baggageGroupNumber": null,
+                  "bags": [],
+                  "boardingPassDetail": null,
+                  "bundleCode": null,
+                  "hasInfant": false,
+                  "liftStatus": "Boarded",
+                  "passAllowCheckIn": true,
+                  "passengerKey": "MCFBRFQ-",
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "27E",
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 52,
+                        "propertyList": {
+                          "BRDZONE": "4",
+                          "LEGROOM": "TRUE",
+                          "NCHILD": "TRUE",
+                          "TCC": "Y"
+                        }
+                      },
+                      "arrivalStation": "DEL",
+                      "departureStation": "PNQ",
+                      "passengerKey": "MCFBRFQ-",
+                      "unitKey": "UVAhMTYwNyEgITYzODg1NTcwMzAwMDAwMDAwMCFQTlEhREVMITI3RSFZ",
+                      "crossReferenceSeatingPreference": null,
+                      "isPending": false
+                    }
+                  ],
+                  "ssrs": []
+                }
+              ],
+              "salesDate": "2025-06-10T16:12:29.73",
+              "segmentKey": "UVB_MTYwN34gfn5QTlF_MDYvMTUvMjAyNSAwNzo0NX5ERUx_MDYvMTUvMjAyNSAxMDoxMH5_"
+            }
+          ],
+          "stops": 0
+        }
+      ],
+      "passengerFees": [
+        {
+          "fees": [],
+          "passengerKey": "MCFBRFQ-"
+        }
+      ],
+      "passengers": [
+        {
+          "addresses": [],
+          "bags": [],
+          "customerNumber": null,
+          "discountCode": null,
+          "emdCoupons": [],
+          "fees": [],
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": "Male",
+            "dateOfBirth": null,
+            "familyNumber": null
+          },
+          "name": {
+            "first": "ABDULLAH AHMED",
+            "middle": null,
+            "last": "ATTAR",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerAlternateKey": "MjIyMzg1NDc-",
+          "passengerKey": "MCFBRFQ-",
+          "passengerTypeCode": "ADT",
+          "program": null,
+          "travelDocuments": [],
+          "weightCategory": "Male"
+        }
+      ],
+      "primaryContactTypeCode": "P",
+      "recordLocator": "E9IVRD",
+      "restriction": {
+        "allowAddOns": true,
+        "allowCancelBooking": false,
+        "allowCancellationPolicy": true,
+        "allowChangeDate": true,
+        "allowCheckIn": true,
+        "allowEmailItinerary": true,
+        "allowManageBooking": true,
+        "allowNoShowRefundClaim": false,
+        "allowTravelCertificate": false,
+        "allowUndoCheckIn": true,
+        "allowUpdateContact": true,
+        "allowViewGst": true,
+        "allowViewRefundReceipt": false
+      },
+      "showMaskedFare": false,
+      "typeOfSale": {
+        "isCorporateFare": false,
+        "promotionCode": null
+      },
+      "voucherDiscounts": []
+    }
+  },
+  "responseStatus": 200,
+  "responseUrl": "https://prod-bl.qp.akasaair.com/api/ibe/booking/retrieve?recordLocator=E9IVRD&lastName=ATTAR",
+  "responseBodySnippet": "{\"data\":{\"bookingKey\":\"MTI3NDY4MjchRTlJVlJEIWZhbHNl\",\"breakdown\":{\"balanceDue\":0.0000,\"journeyTotals\":{\"totalAmount\":5069.0000,\"totalDiscount\":0.0,\"totalTax\":1144.0000},\"journeys\":[{\"journeyKey\":\"UVB_MTYwN34gfn5QTlF_MDYvMTUvMjAyNSAwNzo0NX5ERUx_MDYvMTUvMjAyNSAxMDoxMH5_\",\"totalAmount\":5069.0000,\"totalDiscount\":0.0,\"totalTax\":1144.0000}],\"passengerTotals\":{\"infant\":null,\"seats\":null,\"spoilage\":null},\"passengers\":[{\"infant\":null,\"passengerKey\":\"MCFBRFQ-\",\"seats\":null,\"spoilage\":null}],\"showPriceBreakdown\":true,\"totalAmount\":6213.0000,\"totalCharged\":6213.0000,\"totalToCollect\":6213.0000},\"contacts\":[{\"address\":{\"lineOne\":\"NA\",\"lineTwo\":\"NA\",\"lineThree\":null,\"countryCode\":\"IN\",\"provinceState\":null,\"city\":\"NA\",\"postalCode\":null},\"companyName\":\"TSC ONLINE\",\"contactTypeCode\":\"P\",\"cultureCode\":null,\"customerNumber\":null,\"distributionOption\":\"Email\",\"emailAddress\":\"\",\"encryptedEmailAddress\":\"A0EBA31189E8576CB7150DDF1D4DBA1A8A69BD13AD574479D8FFBA2A96011BB5236D3F8BAE7D1BC01A77E9DED74AC2\",\"maskedEmailAddress\":\"t****l@y***o.in\",\"name\":{\"first\":\"ABDULLAH AHMED\",\"middle\":null,\"last\":\"ATTAR\",\"title\":\"MR\",\"suffix\":null},\"notificationPreference\":\"None\",\"phoneNumbers\":[{\"number\":\"\",\"type\":\"Other\",\"encryptedNumber\":\"8349C7078B7451B4F30611A40FDCAB2345622857518AC8C590161F2CB9CFA8FD69D307789C1978F56429\",\"maskedNumber\":\"97******63\"},{\"number\":\"\",\"type\":\"Home\",\"encryptedNumber\":\"2A763CA41A5D3A6572E76042E4FCFFF03AF74E7B852CD2E3EED39CE94D75A7C8B5C9E0690C96B92E5B55\",\"maskedNumber\":\"97******63\"}],\"sourceOrganization\":\"QPQJU9122B\"}],\"currencyCode\":\"INR\",\"extraSeatPassengers\":[],\"gst\":null,\"hold\":null,\"info\":{\"bookedDate\":\"2025-06-10T16:12:29.73\",\"bookingType\":null,\"changeAllowed\":true,\"createdDate\":\"2025-06-10T16:12:29.73\",\"expirationDate\":\"2025-06-16T02:15:00\",\"modifiedDate\":\"2025-06-10T16:12:29.73\",\"owningCarrierCode\":\"QP\",\"paidStatus\":\"PaidInFull\",\"priceStatus\":\"Valid\",\"status\":\"Confirmed\"},\"isFareLockBooking\":false,\"isGdsBooking\":false,\"isGroupBooking\":false,\"isMaxVoucherLimitReached\":false,\"isStandBy\":false,\"journeys\":[{\"designator\":{\"destination\":\"DEL\",\"origin\":\"PNQ\",\"arrival\":\"2025-06-15T10:10:00\",\"departure\":\"2025-06-15T07:45:00\"},\"flightType\":\"NonStop\",\"journeyKey\":\"UVB_MTYwN34gfn5QTlF_MDYvMTUvMjAyNSAwNzo0NX5ERUx_MDYvMTUvMjAyNSAxMDoxMH5_\",\"segments\":[{\"designator\":{\"destination\":\"DEL\",\"origin\":\"PNQ\",\"arrival\":\"2025-06-15T10:10:00\",\"departure\":\"2025-06-15T07:45:00\"},\"fares\":[{\"carrierCode\":\"QP\",\"classOfService\":\"Z5\",\"fareApplicationType\":\"Route\",\"fareBasisCode\":\"Z5O7MBIX\",\"inboundOutBound\":\"None\",\"isAllotmentMarketFare\":false,\"ruleNumber\":\"2001\",\"ruleTariff\":null,\"isGoverning\":true,\"fareKey\":\"MH5aNX5_UVB_WjVPN01CSVh_MjAwMX5_MTR_MX5OREVMUE5RMDE0MDAxMH5Y\",\"classType\":null,\"fareClassOfService\":\"Z5\",\"fareSequence\":1,\"fareStatus\":\"Default\",\"originalClassOfService\":\"Z5\",\"productClass\":\"SP\",\"travelClassCode\":\"Y\",\"crossReferenceClassOfService\":null,\"passengerFares\":[{\"fareDiscountCode\":null,\"passengerType\":\"ADT\",\"serviceCharges\":[{\"amount\":5069.0000,\"code\":null,\"detail\":null,\"ty"
+}

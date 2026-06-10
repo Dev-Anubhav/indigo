@@ -1,0 +1,10 @@
+{
+  "pnr": "A5CLXJ",
+  "contactDetail": "TICKETING@SHIV-TRAVEL.COM",
+  "startedAt": "2026-06-08T04:49:42.674Z",
+  "pageUrlStart": "https://www.airindiaexpress.com/manage",
+  "response": null,
+  "inlineError": "Something seems wrong. Check your email address.",
+  "error": "Timed out waiting for /b2c-CheckIn/v2/retrieve/mmb/byRecordLocator response",
+  "doneAt": "2026-06-08T04:50:13.695Z"
+}

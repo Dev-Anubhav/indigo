@@ -1,0 +1,1668 @@
+{
+  "pnr": "F6VZTT",
+  "contactDetail": "TARUN@SRIYAAN.CO.IN",
+  "startedAt": "2026-06-08T04:52:40.440Z",
+  "pageUrlStart": "https://www.airindiaexpress.com/manage",
+  "response": {
+    "navToken": {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiMDYwZGI1ZDctNzIyOS1kZjJjLWNhY2YtZTZiZGYxZTU5M2JkIiwiaXNzIjoiZG90UkVaIEFQSSJ9.MW7npy5P4OID1rpzjhhkYMTAE7hhSTXRyCxwQoVeNoE",
+      "idleTimeoutInMinutes": 15
+    },
+    "data": {
+      "selfServiceMoveAvailable": false,
+      "isDirectChannel": false,
+      "bookingKey": "NTQ0NzIzMjgyIUY2VlpUVCFmYWxzZQ--",
+      "recordLocator": "F6VZTT",
+      "currencyCode": "INR",
+      "systemCode": null,
+      "groupName": null,
+      "locators": {
+        "numericRecordLocator": "113008160404",
+        "parentRecordLocator": null,
+        "parentId": "0",
+        "recordLocators": []
+      },
+      "info": {
+        "status": 2,
+        "paidStatus": 1,
+        "priceStatus": 2,
+        "profileStatus": 1,
+        "bookingType": null,
+        "channelType": 5,
+        "bookedDate": "2025-04-07T20:06:58.423Z",
+        "createdDate": "2025-04-07T20:06:58.423Z",
+        "expirationDate": "2025-04-08T23:00:00Z",
+        "modifiedDate": "2025-04-07T21:37:35.8Z",
+        "modifiedAgentId": "44124641",
+        "createdAgentId": "44115378",
+        "owningCarrierCode": "IX",
+        "changeAllowed": true
+      },
+      "sales": {
+        "created": {
+          "agentCode": "APITSCTRSE",
+          "domainCode": "TOP",
+          "locationCode": "API",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "source": {
+          "isoCountryCode": null,
+          "sourceSystemCode": null,
+          "agentCode": "APITSCTRSE",
+          "domainCode": "TOP",
+          "locationCode": "API",
+          "organizationCode": "OTATSCTRSE"
+        },
+        "modified": null
+      },
+      "typeOfSale": {
+        "residentCountry": "IN",
+        "promotionCode": null,
+        "fareTypes": []
+      },
+      "hold": null,
+      "breakdown": {
+        "balanceDue": 0,
+        "pointsBalanceDue": 0,
+        "authorizedBalanceDue": 0,
+        "totalAmount": 21937,
+        "totalPoints": 0,
+        "totalToCollect": 21937,
+        "totalPointsToCollect": 0,
+        "totalCharged": 21937,
+        "passengerTotals": {
+          "services": null,
+          "specialServices": null,
+          "seats": {
+            "total": 1524,
+            "taxes": 76,
+            "adjustments": null,
+            "charges": [
+              {
+                "amount": 500,
+                "code": "SEAT",
+                "detail": "BOM-HDO",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 500,
+                "ticketCode": "ST"
+              },
+              {
+                "amount": 12,
+                "code": "CGST",
+                "detail": "BOM-HDO",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 12,
+                "ticketCode": "CST"
+              },
+              {
+                "amount": 12,
+                "code": "SGST",
+                "detail": "BOM-HDO",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 12,
+                "ticketCode": "SST"
+              },
+              {
+                "amount": 500,
+                "code": "SEAT",
+                "detail": "BOM-HDO",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 500,
+                "ticketCode": "ST"
+              },
+              {
+                "amount": 12,
+                "code": "CGST",
+                "detail": "BOM-HDO",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 12,
+                "ticketCode": "CST"
+              },
+              {
+                "amount": 12,
+                "code": "SGST",
+                "detail": "BOM-HDO",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 12,
+                "ticketCode": "SST"
+              },
+              {
+                "amount": 600,
+                "code": "SEAT",
+                "detail": "BOM-HDO",
+                "type": 6,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 600,
+                "ticketCode": "ST"
+              },
+              {
+                "amount": 14,
+                "code": "CGST",
+                "detail": "BOM-HDO",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 14,
+                "ticketCode": "CST"
+              },
+              {
+                "amount": 14,
+                "code": "SGST",
+                "detail": "BOM-HDO",
+                "type": 3,
+                "collectType": 0,
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 14,
+                "ticketCode": "SST"
+              }
+            ]
+          },
+          "upgrades": null,
+          "spoilage": null,
+          "nameChanges": null,
+          "convenience": null,
+          "infant": null
+        },
+        "passengers": {
+          "MCFBRFQ-": {
+            "passengerKey": "MCFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": {
+              "total": 476,
+              "taxes": 24,
+              "adjustments": null,
+              "charges": [
+                {
+                  "amount": 500,
+                  "code": "SEAT",
+                  "detail": "BOM-HDO",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 500,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 12,
+                  "code": "CGST",
+                  "detail": "BOM-HDO",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 12,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 12,
+                  "code": "SGST",
+                  "detail": "BOM-HDO",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 12,
+                  "ticketCode": "SST"
+                }
+              ]
+            },
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          },
+          "MSFBRFQ-": {
+            "passengerKey": "MSFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": {
+              "total": 476,
+              "taxes": 24,
+              "adjustments": null,
+              "charges": [
+                {
+                  "amount": 500,
+                  "code": "SEAT",
+                  "detail": "BOM-HDO",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 500,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 12,
+                  "code": "CGST",
+                  "detail": "BOM-HDO",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 12,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 12,
+                  "code": "SGST",
+                  "detail": "BOM-HDO",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 12,
+                  "ticketCode": "SST"
+                }
+              ]
+            },
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          },
+          "MiFBRFQ-": {
+            "passengerKey": "MiFBRFQ-",
+            "services": null,
+            "specialServices": null,
+            "seats": {
+              "total": 572,
+              "taxes": 28,
+              "adjustments": null,
+              "charges": [
+                {
+                  "amount": 600,
+                  "code": "SEAT",
+                  "detail": "BOM-HDO",
+                  "type": 6,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 600,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 14,
+                  "code": "CGST",
+                  "detail": "BOM-HDO",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 14,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 14,
+                  "code": "SGST",
+                  "detail": "BOM-HDO",
+                  "type": 3,
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 14,
+                  "ticketCode": "SST"
+                }
+              ]
+            },
+            "upgrades": null,
+            "spoilage": null,
+            "nameChanges": null,
+            "convenience": null,
+            "infant": null
+          }
+        },
+        "journeyTotals": {
+          "totalAmount": 18168,
+          "totalPoints": 0,
+          "totalTax": 2169,
+          "totalDiscount": 0
+        },
+        "journeys": {
+          "SVh_MTE3Nn4gfn5CT01_MDQvMDgvMjAyNSAwNDozMH5IRE9_MDQvMDgvMjAyNSAwNjo1MH5_": {
+            "journeyKey": "SVh_MTE3Nn4gfn5CT01_MDQvMDgvMjAyNSAwNDozMH5IRE9_MDQvMDgvMjAyNSAwNjo1MH5_",
+            "totalAmount": 6056,
+            "totalPoints": 0,
+            "totalTax": 723,
+            "totalDiscount": 0
+          }
+        },
+        "addOnTotals": {
+          "car": null,
+          "hotel": null,
+          "activities": null
+        }
+      },
+      "receivedBy": {
+        "receivedBy": null,
+        "latestReceivedBy": null,
+        "receivedReference": null,
+        "latestReceivedReference": null,
+        "referralCode": null
+      },
+      "contacts": {
+        "P": {
+          "contactTypeCode": "P",
+          "phoneNumbers": [
+            {
+              "type": 0,
+              "number": "c+6D9pagKMi1BO+AJcQmHg=="
+            },
+            {
+              "type": 1,
+              "number": "c+6D9pagKMi1BO+AJcQmHg=="
+            }
+          ],
+          "cultureCode": null,
+          "address": {
+            "lineOne": "NA",
+            "lineTwo": "NA",
+            "lineThree": null,
+            "countryCode": "IN",
+            "provinceState": "NA",
+            "city": "NA",
+            "postalCode": null
+          },
+          "emailAddress": "a0H2EYOTBQb451rmq8X2N6UB8b/eYUmnphYI0fu/gC8=",
+          "customerNumber": null,
+          "sourceOrganization": "OTATSCTRSE",
+          "distributionOption": 2,
+          "notificationPreference": 0,
+          "companyName": "TSC ONLINE",
+          "name": {
+            "first": "QHOfPpo6EaebW4iFEeYtJg==",
+            "middle": null,
+            "last": "oxl03Ijj7dq0W6I6AiDF7w==",
+            "title": "MR",
+            "suffix": null
+          }
+        }
+      },
+      "passengers": [
+        {
+          "passengerKey": "MCFBRFQ-",
+          "passengerAlternateKey": "MTIyMjEwNTkyNA--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 9,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "SEAT",
+              "detail": null,
+              "passengerFeeKey": "MCEwITk-",
+              "override": false,
+              "flightReference": "20250408 IX1176 BOMHDO",
+              "note": null,
+              "createdDate": "2025-04-07T20:26:52.767Z",
+              "serviceCharges": [
+                {
+                  "amount": 500,
+                  "code": "SEAT",
+                  "detail": "BOM-HDO",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 500,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 12,
+                  "code": "CGST",
+                  "detail": "BOM-HDO",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 12,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 12,
+                  "code": "SGST",
+                  "detail": "BOM-HDO",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 12,
+                  "ticketCode": "SST"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "amount": 500,
+              "confirmed": false
+            }
+          ],
+          "name": {
+            "first": "QHOfPpo6EaebW4iFEeYtJg==",
+            "middle": null,
+            "last": "oxl03Ijj7dq0W6I6AiDF7w==",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [
+            {
+              "identifier": "1176",
+              "baggageKey": "MDIzNjg5MDI2Mw--",
+              "nonStandard": false,
+              "type": "STND",
+              "osTag": "0236890263",
+              "osTagDate": "2025-04-07T00:00:00Z",
+              "taggedToStation": "HDO",
+              "stationCode": "BOM",
+              "weight": 20,
+              "taggedToCarrierCode": "IX",
+              "weightType": 2
+            }
+          ],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": 1,
+            "dateOfBirth": "vVOnRvakGBQnjG9V5RDyJJdsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [],
+          "addresses": [
+            {
+              "status": "Residence",
+              "companyName": null,
+              "lineOne": null,
+              "passengerAddressKey": "5eLMFW6gjAuoY3jrxyChJg==",
+              "phone": "c+6D9pagKMi1BO+AJcQmHg==",
+              "lineTwo": null,
+              "stationCode": "BOM",
+              "lineThree": null,
+              "emailAddress": "D8CECPA3QlM3147Gs57uU1YH9+8xiyMc2bbwbIxh4gg=",
+              "countryCode": null,
+              "cultureCode": null,
+              "provinceState": null,
+              "refusedContact": false,
+              "city": null,
+              "postalCode": null
+            }
+          ],
+          "weightCategory": 1,
+          "bagsInfo": [
+            {
+              "journeyKey": "SVh_MTE3Nn4gfn5CT01_MDQvMDgvMjAyNSAwNDozMH5IRE9_MDQvMDgvMjAyNSAwNjo1MH5_",
+              "CABG": 7,
+              "CHKBAG": 15,
+              "ICBG": null,
+              "STND": null
+            }
+          ]
+        },
+        {
+          "passengerKey": "MSFBRFQ-",
+          "passengerAlternateKey": "MTIyMjEwNTkyNQ--",
+          "customerNumber": "1470506472",
+          "fees": [
+            {
+              "type": 9,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "SEAT",
+              "detail": null,
+              "passengerFeeKey": "MSEwITk-",
+              "override": false,
+              "flightReference": "20250408 IX1176 BOMHDO",
+              "note": null,
+              "createdDate": "2025-04-07T20:26:52.767Z",
+              "serviceCharges": [
+                {
+                  "amount": 500,
+                  "code": "SEAT",
+                  "detail": "BOM-HDO",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 500,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 12,
+                  "code": "CGST",
+                  "detail": "BOM-HDO",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 12,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 12,
+                  "code": "SGST",
+                  "detail": "BOM-HDO",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 12,
+                  "ticketCode": "SST"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "amount": 500,
+              "confirmed": false
+            }
+          ],
+          "name": {
+            "first": "2KT5YwGVQQhFNe+mtGaqaw==",
+            "middle": null,
+            "last": "zU5sp0JWaNALYQeglYd3rw==",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [
+            {
+              "identifier": "1176",
+              "baggageKey": "MDIzNjg5MDI2NQ--",
+              "nonStandard": false,
+              "type": "STND",
+              "osTag": "0236890265",
+              "osTagDate": "2025-04-07T00:00:00Z",
+              "taggedToStation": "HDO",
+              "stationCode": "BOM",
+              "weight": 10,
+              "taggedToCarrierCode": "IX",
+              "weightType": 2
+            }
+          ],
+          "program": {
+            "code": "TLN",
+            "levelCode": "T1N",
+            "number": "1470506472"
+          },
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": 1,
+            "dateOfBirth": "NmmfsgwiEJXqW9BzfKnidJdsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [],
+          "addresses": [
+            {
+              "status": "Residence",
+              "companyName": null,
+              "lineOne": null,
+              "passengerAddressKey": "5eLMFW6gjAuoY3jrxyChJg==",
+              "phone": "ysulW/OuwS7+0hGSR2mzQg==",
+              "lineTwo": null,
+              "stationCode": "BOM",
+              "lineThree": null,
+              "emailAddress": "D8CECPA3QlM3147Gs57uU1YH9+8xiyMc2bbwbIxh4gg=",
+              "countryCode": null,
+              "cultureCode": null,
+              "provinceState": null,
+              "refusedContact": false,
+              "city": null,
+              "postalCode": null
+            }
+          ],
+          "weightCategory": 1,
+          "bagsInfo": [
+            {
+              "journeyKey": "SVh_MTE3Nn4gfn5CT01_MDQvMDgvMjAyNSAwNDozMH5IRE9_MDQvMDgvMjAyNSAwNjo1MH5_",
+              "CABG": 7,
+              "CHKBAG": 15,
+              "ICBG": null,
+              "STND": null
+            }
+          ]
+        },
+        {
+          "passengerKey": "MiFBRFQ-",
+          "passengerAlternateKey": "MTIyMjEwNTkyNg--",
+          "customerNumber": null,
+          "fees": [
+            {
+              "type": 9,
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0,
+              "code": "SEAT",
+              "detail": null,
+              "passengerFeeKey": "MiEwITk-",
+              "override": false,
+              "flightReference": "20250408 IX1176 BOMHDO",
+              "note": null,
+              "createdDate": "2025-04-07T20:26:52.767Z",
+              "serviceCharges": [
+                {
+                  "amount": 600,
+                  "code": "SEAT",
+                  "detail": "BOM-HDO",
+                  "type": "ServiceCharge",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 600,
+                  "ticketCode": "ST"
+                },
+                {
+                  "amount": 14,
+                  "code": "CGST",
+                  "detail": "BOM-HDO",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 14,
+                  "ticketCode": "CST"
+                },
+                {
+                  "amount": 14,
+                  "code": "SGST",
+                  "detail": "BOM-HDO",
+                  "type": "IncludedTax",
+                  "collectType": 0,
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 14,
+                  "ticketCode": "SST"
+                }
+              ],
+              "protected": false,
+              "currencyCode": "INR",
+              "amount": 600,
+              "confirmed": false
+            }
+          ],
+          "name": {
+            "first": "BhMs41GLpMYOviujGYRhSw==",
+            "middle": null,
+            "last": "nV8rHYEMbfilpfo2Bs2OEg==",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerTypeCode": "ADT",
+          "discountCode": null,
+          "bags": [
+            {
+              "identifier": "1176",
+              "baggageKey": "MDIzNjg5MDI2Ng--",
+              "nonStandard": false,
+              "type": "STND",
+              "osTag": "0236890266",
+              "osTagDate": "2025-04-07T00:00:00Z",
+              "taggedToStation": "HDO",
+              "stationCode": "BOM",
+              "weight": 11,
+              "taggedToCarrierCode": "IX",
+              "weightType": 2
+            }
+          ],
+          "program": null,
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": 1,
+            "dateOfBirth": "TEBxZdqnhRxmFP7TzSx1L5dsmaqXxcq28hqj8xSFCwg=",
+            "familyNumber": 0
+          },
+          "travelDocuments": [],
+          "addresses": [
+            {
+              "status": "Residence",
+              "companyName": null,
+              "lineOne": null,
+              "passengerAddressKey": "5eLMFW6gjAuoY3jrxyChJg==",
+              "phone": "c+6D9pagKMi1BO+AJcQmHg==",
+              "lineTwo": null,
+              "stationCode": "BOM",
+              "lineThree": null,
+              "emailAddress": "D8CECPA3QlM3147Gs57uU1YH9+8xiyMc2bbwbIxh4gg=",
+              "countryCode": null,
+              "cultureCode": null,
+              "provinceState": null,
+              "refusedContact": false,
+              "city": null,
+              "postalCode": null
+            }
+          ],
+          "weightCategory": 1,
+          "bagsInfo": [
+            {
+              "journeyKey": "SVh_MTE3Nn4gfn5CT01_MDQvMDgvMjAyNSAwNDozMH5IRE9_MDQvMDgvMjAyNSAwNjo1MH5_",
+              "CABG": 7,
+              "CHKBAG": 15,
+              "ICBG": null,
+              "STND": null
+            }
+          ]
+        }
+      ],
+      "journeys": [
+        {
+          "flightType": 1,
+          "stops": 0,
+          "designator": {
+            "destination": "HDO",
+            "origin": "BOM",
+            "arrival": "2025-04-08T06:50:00",
+            "departure": "2025-04-08T04:30:00",
+            "originAirportName": "Chhatrapati Shivaji International Airport, T2",
+            "originCityName": "Mumbai",
+            "destinationAirportName": "Delhi NCR, Ghaziabad",
+            "destinationCityName": "Hindon",
+            "arrivalTerminal": null,
+            "departureTerminal": "2"
+          },
+          "move": {
+            "maxMoveBackDays": 490,
+            "maxMoveOutDays": 490
+          },
+          "segments": [
+            {
+              "isStandby": false,
+              "isConfirming": false,
+              "isConfirmingExternal": false,
+              "isBlocked": false,
+              "isHosted": true,
+              "isChangeOfGauge": false,
+              "designator": {
+                "destination": "HDO",
+                "origin": "BOM",
+                "arrival": "2025-04-08T06:50:00",
+                "departure": "2025-04-08T04:30:00",
+                "originAirportName": "Chhatrapati Shivaji International Airport, T2",
+                "originCityName": "Mumbai",
+                "destinationAirportName": "Delhi NCR, Ghaziabad",
+                "destinationCityName": "Hindon",
+                "arrivalTerminal": null,
+                "departureTerminal": "2"
+              },
+              "isSeatmapViewable": true,
+              "identifier": {
+                "identifier": "1176",
+                "carrierCode": "IX",
+                "opSuffix": null
+              },
+              "fares": [
+                {
+                  "isGoverning": true,
+                  "downgradeAvailable": false,
+                  "carrierCode": "I5",
+                  "fareKey": "MH5afn5JNX5aTlNBMDAwfk5TMDB_fjB_MH5_WA--",
+                  "classOfService": "Z",
+                  "classType": null,
+                  "fareApplicationType": 0,
+                  "fareClassOfService": "Z",
+                  "fareBasisCode": "ZNSA000",
+                  "fareSequence": 0,
+                  "inboundOutBound": 0,
+                  "fareStatus": 0,
+                  "isAllotmentMarketFare": false,
+                  "originalClassOfService": "Z",
+                  "ruleNumber": "NS00",
+                  "productClass": "SM",
+                  "ruleTariff": null,
+                  "travelClassCode": "Y",
+                  "crossReferenceClassOfService": null,
+                  "fareLink": 0,
+                  "passengerFares": [
+                    {
+                      "serviceCharges": [
+                        {
+                          "amount": 6056,
+                          "code": null,
+                          "detail": null,
+                          "type": "FarePrice",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 6056,
+                          "ticketCode": null
+                        },
+                        {
+                          "amount": 75,
+                          "code": "CUTE",
+                          "detail": "BOM-HDO",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 75,
+                          "ticketCode": "CUT"
+                        },
+                        {
+                          "amount": 100,
+                          "code": "RCS",
+                          "detail": "BOM-HDO",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 100,
+                          "ticketCode": "RCS"
+                        },
+                        {
+                          "amount": 236,
+                          "code": "P2",
+                          "detail": "BOM-HDO",
+                          "type": "TravelFee",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 236,
+                          "ticketCode": "P2"
+                        },
+                        {
+                          "amount": 156,
+                          "code": "CGST",
+                          "detail": "BOM-HDO",
+                          "type": "Tax",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 156,
+                          "ticketCode": "CST"
+                        },
+                        {
+                          "amount": 156,
+                          "code": "SGST",
+                          "detail": "BOM-HDO",
+                          "type": "Tax",
+                          "collectType": 0,
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 156,
+                          "ticketCode": "SST"
+                        }
+                      ],
+                      "discountCode": null,
+                      "fareDiscountCode": null,
+                      "passengerType": "ADT"
+                    }
+                  ],
+                  "fareDesignator": {
+                    "fareTypeCodes": [
+                      "SC"
+                    ]
+                  }
+                }
+              ],
+              "segmentKey": "SVh_MTE3Nn4gfn5CT01_MDQvMDgvMjAyNSAwNDozMH5IRE9_MDQvMDgvMjAyNSAwNjo1MH5_",
+              "passengerSegment": {
+                "MCFBRFQ-": {
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "4C",
+                      "isAutoAssigned": null,
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 7,
+                        "propertyList": {
+                          "LOCATION": "FRONT",
+                          "BRDZONE": "1",
+                          "SEATPOS": "FS1",
+                          "AISLE": "TRUE",
+                          "NEWPRIME": "TRUE",
+                          "TCC": "Y",
+                          "STANDARD": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "HDO",
+                      "departureStation": "BOM",
+                      "passengerKey": "MCFBRFQ-",
+                      "unitKey": "SVghMTE3NiEgITYzODc5NjgzNDAwMDAwMDAwMCFCT00hSERPITRDIVk-"
+                    }
+                  ],
+                  "passengerKey": "MCFBRFQ-",
+                  "activityDate": "2025-04-07T22:54:07.28Z",
+                  "boardingSequence": "84",
+                  "createdDate": "2025-04-07T20:06:58.423Z",
+                  "liftStatus": 2,
+                  "modifiedDate": "2025-04-07T21:33:36.757Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-04-07T20:06:58.447Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": null,
+                  "sourcePointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "pointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "ssrs": [
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": null,
+                      "ssrDuration": 2,
+                      "ssrKey": "MCFNQ0ZCUkZRLSFTTUUhMSFIRE8hSVghNjM4Nzk2ODM0MDAwMDAwMDAwIUJPTSExMTc2ISA-",
+                      "count": 1,
+                      "ssrCode": "SME",
+                      "feeCode": null,
+                      "inBundle": false,
+                      "passengerKey": "MCFBRFQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "1176",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "HDO",
+                        "origin": "BOM",
+                        "departureDate": "2025-04-08T04:30:00"
+                      }
+                    }
+                  ],
+                  "tickets": [],
+                  "bags": [
+                    {
+                      "baggageKey": "MDIzNjg5MDI2Mw--",
+                      "passengerKey": "MCFBRFQ-",
+                      "arrivalStation": "HDO",
+                      "status": 1,
+                      "departureStation": "BOM",
+                      "osTag": "0236890263"
+                    }
+                  ],
+                  "scores": [],
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": {
+                    "seat": 0,
+                    "travelClass": 0,
+                    "advancedPreferences": [
+                      {
+                        "seatMapCode": "LOCATION",
+                        "value": "FRONT"
+                      },
+                      {
+                        "seatMapCode": "STANDARD",
+                        "value": "TRUE"
+                      }
+                    ]
+                  },
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": null,
+                  "referenceNumber": 0
+                },
+                "MSFBRFQ-": {
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "4D",
+                      "isAutoAssigned": null,
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 8,
+                        "propertyList": {
+                          "LOCATION": "FRONT",
+                          "BRDZONE": "1",
+                          "SEATPOS": "FS1",
+                          "AISLE": "TRUE",
+                          "NEWPRIME": "TRUE",
+                          "TCC": "Y",
+                          "STANDARD": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "HDO",
+                      "departureStation": "BOM",
+                      "passengerKey": "MSFBRFQ-",
+                      "unitKey": "SVghMTE3NiEgITYzODc5NjgzNDAwMDAwMDAwMCFCT00hSERPITREIVk-"
+                    }
+                  ],
+                  "passengerKey": "MSFBRFQ-",
+                  "activityDate": "2025-04-07T22:54:12.44Z",
+                  "boardingSequence": "85",
+                  "createdDate": "2025-04-07T20:06:58.423Z",
+                  "liftStatus": 2,
+                  "modifiedDate": "2025-04-07T21:33:36.757Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-04-07T20:06:58.447Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": null,
+                  "sourcePointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "pointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "ssrs": [
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": null,
+                      "ssrDuration": 2,
+                      "ssrKey": "MCFNU0ZCUkZRLSFTTUUhMSFIRE8hSVghNjM4Nzk2ODM0MDAwMDAwMDAwIUJPTSExMTc2ISA-",
+                      "count": 1,
+                      "ssrCode": "SME",
+                      "feeCode": null,
+                      "inBundle": false,
+                      "passengerKey": "MSFBRFQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "1176",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "HDO",
+                        "origin": "BOM",
+                        "departureDate": "2025-04-08T04:30:00"
+                      }
+                    },
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": null,
+                      "ssrDuration": 2,
+                      "ssrKey": "MCFNU0ZCUkZRLSFUMUFWITEhSERPIUlYITYzODc5NjgzNDAwMDAwMDAwMCFCT00hMTE3NiEg",
+                      "count": 1,
+                      "ssrCode": "T1AV",
+                      "feeCode": null,
+                      "inBundle": false,
+                      "passengerKey": "MSFBRFQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "1176",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "HDO",
+                        "origin": "BOM",
+                        "departureDate": "2025-04-08T04:30:00"
+                      }
+                    }
+                  ],
+                  "tickets": [],
+                  "bags": [
+                    {
+                      "baggageKey": "MDIzNjg5MDI2NQ--",
+                      "passengerKey": "MSFBRFQ-",
+                      "arrivalStation": "HDO",
+                      "status": 1,
+                      "departureStation": "BOM",
+                      "osTag": "0236890265"
+                    }
+                  ],
+                  "scores": [],
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": {
+                    "seat": 0,
+                    "travelClass": 0,
+                    "advancedPreferences": [
+                      {
+                        "seatMapCode": "LOCATION",
+                        "value": "FRONT"
+                      },
+                      {
+                        "seatMapCode": "STANDARD",
+                        "value": "TRUE"
+                      }
+                    ]
+                  },
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": null,
+                  "referenceNumber": 0
+                },
+                "MiFBRFQ-": {
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "4A",
+                      "isAutoAssigned": null,
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 7,
+                        "propertyList": {
+                          "LOCATION": "FRONT",
+                          "BRDZONE": "1",
+                          "SEATPOS": "FS1",
+                          "NEWPRIME": "TRUE",
+                          "TCC": "Y",
+                          "WINDOW": "TRUE",
+                          "STANDARD": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "HDO",
+                      "departureStation": "BOM",
+                      "passengerKey": "MiFBRFQ-",
+                      "unitKey": "SVghMTE3NiEgITYzODc5NjgzNDAwMDAwMDAwMCFCT00hSERPITRBIVk-"
+                    }
+                  ],
+                  "passengerKey": "MiFBRFQ-",
+                  "activityDate": "2025-04-07T22:54:17.427Z",
+                  "boardingSequence": "86",
+                  "createdDate": "2025-04-07T20:06:58.423Z",
+                  "liftStatus": 2,
+                  "modifiedDate": "2025-04-07T21:33:36.757Z",
+                  "overBookIndicator": 0,
+                  "priorityDate": "2025-04-07T20:06:58.447Z",
+                  "timeChanged": false,
+                  "verifiedTravelDocs": null,
+                  "sourcePointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "pointOfSale": {
+                    "agentCode": "APITSCTRSE",
+                    "domainCode": "TOP",
+                    "locationCode": "API",
+                    "organizationCode": "OTATSCTRSE"
+                  },
+                  "ssrs": [
+                    {
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "note": null,
+                      "ssrDuration": 2,
+                      "ssrKey": "MCFNaUZCUkZRLSFTTUUhMSFIRE8hSVghNjM4Nzk2ODM0MDAwMDAwMDAwIUJPTSExMTc2ISA-",
+                      "count": 1,
+                      "ssrCode": "SME",
+                      "feeCode": null,
+                      "inBundle": false,
+                      "passengerKey": "MiFBRFQ-",
+                      "ssrDetail": null,
+                      "ssrNumber": 1,
+                      "market": {
+                        "identifier": {
+                          "identifier": "1176",
+                          "carrierCode": "IX",
+                          "opSuffix": null
+                        },
+                        "destination": "HDO",
+                        "origin": "BOM",
+                        "departureDate": "2025-04-08T04:30:00"
+                      }
+                    }
+                  ],
+                  "tickets": [],
+                  "bags": [
+                    {
+                      "baggageKey": "MDIzNjg5MDI2Ng--",
+                      "passengerKey": "MiFBRFQ-",
+                      "arrivalStation": "HDO",
+                      "status": 1,
+                      "departureStation": "BOM",
+                      "osTag": "0236890266"
+                    }
+                  ],
+                  "scores": [],
+                  "boardingPassDetail": null,
+                  "hasInfant": false,
+                  "seatPreferences": {
+                    "seat": 0,
+                    "travelClass": 0,
+                    "advancedPreferences": [
+                      {
+                        "seatMapCode": "LOCATION",
+                        "value": "FRONT"
+                      },
+                      {
+                        "seatMapCode": "STANDARD",
+                        "value": "TRUE"
+                      }
+                    ]
+                  },
+                  "bundleCode": null,
+                  "verifiedTravelDocuments": null,
+                  "referenceNumber": 0
+                }
+              },
+              "channelType": 5,
+              "cabinOfService": "Y",
+              "externalIdentifier": null,
+              "priorityCode": null,
+              "changeReasonCode": 0,
+              "segmentType": 0,
+              "salesDate": "2025-04-07T20:06:58.423Z",
+              "international": false,
+              "flightReference": "20250408 IX1176 BOMHDO",
+              "legs": [
+                {
+                  "legKey": "NjM4Nzk2ODM0MDAwMDAwMDAwIUlYITExNzYhICFCT00hSERPITg4NjAzNzQ-",
+                  "operationsInfo": null,
+                  "designator": {
+                    "destination": "HDO",
+                    "origin": "BOM",
+                    "arrival": "2025-04-08T06:50:00",
+                    "departure": "2025-04-08T04:30:00",
+                    "originAirportName": null,
+                    "originCityName": null,
+                    "destinationAirportName": null,
+                    "destinationCityName": null,
+                    "arrivalTerminal": null,
+                    "departureTerminal": null
+                  },
+                  "legInfo": {
+                    "departureTimeUtc": "2025-04-07T23:00:00Z",
+                    "arrivalTimeUtc": "2025-04-08T01:20:00Z",
+                    "adjustedCapacity": 176,
+                    "arrivalTerminal": null,
+                    "arrivalTimeVariant": 330,
+                    "backMoveDays": 490,
+                    "capacity": 176,
+                    "changeOfDirection": false,
+                    "codeShareIndicator": 0,
+                    "departureTerminal": "2",
+                    "departureTimeVariant": 330,
+                    "equipmentType": "7M8",
+                    "equipmentTypeSuffix": "B",
+                    "eTicket": false,
+                    "irop": false,
+                    "lid": 176,
+                    "marketingCode": null,
+                    "marketingOverride": false,
+                    "operatedByText": null,
+                    "operatingCarrier": null,
+                    "operatingFlightNumber": null,
+                    "operatingOpSuffix": null,
+                    "outMoveDays": 490,
+                    "arrivalTime": "2025-04-08T06:50:00",
+                    "departureTime": "2025-04-08T04:30:00",
+                    "prbcCode": "Y168C8",
+                    "scheduleServiceType": null,
+                    "sold": 135,
+                    "status": 1,
+                    "subjectToGovtApproval": false,
+                    "eticket": false
+                  },
+                  "nests": [],
+                  "ssrs": [],
+                  "seatmapReference": "SVghMTE3NiEgITYzODc5NjgzNDAwMDAwMDAwMCFCT00hSERP",
+                  "flightReference": "20250408 IX1176 BOMHDO"
+                }
+              ],
+              "status": 6
+            }
+          ],
+          "journeyKey": "SVh_MTE3Nn4gfn5CT01_MDQvMDgvMjAyNSAwNDozMH5IRE9_MDQvMDgvMjAyNSAwNjo1MH5_",
+          "notForGeneralUser": false,
+          "isCorpFareJourney": false,
+          "isCancelAllowed": false,
+          "checkInAllowedFlatform": 0,
+          "scootModification": true,
+          "isCorpLiteJourney": false,
+          "umnr": false,
+          "corpFareJourney": false,
+          "cancelAllowed": false,
+          "CheckInWindow": "Close",
+          "CheckInOpens": null
+        }
+      ],
+      "comments": [
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919322509322, TimeStamp= 2025-04-08 01:41:47, MessageFor=NewBookingConfirmOneWaySingle-HoppingStrikeThroughCampaign",
+          "createdDate": "2025-04-07T20:11:48.33Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI3ODk5MDAzMw--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919322509322, TimeStamp= 2025-04-08 01:41:47, MessageFor=NewBookingConfirmOneWaySingle-HoppingStrikeThroughCampaign",
+          "createdDate": "2025-04-07T20:11:49.16Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI3ODk5MDAzNQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=read, PhoneNo=919322509322, TimeStamp= 2025-04-08 01:44:12, MessageFor=NewBookingConfirmOneWaySingle-HoppingStrikeThroughCampaign",
+          "createdDate": "2025-04-07T20:14:13.76Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI3ODk5MTA2OQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919322509322, TimeStamp= 2025-04-08 02:20:42, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-04-07T20:50:54.027Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI3ODk5NDI4OQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919811114633, TimeStamp= 2025-04-08 02:20:48, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-04-07T20:50:56.493Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI3ODk5NDQxMg--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919322509322, TimeStamp= 2025-04-08 02:20:48, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-04-07T20:51:02.13Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI3ODk5NDU3MA--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919322509322, TimeStamp= 2025-04-08 02:20:47, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-04-07T20:51:05.557Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI3ODk5NDczNg--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=sent, PhoneNo=919322509322, TimeStamp= 2025-04-08 02:21:04, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-04-07T20:51:14.303Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI3ODk5NTQyOQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=delivered, PhoneNo=919322509322, TimeStamp= 2025-04-08 02:21:05, MessageFor=GateSMSCampaign",
+          "createdDate": "2025-04-07T20:51:15.123Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI3ODk5NTQ5MQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=read, PhoneNo=919322509322, TimeStamp= 2025-04-08 02:27:46, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-04-07T20:57:47.337Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI3ODk5OTE2NQ--"
+        },
+        {
+          "type": 0,
+          "text": "RequestFrom=WhatsApp , Status=read, PhoneNo=919811114633, TimeStamp= 2025-04-08 02:30:09, MessageFor=AdditionalSMS_CheckInConfirmation",
+          "createdDate": "2025-04-07T21:00:10.81Z",
+          "pointOfSale": {
+            "agentCode": "phonon",
+            "domainCode": "EXT",
+            "locationCode": "BLR",
+            "organizationCode": "PHONON"
+          },
+          "commentKey": "MzI3ODk5OTI5NA--"
+        },
+        {
+          "type": 2,
+          "text": "SQ:-86//ALI ZAIDI---9899594949",
+          "createdDate": "2025-04-07T21:37:35.8Z",
+          "pointOfSale": {
+            "agentCode": "GHBOM_KETANR",
+            "domainCode": "DEF",
+            "locationCode": "BOMIX",
+            "organizationCode": "IX"
+          },
+          "commentKey": "MzI3OTAwNTg3MA--"
+        }
+      ],
+      "queues": [],
+      "history": [],
+      "payments": [
+        {
+          "paymentKey": "NDY3MzY0NDUzITEhQUchNTQ0NzIzMjgy",
+          "code": "AG",
+          "approvalDate": "2025-04-07T20:06:58.573Z",
+          "details": {
+            "accountNumberId": 0,
+            "parentPaymentId": null,
+            "accountName": null,
+            "accountNumber": "OTATSCTRSE",
+            "expirationDate": null,
+            "text": null,
+            "installments": 1,
+            "binRange": 0,
+            "fields": {}
+          },
+          "amounts": {
+            "amount": 20337,
+            "currencyCode": "INR",
+            "collected": 20337,
+            "collectedCurrencyCode": "INR",
+            "quoted": 20337,
+            "quotedCurrencyCode": "INR"
+          },
+          "authorizationCode": null,
+          "authorizationStatus": 4,
+          "fundedDate": "1800-01-01T00:00:00Z",
+          "transactionCode": null,
+          "dcc": null,
+          "threeDSecure": null,
+          "attachments": [],
+          "createdDate": "2025-04-07T20:06:58.423Z",
+          "modifiedDate": "2025-04-07T20:06:58.57Z",
+          "type": 2,
+          "status": 3,
+          "transferred": false,
+          "channelType": 5,
+          "pointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "sourcePointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "deposit": false,
+          "accountId": 0,
+          "voucher": null,
+          "addedToState": true,
+          "createdAgentId": 44115378,
+          "modifiedAgentId": 44115378,
+          "reference": 467364453
+        },
+        {
+          "paymentKey": "NDY3MzY0NzY5ITIhNlkhNTQ0NzIzMjgy",
+          "code": "6Y",
+          "approvalDate": "2025-04-07T20:27:37.707Z",
+          "details": {
+            "accountNumberId": 0,
+            "parentPaymentId": null,
+            "accountName": null,
+            "accountNumber": "XXXXXXX0000",
+            "expirationDate": null,
+            "text": null,
+            "installments": 0,
+            "binRange": 0,
+            "fields": {
+              "BillTo::Email": "a0H2EYOTBQb451rmq8X2N6UB8b/eYUmnphYI0fu/gC8=",
+              "BillTo::IPAddress": "dPEdudu6/ZJI8K5Q/XkRsQ==",
+              "BillTo::Phone": "ucrEd4dlzb+gJglyarDaZw==",
+              "Browser::Referer": "OdlATvfBhM7zqf/T8n+qTw==",
+              "Browser::UserAgent": "6vJkHEzjO+9UB1FkOCFk5Q==",
+              "CC::CarrierCode": "v2UASJ3B+egtQ4/nzxXTDA==",
+              "FPS::Enabled": "z6jX+aVjgTI/CXYMoHpzPQ==",
+              "OriginalLocation": "nhZp8/h31WUN79DK9Dg68Q==",
+              "SP:PAYID": "OcvqkgyM/uREm/Pe/nHLUg==",
+              "TransactionTypeIndicator": "ihSXtiVF6gqRDCeeIRX2nA==",
+              "WEB::RETURNURL": "AZVFCl0NxOSPRpjoXtNLegRNRePukOfwZDtbqfjg1hkEf2prut8rOpbA5HKtrzymXbyUiBYpHO0pbfKuZKTw9mNDFcorvCwSIm6ccVMg0DMbkyx1SehR+GC1xQCDlANVOl0AYv2K+OxjvDrB2DzjI1x0V53V1B2W3Z+qr2YNzaWAZNTIqVGKpOPYJ4XJpTAn2BOimEr94SRFCO6WG2D4Nw=="
+            }
+          },
+          "amounts": {
+            "amount": 1600,
+            "currencyCode": "INR",
+            "collected": 1600,
+            "collectedCurrencyCode": "INR",
+            "quoted": 1600,
+            "quotedCurrencyCode": "INR"
+          },
+          "authorizationCode": "null",
+          "authorizationStatus": 4,
+          "fundedDate": "1800-01-01T00:00:00Z",
+          "transactionCode": null,
+          "dcc": null,
+          "threeDSecure": null,
+          "attachments": [],
+          "createdDate": "2025-04-07T20:27:11.737Z",
+          "modifiedDate": "2025-04-07T20:27:37.697Z",
+          "type": 0,
+          "status": 3,
+          "transferred": false,
+          "channelType": 5,
+          "pointOfSale": {
+            "agentCode": "WEBDAPI_IX@ANON",
+            "domainCode": "WWW",
+            "locationCode": "API",
+            "organizationCode": "IXWEB"
+          },
+          "sourcePointOfSale": {
+            "agentCode": "APITSCTRSE",
+            "domainCode": "TOP",
+            "locationCode": "API",
+            "organizationCode": "OTATSCTRSE"
+          },
+          "deposit": false,
+          "accountId": 0,
+          "voucher": null,
+          "addedToState": true,
+          "createdAgentId": 44120406,
+          "modifiedAgentId": 18,
+          "reference": 467364769
+        }
+      ],
+      "orders": [],
+      "isFareMaskingEnabled": false,
+      "isGroupBooking": false,
+      "vaccinationStatus": false,
+      "isCodeShareBooking": false,
+      "isFareLockBooking": false,
+      "isCodeSharePNR": false,
+      "isScootBooking": false,
+      "isCustomerBooking": false,
+      "isGHASOLBooking": false,
+      "isDeadHeadBooking": false,
+      "isDeadHeadCheckInAllowed": false,
+      "isMarineBooking": false,
+      "isMYIDBooking": false
+    },
+    "AnonymousToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiMDYwZGI1ZDctNzIyOS1kZjJjLWNhY2YtZTZiZGYxZTU5M2JkIiwiaXNzIjoiZG90UkVaIEFQSSJ9.MW7npy5P4OID1rpzjhhkYMTAE7hhSTXRyCxwQoVeNoE"
+  },
+  "responseStatus": 200,
+  "responseUrl": "https://api.airindiaexpress.com/b2c-CheckIn/v2/retrieve/mmb/byRecordLocator",
+  "responseBodySnippet": "{\"navToken\":{\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkb3RSRVogQVBJIiwianRpIjoiMDYwZGI1ZDctNzIyOS1kZjJjLWNhY2YtZTZiZGYxZTU5M2JkIiwiaXNzIjoiZG90UkVaIEFQSSJ9.MW7npy5P4OID1rpzjhhkYMTAE7hhSTXRyCxwQoVeNoE\",\"idleTimeoutInMinutes\":15},\"data\":{\"selfServiceMoveAvailable\":false,\"isDirectChannel\":false,\"bookingKey\":\"NTQ0NzIzMjgyIUY2VlpUVCFmYWxzZQ--\",\"recordLocator\":\"F6VZTT\",\"currencyCode\":\"INR\",\"systemCode\":null,\"groupName\":null,\"locators\":{\"numericRecordLocator\":\"113008160404\",\"parentRecordLocator\":null,\"parentId\":\"0\",\"recordLocators\":[]},\"info\":{\"status\":2,\"paidStatus\":1,\"priceStatus\":2,\"profileStatus\":1,\"bookingType\":null,\"channelType\":5,\"bookedDate\":\"2025-04-07T20:06:58.423Z\",\"createdDate\":\"2025-04-07T20:06:58.423Z\",\"expirationDate\":\"2025-04-08T23:00:00Z\",\"modifiedDate\":\"2025-04-07T21:37:35.8Z\",\"modifiedAgentId\":\"44124641\",\"createdAgentId\":\"44115378\",\"owningCarrierCode\":\"IX\",\"changeAllowed\":true},\"sales\":{\"created\":{\"agentCode\":\"APITSCTRSE\",\"domainCode\":\"TOP\",\"locationCode\":\"API\",\"organizationCode\":\"OTATSCTRSE\"},\"source\":{\"isoCountryCode\":null,\"sourceSystemCode\":null,\"agentCode\":\"APITSCTRSE\",\"domainCode\":\"TOP\",\"locationCode\":\"API\",\"organizationCode\":\"OTATSCTRSE\"},\"modified\":null},\"typeOfSale\":{\"residentCountry\":\"IN\",\"promotionCode\":null,\"fareTypes\":[]},\"hold\":null,\"breakdown\":{\"balanceDue\":0.0,\"pointsBalanceDue\":0.0,\"authorizedBalanceDue\":0.0,\"totalAmount\":21937.0,\"totalPoints\":0.0,\"totalToCollect\":21937.0,\"totalPointsToCollect\":0.0,\"totalCharged\":21937.0,\"passengerTotals\":{\"services\":null,\"specialServices\":null,\"seats\":{\"total\":1524.0,\"taxes\":76.0,\"adjustments\":null,\"charges\":[{\"amount\":500.0,\"code\":\"SEAT\",\"detail\":\"BOM-HDO\",\"type\":6,\"collectType\":0,\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":500.0,\"ticketCode\":\"ST\"},{\"amount\":12.0,\"code\":\"CGST\",\"detail\":\"BOM-HDO\",\"type\":3,\"collectType\":0,\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":12.0,\"ticketCode\":\"CST\"},{\"amount\":12.0,\"code\":\"SGST\",\"detail\":\"BOM-HDO\",\"type\":3,\"collectType\":0,\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":12.0,\"ticketCode\":\"SST\"},{\"amount\":500.0,\"code\":\"SEAT\",\"detail\":\"BOM-HDO\",\"type\":6,\"collectType\":0,\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":500.0,\"ticketCode\":\"ST\"},{\"amount\":12.0,\"code\":\"CGST\",\"detail\":\"BOM-HDO\",\"type\":3,\"collectType\":0,\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":12.0,\"ticketCode\":\"CST\"},{\"amount\":12.0,\"code\":\"SGST\",\"detail\":\"BOM-HDO\",\"type\":3,\"collectType\":0,\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":12.0,\"ticketCode\":\"SST\"},{\"amount\":600.0,\"code\":\"SEAT\",\"detail\":\"BOM-HDO\",\"type\":6,\"collectType\":0,\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":600.0,\"ticketCode\":\"ST\"},{\"amount\":14.0,\"code\":\"CGST\",\"detail\":\"BOM-HDO\",\"type\":3,\"collectType\":0,\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":14.0,\"ticketCode\":\"CST\"},{\"amount\":14.0,\"code\":\"SGST\",\"detail\":\"BOM-HDO\",\"type\":3,\"collectType\":0,\"curre",
+  "visibleGuests": [
+    {
+      "index": 1,
+      "name": "Mr. Tarun kumar Goyal",
+      "onward_status": "Boarded",
+      "status_text": "Onward: Boarded"
+    },
+    {
+      "index": 2,
+      "name": "Mr. Amit Chawla",
+      "onward_status": "Boarded",
+      "status_text": "Onward: Boarded"
+    },
+    {
+      "index": 3,
+      "name": "Mr. Ali safdar Zaidi",
+      "onward_status": "Boarded",
+      "status_text": "Onward: Boarded"
+    }
+  ]
+}

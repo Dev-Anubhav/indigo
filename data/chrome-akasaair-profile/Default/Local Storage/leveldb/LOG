@@ -1,0 +1,6 @@
+2026/06/10-11:57:08.696 a459cf Reusing MANIFEST /Users/user/Downloads/indigo-scraper-v2/data/chrome-akasaair-profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/06/10-11:57:08.701 a459cf Recovering log #3
+2026/06/10-11:57:08.703 a459cf Reusing old log /Users/user/Downloads/indigo-scraper-v2/data/chrome-akasaair-profile/Default/Local Storage/leveldb/000003.log 
+2026/06/10-12:02:38.486 a45e9f Level-0 table #5: started
+2026/06/10-12:02:38.490 a45e9f Level-0 table #5: 31894 bytes OK
+2026/06/10-12:02:38.492 a45e9f Delete type=0 #3

@@ -1,0 +1,35 @@
+{
+  "pnr": "I8WY5V",
+  "detail": "PRAKASH",
+  "startedAt": "2026-06-08T06:40:28.566Z",
+  "pageUrlStart": "https://www.spicejet.com/trips/details?pnr=UYSLRF&last=PATHAK",
+  "response": null,
+  "waitForResponseError": "Timed out waiting for /api/v1/booking/retrieveBookingByPNR response",
+  "usedDomScrape": true,
+  "domData": {
+    "pnr": "I8WY5V",
+    "ticket_number": "05361193",
+    "booking_status": "Completed",
+    "booking_date": "Sun, 28 Sep 2025",
+    "payment_status": "Paid",
+    "origin": "PNQ",
+    "destination": "JAI",
+    "flight_number": "SG 1080",
+    "travel_date": "Sun, 28 Sep 2025",
+    "departure_time": "20:00",
+    "arrival_time": "",
+    "duration": "",
+    "terminal": "",
+    "flight_status": "Completed",
+    "passengers": [],
+    "total_amount": "7,042",
+    "fare_breakdown": "",
+    "label_value_map": {
+      "PNR/Booking No": "I8WY5V",
+      "Ticket Number": "05361193",
+      "Status": "Completed",
+      "Booking Date": "Sun, 28 Sep 2025",
+      "Payment status": "Paid"
+    }
+  }
+}

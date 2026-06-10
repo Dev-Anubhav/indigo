@@ -1,0 +1,572 @@
+{
+  "pnr": "SYRR9A",
+  "contactDetail": "DESHPANDE",
+  "startedAt": "2026-06-10T06:32:06.825Z",
+  "pageUrlStart": "https://www.akasaair.com/manage-booking",
+  "response": {
+    "data": {
+      "bookingKey": "MTM2Mjk0MzghU1lSUjlBIWZhbHNl",
+      "breakdown": {
+        "balanceDue": 0,
+        "journeyTotals": {
+          "totalAmount": 4339,
+          "totalDiscount": 0,
+          "totalTax": 1040
+        },
+        "journeys": [
+          {
+            "journeyKey": "UVB_MTU2M34gfn5QTlF_MDgvMjcvMjAyNSAxMzowNX5DQ1V_MDgvMjcvMjAyNSAxNjowMH5_",
+            "totalAmount": 4339,
+            "totalDiscount": 0,
+            "totalTax": 1040
+          }
+        ],
+        "passengerTotals": {
+          "infant": null,
+          "seats": {
+            "total": 380,
+            "taxes": 20,
+            "adjustments": null,
+            "charges": [
+              {
+                "amount": 400,
+                "code": "SFE",
+                "detail": "PNQ-CCU",
+                "type": "ServiceCharge",
+                "collectType": "SellerChargeable",
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 400,
+                "ticketCode": "SFE"
+              },
+              {
+                "amount": 10,
+                "code": "C27",
+                "detail": "PNQ-CCU",
+                "type": "IncludedTax",
+                "collectType": "SellerChargeable",
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 10,
+                "ticketCode": "C27"
+              },
+              {
+                "amount": 10,
+                "code": "S27",
+                "detail": "PNQ-CCU",
+                "type": "IncludedTax",
+                "collectType": "SellerChargeable",
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 10,
+                "ticketCode": "S27"
+              }
+            ]
+          },
+          "spoilage": null
+        },
+        "passengers": [
+          {
+            "infant": null,
+            "passengerKey": "MCFBRFQ-",
+            "seats": {
+              "total": 380,
+              "taxes": 20,
+              "adjustments": null,
+              "charges": [
+                {
+                  "amount": 400,
+                  "code": "SFE",
+                  "detail": "PNQ-CCU",
+                  "type": "ServiceCharge",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 400,
+                  "ticketCode": "SFE"
+                },
+                {
+                  "amount": 10,
+                  "code": "C27",
+                  "detail": "PNQ-CCU",
+                  "type": "IncludedTax",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 10,
+                  "ticketCode": "C27"
+                },
+                {
+                  "amount": 10,
+                  "code": "S27",
+                  "detail": "PNQ-CCU",
+                  "type": "IncludedTax",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 10,
+                  "ticketCode": "S27"
+                }
+              ]
+            },
+            "spoilage": null
+          }
+        ],
+        "showPriceBreakdown": true,
+        "totalAmount": 5779,
+        "totalCharged": 5779,
+        "totalToCollect": 5779
+      },
+      "contacts": [
+        {
+          "address": {
+            "lineOne": "NA",
+            "lineTwo": "NA",
+            "lineThree": null,
+            "countryCode": "IN",
+            "provinceState": null,
+            "city": "NA",
+            "postalCode": null
+          },
+          "companyName": null,
+          "contactTypeCode": "P",
+          "cultureCode": "en-US",
+          "customerNumber": null,
+          "distributionOption": "Email",
+          "emailAddress": "",
+          "encryptedEmailAddress": "79F73D346EA1A194A3387D19A6E28AE3CC00C30A2811C8D5A1F9290CAC2989A3987D16C336943D0E82464929ECE201C463615BCD",
+          "maskedEmailAddress": "s****3@t*******a.com",
+          "name": {
+            "first": "AVANTI AJAY",
+            "middle": null,
+            "last": "DESHPANDE",
+            "title": "MS",
+            "suffix": null
+          },
+          "notificationPreference": "None",
+          "phoneNumbers": [
+            {
+              "number": "",
+              "type": "Other",
+              "encryptedNumber": "CCC4BA7A4DF529BBC8D767E8F03BA9C8D739A85C66169B5C78401B94D6606F5C0B7462CEF72317D552B478BD79",
+              "maskedNumber": "91-98******71"
+            }
+          ],
+          "sourceOrganization": null
+        }
+      ],
+      "currencyCode": "INR",
+      "extraSeatPassengers": [],
+      "gst": null,
+      "hold": null,
+      "info": {
+        "bookedDate": "2025-08-02T07:42:40.86",
+        "bookingType": null,
+        "changeAllowed": true,
+        "createdDate": "2025-08-02T07:42:40.86",
+        "expirationDate": "2025-08-28T07:35:00",
+        "modifiedDate": "2025-08-27T05:47:25.253",
+        "owningCarrierCode": "QP",
+        "paidStatus": "PaidInFull",
+        "priceStatus": "Valid",
+        "status": "Confirmed"
+      },
+      "isFareLockBooking": false,
+      "isGdsBooking": false,
+      "isGroupBooking": false,
+      "isMaxVoucherLimitReached": false,
+      "isStandBy": false,
+      "journeys": [
+        {
+          "designator": {
+            "destination": "CCU",
+            "origin": "PNQ",
+            "arrival": "2025-08-27T16:00:00",
+            "departure": "2025-08-27T13:05:00"
+          },
+          "flightType": "NonStop",
+          "journeyKey": "UVB_MTU2M34gfn5QTlF_MDgvMjcvMjAyNSAxMzowNX5DQ1V_MDgvMjcvMjAyNSAxNjowMH5_",
+          "segments": [
+            {
+              "designator": {
+                "destination": "CCU",
+                "origin": "PNQ",
+                "arrival": "2025-08-27T16:00:00",
+                "departure": "2025-08-27T13:05:00"
+              },
+              "fares": [
+                {
+                  "carrierCode": "QP",
+                  "classOfService": "W6",
+                  "fareApplicationType": "Route",
+                  "fareBasisCode": "W6O7RWIF",
+                  "inboundOutBound": "None",
+                  "isAllotmentMarketFare": false,
+                  "ruleNumber": "1009",
+                  "ruleTariff": null,
+                  "isGoverning": true,
+                  "fareKey": "MH5XNn5YflFQflc2TzdSV0lGfjEwMDl_fjl_MX5OQ0NVUE5RMDA5MDAxMH5Y",
+                  "classType": "X",
+                  "fareClassOfService": "W6",
+                  "fareSequence": 1,
+                  "fareStatus": "Default",
+                  "originalClassOfService": "W6",
+                  "productClass": "EC",
+                  "travelClassCode": "Y",
+                  "crossReferenceClassOfService": null,
+                  "passengerFares": [
+                    {
+                      "fareDiscountCode": null,
+                      "passengerType": "ADT",
+                      "serviceCharges": [
+                        {
+                          "amount": 4339,
+                          "code": null,
+                          "detail": null,
+                          "type": "FarePrice",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 4339,
+                          "ticketCode": null
+                        },
+                        {
+                          "amount": 75,
+                          "code": "CUTE",
+                          "detail": "PNQ-CCU",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 75,
+                          "ticketCode": "PHF"
+                        },
+                        {
+                          "amount": 50,
+                          "code": "RCS",
+                          "detail": "PNQ-CCU",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 50,
+                          "ticketCode": "RCS"
+                        },
+                        {
+                          "amount": 236,
+                          "code": "ASF",
+                          "detail": "PNQ-CCU",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 236,
+                          "ticketCode": "ASF"
+                        },
+                        {
+                          "amount": 457,
+                          "code": "UDF",
+                          "detail": "PNQ-CCU",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 457,
+                          "ticketCode": "UDF"
+                        },
+                        {
+                          "amount": 108,
+                          "code": "C27",
+                          "detail": "PNQ-CCU",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 108,
+                          "ticketCode": "C27"
+                        },
+                        {
+                          "amount": 3,
+                          "code": "C27",
+                          "detail": "PNQ-CCU",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 3,
+                          "ticketCode": "C27"
+                        },
+                        {
+                          "amount": 108,
+                          "code": "S27",
+                          "detail": "PNQ-CCU",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 108,
+                          "ticketCode": "S27"
+                        },
+                        {
+                          "amount": 3,
+                          "code": "S27",
+                          "detail": "PNQ-CCU",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 3,
+                          "ticketCode": "S27"
+                        }
+                      ],
+                      "discountCode": null
+                    }
+                  ],
+                  "fareLink": 9
+                }
+              ],
+              "flightReference": "20250827 QP1563 PNQCCU",
+              "identifier": {
+                "identifier": "1563",
+                "carrierCode": "QP",
+                "opSuffix": null
+              },
+              "international": false,
+              "legs": [
+                {
+                  "designator": {
+                    "destination": "CCU",
+                    "origin": "PNQ",
+                    "arrival": "2025-08-27T16:00:00",
+                    "departure": "2025-08-27T13:05:00"
+                  },
+                  "flightReference": "20250827 QP1563 PNQCCU",
+                  "legInfo": {
+                    "arrivalTerminal": null,
+                    "arrivalTime": "2025-08-27T16:00:00",
+                    "arrivalTimeUtc": "2025-08-27T10:30:00",
+                    "departureTerminal": "Terminal T1",
+                    "departureTime": "2025-08-27T13:05:00",
+                    "departureTimeUtc": "2025-08-27T07:35:00",
+                    "status": "Closed"
+                  },
+                  "legKey": "NjM4OTE4OTY3MDAwMDAwMDAwIVFQITE1NjMhICFQTlEhQ0NVITIxNTM4Ng--",
+                  "operationsInfo": null,
+                  "seatmapReference": "UVAhMTU2MyEgITYzODkxODk2NzAwMDAwMDAwMCFQTlEhQ0NV"
+                }
+              ],
+              "passengerSegment": [
+                {
+                  "activityDate": "2025-08-27T06:49:25.353",
+                  "baggageGroupNumber": "1",
+                  "bags": [
+                    {
+                      "baggageKey": "MDUxNjc2ODE2MQ--",
+                      "passengerKey": "MCFBRFQ-",
+                      "arrivalStation": "CCU",
+                      "status": "Checked",
+                      "departureStation": "PNQ",
+                      "osTag": "0516768161"
+                    }
+                  ],
+                  "boardingPassDetail": null,
+                  "bundleCode": null,
+                  "hasInfant": false,
+                  "liftStatus": "Boarded",
+                  "passAllowCheckIn": true,
+                  "passengerKey": "MCFBRFQ-",
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "8C",
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 15,
+                        "propertyList": {
+                          "AISLE": "TRUE",
+                          "BRDZONE": "1",
+                          "TCC": "Y"
+                        }
+                      },
+                      "arrivalStation": "CCU",
+                      "departureStation": "PNQ",
+                      "passengerKey": "MCFBRFQ-",
+                      "unitKey": "UVAhMTU2MyEgITYzODkxODk2NzAwMDAwMDAwMCFQTlEhQ0NVIThDIVk-",
+                      "crossReferenceSeatingPreference": null,
+                      "isPending": false
+                    }
+                  ],
+                  "ssrs": [
+                    {
+                      "note": null,
+                      "count": 1,
+                      "inBundle": false,
+                      "ssrDuration": "Leg",
+                      "ssrCode": "HLOK",
+                      "passengerKey": "MCFBRFQ-",
+                      "ssrNumber": 1,
+                      "market": {
+                        "destination": "CCU",
+                        "origin": "PNQ",
+                        "departureDate": "2025-08-27T13:05:00",
+                        "identifier": {
+                          "identifier": "1563",
+                          "carrierCode": "QP",
+                          "opSuffix": null
+                        }
+                      },
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "ssrKey": "MCFNQ0ZCUkZRLSFITE9LITEhQ0NVIVFQITYzODkxODk2NzAwMDAwMDAwMCFQTlEhMTU2MyEg",
+                      "feeCode": null,
+                      "ssrDetail": null
+                    }
+                  ]
+                }
+              ],
+              "salesDate": "2025-08-02T07:42:40.86",
+              "segmentKey": "UVB_MTU2M34gfn5QTlF_MDgvMjcvMjAyNSAxMzowNX5DQ1V_MDgvMjcvMjAyNSAxNjowMH5_"
+            }
+          ],
+          "stops": 0
+        }
+      ],
+      "passengerFees": [
+        {
+          "fees": [
+            {
+              "applicableFor": [],
+              "code": "SFE"
+            }
+          ],
+          "passengerKey": "MCFBRFQ-"
+        }
+      ],
+      "passengers": [
+        {
+          "addresses": [],
+          "bags": [
+            {
+              "identifier": "1563",
+              "nonStandard": false,
+              "osTag": "0516768161",
+              "taggedToStation": "CCU",
+              "weight": 14,
+              "weightType": "Kilograms",
+              "baggageKey": "MDUxNjc2ODE2MQ--",
+              "type": "STND",
+              "osTagDate": "2025-08-27T00:00:00",
+              "stationCode": "PNQ",
+              "taggedToCarrierCode": "QP"
+            }
+          ],
+          "customerNumber": null,
+          "discountCode": null,
+          "emdCoupons": [],
+          "fees": [
+            {
+              "isConfirmed": true,
+              "isConfirming": false,
+              "isConfirmingExternal": false,
+              "code": "SFE",
+              "detail": null,
+              "passengerFeeKey": "MCEwITk-",
+              "override": false,
+              "flightReference": "20250827 QP1563 PNQCCU",
+              "note": null,
+              "createdDate": "2025-08-02T07:42:40.86",
+              "isProtected": false,
+              "serviceCharges": [
+                {
+                  "amount": 400,
+                  "code": "SFE",
+                  "detail": "PNQ-CCU",
+                  "type": "ServiceCharge",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 400,
+                  "ticketCode": "SFE"
+                },
+                {
+                  "amount": 10,
+                  "code": "C27",
+                  "detail": "PNQ-CCU",
+                  "type": "IncludedTax",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 10,
+                  "ticketCode": "C27"
+                },
+                {
+                  "amount": 10,
+                  "code": "S27",
+                  "detail": "PNQ-CCU",
+                  "type": "IncludedTax",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 10,
+                  "ticketCode": "S27"
+                }
+              ],
+              "type": "SeatFee",
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0
+            }
+          ],
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": "Female",
+            "dateOfBirth": "1976-10-13T00:00:00",
+            "familyNumber": null
+          },
+          "name": {
+            "first": "AVANTI AJAY",
+            "middle": null,
+            "last": "DESHPANDE",
+            "title": "MS",
+            "suffix": null
+          },
+          "passengerAlternateKey": "MjM2ODc2MTI-",
+          "passengerKey": "MCFBRFQ-",
+          "passengerTypeCode": "ADT",
+          "program": null,
+          "travelDocuments": [],
+          "weightCategory": "Female"
+        }
+      ],
+      "primaryContactTypeCode": "P",
+      "recordLocator": "SYRR9A",
+      "restriction": {
+        "allowAddOns": true,
+        "allowCancelBooking": false,
+        "allowCancellationPolicy": true,
+        "allowChangeDate": true,
+        "allowCheckIn": true,
+        "allowEmailItinerary": true,
+        "allowManageBooking": true,
+        "allowNoShowRefundClaim": false,
+        "allowTravelCertificate": false,
+        "allowUndoCheckIn": true,
+        "allowUpdateContact": true,
+        "allowViewGst": true,
+        "allowViewRefundReceipt": false
+      },
+      "showMaskedFare": false,
+      "typeOfSale": {
+        "isCorporateFare": false,
+        "promotionCode": null
+      },
+      "voucherDiscounts": []
+    }
+  },
+  "responseStatus": 200,
+  "responseUrl": "https://prod-bl.qp.akasaair.com/api/ibe/booking/retrieve?recordLocator=SYRR9A&lastName=DESHPANDE",
+  "responseBodySnippet": "{\"data\":{\"bookingKey\":\"MTM2Mjk0MzghU1lSUjlBIWZhbHNl\",\"breakdown\":{\"balanceDue\":0.0000,\"journeyTotals\":{\"totalAmount\":4339.0000,\"totalDiscount\":0.0,\"totalTax\":1040.0000},\"journeys\":[{\"journeyKey\":\"UVB_MTU2M34gfn5QTlF_MDgvMjcvMjAyNSAxMzowNX5DQ1V_MDgvMjcvMjAyNSAxNjowMH5_\",\"totalAmount\":4339.0000,\"totalDiscount\":0.0,\"totalTax\":1040.0000}],\"passengerTotals\":{\"infant\":null,\"seats\":{\"total\":380.0000,\"taxes\":20.0000,\"adjustments\":null,\"charges\":[{\"amount\":400.0000,\"code\":\"SFE\",\"detail\":\"PNQ-CCU\",\"type\":\"ServiceCharge\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":400.0000,\"ticketCode\":\"SFE\"},{\"amount\":10.0000,\"code\":\"C27\",\"detail\":\"PNQ-CCU\",\"type\":\"IncludedTax\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":10.0000,\"ticketCode\":\"C27\"},{\"amount\":10.0000,\"code\":\"S27\",\"detail\":\"PNQ-CCU\",\"type\":\"IncludedTax\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":10.0000,\"ticketCode\":\"S27\"}]},\"spoilage\":null},\"passengers\":[{\"infant\":null,\"passengerKey\":\"MCFBRFQ-\",\"seats\":{\"total\":380.0000,\"taxes\":20.0000,\"adjustments\":null,\"charges\":[{\"amount\":400.0000,\"code\":\"SFE\",\"detail\":\"PNQ-CCU\",\"type\":\"ServiceCharge\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":400.0000,\"ticketCode\":\"SFE\"},{\"amount\":10.0000,\"code\":\"C27\",\"detail\":\"PNQ-CCU\",\"type\":\"IncludedTax\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":10.0000,\"ticketCode\":\"C27\"},{\"amount\":10.0000,\"code\":\"S27\",\"detail\":\"PNQ-CCU\",\"type\":\"IncludedTax\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":10.0000,\"ticketCode\":\"S27\"}]},\"spoilage\":null}],\"showPriceBreakdown\":true,\"totalAmount\":5779.0000,\"totalCharged\":5779.0000,\"totalToCollect\":5779.0000},\"contacts\":[{\"address\":{\"lineOne\":\"NA\",\"lineTwo\":\"NA\",\"lineThree\":null,\"countryCode\":\"IN\",\"provinceState\":null,\"city\":\"NA\",\"postalCode\":null},\"companyName\":null,\"contactTypeCode\":\"P\",\"cultureCode\":\"en-US\",\"customerNumber\":null,\"distributionOption\":\"Email\",\"emailAddress\":\"\",\"encryptedEmailAddress\":\"79F73D346EA1A194A3387D19A6E28AE3CC00C30A2811C8D5A1F9290CAC2989A3987D16C336943D0E82464929ECE201C463615BCD\",\"maskedEmailAddress\":\"s****3@t*******a.com\",\"name\":{\"first\":\"AVANTI AJAY\",\"middle\":null,\"last\":\"DESHPANDE\",\"title\":\"MS\",\"suffix\":null},\"notificationPreference\":\"None\",\"phoneNumbers\":[{\"number\":\"\",\"type\":\"Other\",\"encryptedNumber\":\"CCC4BA7A4DF529BBC8D767E8F03BA9C8D739A85C66169B5C78401B94D6606F5C0B7462CEF72317D552B478BD79\",\"maskedNumber\":\"91-98******71\"}],\"sourceOrganization\":null}],\"currencyCode\":\"INR\",\"extraSeatPassengers\":[],\"gst\":null,\"hold\":null,\"info\":{\"bookedDate\":\"2025-08-02T07:42:40.86\",\"bookingType\":null,\"changeAllowed\":true,\"createdDate\":\"2025-08-02T07:42:40.86\",\"expirationDate\":\"2025-08-28T07:35:00\",\"modifiedDate\":\"2025-08-27T05:47:25.253\",\"owningCarrierCode\":\"QP\",\"paidStatus\""
+}

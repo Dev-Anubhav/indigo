@@ -1,0 +1,541 @@
+{
+  "pnr": "IYGRRQ",
+  "contactDetail": "AGGARWAL",
+  "startedAt": "2026-06-10T06:29:22.471Z",
+  "pageUrlStart": "https://www.akasaair.com/manage-booking",
+  "response": {
+    "data": {
+      "bookingKey": "MTQyNDM0ODQhSVlHUlJRIWZhbHNl",
+      "breakdown": {
+        "balanceDue": 0,
+        "journeyTotals": {
+          "totalAmount": 4045,
+          "totalDiscount": 0,
+          "totalTax": 1626
+        },
+        "journeys": [
+          {
+            "journeyKey": "UVB_MTYyOX4gfn5HT1h_MDkvMDUvMjAyNSAxNjoyMH5ERUx_MDkvMDUvMjAyNSAxOTowMH5_",
+            "totalAmount": 4045,
+            "totalDiscount": 0,
+            "totalTax": 1626
+          }
+        ],
+        "passengerTotals": {
+          "infant": null,
+          "seats": {
+            "total": null,
+            "taxes": null,
+            "adjustments": null,
+            "charges": [
+              {
+                "amount": 0,
+                "code": "SFE",
+                "detail": "GOX-DEL",
+                "type": "ServiceCharge",
+                "collectType": "SellerChargeable",
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 0,
+                "ticketCode": "SFE"
+              }
+            ]
+          },
+          "spoilage": null
+        },
+        "passengers": [
+          {
+            "infant": null,
+            "passengerKey": "MCFBRFQ-",
+            "seats": {
+              "total": null,
+              "taxes": null,
+              "adjustments": null,
+              "charges": [
+                {
+                  "amount": 0,
+                  "code": "SFE",
+                  "detail": "GOX-DEL",
+                  "type": "ServiceCharge",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 0,
+                  "ticketCode": "SFE"
+                }
+              ]
+            },
+            "spoilage": null
+          }
+        ],
+        "showPriceBreakdown": true,
+        "totalAmount": 5671,
+        "totalCharged": 5671,
+        "totalToCollect": 5671
+      },
+      "contacts": [
+        {
+          "address": {
+            "lineOne": "NA",
+            "lineTwo": "NA",
+            "lineThree": null,
+            "countryCode": "IN",
+            "provinceState": null,
+            "city": "NA",
+            "postalCode": null
+          },
+          "companyName": null,
+          "contactTypeCode": "P",
+          "cultureCode": "en-US",
+          "customerNumber": null,
+          "distributionOption": "Email",
+          "emailAddress": "",
+          "encryptedEmailAddress": "AA8AF9FC6EB2515ED1C93EAE748B7352E672F3A1B9C0F8DB8979ADC868B0B0C434A1B8A446E766C6E34F4D8E6E5733D136BBFF",
+          "maskedEmailAddress": "T***n@s******.*o.in",
+          "name": {
+            "first": "DINESH KUMAR",
+            "middle": null,
+            "last": "AGGARWAL",
+            "title": "MR",
+            "suffix": null
+          },
+          "notificationPreference": "None",
+          "phoneNumbers": [
+            {
+              "number": "",
+              "type": "Other",
+              "encryptedNumber": "F9D54715C7C18C5FC2D37E330B15562A9C73E05BBD878C7C9A4201371B6AEE9B99D253C5DE8D4CE69D66",
+              "maskedNumber": "98******97"
+            }
+          ],
+          "sourceOrganization": null
+        }
+      ],
+      "currencyCode": "INR",
+      "extraSeatPassengers": [],
+      "gst": null,
+      "hold": null,
+      "info": {
+        "bookedDate": "2025-09-04T08:01:57.977",
+        "bookingType": null,
+        "changeAllowed": true,
+        "createdDate": "2025-09-04T08:01:57.977",
+        "expirationDate": "2025-09-06T10:50:00",
+        "modifiedDate": "2025-09-05T09:18:00.11",
+        "owningCarrierCode": "QP",
+        "paidStatus": "PaidInFull",
+        "priceStatus": "Valid",
+        "status": "Confirmed"
+      },
+      "isFareLockBooking": false,
+      "isGdsBooking": false,
+      "isGroupBooking": false,
+      "isMaxVoucherLimitReached": false,
+      "isStandBy": false,
+      "journeys": [
+        {
+          "designator": {
+            "destination": "DEL",
+            "origin": "GOX",
+            "arrival": "2025-09-05T19:00:00",
+            "departure": "2025-09-05T16:20:00"
+          },
+          "flightType": "NonStop",
+          "journeyKey": "UVB_MTYyOX4gfn5HT1h_MDkvMDUvMjAyNSAxNjoyMH5ERUx_MDkvMDUvMjAyNSAxOTowMH5_",
+          "segments": [
+            {
+              "designator": {
+                "destination": "DEL",
+                "origin": "GOX",
+                "arrival": "2025-09-05T19:00:00",
+                "departure": "2025-09-05T16:20:00"
+              },
+              "fares": [
+                {
+                  "carrierCode": "QP",
+                  "classOfService": "Z2",
+                  "fareApplicationType": "Route",
+                  "fareBasisCode": "Z2O7MBIX",
+                  "inboundOutBound": "None",
+                  "isAllotmentMarketFare": false,
+                  "ruleNumber": "2001",
+                  "ruleTariff": null,
+                  "isGoverning": true,
+                  "fareKey": "MH5aMn5_UVB_WjJPN01CSVh_MjAwMX5_MjN_MX5OREVMR09YMDIzMDAxMH5Y",
+                  "classType": null,
+                  "fareClassOfService": "Z2",
+                  "fareSequence": 1,
+                  "fareStatus": "Default",
+                  "originalClassOfService": "Z2",
+                  "productClass": "SP",
+                  "travelClassCode": "Y",
+                  "crossReferenceClassOfService": null,
+                  "passengerFares": [
+                    {
+                      "fareDiscountCode": null,
+                      "passengerType": "ADT",
+                      "serviceCharges": [
+                        {
+                          "amount": 4045,
+                          "code": null,
+                          "detail": null,
+                          "type": "FarePrice",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 4045,
+                          "ticketCode": null
+                        },
+                        {
+                          "amount": 75,
+                          "code": "CUTE",
+                          "detail": "GOX-DEL",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 75,
+                          "ticketCode": "PHF"
+                        },
+                        {
+                          "amount": 50,
+                          "code": "RCS",
+                          "detail": "GOX-DEL",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 50,
+                          "ticketCode": "RCS"
+                        },
+                        {
+                          "amount": 236,
+                          "code": "ASF",
+                          "detail": "GOX-DEL",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 236,
+                          "ticketCode": "ASF"
+                        },
+                        {
+                          "amount": 991,
+                          "code": "UDF",
+                          "detail": "GOX-DEL",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 991,
+                          "ticketCode": "UDF"
+                        },
+                        {
+                          "amount": 66,
+                          "code": "DUDF",
+                          "detail": "GOX-DEL",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 66,
+                          "ticketCode": "DUF"
+                        },
+                        {
+                          "amount": 101,
+                          "code": "C30",
+                          "detail": "GOX-DEL",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 101,
+                          "ticketCode": "C30"
+                        },
+                        {
+                          "amount": 3,
+                          "code": "C30",
+                          "detail": "GOX-DEL",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 3,
+                          "ticketCode": "C30"
+                        },
+                        {
+                          "amount": 101,
+                          "code": "S30",
+                          "detail": "GOX-DEL",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 101,
+                          "ticketCode": "S30"
+                        },
+                        {
+                          "amount": 3,
+                          "code": "S30",
+                          "detail": "GOX-DEL",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 3,
+                          "ticketCode": "S30"
+                        }
+                      ],
+                      "discountCode": null
+                    }
+                  ],
+                  "fareLink": 23
+                }
+              ],
+              "flightReference": "20250905 QP1629 GOXDEL",
+              "identifier": {
+                "identifier": "1629",
+                "carrierCode": "QP",
+                "opSuffix": null
+              },
+              "international": false,
+              "legs": [
+                {
+                  "designator": {
+                    "destination": "DEL",
+                    "origin": "GOX",
+                    "arrival": "2025-09-05T19:00:00",
+                    "departure": "2025-09-05T16:20:00"
+                  },
+                  "flightReference": "20250905 QP1629 GOXDEL",
+                  "legInfo": {
+                    "arrivalTerminal": "Terminal 1D",
+                    "arrivalTime": "2025-09-05T19:00:00",
+                    "arrivalTimeUtc": "2025-09-05T13:30:00",
+                    "departureTerminal": null,
+                    "departureTime": "2025-09-05T16:20:00",
+                    "departureTimeUtc": "2025-09-05T10:50:00",
+                    "status": "Closed"
+                  },
+                  "legKey": "NjM4OTI2ODYwMDAwMDAwMDAwIVFQITE2MjkhICFHT1ghREVMITIxNzA5Nw--",
+                  "operationsInfo": null,
+                  "seatmapReference": "UVAhMTYyOSEgITYzODkyNjg2MDAwMDAwMDAwMCFHT1ghREVM"
+                }
+              ],
+              "passengerSegment": [
+                {
+                  "activityDate": "2025-09-05T10:19:40.983",
+                  "baggageGroupNumber": "1",
+                  "bags": [
+                    {
+                      "baggageKey": "MDUxNjk0NDMxMw--",
+                      "passengerKey": "MCFBRFQ-",
+                      "arrivalStation": "DEL",
+                      "status": "Checked",
+                      "departureStation": "GOX",
+                      "osTag": "0516944313"
+                    }
+                  ],
+                  "boardingPassDetail": null,
+                  "bundleCode": null,
+                  "hasInfant": false,
+                  "liftStatus": "Boarded",
+                  "passAllowCheckIn": true,
+                  "passengerKey": "MCFBRFQ-",
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "24C",
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 47,
+                        "propertyList": {
+                          "AISLE": "TRUE",
+                          "BRDZONE": "3",
+                          "TCC": "Y"
+                        }
+                      },
+                      "arrivalStation": "DEL",
+                      "departureStation": "GOX",
+                      "passengerKey": "MCFBRFQ-",
+                      "unitKey": "UVAhMTYyOSEgITYzODkyNjg2MDAwMDAwMDAwMCFHT1ghREVMITI0QyFZ",
+                      "crossReferenceSeatingPreference": null,
+                      "isPending": false
+                    }
+                  ],
+                  "ssrs": [
+                    {
+                      "note": null,
+                      "count": 1,
+                      "inBundle": false,
+                      "ssrDuration": "Leg",
+                      "ssrCode": "ASSN",
+                      "passengerKey": "MCFBRFQ-",
+                      "ssrNumber": 1,
+                      "market": {
+                        "destination": "DEL",
+                        "origin": "GOX",
+                        "departureDate": "2025-09-05T16:20:00",
+                        "identifier": {
+                          "identifier": "1629",
+                          "carrierCode": "QP",
+                          "opSuffix": null
+                        }
+                      },
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "ssrKey": "MCFNQ0ZCUkZRLSFBU1NOITEhREVMIVFQITYzODkyNjg2MDAwMDAwMDAwMCFHT1ghMTYyOSEg",
+                      "feeCode": null,
+                      "ssrDetail": null
+                    },
+                    {
+                      "note": null,
+                      "count": 1,
+                      "inBundle": false,
+                      "ssrDuration": "Leg",
+                      "ssrCode": "HLOK",
+                      "passengerKey": "MCFBRFQ-",
+                      "ssrNumber": 1,
+                      "market": {
+                        "destination": "DEL",
+                        "origin": "GOX",
+                        "departureDate": "2025-09-05T16:20:00",
+                        "identifier": {
+                          "identifier": "1629",
+                          "carrierCode": "QP",
+                          "opSuffix": null
+                        }
+                      },
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "ssrKey": "MCFNQ0ZCUkZRLSFITE9LITEhREVMIVFQITYzODkyNjg2MDAwMDAwMDAwMCFHT1ghMTYyOSEg",
+                      "feeCode": null,
+                      "ssrDetail": null
+                    }
+                  ]
+                }
+              ],
+              "salesDate": "2025-09-04T08:01:57.977",
+              "segmentKey": "UVB_MTYyOX4gfn5HT1h_MDkvMDUvMjAyNSAxNjoyMH5ERUx_MDkvMDUvMjAyNSAxOTowMH5_"
+            }
+          ],
+          "stops": 0
+        }
+      ],
+      "passengerFees": [
+        {
+          "fees": [
+            {
+              "applicableFor": [],
+              "code": "SFE"
+            }
+          ],
+          "passengerKey": "MCFBRFQ-"
+        }
+      ],
+      "passengers": [
+        {
+          "addresses": [],
+          "bags": [
+            {
+              "identifier": "1629",
+              "nonStandard": false,
+              "osTag": "0516944313",
+              "taggedToStation": "DEL",
+              "weight": 10,
+              "weightType": "Kilograms",
+              "baggageKey": "MDUxNjk0NDMxMw--",
+              "type": "STND",
+              "osTagDate": "2025-09-05T00:00:00",
+              "stationCode": "GOX",
+              "taggedToCarrierCode": "QP"
+            }
+          ],
+          "customerNumber": null,
+          "discountCode": null,
+          "emdCoupons": [],
+          "fees": [
+            {
+              "isConfirmed": true,
+              "isConfirming": false,
+              "isConfirmingExternal": false,
+              "code": "SFE",
+              "detail": null,
+              "passengerFeeKey": "MCEwITk-",
+              "override": false,
+              "flightReference": "20250905 QP1629 GOXDEL",
+              "note": null,
+              "createdDate": "2025-09-05T09:16:48.287",
+              "isProtected": false,
+              "serviceCharges": [
+                {
+                  "amount": 0,
+                  "code": "SFE",
+                  "detail": "GOX-DEL",
+                  "type": "ServiceCharge",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 0,
+                  "ticketCode": "SFE"
+                }
+              ],
+              "type": "SeatFee",
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0
+            }
+          ],
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": "Male",
+            "dateOfBirth": "1971-08-10T00:00:00",
+            "familyNumber": null
+          },
+          "name": {
+            "first": "DINESH KUMAR",
+            "middle": null,
+            "last": "AGGARWAL",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerAlternateKey": "MjQ2NzY0NjE-",
+          "passengerKey": "MCFBRFQ-",
+          "passengerTypeCode": "ADT",
+          "program": null,
+          "travelDocuments": [],
+          "weightCategory": "Male"
+        }
+      ],
+      "primaryContactTypeCode": "P",
+      "recordLocator": "IYGRRQ",
+      "restriction": {
+        "allowAddOns": true,
+        "allowCancelBooking": false,
+        "allowCancellationPolicy": true,
+        "allowChangeDate": true,
+        "allowCheckIn": true,
+        "allowEmailItinerary": true,
+        "allowManageBooking": true,
+        "allowNoShowRefundClaim": false,
+        "allowTravelCertificate": false,
+        "allowUndoCheckIn": true,
+        "allowUpdateContact": true,
+        "allowViewGst": true,
+        "allowViewRefundReceipt": false
+      },
+      "showMaskedFare": false,
+      "typeOfSale": {
+        "isCorporateFare": false,
+        "promotionCode": null
+      },
+      "voucherDiscounts": []
+    }
+  },
+  "responseStatus": 200,
+  "responseUrl": "https://prod-bl.qp.akasaair.com/api/ibe/booking/retrieve?recordLocator=IYGRRQ&lastName=AGGARWAL",
+  "responseBodySnippet": "{\"data\":{\"bookingKey\":\"MTQyNDM0ODQhSVlHUlJRIWZhbHNl\",\"breakdown\":{\"balanceDue\":0.0000,\"journeyTotals\":{\"totalAmount\":4045.0000,\"totalDiscount\":0.0,\"totalTax\":1626.0000},\"journeys\":[{\"journeyKey\":\"UVB_MTYyOX4gfn5HT1h_MDkvMDUvMjAyNSAxNjoyMH5ERUx_MDkvMDUvMjAyNSAxOTowMH5_\",\"totalAmount\":4045.0000,\"totalDiscount\":0.0,\"totalTax\":1626.0000}],\"passengerTotals\":{\"infant\":null,\"seats\":{\"total\":null,\"taxes\":null,\"adjustments\":null,\"charges\":[{\"amount\":0.0,\"code\":\"SFE\",\"detail\":\"GOX-DEL\",\"type\":\"ServiceCharge\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":0.0,\"ticketCode\":\"SFE\"}]},\"spoilage\":null},\"passengers\":[{\"infant\":null,\"passengerKey\":\"MCFBRFQ-\",\"seats\":{\"total\":null,\"taxes\":null,\"adjustments\":null,\"charges\":[{\"amount\":0.0,\"code\":\"SFE\",\"detail\":\"GOX-DEL\",\"type\":\"ServiceCharge\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":0.0,\"ticketCode\":\"SFE\"}]},\"spoilage\":null}],\"showPriceBreakdown\":true,\"totalAmount\":5671.0000,\"totalCharged\":5671.0000,\"totalToCollect\":5671.0000},\"contacts\":[{\"address\":{\"lineOne\":\"NA\",\"lineTwo\":\"NA\",\"lineThree\":null,\"countryCode\":\"IN\",\"provinceState\":null,\"city\":\"NA\",\"postalCode\":null},\"companyName\":null,\"contactTypeCode\":\"P\",\"cultureCode\":\"en-US\",\"customerNumber\":null,\"distributionOption\":\"Email\",\"emailAddress\":\"\",\"encryptedEmailAddress\":\"AA8AF9FC6EB2515ED1C93EAE748B7352E672F3A1B9C0F8DB8979ADC868B0B0C434A1B8A446E766C6E34F4D8E6E5733D136BBFF\",\"maskedEmailAddress\":\"T***n@s******.*o.in\",\"name\":{\"first\":\"DINESH KUMAR\",\"middle\":null,\"last\":\"AGGARWAL\",\"title\":\"MR\",\"suffix\":null},\"notificationPreference\":\"None\",\"phoneNumbers\":[{\"number\":\"\",\"type\":\"Other\",\"encryptedNumber\":\"F9D54715C7C18C5FC2D37E330B15562A9C73E05BBD878C7C9A4201371B6AEE9B99D253C5DE8D4CE69D66\",\"maskedNumber\":\"98******97\"}],\"sourceOrganization\":null}],\"currencyCode\":\"INR\",\"extraSeatPassengers\":[],\"gst\":null,\"hold\":null,\"info\":{\"bookedDate\":\"2025-09-04T08:01:57.977\",\"bookingType\":null,\"changeAllowed\":true,\"createdDate\":\"2025-09-04T08:01:57.977\",\"expirationDate\":\"2025-09-06T10:50:00\",\"modifiedDate\":\"2025-09-05T09:18:00.11\",\"owningCarrierCode\":\"QP\",\"paidStatus\":\"PaidInFull\",\"priceStatus\":\"Valid\",\"status\":\"Confirmed\"},\"isFareLockBooking\":false,\"isGdsBooking\":false,\"isGroupBooking\":false,\"isMaxVoucherLimitReached\":false,\"isStandBy\":false,\"journeys\":[{\"designator\":{\"destination\":\"DEL\",\"origin\":\"GOX\",\"arrival\":\"2025-09-05T19:00:00\",\"departure\":\"2025-09-05T16:20:00\"},\"flightType\":\"NonStop\",\"journeyKey\":\"UVB_MTYyOX4gfn5HT1h_MDkvMDUvMjAyNSAxNjoyMH5ERUx_MDkvMDUvMjAyNSAxOTowMH5_\",\"segments\":[{\"designator\":{\"destination\":\"DEL\",\"origin\":\"GOX\",\"arrival\":\"2025-09-05T19:00:00\",\"departure\":\"2025-09-05T16:20:00\"},\"fares\":[{\"carrierCode\":\"QP\",\"classOfService\":\"Z2\",\"fareApplicationType\":\"Route\",\"fareBasisCode\":\"Z2O7MBIX\",\"inboundOutBound\":\"None\",\"isAllotmentMarketFare\":false,\"ruleNumber\":\"2001\",\"ruleTariff\":null,\"isGoverning\":true,\"fareKey\":\"MH5aMn5_UVB_WjJPN01CSVh_MjAwMX5_MjN_MX5OREVMR09YMDIzMD"
+}

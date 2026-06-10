@@ -1,0 +1,10 @@
+{
+  "pnr": "PD8UXM",
+  "detail": "SETHI",
+  "startedAt": "2026-06-08T06:52:01.116Z",
+  "pageUrlStart": "https://www.spicejet.com/trips/details?pnr=FYTMSC&last=SETHI",
+  "response": null,
+  "waitForResponseError": "Timed out waiting for /api/v1/booking/retrieveBookingByPNR response",
+  "usedDomScrape": true,
+  "domData": {}
+}

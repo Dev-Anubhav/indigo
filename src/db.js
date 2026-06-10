@@ -44,6 +44,7 @@ function initSchema(db) {
       departure_time    TEXT,
       arrival_time      TEXT,
       booking_status    TEXT,
+      travel_status     TEXT,
       lift_status       TEXT,
       refund_amount     TEXT,
       refund_status     TEXT,
@@ -77,6 +78,9 @@ function ensureColumns(db) {
     .map((c) => c.name);
   if (!cols.includes("lift_status")) {
     db.exec(`ALTER TABLE jobs ADD COLUMN lift_status TEXT`);
+  }
+  if (!cols.includes("travel_status")) {
+    db.exec(`ALTER TABLE jobs ADD COLUMN travel_status TEXT`);
   }
   if (!cols.includes("refund_amount")) {
     db.exec(`ALTER TABLE jobs ADD COLUMN refund_amount TEXT`);
@@ -141,6 +145,7 @@ function markDone(id, data) {
       departure_time = @departure_time,
       arrival_time   = @arrival_time,
       booking_status = @booking_status,
+      travel_status  = @travel_status,
       lift_status    = @lift_status,
       seat_number    = @seat_number,
       fare_amount    = @fare_amount,

@@ -1,0 +1,35 @@
+{
+  "pnr": "AGIPXN",
+  "detail": "PANCHAL",
+  "startedAt": "2026-06-08T06:32:01.469Z",
+  "pageUrlStart": "about:blank",
+  "response": null,
+  "waitForResponseError": "Timed out waiting for /api/v1/booking/retrieveBookingByPNR response",
+  "usedDomScrape": true,
+  "domData": {
+    "pnr": "AGIPXN",
+    "ticket_number": "64589281",
+    "booking_status": "Completed",
+    "booking_date": "Fri, 16 May 2025",
+    "payment_status": "Paid",
+    "origin": "IXB",
+    "destination": "DEL",
+    "flight_number": "SG 199",
+    "travel_date": "Thu, 5 Jun 2025",
+    "departure_time": "16:50",
+    "arrival_time": "",
+    "duration": "",
+    "terminal": "",
+    "flight_status": "Completed",
+    "passengers": [],
+    "total_amount": "52,390",
+    "fare_breakdown": "",
+    "label_value_map": {
+      "PNR/Booking No": "AGIPXN",
+      "Ticket Number": "64589281",
+      "Status": "Completed",
+      "Booking Date": "Fri, 16 May 2025",
+      "Payment status": "Paid"
+    }
+  }
+}

@@ -1,0 +1,979 @@
+{
+  "pnr": "A7UITW",
+  "contactDetail": "DHACHOLIA",
+  "startedAt": "2026-06-10T06:32:14.557Z",
+  "pageUrlStart": "https://www.akasaair.com/manage-booking",
+  "response": {
+    "data": {
+      "bookingKey": "MTM2MzMwOTYhQTdVSVRXIWZhbHNl",
+      "breakdown": {
+        "balanceDue": 0,
+        "journeyTotals": {
+          "totalAmount": 14166,
+          "totalDiscount": 0,
+          "totalTax": 3540
+        },
+        "journeys": [
+          {
+            "journeyKey": "UVB_MTM1NX4gfn5ERUx_MDgvMDMvMjAyNSAwODoxNX5HT1h_MDgvMDMvMjAyNSAxMDo1NX5_",
+            "totalAmount": 4722,
+            "totalDiscount": 0,
+            "totalTax": 1180
+          }
+        ],
+        "passengerTotals": {
+          "infant": null,
+          "seats": {
+            "total": null,
+            "taxes": null,
+            "adjustments": 4000,
+            "charges": [
+              {
+                "amount": 2000,
+                "code": "SFE",
+                "detail": "DEL-GOX",
+                "type": "ServiceCharge",
+                "collectType": "SellerChargeable",
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 2000,
+                "ticketCode": "SFE"
+              },
+              {
+                "amount": 2000,
+                "code": "SFE",
+                "detail": "Fee OR",
+                "type": "Discount",
+                "collectType": "SellerChargeable",
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 2000,
+                "ticketCode": null
+              },
+              {
+                "amount": 0,
+                "code": "SFE",
+                "detail": "DEL-GOX",
+                "type": "ServiceCharge",
+                "collectType": "SellerChargeable",
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 0,
+                "ticketCode": "SFE"
+              },
+              {
+                "amount": 2000,
+                "code": "SFE",
+                "detail": "DEL-GOX",
+                "type": "ServiceCharge",
+                "collectType": "SellerChargeable",
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 2000,
+                "ticketCode": "SFE"
+              },
+              {
+                "amount": 2000,
+                "code": "SFE",
+                "detail": "Fee OR",
+                "type": "Discount",
+                "collectType": "SellerChargeable",
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 2000,
+                "ticketCode": null
+              }
+            ]
+          },
+          "spoilage": null
+        },
+        "passengers": [
+          {
+            "infant": null,
+            "passengerKey": "MCFBRFQ-",
+            "seats": {
+              "total": null,
+              "taxes": null,
+              "adjustments": 2000,
+              "charges": [
+                {
+                  "amount": 2000,
+                  "code": "SFE",
+                  "detail": "DEL-GOX",
+                  "type": "ServiceCharge",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 2000,
+                  "ticketCode": "SFE"
+                },
+                {
+                  "amount": 2000,
+                  "code": "SFE",
+                  "detail": "Fee OR",
+                  "type": "Discount",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 2000,
+                  "ticketCode": null
+                }
+              ]
+            },
+            "spoilage": null
+          },
+          {
+            "infant": null,
+            "passengerKey": "MSFBRFQ-",
+            "seats": {
+              "total": null,
+              "taxes": null,
+              "adjustments": null,
+              "charges": [
+                {
+                  "amount": 0,
+                  "code": "SFE",
+                  "detail": "DEL-GOX",
+                  "type": "ServiceCharge",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 0,
+                  "ticketCode": "SFE"
+                }
+              ]
+            },
+            "spoilage": null
+          },
+          {
+            "infant": null,
+            "passengerKey": "MiFDSEQ-",
+            "seats": {
+              "total": null,
+              "taxes": null,
+              "adjustments": 2000,
+              "charges": [
+                {
+                  "amount": 2000,
+                  "code": "SFE",
+                  "detail": "DEL-GOX",
+                  "type": "ServiceCharge",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 2000,
+                  "ticketCode": "SFE"
+                },
+                {
+                  "amount": 2000,
+                  "code": "SFE",
+                  "detail": "Fee OR",
+                  "type": "Discount",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 2000,
+                  "ticketCode": null
+                }
+              ]
+            },
+            "spoilage": null
+          }
+        ],
+        "showPriceBreakdown": true,
+        "totalAmount": 17706,
+        "totalCharged": 17706,
+        "totalToCollect": 17706
+      },
+      "contacts": [
+        {
+          "address": {
+            "lineOne": "NA",
+            "lineTwo": "NA",
+            "lineThree": null,
+            "countryCode": "IN",
+            "provinceState": null,
+            "city": "NA",
+            "postalCode": null
+          },
+          "companyName": "TSC ONLINE",
+          "contactTypeCode": "P",
+          "cultureCode": null,
+          "customerNumber": null,
+          "distributionOption": "Email",
+          "emailAddress": "",
+          "encryptedEmailAddress": "DEF982E330EE1441DBCF7CE8E07ECAB59B228F44703B73DE3616D48A01779E4296EE5A8B810466A269DDF276DA3E80CFD1A69B51564019440D",
+          "maskedEmailAddress": "n*************y@g***l.com",
+          "name": {
+            "first": "AYUSHI BARUA",
+            "middle": null,
+            "last": "DHACHOLIA",
+            "title": "MRS",
+            "suffix": null
+          },
+          "notificationPreference": "None",
+          "phoneNumbers": [
+            {
+              "number": "",
+              "type": "Other",
+              "encryptedNumber": "AB7FF00AAB021711FB76F0D7B378755DECE5F80B46754183E3B382D02A153235AB5493B0C1DECA4E44D7",
+              "maskedNumber": "99******55"
+            },
+            {
+              "number": "",
+              "type": "Home",
+              "encryptedNumber": "F5EC07281CFA0EC919C9302867CAF4FF5EA7ED793CDC43CC9C868284A80F1F081FCF2BA8D2EA488E1F57",
+              "maskedNumber": "99******55"
+            }
+          ],
+          "sourceOrganization": "QPQJU9122B"
+        }
+      ],
+      "currencyCode": "INR",
+      "extraSeatPassengers": [],
+      "gst": null,
+      "hold": null,
+      "info": {
+        "bookedDate": "2025-08-02T11:08:23.75",
+        "bookingType": null,
+        "changeAllowed": true,
+        "createdDate": "2025-08-02T11:08:23.75",
+        "expirationDate": "2025-08-04T02:45:00",
+        "modifiedDate": "2025-08-03T01:49:42.9",
+        "owningCarrierCode": "QP",
+        "paidStatus": "PaidInFull",
+        "priceStatus": "Valid",
+        "status": "Confirmed"
+      },
+      "isFareLockBooking": false,
+      "isGdsBooking": false,
+      "isGroupBooking": false,
+      "isMaxVoucherLimitReached": false,
+      "isStandBy": false,
+      "journeys": [
+        {
+          "designator": {
+            "destination": "GOX",
+            "origin": "DEL",
+            "arrival": "2025-08-03T10:55:00",
+            "departure": "2025-08-03T08:15:00"
+          },
+          "flightType": "NonStop",
+          "journeyKey": "UVB_MTM1NX4gfn5ERUx_MDgvMDMvMjAyNSAwODoxNX5HT1h_MDgvMDMvMjAyNSAxMDo1NX5_",
+          "segments": [
+            {
+              "designator": {
+                "destination": "GOX",
+                "origin": "DEL",
+                "arrival": "2025-08-03T10:55:00",
+                "departure": "2025-08-03T08:15:00"
+              },
+              "fares": [
+                {
+                  "carrierCode": "QP",
+                  "classOfService": "R9",
+                  "fareApplicationType": "Route",
+                  "fareBasisCode": "R9O7RBIX",
+                  "inboundOutBound": "None",
+                  "isAllotmentMarketFare": false,
+                  "ruleNumber": "1001",
+                  "ruleTariff": null,
+                  "isGoverning": true,
+                  "fareKey": "MH5SOX5_UVB_UjlPN1JCSVh_MTAwMX5_MjJ_MX5OREVMR09YMDIyMDAxMH5Y",
+                  "classType": null,
+                  "fareClassOfService": "R9",
+                  "fareSequence": 1,
+                  "fareStatus": "Default",
+                  "originalClassOfService": "R9",
+                  "productClass": "EC",
+                  "travelClassCode": "Y",
+                  "crossReferenceClassOfService": null,
+                  "passengerFares": [
+                    {
+                      "fareDiscountCode": null,
+                      "passengerType": "ADT",
+                      "serviceCharges": [
+                        {
+                          "amount": 4722,
+                          "code": null,
+                          "detail": null,
+                          "type": "FarePrice",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 4722,
+                          "ticketCode": null
+                        },
+                        {
+                          "amount": 75,
+                          "code": "CUTE",
+                          "detail": "DEL-GOX",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 75,
+                          "ticketCode": "PHF"
+                        },
+                        {
+                          "amount": 50,
+                          "code": "RCS",
+                          "detail": "DEL-GOX",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 50,
+                          "ticketCode": "RCS"
+                        },
+                        {
+                          "amount": 236,
+                          "code": "ASF",
+                          "detail": "DEL-GOX",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 236,
+                          "ticketCode": "ASF"
+                        },
+                        {
+                          "amount": 152,
+                          "code": "UDF",
+                          "detail": "DEL-GOX",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 152,
+                          "ticketCode": "UDF"
+                        },
+                        {
+                          "amount": 425,
+                          "code": "DUDF",
+                          "detail": "DEL-GOX",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 425,
+                          "ticketCode": "DUF"
+                        },
+                        {
+                          "amount": 118,
+                          "code": "C07",
+                          "detail": "DEL-GOX",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 118,
+                          "ticketCode": "C07"
+                        },
+                        {
+                          "amount": 3,
+                          "code": "C07",
+                          "detail": "DEL-GOX",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 3,
+                          "ticketCode": "C07"
+                        },
+                        {
+                          "amount": 118,
+                          "code": "U07",
+                          "detail": "DEL-GOX",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 118,
+                          "ticketCode": "U07"
+                        },
+                        {
+                          "amount": 3,
+                          "code": "U07",
+                          "detail": "DEL-GOX",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 3,
+                          "ticketCode": "U07"
+                        }
+                      ],
+                      "discountCode": null
+                    },
+                    {
+                      "fareDiscountCode": null,
+                      "passengerType": "CHD",
+                      "serviceCharges": [
+                        {
+                          "amount": 4722,
+                          "code": null,
+                          "detail": null,
+                          "type": "FarePrice",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 4722,
+                          "ticketCode": null
+                        },
+                        {
+                          "amount": 75,
+                          "code": "CUTE",
+                          "detail": "DEL-GOX",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 75,
+                          "ticketCode": "PHF"
+                        },
+                        {
+                          "amount": 50,
+                          "code": "RCS",
+                          "detail": "DEL-GOX",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 50,
+                          "ticketCode": "RCS"
+                        },
+                        {
+                          "amount": 236,
+                          "code": "ASF",
+                          "detail": "DEL-GOX",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 236,
+                          "ticketCode": "ASF"
+                        },
+                        {
+                          "amount": 152,
+                          "code": "UDF",
+                          "detail": "DEL-GOX",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 152,
+                          "ticketCode": "UDF"
+                        },
+                        {
+                          "amount": 425,
+                          "code": "DUDF",
+                          "detail": "DEL-GOX",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 425,
+                          "ticketCode": "DUF"
+                        },
+                        {
+                          "amount": 118,
+                          "code": "C07",
+                          "detail": "DEL-GOX",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 118,
+                          "ticketCode": "C07"
+                        },
+                        {
+                          "amount": 3,
+                          "code": "C07",
+                          "detail": "DEL-GOX",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 3,
+                          "ticketCode": "C07"
+                        },
+                        {
+                          "amount": 118,
+                          "code": "U07",
+                          "detail": "DEL-GOX",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 118,
+                          "ticketCode": "U07"
+                        },
+                        {
+                          "amount": 3,
+                          "code": "U07",
+                          "detail": "DEL-GOX",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 3,
+                          "ticketCode": "U07"
+                        }
+                      ],
+                      "discountCode": null
+                    }
+                  ],
+                  "fareLink": 22
+                }
+              ],
+              "flightReference": "20250803 QP1355 DELGOX",
+              "identifier": {
+                "identifier": "1355",
+                "carrierCode": "QP",
+                "opSuffix": null
+              },
+              "international": false,
+              "legs": [
+                {
+                  "designator": {
+                    "destination": "GOX",
+                    "origin": "DEL",
+                    "arrival": "2025-08-03T10:55:00",
+                    "departure": "2025-08-03T08:15:00"
+                  },
+                  "flightReference": "20250803 QP1355 DELGOX",
+                  "legInfo": {
+                    "arrivalTerminal": null,
+                    "arrivalTime": "2025-08-03T10:55:00",
+                    "arrivalTimeUtc": "2025-08-03T05:25:00",
+                    "departureTerminal": "Terminal 1D",
+                    "departureTime": "2025-08-03T08:15:00",
+                    "departureTimeUtc": "2025-08-03T02:45:00",
+                    "status": "Closed"
+                  },
+                  "legKey": "NjM4ODk4MDU3MDAwMDAwMDAwIVFQITEzNTUhICFERUwhR09YITIwODM1NA--",
+                  "operationsInfo": null,
+                  "seatmapReference": "UVAhMTM1NSEgITYzODg5ODA1NzAwMDAwMDAwMCFERUwhR09Y"
+                }
+              ],
+              "passengerSegment": [
+                {
+                  "activityDate": "2025-08-03T02:30:39.52",
+                  "baggageGroupNumber": "1",
+                  "bags": [
+                    {
+                      "baggageKey": "MDUxNjI3MDkyMQ--",
+                      "passengerKey": "MCFBRFQ-",
+                      "arrivalStation": "GOX",
+                      "status": "Checked",
+                      "departureStation": "DEL",
+                      "osTag": "0516270921"
+                    }
+                  ],
+                  "boardingPassDetail": null,
+                  "bundleCode": null,
+                  "hasInfant": false,
+                  "liftStatus": "Boarded",
+                  "passAllowCheckIn": true,
+                  "passengerKey": "MCFBRFQ-",
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "1D",
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 2,
+                        "propertyList": {
+                          "AISLE": "TRUE",
+                          "BRDZONE": "1",
+                          "LEGROOM": "TRUE",
+                          "TCC": "Y"
+                        }
+                      },
+                      "arrivalStation": "GOX",
+                      "departureStation": "DEL",
+                      "passengerKey": "MCFBRFQ-",
+                      "unitKey": "UVAhMTM1NSEgITYzODg5ODA1NzAwMDAwMDAwMCFERUwhR09YITFEIVk-",
+                      "crossReferenceSeatingPreference": null,
+                      "isPending": false
+                    }
+                  ],
+                  "ssrs": []
+                },
+                {
+                  "activityDate": "2025-08-03T02:31:11.917",
+                  "baggageGroupNumber": "1",
+                  "bags": [
+                    {
+                      "baggageKey": "MDUxNjI3MDkzOA--",
+                      "passengerKey": "MSFBRFQ-",
+                      "arrivalStation": "GOX",
+                      "status": "Checked",
+                      "departureStation": "DEL",
+                      "osTag": "0516270938"
+                    }
+                  ],
+                  "boardingPassDetail": null,
+                  "bundleCode": null,
+                  "hasInfant": false,
+                  "liftStatus": "Boarded",
+                  "passAllowCheckIn": true,
+                  "passengerKey": "MSFBRFQ-",
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "2F",
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 4,
+                        "propertyList": {
+                          "BRDZONE": "1",
+                          "TCC": "Y",
+                          "WINDOW": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "GOX",
+                      "departureStation": "DEL",
+                      "passengerKey": "MSFBRFQ-",
+                      "unitKey": "UVAhMTM1NSEgITYzODg5ODA1NzAwMDAwMDAwMCFERUwhR09YITJGIVk-",
+                      "crossReferenceSeatingPreference": null,
+                      "isPending": false
+                    }
+                  ],
+                  "ssrs": []
+                },
+                {
+                  "activityDate": "2025-08-03T02:30:42.503",
+                  "baggageGroupNumber": "1",
+                  "bags": [],
+                  "boardingPassDetail": null,
+                  "bundleCode": null,
+                  "hasInfant": false,
+                  "liftStatus": "Boarded",
+                  "passAllowCheckIn": true,
+                  "passengerKey": "MiFDSEQ-",
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "1E",
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 2,
+                        "propertyList": {
+                          "BRDZONE": "1",
+                          "LEGROOM": "TRUE",
+                          "TCC": "Y"
+                        }
+                      },
+                      "arrivalStation": "GOX",
+                      "departureStation": "DEL",
+                      "passengerKey": "MiFDSEQ-",
+                      "unitKey": "UVAhMTM1NSEgITYzODg5ODA1NzAwMDAwMDAwMCFERUwhR09YITFFIVk-",
+                      "crossReferenceSeatingPreference": null,
+                      "isPending": false
+                    }
+                  ],
+                  "ssrs": []
+                }
+              ],
+              "salesDate": "2025-08-02T11:08:23.75",
+              "segmentKey": "UVB_MTM1NX4gfn5ERUx_MDgvMDMvMjAyNSAwODoxNX5HT1h_MDgvMDMvMjAyNSAxMDo1NX5_"
+            }
+          ],
+          "stops": 0
+        }
+      ],
+      "passengerFees": [
+        {
+          "fees": [
+            {
+              "applicableFor": [],
+              "code": "SFE"
+            }
+          ],
+          "passengerKey": "MCFBRFQ-"
+        },
+        {
+          "fees": [
+            {
+              "applicableFor": [],
+              "code": "SFE"
+            }
+          ],
+          "passengerKey": "MSFBRFQ-"
+        },
+        {
+          "fees": [
+            {
+              "applicableFor": [],
+              "code": "SFE"
+            }
+          ],
+          "passengerKey": "MiFDSEQ-"
+        }
+      ],
+      "passengers": [
+        {
+          "addresses": [],
+          "bags": [
+            {
+              "identifier": "1355",
+              "nonStandard": false,
+              "osTag": "0516270921",
+              "taggedToStation": "GOX",
+              "weight": 10,
+              "weightType": "Kilograms",
+              "baggageKey": "MDUxNjI3MDkyMQ--",
+              "type": "STND",
+              "osTagDate": "2025-08-03T00:00:00",
+              "stationCode": "DEL",
+              "taggedToCarrierCode": "QP"
+            }
+          ],
+          "customerNumber": null,
+          "discountCode": null,
+          "emdCoupons": [],
+          "fees": [
+            {
+              "isConfirmed": true,
+              "isConfirming": false,
+              "isConfirmingExternal": false,
+              "code": "SFE",
+              "detail": null,
+              "passengerFeeKey": "MCEwITk-",
+              "override": true,
+              "flightReference": "20250803 QP1355 DELGOX",
+              "note": null,
+              "createdDate": "2025-08-03T01:48:55.88",
+              "isProtected": false,
+              "serviceCharges": [
+                {
+                  "amount": 2000,
+                  "code": "SFE",
+                  "detail": "DEL-GOX",
+                  "type": "ServiceCharge",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 2000,
+                  "ticketCode": "SFE"
+                },
+                {
+                  "amount": 2000,
+                  "code": "SFE",
+                  "detail": "Fee OR",
+                  "type": "Discount",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 2000,
+                  "ticketCode": null
+                }
+              ],
+              "type": "SeatFee",
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0
+            }
+          ],
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": "Female",
+            "dateOfBirth": null,
+            "familyNumber": null
+          },
+          "name": {
+            "first": "AYUSHI BARUA",
+            "middle": null,
+            "last": "DHACHOLIA",
+            "title": "MRS",
+            "suffix": null
+          },
+          "passengerAlternateKey": "MjM2OTI5NjE-",
+          "passengerKey": "MCFBRFQ-",
+          "passengerTypeCode": "ADT",
+          "program": null,
+          "travelDocuments": [],
+          "weightCategory": "Female"
+        },
+        {
+          "addresses": [],
+          "bags": [
+            {
+              "identifier": "1355",
+              "nonStandard": false,
+              "osTag": "0516270938",
+              "taggedToStation": "GOX",
+              "weight": 9,
+              "weightType": "Kilograms",
+              "baggageKey": "MDUxNjI3MDkzOA--",
+              "type": "STND",
+              "osTagDate": "2025-08-03T00:00:00",
+              "stationCode": "DEL",
+              "taggedToCarrierCode": "QP"
+            }
+          ],
+          "customerNumber": null,
+          "discountCode": null,
+          "emdCoupons": [],
+          "fees": [
+            {
+              "isConfirmed": true,
+              "isConfirming": false,
+              "isConfirmingExternal": false,
+              "code": "SFE",
+              "detail": null,
+              "passengerFeeKey": "MSEwITk-",
+              "override": false,
+              "flightReference": "20250803 QP1355 DELGOX",
+              "note": null,
+              "createdDate": "2025-08-03T01:48:55.88",
+              "isProtected": false,
+              "serviceCharges": [
+                {
+                  "amount": 0,
+                  "code": "SFE",
+                  "detail": "DEL-GOX",
+                  "type": "ServiceCharge",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 0,
+                  "ticketCode": "SFE"
+                }
+              ],
+              "type": "SeatFee",
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0
+            }
+          ],
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": "Female",
+            "dateOfBirth": null,
+            "familyNumber": null
+          },
+          "name": {
+            "first": "TANYA",
+            "middle": null,
+            "last": "RAI",
+            "title": "MS",
+            "suffix": null
+          },
+          "passengerAlternateKey": "MjM2OTI5NjI-",
+          "passengerKey": "MSFBRFQ-",
+          "passengerTypeCode": "ADT",
+          "program": null,
+          "travelDocuments": [],
+          "weightCategory": "Female"
+        },
+        {
+          "addresses": [],
+          "bags": [],
+          "customerNumber": null,
+          "discountCode": null,
+          "emdCoupons": [],
+          "fees": [
+            {
+              "isConfirmed": true,
+              "isConfirming": false,
+              "isConfirmingExternal": false,
+              "code": "SFE",
+              "detail": null,
+              "passengerFeeKey": "MiEwITk-",
+              "override": true,
+              "flightReference": "20250803 QP1355 DELGOX",
+              "note": null,
+              "createdDate": "2025-08-03T01:48:55.88",
+              "isProtected": false,
+              "serviceCharges": [
+                {
+                  "amount": 2000,
+                  "code": "SFE",
+                  "detail": "DEL-GOX",
+                  "type": "ServiceCharge",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 2000,
+                  "ticketCode": "SFE"
+                },
+                {
+                  "amount": 2000,
+                  "code": "SFE",
+                  "detail": "Fee OR",
+                  "type": "Discount",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 2000,
+                  "ticketCode": null
+                }
+              ],
+              "type": "SeatFee",
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0
+            }
+          ],
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": "Female",
+            "dateOfBirth": "2022-11-15T00:00:00",
+            "familyNumber": null
+          },
+          "name": {
+            "first": "AADRITI",
+            "middle": null,
+            "last": "DHACHOLIA",
+            "title": "CHD",
+            "suffix": null
+          },
+          "passengerAlternateKey": "MjM2OTI5NjM-",
+          "passengerKey": "MiFDSEQ-",
+          "passengerTypeCode": "CHD",
+          "program": null,
+          "travelDocuments": [],
+          "weightCategory": "Child"
+        }
+      ],
+      "primaryContactTypeCode": "P",
+      "recordLocator": "A7UITW",
+      "restriction": {
+        "allowAddOns": true,
+        "allowCancelBooking": false,
+        "allowCancellationPolicy": true,
+        "allowChangeDate": true,
+        "allowCheckIn": true,
+        "allowEmailItinerary": true,
+        "allowManageBooking": true,
+        "allowNoShowRefundClaim": false,
+        "allowTravelCertificate": false,
+        "allowUndoCheckIn": true,
+        "allowUpdateContact": true,
+        "allowViewGst": true,
+        "allowViewRefundReceipt": false
+      },
+      "showMaskedFare": false,
+      "typeOfSale": {
+        "isCorporateFare": false,
+        "promotionCode": null
+      },
+      "voucherDiscounts": []
+    }
+  },
+  "responseStatus": 200,
+  "responseUrl": "https://prod-bl.qp.akasaair.com/api/ibe/booking/retrieve?recordLocator=A7UITW&lastName=DHACHOLIA",
+  "responseBodySnippet": "{\"data\":{\"bookingKey\":\"MTM2MzMwOTYhQTdVSVRXIWZhbHNl\",\"breakdown\":{\"balanceDue\":0.0000,\"journeyTotals\":{\"totalAmount\":14166.0000,\"totalDiscount\":0.0,\"totalTax\":3540.0000},\"journeys\":[{\"journeyKey\":\"UVB_MTM1NX4gfn5ERUx_MDgvMDMvMjAyNSAwODoxNX5HT1h_MDgvMDMvMjAyNSAxMDo1NX5_\",\"totalAmount\":4722.0000,\"totalDiscount\":0.0,\"totalTax\":1180.0000}],\"passengerTotals\":{\"infant\":null,\"seats\":{\"total\":null,\"taxes\":null,\"adjustments\":4000.0000,\"charges\":[{\"amount\":2000.0000,\"code\":\"SFE\",\"detail\":\"DEL-GOX\",\"type\":\"ServiceCharge\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":2000.0000,\"ticketCode\":\"SFE\"},{\"amount\":2000.0000,\"code\":\"SFE\",\"detail\":\"Fee OR\",\"type\":\"Discount\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":2000.0000,\"ticketCode\":null},{\"amount\":0.0,\"code\":\"SFE\",\"detail\":\"DEL-GOX\",\"type\":\"ServiceCharge\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":0.0,\"ticketCode\":\"SFE\"},{\"amount\":2000.0000,\"code\":\"SFE\",\"detail\":\"DEL-GOX\",\"type\":\"ServiceCharge\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":2000.0000,\"ticketCode\":\"SFE\"},{\"amount\":2000.0000,\"code\":\"SFE\",\"detail\":\"Fee OR\",\"type\":\"Discount\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":2000.0000,\"ticketCode\":null}]},\"spoilage\":null},\"passengers\":[{\"infant\":null,\"passengerKey\":\"MCFBRFQ-\",\"seats\":{\"total\":null,\"taxes\":null,\"adjustments\":2000.0000,\"charges\":[{\"amount\":2000.0000,\"code\":\"SFE\",\"detail\":\"DEL-GOX\",\"type\":\"ServiceCharge\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":2000.0000,\"ticketCode\":\"SFE\"},{\"amount\":2000.0000,\"code\":\"SFE\",\"detail\":\"Fee OR\",\"type\":\"Discount\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":2000.0000,\"ticketCode\":null}]},\"spoilage\":null},{\"infant\":null,\"passengerKey\":\"MSFBRFQ-\",\"seats\":{\"total\":null,\"taxes\":null,\"adjustments\":null,\"charges\":[{\"amount\":0.0,\"code\":\"SFE\",\"detail\":\"DEL-GOX\",\"type\":\"ServiceCharge\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":0.0,\"ticketCode\":\"SFE\"}]},\"spoilage\":null},{\"infant\":null,\"passengerKey\":\"MiFDSEQ-\",\"seats\":{\"total\":null,\"taxes\":null,\"adjustments\":2000.0000,\"charges\":[{\"amount\":2000.0000,\"code\":\"SFE\",\"detail\":\"DEL-GOX\",\"type\":\"ServiceCharge\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":2000.0000,\"ticketCode\":\"SFE\"},{\"amount\":2000.0000,\"code\":\"SFE\",\"detail\":\"Fee OR\",\"type\":\"Discount\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":2000.0000,\"ticketCode\":null}]},\"spoilage\":null}],\"showPriceBreakdown\":true,\"totalAmount\":17706.0000,\"totalCharged\":17706.0000,\"totalToCollect\":17706.0000},\"contacts\":[{\"address\":{\"lineOne\":\"NA\",\"lineTwo\":\"NA\",\"l"
+}

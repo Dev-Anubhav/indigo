@@ -1,0 +1,9 @@
+{
+  "pnr": "A5CLXJ",
+  "contactDetail": "TICKETING@SHIV-TRAVEL.COM",
+  "startedAt": "2026-06-08T04:44:04.804Z",
+  "pageUrlStart": "https://www.airindiaexpress.com/manage",
+  "response": null,
+  "error": "page.waitForResponse: Timeout 20000ms exceeded while waiting for event \"response\"",
+  "doneAt": "2026-06-08T04:44:29.898Z"
+}

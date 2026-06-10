@@ -1,0 +1,23 @@
+2026/06/08-11:56:01.249 990654 Reusing MANIFEST /Users/user/Downloads/indigo-scraper-v2/data/chrome-spicejet-profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/06/08-11:56:01.253 990654 Recovering log #13
+2026/06/08-11:56:01.254 990654 Level-0 table #16: started
+2026/06/08-11:56:01.277 990654 Level-0 table #16: 60021 bytes OK
+2026/06/08-11:56:01.281 990654 Delete type=0 #13
+2026/06/08-11:57:01.306 990657 Level-0 table #19: started
+2026/06/08-11:57:01.316 990657 Level-0 table #19: 58852 bytes OK
+2026/06/08-11:57:01.321 990657 Delete type=0 #17
+2026/06/08-11:59:21.787 990657 Level-0 table #21: started
+2026/06/08-11:59:21.792 990657 Level-0 table #21: 59895 bytes OK
+2026/06/08-11:59:21.793 990657 Delete type=0 #18
+2026/06/08-11:59:21.795 990654 Compacting 4@0 + 1@1 files
+2026/06/08-11:59:21.803 990654 Generated table #22@0: 39 keys, 60432 bytes
+2026/06/08-11:59:21.803 990654 Compacted 4@0 + 1@1 files => 60432 bytes
+2026/06/08-11:59:21.804 990654 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/06/08-11:59:21.805 990654 Delete type=2 #14
+2026/06/08-11:59:21.805 990654 Delete type=2 #16
+2026/06/08-11:59:21.805 990654 Delete type=2 #12
+2026/06/08-11:59:21.805 990654 Delete type=2 #21
+2026/06/08-11:59:21.805 990654 Delete type=2 #19
+2026/06/08-12:00:18.164 990657 Level-0 table #24: started
+2026/06/08-12:00:18.173 990657 Level-0 table #24: 60179 bytes OK
+2026/06/08-12:00:18.179 990657 Delete type=0 #20

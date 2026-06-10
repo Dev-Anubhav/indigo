@@ -1,45 +1,42 @@
-2026/05/11-21:05:07.614 1c142d Reusing MANIFEST /Users/user/Downloads/indigo-scraper-v2/data/chrome-airindiaexpress-profile/Default/Session Storage/MANIFEST-000001
-2026/05/11-21:05:07.615 1c142d Recovering log #67
-2026/05/11-21:05:07.616 1c142d Level-0 table #70: started
-2026/05/11-21:05:07.619 1c142d Level-0 table #70: 45150 bytes OK
-2026/05/11-21:05:07.619 1c142d Recovering log #69
-2026/05/11-21:05:07.619 1c142d Reusing old log /Users/user/Downloads/indigo-scraper-v2/data/chrome-airindiaexpress-profile/Default/Session Storage/000069.log 
-2026/05/11-21:05:07.621 1c142d Delete type=0 #67
-2026/05/11-21:05:07.623 1c1431 Compacting 4@0 + 1@1 files
-2026/05/11-21:05:07.628 1c1431 Generated table #71@0: 91 keys, 47768 bytes
-2026/05/11-21:05:07.628 1c1431 Compacted 4@0 + 1@1 files => 47768 bytes
-2026/05/11-21:05:07.629 1c1431 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/05/11-21:05:07.630 1c1431 Delete type=2 #62
-2026/05/11-21:05:07.630 1c1431 Delete type=2 #64
-2026/05/11-21:05:07.630 1c1431 Delete type=2 #70
-2026/05/11-21:05:07.630 1c1431 Delete type=2 #66
-2026/05/11-21:05:07.630 1c1431 Delete type=2 #68
-2026/05/11-21:06:35.965 1c1431 Level-0 table #73: started
-2026/05/11-21:06:35.969 1c1431 Level-0 table #73: 18016 bytes OK
-2026/05/11-21:06:35.974 1c1431 Delete type=0 #69
-2026/05/11-21:07:11.398 1c1491 Level-0 table #75: started
-2026/05/11-21:07:11.402 1c1491 Level-0 table #75: 22503 bytes OK
-2026/05/11-21:07:11.410 1c1491 Delete type=0 #72
-2026/05/11-21:08:11.398 1c142d Level-0 table #77: started
-2026/05/11-21:08:11.401 1c142d Level-0 table #77: 14981 bytes OK
-2026/05/11-21:08:11.405 1c142d Delete type=0 #74
-2026/05/11-21:08:12.186 1c1431 Level-0 table #79: started
-2026/05/11-21:08:12.189 1c1431 Level-0 table #79: 18764 bytes OK
-2026/05/11-21:08:12.190 1c1431 Delete type=0 #76
-2026/05/11-21:08:12.192 1c1431 Compacting 4@0 + 1@1 files
-2026/05/11-21:08:12.195 1c1431 Generated table #80@0: 136 keys, 21878 bytes
-2026/05/11-21:08:12.195 1c1431 Compacted 4@0 + 1@1 files => 21878 bytes
-2026/05/11-21:08:12.196 1c1431 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/05/11-21:08:12.197 1c1431 Delete type=2 #77
-2026/05/11-21:08:12.197 1c1431 Delete type=2 #75
-2026/05/11-21:08:12.197 1c1431 Delete type=2 #71
-2026/05/11-21:08:12.197 1c1431 Delete type=2 #73
-2026/05/11-21:08:12.197 1c1431 Delete type=2 #79
-2026/05/11-21:10:11.398 1c142d Level-0 table #82: started
-2026/05/11-21:10:11.401 1c142d Level-0 table #82: 22226 bytes OK
-2026/05/11-21:10:11.403 1c142d Delete type=0 #78
-2026/05/11-21:10:12.187 1c1431 Level-0 table #84: started
-2026/05/11-21:10:12.191 1c1431 Level-0 table #84: 17270 bytes OK
-2026/05/11-21:10:12.193 1c1431 Delete type=0 #81
-2026/05/11-21:10:55.958 1c142d Level-0 table #86: started
-2026/05/11-21:10:55.974 1c142d Level-0 table #86: 30567 bytes OK
+2026/06/08-10:13:38.439 968a68 Reusing MANIFEST /Users/user/Downloads/indigo-scraper-v2/data/chrome-airindiaexpress-profile/Default/Session Storage/MANIFEST-000001
+2026/06/08-10:13:38.441 968a68 Recovering log #101
+2026/06/08-10:13:38.443 968a68 Reusing old log /Users/user/Downloads/indigo-scraper-v2/data/chrome-airindiaexpress-profile/Default/Session Storage/000101.log 
+2026/06/08-10:13:54.485 968a71 Level-0 table #105: started
+2026/06/08-10:13:54.494 968a71 Level-0 table #105: 39757 bytes OK
+2026/06/08-10:13:54.498 968a71 Delete type=0 #101
+2026/06/08-10:14:42.195 968a68 Level-0 table #107: started
+2026/06/08-10:14:42.199 968a68 Level-0 table #107: 38828 bytes OK
+2026/06/08-10:14:42.203 968a68 Delete type=0 #104
+2026/06/08-10:14:42.204 968a68 Compacting 4@0 + 1@1 files
+2026/06/08-10:14:42.210 968a68 Generated table #108@0: 285 keys, 43565 bytes
+2026/06/08-10:14:42.210 968a68 Compacted 4@0 + 1@1 files => 43565 bytes
+2026/06/08-10:14:42.211 968a68 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/08-10:14:42.212 968a68 Delete type=2 #102
+2026/06/08-10:14:42.212 968a68 Delete type=2 #100
+2026/06/08-10:14:42.212 968a68 Delete type=2 #105
+2026/06/08-10:14:42.212 968a68 Delete type=2 #107
+2026/06/08-10:14:42.212 968a68 Delete type=2 #98
+2026/06/08-10:14:44.105 968a71 Level-0 table #110: started
+2026/06/08-10:14:44.110 968a71 Level-0 table #110: 28363 bytes OK
+2026/06/08-10:14:44.115 968a71 Delete type=0 #106
+2026/06/08-10:15:08.896 968a71 Level-0 table #112: started
+2026/06/08-10:15:08.902 968a71 Level-0 table #112: 25255 bytes OK
+2026/06/08-10:15:08.907 968a71 Delete type=0 #109
+2026/06/08-10:15:16.447 968a71 Level-0 table #114: started
+2026/06/08-10:15:16.452 968a71 Level-0 table #114: 34698 bytes OK
+2026/06/08-10:15:16.457 968a71 Delete type=0 #111
+2026/06/08-10:15:19.566 968a71 Level-0 table #116: started
+2026/06/08-10:15:19.570 968a71 Level-0 table #116: 29356 bytes OK
+2026/06/08-10:15:19.573 968a71 Delete type=0 #113
+2026/06/08-10:15:19.574 968a71 Compacting 4@0 + 1@1 files
+2026/06/08-10:15:19.577 968a71 Generated table #117@0: 285 keys, 48195 bytes
+2026/06/08-10:15:19.577 968a71 Compacted 4@0 + 1@1 files => 48195 bytes
+2026/06/08-10:15:19.578 968a71 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/08-10:15:19.579 968a71 Delete type=2 #116
+2026/06/08-10:15:19.579 968a71 Delete type=2 #114
+2026/06/08-10:15:19.579 968a71 Delete type=2 #110
+2026/06/08-10:15:19.579 968a71 Delete type=2 #112
+2026/06/08-10:15:19.579 968a71 Delete type=2 #108
+2026/06/08-10:15:48.922 968a71 Level-0 table #119: started
+2026/06/08-10:15:48.926 968a71 Level-0 table #119: 57249 bytes OK
+2026/06/08-10:15:48.932 968a71 Delete type=0 #115

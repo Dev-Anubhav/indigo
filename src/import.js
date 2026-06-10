@@ -19,9 +19,11 @@ async function importExcel() {
   const rows = [];
 
   // Auto-detect column positions by header name
-  let pnrCol      = 1;  // default: column A
-  let lastNameCol = 2;  // default: column B
-  let emailCol    = -1;
+  let pnrCol = -1;
+  let lastNameCol = -1;
+  let emailCol = -1;
+  let mobileCol = -1;
+  let contactCol = -1;
 
   const headerRow = worksheet.getRow(1);
   headerRow.eachCell((cell, colNumber) => {
@@ -32,24 +34,42 @@ async function importExcel() {
     if (val.includes('last') || val.includes('surname') || val.includes('name')) {
       lastNameCol = colNumber;
     }
-    if (val.includes('email') || val.includes('mobile') || val.includes('phone') || val.includes('contact')) {
+    if (val.includes('email')) {
       emailCol = colNumber;
+    }
+    if (val.includes('mobile') || val.includes('phone')) {
+      mobileCol = colNumber;
+    }
+    if (val.includes('contact')) {
+      contactCol = colNumber;
     }
   });
 
+  const detailCol = lastNameCol > 0
+    ? lastNameCol
+    : emailCol > 0
+      ? emailCol
+      : mobileCol > 0
+        ? mobileCol
+        : contactCol;
+
   console.log(`  Detected PNR column      : ${pnrCol}`);
-  console.log(`  Detected Last Name column: ${lastNameCol}\n`);
+  console.log(`  Detected Last Name column: ${lastNameCol}`);
+  console.log(`  Detected Email column    : ${emailCol}`);
+  console.log(`  Detected Mobile column   : ${mobileCol}`);
+  console.log(`  Using Detail column      : ${detailCol}\n`);
+
+  if (pnrCol < 0 || detailCol < 0) {
+    console.error('❌ Required columns not found. Need PNR plus one of: Last Name, Email, Mobile, Contact.');
+    process.exit(1);
+  }
 
   // Read all rows (skip header row 1)
   worksheet.eachRow((row, rowNumber) => {
     if (rowNumber === 1) return; // skip header
 
-    const pnr      = String(row.getCell(pnrCol).value      || '').trim().toUpperCase();
-    const lastName = String(row.getCell(lastNameCol).value || '').trim().toUpperCase();
-    const altContact = emailCol > 0
-      ? String(row.getCell(emailCol).value || '').trim()
-      : '';
-    const contactDetail = (lastName || altContact).toUpperCase();
+    const pnr = String(row.getCell(pnrCol).value || '').trim().toUpperCase();
+    const contactDetail = String(row.getCell(detailCol).value || '').trim().toUpperCase();
 
     if (!pnr || !contactDetail) return; // skip empty rows
     if (pnr.length < 4)    return; // skip obviously invalid PNRs
@@ -58,7 +78,7 @@ async function importExcel() {
   });
 
   if (rows.length === 0) {
-    console.error('❌ No valid rows found. Check your Excel file has PNR and Last Name columns.');
+    console.error('❌ No valid rows found. Check your Excel file has PNR and one supported detail column.');
     process.exit(1);
   }
 

@@ -1,0 +1,71 @@
+2026/06/08-12:02:00.097 992c93 Reusing MANIFEST /Users/user/Downloads/indigo-scraper-v2/data/chrome-spicejet-profile/Default/Local Storage/leveldb/MANIFEST-000001
+2026/06/08-12:02:00.101 992c93 Recovering log #23
+2026/06/08-12:02:00.103 992c93 Level-0 table #26: started
+2026/06/08-12:02:00.116 992c93 Level-0 table #26: 60323 bytes OK
+2026/06/08-12:02:00.119 992c93 Delete type=0 #23
+2026/06/08-12:03:00.134 992c97 Level-0 table #29: started
+2026/06/08-12:03:00.147 992c97 Level-0 table #29: 58845 bytes OK
+2026/06/08-12:03:00.151 992c97 Delete type=0 #27
+2026/06/08-12:05:21.111 992c97 Level-0 table #31: started
+2026/06/08-12:05:21.116 992c97 Level-0 table #31: 60264 bytes OK
+2026/06/08-12:05:21.119 992c97 Delete type=0 #28
+2026/06/08-12:05:21.122 992c97 Compacting 4@0 + 1@1 files
+2026/06/08-12:05:21.129 992c97 Generated table #32@0: 39 keys, 60740 bytes
+2026/06/08-12:05:21.129 992c97 Compacted 4@0 + 1@1 files => 60740 bytes
+2026/06/08-12:05:21.131 992c97 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/06/08-12:05:21.131 992c97 Delete type=2 #29
+2026/06/08-12:05:21.131 992c97 Delete type=2 #22
+2026/06/08-12:05:21.131 992c97 Delete type=2 #26
+2026/06/08-12:05:21.132 992c97 Delete type=2 #31
+2026/06/08-12:05:21.132 992c97 Delete type=2 #24
+2026/06/08-12:06:59.259 992c97 Level-0 table #34: started
+2026/06/08-12:06:59.263 992c97 Level-0 table #34: 60179 bytes OK
+2026/06/08-12:06:59.265 992c97 Delete type=0 #30
+2026/06/08-12:08:37.830 992c97 Level-0 table #36: started
+2026/06/08-12:08:37.835 992c97 Level-0 table #36: 60445 bytes OK
+2026/06/08-12:08:37.839 992c97 Delete type=0 #33
+2026/06/08-12:10:16.702 992c97 Level-0 table #38: started
+2026/06/08-12:10:16.708 992c97 Level-0 table #38: 60765 bytes OK
+2026/06/08-12:10:16.711 992c97 Delete type=0 #35
+2026/06/08-12:11:55.783 992c97 Level-0 table #40: started
+2026/06/08-12:11:55.790 992c97 Level-0 table #40: 61028 bytes OK
+2026/06/08-12:11:55.795 992c97 Delete type=0 #37
+2026/06/08-12:11:55.797 992c97 Compacting 4@0 + 1@1 files
+2026/06/08-12:11:55.806 992c97 Generated table #41@0: 39 keys, 61339 bytes
+2026/06/08-12:11:55.806 992c97 Compacted 4@0 + 1@1 files => 61339 bytes
+2026/06/08-12:11:55.809 992c97 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/06/08-12:11:55.810 992c97 Delete type=2 #38
+2026/06/08-12:11:55.810 992c97 Delete type=2 #34
+2026/06/08-12:11:55.810 992c97 Delete type=2 #36
+2026/06/08-12:11:55.810 992c97 Delete type=2 #32
+2026/06/08-12:11:55.810 992c97 Delete type=2 #40
+2026/06/08-12:13:35.153 992c97 Level-0 table #43: started
+2026/06/08-12:13:35.160 992c97 Level-0 table #43: 61325 bytes OK
+2026/06/08-12:13:35.163 992c97 Delete type=0 #39
+2026/06/08-12:15:12.938 992c97 Level-0 table #45: started
+2026/06/08-12:15:12.944 992c97 Level-0 table #45: 59268 bytes OK
+2026/06/08-12:15:12.947 992c97 Delete type=0 #42
+2026/06/08-12:16:52.552 992c97 Level-0 table #47: started
+2026/06/08-12:16:52.556 992c97 Level-0 table #47: 62272 bytes OK
+2026/06/08-12:16:52.558 992c97 Delete type=0 #44
+2026/06/08-12:18:32.330 992c97 Level-0 table #49: started
+2026/06/08-12:18:32.336 992c97 Level-0 table #49: 62486 bytes OK
+2026/06/08-12:18:32.344 992c97 Delete type=0 #46
+2026/06/08-12:18:32.345 992c97 Compacting 4@0 + 1@1 files
+2026/06/08-12:18:32.353 992c97 Generated table #50@0: 38 keys, 62826 bytes
+2026/06/08-12:18:32.353 992c97 Compacted 4@0 + 1@1 files => 62826 bytes
+2026/06/08-12:18:32.355 992c97 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/06/08-12:18:32.356 992c97 Delete type=2 #49
+2026/06/08-12:18:32.356 992c97 Delete type=2 #43
+2026/06/08-12:18:32.356 992c97 Delete type=2 #41
+2026/06/08-12:18:32.356 992c97 Delete type=2 #45
+2026/06/08-12:18:32.356 992c97 Delete type=2 #47
+2026/06/08-12:20:12.358 992c97 Level-0 table #52: started
+2026/06/08-12:20:12.364 992c97 Level-0 table #52: 62774 bytes OK
+2026/06/08-12:20:12.367 992c97 Delete type=0 #48
+2026/06/08-12:21:52.493 992c97 Level-0 table #54: started
+2026/06/08-12:21:52.500 992c97 Level-0 table #54: 62916 bytes OK
+2026/06/08-12:21:52.503 992c97 Delete type=0 #51
+2026/06/08-12:22:26.915 992c93 Level-0 table #56: started
+2026/06/08-12:22:26.919 992c93 Level-0 table #56: 63100 bytes OK
+2026/06/08-12:22:26.922 992c93 Delete type=0 #53

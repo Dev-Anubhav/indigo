@@ -1,0 +1,35 @@
+{
+  "pnr": "L9DD2F",
+  "detail": "NARULA",
+  "startedAt": "2026-06-08T06:45:12.471Z",
+  "pageUrlStart": "https://www.spicejet.com/trips/details?pnr=R9D57V&last=KARMULA",
+  "response": null,
+  "waitForResponseError": "Timed out waiting for /api/v1/booking/retrieveBookingByPNR response",
+  "usedDomScrape": true,
+  "domData": {
+    "pnr": "L9DD2F",
+    "ticket_number": "54282461",
+    "booking_status": "Completed",
+    "booking_date": "Sat, 1 Nov 2025",
+    "payment_status": "Paid",
+    "origin": "DEL",
+    "destination": "DXB",
+    "flight_number": "SG 11",
+    "travel_date": "Fri, 7 Nov 2025",
+    "departure_time": "09:50",
+    "arrival_time": "00:30",
+    "duration": "",
+    "terminal": "",
+    "flight_status": "Completed",
+    "passengers": [],
+    "total_amount": "60,826",
+    "fare_breakdown": "",
+    "label_value_map": {
+      "PNR/Booking No": "L9DD2F",
+      "Ticket Number": "54282461",
+      "Status": "Completed",
+      "Booking Date": "Sat, 1 Nov 2025",
+      "Payment status": "Paid"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "pnr": "WEG1TH",
+  "contactDetail": "JIYADEEN KAJI",
+  "startedAt": "2026-06-10T05:23:19.979Z",
+  "pageUrlStart": "about:blank",
+  "response": null,
+  "inlineError": "",
+  "error": "page.goto: Target page, context or browser has been closed",
+  "doneAt": "2026-06-10T05:23:24.768Z"
+}

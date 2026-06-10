@@ -172,3 +172,605 @@ browserContext.newPage: Target page, context or browser has been closed
 [2026-05-11 21:17:10] INFO:   ✅ [ZUTPSR] Done — IX 137 | CONFIRMED (2)
 [2026-05-11 21:17:10] INFO: 
 ✅ Batch #3 complete — 21 succeeded, 1 failed
+[2026-06-08 10:08:04] INFO: 
+📦 Batch #1 — 40 jobs
+[2026-06-08 10:08:34] INFO:   ✅ [A22U4P] Done — no flight | unknown status
+[2026-06-08 10:08:34] ERROR: Fatal error in main run loop: browserContext.newPage: Target page, context or browser has been closed
+browserContext.newPage: Target page, context or browser has been closed
+    at ensureBrowser (/Users/user/Downloads/indigo-scraper-v2/src/airlines/airindiaexpress/scraper.js:131:50)
+    at fetchPNR (/Users/user/Downloads/indigo-scraper-v2/src/airlines/airindiaexpress/scraper.js:219:25)
+    at processJob (/Users/user/Downloads/indigo-scraper-v2/src/index.js:95:24)
+    at run (/Users/user/Downloads/indigo-scraper-v2/src/index.js:168:29)
+[2026-06-08 10:13:36] INFO: 
+📦 Batch #1 — 40 jobs
+[2026-06-08 10:13:56] INFO:   ✅ [A22U4P] Done — IX 127 | CONFIRMED (2)
+[2026-06-08 10:14:04] INFO:   ✅ [A4YGTM] Done — IX 183 | CONFIRMED (2)
+[2026-06-08 10:14:29] WARN:   ❌ [A5CLXJ] Failed — page.waitForResponse: Timeout 20000ms exceeded while waiting for event "response"
+[2026-06-08 10:14:37] INFO:   ✅ [B6UHYT] Done — IX 191 | CONFIRMED (2)
+[2026-06-08 10:14:46] WARN:   ❌ [BV3C6Y] Failed — response.json: Protocol error (Network.getResponseBody): No resource with given identifier found
+[2026-06-08 10:14:53] INFO:   ✅ [C7954A] Done — IX 191 | CONFIRMED (2)
+[2026-06-08 10:15:00] WARN:   ❌ [CBIS4R] Failed — response.json: Protocol error (Network.getResponseBody): No resource with given identifier found
+[2026-06-08 10:15:07] WARN:   ❌ [CYBIPX] Failed — response.json: Protocol error (Network.getResponseBody): No resource with given identifier found
+[2026-06-08 10:15:15] WARN:   ❌ [D3QS3Z] Failed — response.json: Protocol error (Network.getResponseBody): No resource with given identifier found
+[2026-06-08 10:15:23] INFO:   ✅ [D7QFFQ] Done — IX 491 | CONFIRMED (2)
+[2026-06-08 10:15:30] WARN:   ❌ [DBJNKE] Failed — response.json: Protocol error (Network.getResponseBody): No resource with given identifier found
+[2026-06-08 10:15:39] INFO:   ✅ [DBS2QE] Done — IX 192 | CONFIRMED (2)
+[2026-06-08 10:15:47] WARN:   ❌ [DUQE7Y] Failed — response.json: Protocol error (Network.getResponseBody): No resource with given identifier found
+[2026-06-08 10:15:50] WARN:   ❌ [DZT5TV] Failed — page.goto: Target page, context or browser has been closed
+[2026-06-08 10:15:50] ERROR: Fatal error in main run loop: browserContext.newPage: Target page, context or browser has been closed
+browserContext.newPage: Target page, context or browser has been closed
+    at ensureBrowser (/Users/user/Downloads/indigo-scraper-v2/src/airlines/airindiaexpress/scraper.js:131:50)
+    at fetchPNR (/Users/user/Downloads/indigo-scraper-v2/src/airlines/airindiaexpress/scraper.js:219:25)
+    at processJob (/Users/user/Downloads/indigo-scraper-v2/src/index.js:95:24)
+    at run (/Users/user/Downloads/indigo-scraper-v2/src/index.js:168:29)
+[2026-06-08 10:19:02] INFO: 
+📦 Batch #1 — 40 jobs
+[2026-06-08 10:19:34] INFO:   ✅ [A22U4P] Done — IX 127 | CONFIRMED (2)
+[2026-06-08 10:19:42] WARN:   ❌ [A4YGTM] Failed — response.text: Protocol error (Network.getResponseBody): No resource with given identifier found
+[2026-06-08 10:20:13] WARN:   ❌ [A5CLXJ] Failed — Timed out waiting for /b2c-CheckIn/v2/retrieve/mmb/byRecordLocator response
+[2026-06-08 10:20:35] INFO:   ✅ [B6UHYT] Done — IX 191 | CONFIRMED (2)
+[2026-06-08 10:20:42] INFO:   ✅ [BV3C6Y] Done — IX 192 | CANCELLED (3)
+[2026-06-08 10:20:50] WARN:   ❌ [C7954A] Failed — response.text: Protocol error (Network.getResponseBody): No resource with given identifier found
+[2026-06-08 10:21:00] INFO:   ✅ [CBIS4R] Done — IX 2513 | CANCELLED (3)
+[2026-06-08 10:21:10] INFO:   ✅ [CYBIPX] Done — IX 1956 | CONFIRMED (2)
+[2026-06-08 10:21:19] WARN:   ❌ [D3QS3Z] Failed — response.text: Protocol error (Network.getResponseBody): No resource with given identifier found
+[2026-06-08 10:21:27] INFO:   ✅ [D7QFFQ] Done — IX 491 | CONFIRMED (2)
+[2026-06-08 10:21:36] INFO:   ✅ [DBJNKE] Done — IX 193 | CANCELLED (3)
+[2026-06-08 10:21:43] INFO:   ✅ [DBS2QE] Done — IX 192 | CONFIRMED (2)
+[2026-06-08 10:21:53] INFO:   ✅ [DUQE7Y] Done — IX 2650 | CONFIRMED (2)
+[2026-06-08 10:22:02] INFO:   ✅ [DZT5TV] Done — IX 1144 | CONFIRMED (2)
+[2026-06-08 10:22:11] INFO:   ✅ [E2CB2P] Done — IX 241 | CONFIRMED (2)
+[2026-06-08 10:22:20] INFO:   ✅ [E5KIHW] Done — IX 2696 | CONFIRMED (2)
+[2026-06-08 10:22:30] WARN:   ❌ [E8R3XA] Failed — response.text: Protocol error (Network.getResponseBody): No resource with given identifier found
+[2026-06-08 10:22:40] INFO:   ✅ [F6GHNT] Done — IX 127 | CONFIRMED (2)
+[2026-06-08 10:22:49] INFO:   ✅ [F6VZTT] Done — IX 1176 | CONFIRMED (2)
+[2026-06-08 10:22:59] INFO:   ✅ [F81EFA] Done — IX 2011 | CONFIRMED (2)
+[2026-06-08 10:23:08] INFO:   ✅ [FB1PHH] Done — IX 2714 | CONFIRMED (2)
+[2026-06-08 10:23:17] WARN:   ❌ [FCYZVE] Failed — response.text: Protocol error (Network.getResponseBody): No resource with given identifier found
+[2026-06-08 10:23:28] INFO:   ✅ [FZY9SY] Done — IX 113 | CONFIRMED (2)
+[2026-06-08 10:23:37] INFO:   ✅ [G1K4JF] Done — IX 2547 | CONFIRMED (2)
+[2026-06-08 10:23:46] INFO:   ✅ [G1Z3FI] Done — IX 2714 | CONFIRMED (2)
+[2026-06-08 10:23:55] INFO:   ✅ [G3SK7M] Done — IX 145 | CONFIRMED (2)
+[2026-06-08 10:24:04] INFO:   ✅ [G87K3N] Done — IX 183 | CANCELLED (3)
+[2026-06-08 10:24:11] WARN:   ❌ [GC61QE] Failed — response.text: Protocol error (Network.getResponseBody): No resource with given identifier found
+[2026-06-08 10:24:19] INFO:   ✅ [H1HJXV] Done — IX 1331 | CONFIRMED (2)
+[2026-06-08 10:24:27] WARN:   ❌ [H6VHTT] Failed — response.text: Protocol error (Network.getResponseBody): No resource with given identifier found
+[2026-06-08 10:24:36] INFO:   ✅ [H73L6Q] Done — IX 192 | CONFIRMED (2)
+[2026-06-08 10:24:46] INFO:   ✅ [H8BUYQ] Done — no flight | CANCELLED (3)
+[2026-06-08 10:24:55] INFO:   ✅ [H9RPGK] Done — IX 137 | CONFIRMED (2)
+[2026-06-08 10:25:03] INFO:   ✅ [HBCU4E] Done — IX 1068 | CONFIRMED (2)
+[2026-06-08 10:25:12] INFO:   ✅ [HC8FKR] Done — IX 1937 | CONFIRMED (2)
+[2026-06-08 10:25:23] INFO:   ✅ [I25HQF] Done — IX 1068 | CONFIRMED (2)
+[2026-06-08 10:25:32] WARN:   ❌ [I8F2FA] Failed — response.text: Protocol error (Network.getResponseBody): No resource with given identifier found
+[2026-06-08 10:25:41] INFO:   ✅ [IUBQSB] Done — IX 2665 | CONFIRMED (2)
+[2026-06-08 10:25:48] INFO:   ✅ [IVCU6Y] Done — no flight | CANCELLED (3)
+[2026-06-08 10:25:59] INFO:   ✅ [J1R39S] Done — IX 137 | CONFIRMED (2)
+[2026-06-08 10:25:59] INFO: 
+✅ Batch #1 complete — 31 succeeded, 9 failed
+[2026-06-08 10:25:59] INFO: Starting IP rotation...
+[2026-06-08 10:26:01] INFO: 🔄 Starting IP rotation (brand: tplink)...
+[2026-06-08 10:26:02] WARN: Could not reboot router via HTTP. Trying fallback (ping method)...
+[2026-06-08 10:26:02] INFO: ⏳ Waiting 35s for router to come back online...
+[2026-06-08 10:43:05] INFO: 
+📦 Batch #1 — 40 jobs
+[2026-06-08 11:19:03] INFO: 
+📦 Batch #1 — 40 jobs
+[2026-06-08 11:19:38] WARN:   ❌ [AGIPXN] Failed — locator.click: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for getByText('Search Booking', { exact: true }).first()[22m
+[2m    - locator resolved to <div dir="auto" class="css-76zvg2 r-jwli3a r-ubezar r-1kfrs79">Search Booking</div>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="0" data-focusable="true" class="css-1dbjc4n r-1awozwy r-19m6qjp r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73 r-13qz1uu">…</div> intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="0" data-focusable="true" class="css-1dbjc4n r-1awozwy r-19m6qjp r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73 r-13qz1uu">…</div> intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    7 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div class="css-1dbjc4n r-184aecr r-18u37iz r-1777fci r-1w50u8q r-1xcajam r-13qz1uu r-184en5c">…</div> from <div class="css-1dbjc4n r-13qz1uu r-1g40b8q">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="0" data-focusable="true" class="css-1dbjc4n r-1awozwy r-19m6qjp r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73 r-13qz1uu">…</div> intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="0" data-focusable="true" class="css-1dbjc4n r-1awozwy r-19m6qjp r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73 r-13qz1uu">…</div> intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="0" data-focusable="true" class="css-1dbjc4n r-1awozwy r-19m6qjp r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73 r-13qz1uu">…</div> intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+
+[2026-06-08 11:19:43] WARN:   ❌ [BIQ7WH] Failed — page.goto: Target page, context or browser has been closed
+[2026-06-08 11:19:49] WARN:   ❌ [IFMZHQ] Failed — page.goto: Target page, context or browser has been closed
+Call log:
+[2m  - navigating to "https://www.spicejet.com/#manage-booking", waiting until "domcontentloaded"[22m
+
+[2026-06-08 11:19:49] ERROR: Fatal error in main run loop: browserContext.newPage: Target page, context or browser has been closed
+browserContext.newPage: Target page, context or browser has been closed
+    at ensureBrowser (/Users/user/Downloads/indigo-scraper-v2/src/airlines/spicejet/scraper.js:107:50)
+    at fetchPNR (/Users/user/Downloads/indigo-scraper-v2/src/airlines/spicejet/scraper.js:306:25)
+    at processJob (/Users/user/Downloads/indigo-scraper-v2/src/index.js:102:24)
+    at run (/Users/user/Downloads/indigo-scraper-v2/src/index.js:177:29)
+[2026-06-08 11:35:22] INFO: 
+📦 Batch #1 — 40 jobs
+[2026-06-08 11:36:06] WARN:   ❌ [AGIPXN] Failed — locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByText('Search Booking', { exact: true }).first()[22m
+[2m    - locator resolved to <div dir="auto" class="css-76zvg2 r-jwli3a r-ubezar r-1kfrs79">Search Booking</div>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="0" data-focusable="true" class="css-1dbjc4n r-1awozwy r-19m6qjp r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73 r-13qz1uu">…</div> intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="0" data-focusable="true" class="css-1dbjc4n r-1awozwy r-19m6qjp r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73 r-13qz1uu">…</div> intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div class="css-1dbjc4n r-184aecr r-18u37iz r-1777fci r-1w50u8q r-1xcajam r-13qz1uu r-184en5c">…</div> from <div class="css-1dbjc4n r-13qz1uu r-1g40b8q">…</div> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="0" data-focusable="true" class="css-1dbjc4n r-1awozwy r-19m6qjp r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73 r-13qz1uu">…</div> intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="0" data-focusable="true" class="css-1dbjc4n r-1awozwy r-19m6qjp r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73 r-13qz1uu">…</div> intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="0" data-focusable="true" class="css-1dbjc4n r-1awozwy r-19m6qjp r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73 r-13qz1uu">…</div> intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <div class="css-1dbjc4n r-184aecr r-18u37iz r-1777fci r-1w50u8q r-1xcajam r-13qz1uu r-184en5c">…</div> from <div class="css-1dbjc4n r-13qz1uu r-1g40b8q">…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <div tabindex="0" data-focusable="true" class="css-1dbjc4n r-1awozwy r-19m6qjp r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73 r-13qz1uu">…</div> intercepts pointer events[22m
+[2m  2 × retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="0" data-focusable="true" class="css-1dbjc4n r-1awozwy r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73 r-1wn9b5e r-13qz1uu">…</div> intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m  - element was detached from the DOM, retrying[22m
+
+[2026-06-08 11:36:39] WARN:   ❌ [BIQ7WH] Failed — locator.click: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for getByText('Search Booking', { exact: true }).first()[22m
+[2m    - locator resolved to <div dir="auto" class="css-76zvg2 r-jwli3a r-ubezar r-1kfrs79">Search Booking</div>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="0" data-focusable="true" class="css-1dbjc4n r-1awozwy r-19m6qjp r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73 r-13qz1uu">…</div> intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <div tabindex="0" data-focusable="true" class="css-1dbjc4n r-1awozwy r-19m6qjp r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73 r-13qz1uu">…</div> intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    12 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <div class="css-1dbjc4n r-184aecr r-18u37iz r-1777fci r-1w50u8q r-1xcajam r-13qz1uu r-184en5c">…</div> from <div class="css-1dbjc4n r-13qz1uu r-1g40b8q">…</div> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <div tabindex="0" data-focusable="true" class="css-1dbjc4n r-1awozwy r-19m6qjp r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73 r-13qz1uu">…</div> intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <div tabindex="0" data-focusable="true" class="css-1dbjc4n r-1awozwy r-19m6qjp r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73 r-13qz1uu">…</div> intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <div tabindex="0" data-focusable="true" class="css-1dbjc4n r-1awozwy r-19m6qjp r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73 r-13qz1uu">…</div> intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+
+[2026-06-08 11:36:40] ERROR: Fatal error in main run loop: browserContext.newPage: Target page, context or browser has been closed
+browserContext.newPage: Target page, context or browser has been closed
+    at ensureBrowser (/Users/user/Downloads/indigo-scraper-v2/src/airlines/spicejet/scraper.js:107:50)
+    at fetchPNR (/Users/user/Downloads/indigo-scraper-v2/src/airlines/spicejet/scraper.js:306:25)
+    at processJob (/Users/user/Downloads/indigo-scraper-v2/src/index.js:102:24)
+    at run (/Users/user/Downloads/indigo-scraper-v2/src/index.js:177:29)
+[2026-06-08 11:42:22] INFO: 
+📦 Batch #1 — 40 jobs
+[2026-06-08 11:42:59] WARN:   ❌ [AGIPXN] Failed — API failed with status 500
+[2026-06-08 11:43:32] WARN:   ❌ [BIQ7WH] Failed — API failed with status 500
+[2026-06-08 11:44:05] WARN:   ❌ [IFMZHQ] Failed — page.evaluate: Target page, context or browser has been closed
+[2026-06-08 11:44:05] ERROR: Fatal error in main run loop: browserContext.newPage: Target page, context or browser has been closed
+browserContext.newPage: Target page, context or browser has been closed
+    at ensureBrowser (/Users/user/Downloads/indigo-scraper-v2/src/airlines/spicejet/scraper.js:107:50)
+    at fetchPNR (/Users/user/Downloads/indigo-scraper-v2/src/airlines/spicejet/scraper.js:410:25)
+    at processJob (/Users/user/Downloads/indigo-scraper-v2/src/index.js:102:24)
+    at run (/Users/user/Downloads/indigo-scraper-v2/src/index.js:177:29)
+[2026-06-08 11:53:41] INFO: 
+📦 Batch #1 — 40 jobs
+[2026-06-08 11:54:03] WARN:   ❌ [AGIPXN] Failed — Itinerary API response not captured.
+[2026-06-08 11:54:14] WARN:   ❌ [BIQ7WH] Failed — Itinerary API response not captured.
+[2026-06-08 11:54:24] WARN:   ❌ [IFMZHQ] Failed — Itinerary API response not captured.
+[2026-06-08 11:54:35] WARN:   ❌ [Q6R7YR] Failed — Itinerary API response not captured.
+[2026-06-08 11:54:45] WARN:   ❌ [I7WFKL] Failed — Itinerary API response not captured.
+[2026-06-08 11:54:56] WARN:   ❌ [X7LUWB] Failed — Itinerary API response not captured.
+[2026-06-08 11:55:06] WARN:   ❌ [RC13XC] Failed — Itinerary API response not captured.
+[2026-06-08 11:55:17] WARN:   ❌ [U94JHY] Failed — Itinerary API response not captured.
+[2026-06-08 11:55:27] WARN:   ❌ [LBPISP] Failed — Itinerary API response not captured.
+[2026-06-08 11:55:33] WARN:   ❌ [KEWU6D] Failed — Itinerary API response not captured.
+[2026-06-08 11:55:33] WARN: ⏸️  Health pause triggered (failRate=100%, blocks=0/10). Waiting 13m 58s...
+[2026-06-08 11:55:59] INFO: 
+📦 Batch #1 — 40 jobs
+[2026-06-08 11:56:39] INFO:   ✅ [AGIPXN] Done — SG 199 | Completed
+[2026-06-08 11:57:29] WARN:   ❌ [BIQ7WH] Failed — API returned 500 and DOM scrape found no booking data — PNR may be invalid or session expired
+[2026-06-08 11:58:02] INFO:   ✅ [IFMZHQ] Done — SG 531 | Completed
+[2026-06-08 11:58:38] INFO:   ✅ [Q6R7YR] Done — SG 11 | Completed
+[2026-06-08 11:59:14] INFO:   ✅ [I7WFKL] Done — no flight | Cancelled
+[2026-06-08 11:59:48] INFO:   ✅ [X7LUWB] Done — no flight | Cancelled
+[2026-06-08 12:01:58] INFO: 
+📦 Batch #1 — 40 jobs
+[2026-06-08 12:02:38] INFO:   ✅ [AGIPXN] Done — SG 199 | Completed
+[2026-06-08 12:03:27] WARN:   ❌ [BIQ7WH] Failed — API returned 500 and DOM scrape found no booking data — PNR may be invalid or session expired
+[2026-06-08 12:04:02] INFO:   ✅ [IFMZHQ] Done — SG 531 | Completed
+[2026-06-08 12:04:36] INFO:   ✅ [Q6R7YR] Done — SG 11 | Completed
+[2026-06-08 12:05:10] INFO:   ✅ [I7WFKL] Done — no flight | Cancelled
+[2026-06-08 12:05:46] INFO:   ✅ [X7LUWB] Done — no flight | Cancelled
+[2026-06-08 12:06:22] INFO:   ✅ [RC13XC] Done — SG 56 | Completed
+[2026-06-08 12:06:57] INFO:   ✅ [U94JHY] Done — SG 52 | Completed
+[2026-06-08 12:07:33] INFO:   ✅ [LBPISP] Done — SG 51 | Completed
+[2026-06-08 12:08:07] INFO:   ✅ [KEWU6D] Done — no flight | Cancelled
+[2026-06-08 12:08:43] INFO:   ✅ [GYHEVS] Done — SG 914 | Completed
+[2026-06-08 12:09:18] INFO:   ✅ [BC4D2J] Done — no flight | Cancelled
+[2026-06-08 12:09:53] INFO:   ✅ [LYCGHS] Done — no flight | Cancelled
+[2026-06-08 12:10:28] INFO:   ✅ [UYSLRF] Done — SG 185 | Completed
+[2026-06-08 12:11:04] INFO:   ✅ [I8WY5V] Done — SG 1080 | Completed
+[2026-06-08 12:11:41] INFO:   ✅ [ZFSJRG] Done — SG 89 | Completed
+[2026-06-08 12:12:14] INFO:   ✅ [GESIQT] Done — no flight | Cancelled
+[2026-06-08 12:12:50] INFO:   ✅ [OK5M2R] Done — SG 1077 | Completed
+[2026-06-08 12:13:25] INFO:   ✅ [SD2FKM] Done — SG 1080 | Completed
+[2026-06-08 12:14:00] INFO:   ✅ [OCWNFM] Done — SG 532 | Completed
+[2026-06-08 12:14:37] INFO:   ✅ [F93P9F] Done — SG 526 | Completed
+[2026-06-08 12:15:12] INFO:   ✅ [R9D57V] Done — SG 254 | Completed
+[2026-06-08 12:15:48] INFO:   ✅ [L9DD2F] Done — SG 11 | Completed
+[2026-06-08 12:16:24] INFO:   ✅ [XFF1YW] Done — SG 335 | Completed
+[2026-06-08 12:16:58] INFO:   ✅ [JIV7XX] Done — no flight | Cancelled
+[2026-06-08 12:17:34] INFO:   ✅ [OCWNFM] Done — SG 532 | Completed
+[2026-06-08 12:18:10] INFO:   ✅ [SYJ29S] Done — no flight | Cancelled
+[2026-06-08 12:18:47] INFO:   ✅ [IK9BHR] Done — SG 293 | Completed
+[2026-06-08 12:19:28] INFO:   ✅ [R8PMTL] Done — no flight | Cancelled
+[2026-06-08 12:20:06] INFO:   ✅ [VH798N] Done — SG 56 | Completed
+[2026-06-08 12:20:46] INFO:   ✅ [SJDH5U] Done — SG 718 | Completed
+[2026-06-08 12:21:22] INFO:   ✅ [A8PKVI] Done — no flight | Cancelled
+[2026-06-08 12:22:00] INFO:   ✅ [FYTMSC] Done — no flight | Cancelled
+[2026-06-08 12:22:33] WARN:   ❌ [PD8UXM] Failed — API returned 500 and DOM scrape found no booking data — PNR may be invalid or session expired
+[2026-06-08 12:22:33] ERROR: Fatal error in main run loop: browserContext.newPage: Target page, context or browser has been closed
+browserContext.newPage: Target page, context or browser has been closed
+    at ensureBrowser (/Users/user/Downloads/indigo-scraper-v2/src/airlines/spicejet/scraper.js:107:50)
+    at fetchPNR (/Users/user/Downloads/indigo-scraper-v2/src/airlines/spicejet/scraper.js:559:25)
+    at processJob (/Users/user/Downloads/indigo-scraper-v2/src/index.js:102:24)
+    at run (/Users/user/Downloads/indigo-scraper-v2/src/index.js:177:29)
+[2026-06-10 10:51:49] INFO: 
+📦 Batch #1 — 40 jobs
+[2026-06-10 10:52:34] WARN:   ❌ [QF3M3B] Failed — locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('#pnr-input').first()[22m
+[2m    - locator resolved to <input value="" type="text" id="pnr-input" name="pnrDetails" class="uppercase h-12 w-full focus:outline-none dark:text-white border-gray-400 border-[1px] dark:bg-gray-900 focus:border-2 rounded-md rounded-tr-none pl-3 pr-6 placeholder-gray-600 hover:border-gray-600 focus:border-primary"/>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <label for="pnr-input" aria-label="Label-text" class="absolute top-5 flex items-center dark:text-white dark:!bg-gray-900 h-[10px] hover:cursor-text transform transition-all group-focus-within:text-xs group-focus-within:-translate-y-[24px] group-focus-within:-translate-x-[4px] group-focus-within:py-0.5 group-focus-within:px-1 group-focus-within:bg-white group-focus-within:!text-primary group-focus-within:dark:bg-gray-900 group-focus-within: dark:text-white left-3 text-[#666666]">PNR/Booking Reference/E-Ticket Number</label> intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <label for="pnr-input" aria-label="Label-text" class="absolute top-5 flex items-center dark:text-white dark:!bg-gray-900 h-[10px] hover:cursor-text transform transition-all group-focus-within:text-xs group-focus-within:-translate-y-[24px] group-focus-within:-translate-x-[4px] group-focus-within:py-0.5 group-focus-within:px-1 group-focus-within:bg-white group-focus-within:!text-primary group-focus-within:dark:bg-gray-900 group-focus-within: dark:text-white left-3 text-[#666666]">PNR/Booking Reference/E-Ticket Number</label> intercepts pointer events[22m
+[2m  2 × retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <li aria-label="Book" class="flex items-center px-6 md:hover:border-none hover:border-l-4 border-primary font-normal text-sm py-2">…</li> from <div>…</div> subtree intercepts pointer events[22m
+[2m  13 × retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <label for="pnr-input" aria-label="Label-text" class="absolute top-5 flex items-center dark:text-white dark:!bg-gray-900 h-[10px] hover:cursor-text transform transition-all group-focus-within:text-xs group-focus-within:-translate-y-[24px] group-focus-within:-translate-x-[4px] group-focus-within:py-0.5 group-focus-within:px-1 group-focus-within:bg-white group-focus-within:!text-primary group-focus-within:dark:bg-gray-900 group-focus-within: dark:text-white left-3 text-[#666666]">PNR/Booking Reference/E-Ticket Number</label> intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <label for="pnr-input" aria-label="Label-text" class="absolute top-5 flex items-center dark:text-white dark:!bg-gray-900 h-[10px] hover:cursor-text transform transition-all group-focus-within:text-xs group-focus-within:-translate-y-[24px] group-focus-within:-translate-x-[4px] group-focus-within:py-0.5 group-focus-within:px-1 group-focus-within:bg-white group-focus-within:!text-primary group-focus-within:dark:bg-gray-900 group-focus-within: dark:text-white left-3 text-[#666666]">PNR/Booking Reference/E-Ticket Number</label> intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <li aria-label="Book" class="flex items-center px-6 md:hover:border-none hover:border-l-4 border-primary font-normal text-sm py-2">…</li> from <div>…</div> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <li aria-label="Book" class="flex items-center px-6 md:hover:border-none hover:border-l-4 border-primary font-normal text-sm py-2">…</li> from <div>…</div> subtree intercepts pointer events[22m
+[2m  2 × retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <label for="pnr-input" aria-label="Label-text" class="absolute top-5 flex items-center dark:text-white dark:!bg-gray-900 h-[10px] hover:cursor-text transform transition-all group-focus-within:text-xs group-focus-within:-translate-y-[24px] group-focus-within:-translate-x-[4px] group-focus-within:py-0.5 group-focus-within:px-1 group-focus-within:bg-white group-focus-within:!text-primary group-focus-within:dark:bg-gray-900 group-focus-within: dark:text-white left-3 text-[#666666]">PNR/Booking Reference/E-Ticket Number</label> intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <li aria-label="Book" class="flex items-center px-6 md:hover:border-none hover:border-l-4 border-primary font-normal text-sm py-2">…</li> from <div>…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+
+[2026-06-10 10:53:09] WARN:   ❌ [CETDKB] Failed — locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('#pnr-input').first()[22m
+[2m    - locator resolved to <input value="" type="text" id="pnr-input" name="pnrDetails" class="uppercase h-12 w-full focus:outline-none dark:text-white border-gray-400 border-[1px] dark:bg-gray-900 focus:border-2 rounded-md rounded-tr-none pl-3 pr-6 placeholder-gray-600 hover:border-gray-600 focus:border-primary"/>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <label for="pnr-input" aria-label="Label-text" class="absolute top-5 flex items-center dark:text-white dark:!bg-gray-900 h-[10px] hover:cursor-text transform transition-all group-focus-within:text-xs group-focus-within:-translate-y-[24px] group-focus-within:-translate-x-[4px] group-focus-within:py-0.5 group-focus-within:px-1 group-focus-within:bg-white group-focus-within:!text-primary group-focus-within:dark:bg-gray-900 group-focus-within: dark:text-white left-3 text-[#666666]">PNR/Booking Reference/E-Ticket Number</label> intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <label for="pnr-input" aria-label="Label-text" class="absolute top-5 flex items-center dark:text-white dark:!bg-gray-900 h-[10px] hover:cursor-text transform transition-all group-focus-within:text-xs group-focus-within:-translate-y-[24px] group-focus-within:-translate-x-[4px] group-focus-within:py-0.5 group-focus-within:px-1 group-focus-within:bg-white group-focus-within:!text-primary group-focus-within:dark:bg-gray-900 group-focus-within: dark:text-white left-3 text-[#666666]">PNR/Booking Reference/E-Ticket Number</label> intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 100ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <li aria-label="Book" class="flex items-center px-6 md:hover:border-none hover:border-l-4 border-primary font-normal text-sm py-2">…</li> from <div>…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 100ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is not stable[22m
+[2m  13 × retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <label for="pnr-input" aria-label="Label-text" class="absolute top-5 flex items-center dark:text-white dark:!bg-gray-900 h-[10px] hover:cursor-text transform transition-all group-focus-within:text-xs group-focus-within:-translate-y-[24px] group-focus-within:-translate-x-[4px] group-focus-within:py-0.5 group-focus-within:px-1 group-focus-within:bg-white group-focus-within:!text-primary group-focus-within:dark:bg-gray-900 group-focus-within: dark:text-white left-3 text-[#666666]">PNR/Booking Reference/E-Ticket Number</label> intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <label for="pnr-input" aria-label="Label-text" class="absolute top-5 flex items-center dark:text-white dark:!bg-gray-900 h-[10px] hover:cursor-text transform transition-all group-focus-within:text-xs group-focus-within:-translate-y-[24px] group-focus-within:-translate-x-[4px] group-focus-within:py-0.5 group-focus-within:px-1 group-focus-within:bg-white group-focus-within:!text-primary group-focus-within:dark:bg-gray-900 group-focus-within: dark:text-white left-3 text-[#666666]">PNR/Booking Reference/E-Ticket Number</label> intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <li aria-label="Book" class="flex items-center px-6 md:hover:border-none hover:border-l-4 border-primary font-normal text-sm py-2">…</li> from <div>…</div> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <li aria-label="Book" class="flex items-center px-6 md:hover:border-none hover:border-l-4 border-primary font-normal text-sm py-2">…</li> from <div>…</div> subtree intercepts pointer events[22m
+[2m  2 × retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <label for="pnr-input" aria-label="Label-text" class="absolute top-5 flex items-center dark:text-white dark:!bg-gray-900 h-[10px] hover:cursor-text transform transition-all group-focus-within:text-xs group-focus-within:-translate-y-[24px] group-focus-within:-translate-x-[4px] group-focus-within:py-0.5 group-focus-within:px-1 group-focus-within:bg-white group-focus-within:!text-primary group-focus-within:dark:bg-gray-900 group-focus-within: dark:text-white left-3 text-[#666666]">PNR/Booking Reference/E-Ticket Number</label> intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <li aria-label="Book" class="flex items-center px-6 md:hover:border-none hover:border-l-4 border-primary font-normal text-sm py-2">…</li> from <div>…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+
+[2026-06-10 10:53:19] WARN:   ❌ [V96ZHW] Failed — locator.click: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('#pnr-input').first()[22m
+[2m    - locator resolved to <input value="" type="text" id="pnr-input" name="pnrDetails" class="uppercase h-12 w-full focus:outline-none dark:text-white border-gray-400 border-[1px] dark:bg-gray-900 focus:border-2 rounded-md rounded-tr-none pl-3 pr-6 placeholder-gray-600 hover:border-gray-600 focus:border-primary"/>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <li aria-label="Book" class="flex items-center px-6 md:hover:border-none hover:border-l-4 border-primary font-normal text-sm py-2">…</li> from <div>…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <label for="pnr-input" aria-label="Label-text" class="absolute top-5 flex items-center dark:text-white dark:!bg-gray-900 h-[10px] hover:cursor-text transform transition-all group-focus-within:text-xs group-focus-within:-translate-y-[24px] group-focus-within:-translate-x-[4px] group-focus-within:py-0.5 group-focus-within:px-1 group-focus-within:bg-white group-focus-within:!text-primary group-focus-within:dark:bg-gray-900 group-focus-within: dark:text-white left-3 text-[#666666]">PNR/Booking Reference/E-Ticket Number</label> intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <label for="pnr-input" aria-label="Label-text" class="absolute top-5 flex items-center dark:text-white dark:!bg-gray-900 h-[10px] hover:cursor-text transform transition-all group-focus-within:text-xs group-focus-within:-translate-y-[24px] group-focus-within:-translate-x-[4px] group-focus-within:py-0.5 group-focus-within:px-1 group-focus-within:bg-white group-focus-within:!text-primary group-focus-within:dark:bg-gray-900 group-focus-within: dark:text-white left-3 text-[#666666]">PNR/Booking Reference/E-Ticket Number</label> intercepts pointer events[22m
+[2m  2 × retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <li aria-label="Book" class="flex items-center px-6 md:hover:border-none hover:border-l-4 border-primary font-normal text-sm py-2">…</li> from <div>…</div> subtree intercepts pointer events[22m
+[2m  2 × retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <label for="pnr-input" aria-label="Label-text" class="absolute top-5 flex items-center dark:text-white dark:!bg-gray-900 h-[10px] hover:cursor-text transform transition-all group-focus-within:text-xs group-focus-within:-translate-y-[24px] group-focus-within:-translate-x-[4px] group-focus-within:py-0.5 group-focus-within:px-1 group-focus-within:bg-white group-focus-within:!text-primary group-focus-within:dark:bg-gray-900 group-focus-within: dark:text-white left-3 text-[#666666]">PNR/Booking Reference/E-Ticket Number</label> intercepts pointer events[22m
+[2m  2 × retrying click action[22m
+[2m      - waiting 500ms[22m
+[2m      - waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <li aria-label="Book" class="flex items-center px-6 md:hover:border-none hover:border-l-4 border-primary font-normal text-sm py-2">…</li> from <div>…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+
+[2026-06-10 10:53:24] WARN:   ❌ [WEG1TH] Failed — page.goto: Target page, context or browser has been closed
+[2026-06-10 10:53:28] WARN:   ❌ [G1UJJL] Failed — page.goto: Target page, context or browser has been closed
+[2026-06-10 10:53:28] ERROR: Fatal error in main run loop: browserContext.newPage: Target page, context or browser has been closed
+browserContext.newPage: Target page, context or browser has been closed
+    at ensureBrowser (/Users/user/Downloads/indigo-scraper-v2/src/airlines/akasaair/scraper.js:159:50)
+    at fetchPNR (/Users/user/Downloads/indigo-scraper-v2/src/airlines/akasaair/scraper.js:265:25)
+    at processJob (/Users/user/Downloads/indigo-scraper-v2/src/index.js:104:24)
+    at run (/Users/user/Downloads/indigo-scraper-v2/src/index.js:179:29)
+[2026-06-10 11:29:27] INFO: 
+📦 Batch #1 — 40 jobs
+[2026-06-10 11:29:56] INFO: 
+📦 Batch #1 — 40 jobs
+[2026-06-10 11:30:13] ERROR: Fatal error in main run loop: Missing named parameter "travel_status"
+RangeError: Missing named parameter "travel_status"
+    at Object.markDone (/Users/user/Downloads/indigo-scraper-v2/src/db.js:158:6)
+    at processJob (/Users/user/Downloads/indigo-scraper-v2/src/index.js:107:8)
+    at async run (/Users/user/Downloads/indigo-scraper-v2/src/index.js:179:23)
+[2026-06-10 11:43:26] INFO: 
+📦 Batch #1 — 40 jobs
+[2026-06-10 11:43:37] INFO:   ✅ [QF3M3B] Done — QP 584 | Confirmed
+[2026-06-10 11:44:02] WARN:   ❌ [CETDKB] Failed — locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+[2m  - waiting for locator('#pnr-input').first() to be visible[22m
+
+[2026-06-10 11:44:19] WARN:   ❌ [V96ZHW] Failed — locator.waitFor: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('#pnr-input').first() to be visible[22m
+
+[2026-06-10 11:44:19] ERROR: Fatal error in main run loop: browserContext.newPage: Target page, context or browser has been closed
+browserContext.newPage: Target page, context or browser has been closed
+    at ensureBrowser (/Users/user/Downloads/indigo-scraper-v2/src/airlines/akasaair/scraper.js:159:50)
+    at fetchPNR (/Users/user/Downloads/indigo-scraper-v2/src/airlines/akasaair/scraper.js:267:25)
+    at processJob (/Users/user/Downloads/indigo-scraper-v2/src/index.js:104:24)
+    at run (/Users/user/Downloads/indigo-scraper-v2/src/index.js:179:29)
+[2026-06-10 11:57:07] INFO: 
+📦 Batch #1 — 40 jobs
+[2026-06-10 11:57:18] INFO:   ✅ [QF3M3B] Done — QP 584 | Confirmed
+[2026-06-10 11:57:49] WARN:   ❌ [CETDKB] Failed — Timed out waiting for /api/ibe/booking response
+[2026-06-10 11:58:20] WARN:   ❌ [V96ZHW] Failed — Timed out waiting for /api/ibe/booking response
+[2026-06-10 11:58:51] WARN:   ❌ [WEG1TH] Failed — Timed out waiting for /api/ibe/booking response
+[2026-06-10 11:59:22] WARN:   ❌ [G1UJJL] Failed — Timed out waiting for /api/ibe/booking response
+[2026-06-10 11:59:30] INFO:   ✅ [IYGRRQ] Done — QP 1629 | Confirmed
+[2026-06-10 11:59:38] INFO:   ✅ [YZSNPE] Done — no flight | Closed
+[2026-06-10 11:59:47] INFO:   ✅ [IYKCFA] Done — no flight | Closed
+[2026-06-10 11:59:54] INFO:   ✅ [X41H3V] Done — QP 1905 | Confirmed
+[2026-06-10 12:00:02] INFO:   ✅ [ZECH6U] Done — QP 1905 | Confirmed
+[2026-06-10 12:00:10] INFO:   ✅ [L1MH5L] Done — QP 1905 | Confirmed
+[2026-06-10 12:00:20] INFO:   ✅ [C3LCFF] Done — QP 1505 | Confirmed
+[2026-06-10 12:00:29] INFO:   ✅ [YBHC2N] Done — QP 1509 | Confirmed
+[2026-06-10 12:00:37] INFO:   ✅ [E9IVRD] Done — QP 1607 | Confirmed
+[2026-06-10 12:00:46] INFO:   ✅ [B9K4SD] Done — QP 1505 | Confirmed
+[2026-06-10 12:00:53] INFO:   ✅ [X9VB2D] Done — QP 1437 | Confirmed
+[2026-06-10 12:01:24] WARN:   ❌ [IEKMKR] Failed — Timed out waiting for /api/ibe/booking response
+[2026-06-10 12:01:33] INFO:   ✅ [F8VMYG] Done — no flight | Closed
+[2026-06-10 12:01:41] INFO:   ✅ [C44I5C] Done — QP 1318 | Confirmed
+[2026-06-10 12:01:49] INFO:   ✅ [X8B29J] Done — QP 1505 | Closed
+[2026-06-10 12:01:57] INFO:   ✅ [F4I7KS] Done — QP 1102 | Confirmed
+[2026-06-10 12:02:06] INFO:   ✅ [F7L8MJ] Done — QP 1365 | Confirmed
+[2026-06-10 12:02:14] INFO:   ✅ [SYRR9A] Done — QP 1563 | Confirmed
+[2026-06-10 12:02:22] INFO:   ✅ [A7UITW] Done — QP 1355 | Confirmed
+[2026-06-10 12:02:29] INFO:   ✅ [ZFB16R] Done — QP 1146 | Confirmed
+[2026-06-10 12:02:59] WARN:   ❌ [C4K5XS] Failed — Timed out waiting for /api/ibe/booking response
+[2026-06-10 12:03:00] ERROR: Fatal error in main run loop: browserContext.newPage: Target page, context or browser has been closed
+browserContext.newPage: Target page, context or browser has been closed
+    at ensureBrowser (/Users/user/Downloads/indigo-scraper-v2/src/airlines/akasaair/scraper.js:159:50)
+    at fetchPNR (/Users/user/Downloads/indigo-scraper-v2/src/airlines/akasaair/scraper.js:267:25)
+    at processJob (/Users/user/Downloads/indigo-scraper-v2/src/index.js:104:24)
+    at run (/Users/user/Downloads/indigo-scraper-v2/src/index.js:179:29)

@@ -1,0 +1,16 @@
+{
+  "pnr": "A22U4P",
+  "contactDetail": "A22U4P",
+  "startedAt": "2026-06-08T04:38:08.570Z",
+  "pageUrlStart": "about:blank",
+  "response": {
+    "timestamp": 1780893499467,
+    "code": "CHECKIN_ERR_008",
+    "message": "The information you entered does not exist in our records. Please recheck guest details (first name/last name/phone number/email) and try again.",
+    "details": "uri=/b2c-checkin/v2/retrieve/mmb/byRecordLocator",
+    "rawMessage": ""
+  },
+  "responseStatus": 400,
+  "responseUrl": "https://api.airindiaexpress.com/b2c-CheckIn/v2/retrieve/mmb/byRecordLocator",
+  "visibleGuests": []
+}

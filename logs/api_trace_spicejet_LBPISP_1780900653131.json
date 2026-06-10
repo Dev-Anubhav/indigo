@@ -1,0 +1,35 @@
+{
+  "pnr": "LBPISP",
+  "detail": "KALATE",
+  "startedAt": "2026-06-08T06:36:58.058Z",
+  "pageUrlStart": "https://www.spicejet.com/trips/details?pnr=U94JHY&last=SHAIKH",
+  "response": null,
+  "waitForResponseError": "Timed out waiting for /api/v1/booking/retrieveBookingByPNR response",
+  "usedDomScrape": true,
+  "domData": {
+    "pnr": "LBPISP",
+    "ticket_number": "80125093",
+    "booking_status": "Completed",
+    "booking_date": "Tue, 15 Jul 2025",
+    "payment_status": "Paid",
+    "origin": "PNQ",
+    "destination": "DXB",
+    "flight_number": "SG 51",
+    "travel_date": "Fri, 26 Sep 2025",
+    "departure_time": "00:35",
+    "arrival_time": "",
+    "duration": "",
+    "terminal": "",
+    "flight_status": "Completed",
+    "passengers": [],
+    "total_amount": "26,799",
+    "fare_breakdown": "",
+    "label_value_map": {
+      "PNR/Booking No": "LBPISP",
+      "Ticket Number": "80125093",
+      "Status": "Completed",
+      "Booking Date": "Tue, 15 Jul 2025",
+      "Payment status": "Paid"
+    }
+  }
+}

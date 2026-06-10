@@ -1,0 +1,1607 @@
+{
+  "pnr": "L1MH5L",
+  "contactDetail": "AJWALIYA",
+  "startedAt": "2026-06-10T06:30:02.768Z",
+  "pageUrlStart": "https://www.akasaair.com/manage-booking",
+  "response": {
+    "data": {
+      "bookingKey": "MTQyMTI3MzYhTDFNSDVMIWZhbHNl",
+      "breakdown": {
+        "balanceDue": 0,
+        "journeyTotals": {
+          "totalAmount": 22344,
+          "totalDiscount": 0,
+          "totalTax": 9720
+        },
+        "journeys": [
+          {
+            "journeyKey": "UVB_MTkwNX4gfn5BTUR_MDkvMjQvMjAyNSAwNjozMH5CTFJ_MDkvMjQvMjAyNSAwOToxMH5_",
+            "totalAmount": 2793,
+            "totalDiscount": 0,
+            "totalTax": 1215
+          }
+        ],
+        "passengerTotals": {
+          "infant": null,
+          "seats": {
+            "total": 476,
+            "taxes": 24,
+            "adjustments": null,
+            "charges": [
+              {
+                "amount": 250,
+                "code": "SFE",
+                "detail": "AMD-BLR",
+                "type": "ServiceCharge",
+                "collectType": "SellerChargeable",
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 250,
+                "ticketCode": "SFE"
+              },
+              {
+                "amount": 6,
+                "code": "C24",
+                "detail": "AMD-BLR",
+                "type": "IncludedTax",
+                "collectType": "SellerChargeable",
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 6,
+                "ticketCode": "C24"
+              },
+              {
+                "amount": 6,
+                "code": "S24",
+                "detail": "AMD-BLR",
+                "type": "IncludedTax",
+                "collectType": "SellerChargeable",
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 6,
+                "ticketCode": "S24"
+              },
+              {
+                "amount": 0,
+                "code": "SFE",
+                "detail": "AMD-BLR",
+                "type": "ServiceCharge",
+                "collectType": "SellerChargeable",
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 0,
+                "ticketCode": "SFE"
+              },
+              {
+                "amount": 250,
+                "code": "SFE",
+                "detail": "AMD-BLR",
+                "type": "ServiceCharge",
+                "collectType": "SellerChargeable",
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 250,
+                "ticketCode": "SFE"
+              },
+              {
+                "amount": 6,
+                "code": "C24",
+                "detail": "AMD-BLR",
+                "type": "IncludedTax",
+                "collectType": "SellerChargeable",
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 6,
+                "ticketCode": "C24"
+              },
+              {
+                "amount": 6,
+                "code": "S24",
+                "detail": "AMD-BLR",
+                "type": "IncludedTax",
+                "collectType": "SellerChargeable",
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 6,
+                "ticketCode": "S24"
+              },
+              {
+                "amount": 0,
+                "code": "SFE",
+                "detail": "AMD-BLR",
+                "type": "ServiceCharge",
+                "collectType": "SellerChargeable",
+                "currencyCode": "INR",
+                "foreignCurrencyCode": "INR",
+                "foreignAmount": 0,
+                "ticketCode": "SFE"
+              }
+            ]
+          },
+          "spoilage": null
+        },
+        "passengers": [
+          {
+            "infant": null,
+            "passengerKey": "MCFBRFQ-",
+            "seats": {
+              "total": 238,
+              "taxes": 12,
+              "adjustments": null,
+              "charges": [
+                {
+                  "amount": 250,
+                  "code": "SFE",
+                  "detail": "AMD-BLR",
+                  "type": "ServiceCharge",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 250,
+                  "ticketCode": "SFE"
+                },
+                {
+                  "amount": 6,
+                  "code": "C24",
+                  "detail": "AMD-BLR",
+                  "type": "IncludedTax",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 6,
+                  "ticketCode": "C24"
+                },
+                {
+                  "amount": 6,
+                  "code": "S24",
+                  "detail": "AMD-BLR",
+                  "type": "IncludedTax",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 6,
+                  "ticketCode": "S24"
+                }
+              ]
+            },
+            "spoilage": null
+          },
+          {
+            "infant": null,
+            "passengerKey": "MSFBRFQ-",
+            "seats": {
+              "total": null,
+              "taxes": null,
+              "adjustments": null,
+              "charges": [
+                {
+                  "amount": 0,
+                  "code": "SFE",
+                  "detail": "AMD-BLR",
+                  "type": "ServiceCharge",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 0,
+                  "ticketCode": "SFE"
+                }
+              ]
+            },
+            "spoilage": null
+          },
+          {
+            "infant": null,
+            "passengerKey": "MiFBRFQ-",
+            "seats": {
+              "total": 238,
+              "taxes": 12,
+              "adjustments": null,
+              "charges": [
+                {
+                  "amount": 250,
+                  "code": "SFE",
+                  "detail": "AMD-BLR",
+                  "type": "ServiceCharge",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 250,
+                  "ticketCode": "SFE"
+                },
+                {
+                  "amount": 6,
+                  "code": "C24",
+                  "detail": "AMD-BLR",
+                  "type": "IncludedTax",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 6,
+                  "ticketCode": "C24"
+                },
+                {
+                  "amount": 6,
+                  "code": "S24",
+                  "detail": "AMD-BLR",
+                  "type": "IncludedTax",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 6,
+                  "ticketCode": "S24"
+                }
+              ]
+            },
+            "spoilage": null
+          },
+          {
+            "infant": null,
+            "passengerKey": "MyFBRFQ-",
+            "seats": null,
+            "spoilage": null
+          },
+          {
+            "infant": null,
+            "passengerKey": "NCFBRFQ-",
+            "seats": null,
+            "spoilage": null
+          },
+          {
+            "infant": null,
+            "passengerKey": "NSFBRFQ-",
+            "seats": null,
+            "spoilage": null
+          },
+          {
+            "infant": null,
+            "passengerKey": "NiFBRFQ-",
+            "seats": null,
+            "spoilage": null
+          },
+          {
+            "infant": null,
+            "passengerKey": "NyFBRFQ-",
+            "seats": {
+              "total": null,
+              "taxes": null,
+              "adjustments": null,
+              "charges": [
+                {
+                  "amount": 0,
+                  "code": "SFE",
+                  "detail": "AMD-BLR",
+                  "type": "ServiceCharge",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 0,
+                  "ticketCode": "SFE"
+                }
+              ]
+            },
+            "spoilage": null
+          }
+        ],
+        "showPriceBreakdown": true,
+        "totalAmount": 32564,
+        "totalCharged": 32564,
+        "totalToCollect": 32564
+      },
+      "contacts": [
+        {
+          "address": {
+            "lineOne": "NA",
+            "lineTwo": "NA",
+            "lineThree": null,
+            "countryCode": "IN",
+            "provinceState": null,
+            "city": "NA",
+            "postalCode": null
+          },
+          "companyName": null,
+          "contactTypeCode": "P",
+          "cultureCode": "en-US",
+          "customerNumber": null,
+          "distributionOption": "Email",
+          "emailAddress": "",
+          "encryptedEmailAddress": "FA4F416D13793A13BEA8E793E2FDE9C82A66BD58E3B72439F31A08904FE21F4962D1297FAF3C0FF0D4A3E0EDBB1B088580B5B943",
+          "maskedEmailAddress": "j********a@g***l.com",
+          "name": {
+            "first": "DARSHAN JYOTINDRABHAI",
+            "middle": null,
+            "last": "AJWALIYA",
+            "title": "MR",
+            "suffix": null
+          },
+          "notificationPreference": "None",
+          "phoneNumbers": [
+            {
+              "number": "",
+              "type": "Other",
+              "encryptedNumber": "4A4F20224CF9CD9B857778E14EB2FBF41EA364F86CADD3B9799DDDCDDB5541909A2A6325266A360BED8F954A4A",
+              "maskedNumber": "91-79******28"
+            }
+          ],
+          "sourceOrganization": null
+        }
+      ],
+      "currencyCode": "INR",
+      "extraSeatPassengers": [],
+      "gst": null,
+      "hold": null,
+      "info": {
+        "bookedDate": "2025-09-02T16:44:22.14",
+        "bookingType": null,
+        "changeAllowed": true,
+        "createdDate": "2025-09-02T16:44:22.14",
+        "expirationDate": "2025-09-25T01:00:00",
+        "modifiedDate": "2025-09-23T23:33:27.53",
+        "owningCarrierCode": "QP",
+        "paidStatus": "PaidInFull",
+        "priceStatus": "Valid",
+        "status": "Confirmed"
+      },
+      "isFareLockBooking": false,
+      "isGdsBooking": false,
+      "isGroupBooking": false,
+      "isMaxVoucherLimitReached": false,
+      "isStandBy": false,
+      "journeys": [
+        {
+          "designator": {
+            "destination": "BLR",
+            "origin": "AMD",
+            "arrival": "2025-09-24T09:10:00",
+            "departure": "2025-09-24T06:30:00"
+          },
+          "flightType": "NonStop",
+          "journeyKey": "UVB_MTkwNX4gfn5BTUR_MDkvMjQvMjAyNSAwNjozMH5CTFJ_MDkvMjQvMjAyNSAwOToxMH5_",
+          "segments": [
+            {
+              "designator": {
+                "destination": "BLR",
+                "origin": "AMD",
+                "arrival": "2025-09-24T09:10:00",
+                "departure": "2025-09-24T06:30:00"
+              },
+              "fares": [
+                {
+                  "carrierCode": "QP",
+                  "classOfService": "W5",
+                  "fareApplicationType": "Route",
+                  "fareBasisCode": "W5O7RWIF",
+                  "inboundOutBound": "None",
+                  "isAllotmentMarketFare": false,
+                  "ruleNumber": "1009",
+                  "ruleTariff": null,
+                  "isGoverning": true,
+                  "fareKey": "MH5XNX5YflFQflc1TzdSV0lGfjEwMDl_fjIzfjF_TkFNREJMUjAyMzAwMTB_WA--",
+                  "classType": "X",
+                  "fareClassOfService": "W5",
+                  "fareSequence": 1,
+                  "fareStatus": "Default",
+                  "originalClassOfService": "W5",
+                  "productClass": "EC",
+                  "travelClassCode": "Y",
+                  "crossReferenceClassOfService": null,
+                  "passengerFares": [
+                    {
+                      "fareDiscountCode": null,
+                      "passengerType": "ADT",
+                      "serviceCharges": [
+                        {
+                          "amount": 2793,
+                          "code": null,
+                          "detail": null,
+                          "type": "FarePrice",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 2793,
+                          "ticketCode": null
+                        },
+                        {
+                          "amount": 75,
+                          "code": "CUTE",
+                          "detail": "AMD-BLR",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 75,
+                          "ticketCode": "PHF"
+                        },
+                        {
+                          "amount": 50,
+                          "code": "RCS",
+                          "detail": "AMD-BLR",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 50,
+                          "ticketCode": "RCS"
+                        },
+                        {
+                          "amount": 236,
+                          "code": "ASF",
+                          "detail": "AMD-BLR",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 236,
+                          "ticketCode": "ASF"
+                        },
+                        {
+                          "amount": 708,
+                          "code": "UDF",
+                          "detail": "AMD-BLR",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 708,
+                          "ticketCode": "UDF"
+                        },
+                        {
+                          "amount": 70,
+                          "code": "C24",
+                          "detail": "AMD-BLR",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 70,
+                          "ticketCode": "C24"
+                        },
+                        {
+                          "amount": 3,
+                          "code": "C24",
+                          "detail": "AMD-BLR",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 3,
+                          "ticketCode": "C24"
+                        },
+                        {
+                          "amount": 70,
+                          "code": "S24",
+                          "detail": "AMD-BLR",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 70,
+                          "ticketCode": "S24"
+                        },
+                        {
+                          "amount": 3,
+                          "code": "S24",
+                          "detail": "AMD-BLR",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 3,
+                          "ticketCode": "S24"
+                        }
+                      ],
+                      "discountCode": null
+                    }
+                  ],
+                  "fareLink": 23
+                }
+              ],
+              "flightReference": "20250924 QP1905 AMDBLR",
+              "identifier": {
+                "identifier": "1905",
+                "carrierCode": "QP",
+                "opSuffix": null
+              },
+              "international": false,
+              "legs": [
+                {
+                  "designator": {
+                    "destination": "BLR",
+                    "origin": "AMD",
+                    "arrival": "2025-09-24T09:10:00",
+                    "departure": "2025-09-24T06:30:00"
+                  },
+                  "flightReference": "20250924 QP1905 AMDBLR",
+                  "legInfo": {
+                    "arrivalTerminal": "Terminal T1",
+                    "arrivalTime": "2025-09-24T09:10:00",
+                    "arrivalTimeUtc": "2025-09-24T03:40:00",
+                    "departureTerminal": "Terminal T1",
+                    "departureTime": "2025-09-24T06:30:00",
+                    "departureTimeUtc": "2025-09-24T01:00:00",
+                    "status": "Closed"
+                  },
+                  "legKey": "NjM4OTQyOTIyMDAwMDAwMDAwIVFQITE5MDUhICFBTUQhQkxSITIzNjM2NQ--",
+                  "operationsInfo": null,
+                  "seatmapReference": "UVAhMTkwNSEgITYzODk0MjkyMjAwMDAwMDAwMCFBTUQhQkxS"
+                }
+              ],
+              "passengerSegment": [
+                {
+                  "activityDate": "2025-09-24T00:24:03.647",
+                  "baggageGroupNumber": "1",
+                  "bags": [
+                    {
+                      "baggageKey": "MDUxNjMxNTQ0Nw--",
+                      "passengerKey": "MCFBRFQ-",
+                      "arrivalStation": "BLR",
+                      "status": "Checked",
+                      "departureStation": "AMD",
+                      "osTag": "0516315447"
+                    },
+                    {
+                      "baggageKey": "MDUxNjMxNTQ0OA--",
+                      "passengerKey": "MCFBRFQ-",
+                      "arrivalStation": "BLR",
+                      "status": "Checked",
+                      "departureStation": "AMD",
+                      "osTag": "0516315448"
+                    },
+                    {
+                      "baggageKey": "MDUxNjMxNTQ0OQ--",
+                      "passengerKey": "MCFBRFQ-",
+                      "arrivalStation": "BLR",
+                      "status": "Checked",
+                      "departureStation": "AMD",
+                      "osTag": "0516315449"
+                    }
+                  ],
+                  "boardingPassDetail": null,
+                  "bundleCode": null,
+                  "hasInfant": false,
+                  "liftStatus": "Boarded",
+                  "passAllowCheckIn": true,
+                  "passengerKey": "MCFBRFQ-",
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "32F",
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 62,
+                        "propertyList": {
+                          "BRDZONE": "4",
+                          "TCC": "Y",
+                          "WINDOW": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "BLR",
+                      "departureStation": "AMD",
+                      "passengerKey": "MCFBRFQ-",
+                      "unitKey": "UVAhMTkwNSEgITYzODk0MjkyMjAwMDAwMDAwMCFBTUQhQkxSITMyRiFZ",
+                      "crossReferenceSeatingPreference": null,
+                      "isPending": false
+                    }
+                  ],
+                  "ssrs": [
+                    {
+                      "note": null,
+                      "count": 1,
+                      "inBundle": false,
+                      "ssrDuration": "Leg",
+                      "ssrCode": "HLOK",
+                      "passengerKey": "MCFBRFQ-",
+                      "ssrNumber": 1,
+                      "market": {
+                        "destination": "BLR",
+                        "origin": "AMD",
+                        "departureDate": "2025-09-24T06:30:00",
+                        "identifier": {
+                          "identifier": "1905",
+                          "carrierCode": "QP",
+                          "opSuffix": null
+                        }
+                      },
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "ssrKey": "MCFNQ0ZCUkZRLSFITE9LITEhQkxSIVFQITYzODk0MjkyMjAwMDAwMDAwMCFBTUQhMTkwNSEg",
+                      "feeCode": null,
+                      "ssrDetail": null
+                    }
+                  ]
+                },
+                {
+                  "activityDate": "2025-09-24T00:24:07.02",
+                  "baggageGroupNumber": "1",
+                  "bags": [],
+                  "boardingPassDetail": null,
+                  "bundleCode": null,
+                  "hasInfant": false,
+                  "liftStatus": "Boarded",
+                  "passAllowCheckIn": true,
+                  "passengerKey": "MSFBRFQ-",
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "32E",
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 62,
+                        "propertyList": {
+                          "BRDZONE": "4",
+                          "TCC": "Y"
+                        }
+                      },
+                      "arrivalStation": "BLR",
+                      "departureStation": "AMD",
+                      "passengerKey": "MSFBRFQ-",
+                      "unitKey": "UVAhMTkwNSEgITYzODk0MjkyMjAwMDAwMDAwMCFBTUQhQkxSITMyRSFZ",
+                      "crossReferenceSeatingPreference": null,
+                      "isPending": false
+                    }
+                  ],
+                  "ssrs": [
+                    {
+                      "note": null,
+                      "count": 1,
+                      "inBundle": false,
+                      "ssrDuration": "Leg",
+                      "ssrCode": "HLOK",
+                      "passengerKey": "MSFBRFQ-",
+                      "ssrNumber": 1,
+                      "market": {
+                        "destination": "BLR",
+                        "origin": "AMD",
+                        "departureDate": "2025-09-24T06:30:00",
+                        "identifier": {
+                          "identifier": "1905",
+                          "carrierCode": "QP",
+                          "opSuffix": null
+                        }
+                      },
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "ssrKey": "MCFNU0ZCUkZRLSFITE9LITEhQkxSIVFQITYzODk0MjkyMjAwMDAwMDAwMCFBTUQhMTkwNSEg",
+                      "feeCode": null,
+                      "ssrDetail": null
+                    }
+                  ]
+                },
+                {
+                  "activityDate": "2025-09-24T00:24:01.75",
+                  "baggageGroupNumber": "1",
+                  "bags": [],
+                  "boardingPassDetail": null,
+                  "bundleCode": null,
+                  "hasInfant": false,
+                  "liftStatus": "Boarded",
+                  "passAllowCheckIn": true,
+                  "passengerKey": "MiFBRFQ-",
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "31F",
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 60,
+                        "propertyList": {
+                          "BRDZONE": "4",
+                          "TCC": "Y",
+                          "WINDOW": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "BLR",
+                      "departureStation": "AMD",
+                      "passengerKey": "MiFBRFQ-",
+                      "unitKey": "UVAhMTkwNSEgITYzODk0MjkyMjAwMDAwMDAwMCFBTUQhQkxSITMxRiFZ",
+                      "crossReferenceSeatingPreference": null,
+                      "isPending": false
+                    }
+                  ],
+                  "ssrs": [
+                    {
+                      "note": null,
+                      "count": 1,
+                      "inBundle": false,
+                      "ssrDuration": "Leg",
+                      "ssrCode": "HLOK",
+                      "passengerKey": "MiFBRFQ-",
+                      "ssrNumber": 1,
+                      "market": {
+                        "destination": "BLR",
+                        "origin": "AMD",
+                        "departureDate": "2025-09-24T06:30:00",
+                        "identifier": {
+                          "identifier": "1905",
+                          "carrierCode": "QP",
+                          "opSuffix": null
+                        }
+                      },
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "ssrKey": "MCFNaUZCUkZRLSFITE9LITEhQkxSIVFQITYzODk0MjkyMjAwMDAwMDAwMCFBTUQhMTkwNSEg",
+                      "feeCode": null,
+                      "ssrDetail": null
+                    }
+                  ]
+                },
+                {
+                  "activityDate": "2025-09-24T00:21:28.48",
+                  "baggageGroupNumber": "2",
+                  "bags": [
+                    {
+                      "baggageKey": "MDUxNjMxNTUwOQ--",
+                      "passengerKey": "MyFBRFQ-",
+                      "arrivalStation": "BLR",
+                      "status": "Checked",
+                      "departureStation": "AMD",
+                      "osTag": "0516315509"
+                    },
+                    {
+                      "baggageKey": "MDUxNjMxNTUxMA--",
+                      "passengerKey": "MyFBRFQ-",
+                      "arrivalStation": "BLR",
+                      "status": "Checked",
+                      "departureStation": "AMD",
+                      "osTag": "0516315510"
+                    },
+                    {
+                      "baggageKey": "MDUxNjMxNTUxMQ--",
+                      "passengerKey": "MyFBRFQ-",
+                      "arrivalStation": "BLR",
+                      "status": "Checked",
+                      "departureStation": "AMD",
+                      "osTag": "0516315511"
+                    },
+                    {
+                      "baggageKey": "MDUxNjMxNTUxMg--",
+                      "passengerKey": "MyFBRFQ-",
+                      "arrivalStation": "BLR",
+                      "status": "Checked",
+                      "departureStation": "AMD",
+                      "osTag": "0516315512"
+                    }
+                  ],
+                  "boardingPassDetail": null,
+                  "bundleCode": null,
+                  "hasInfant": false,
+                  "liftStatus": "Boarded",
+                  "passAllowCheckIn": true,
+                  "passengerKey": "MyFBRFQ-",
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "29D",
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 56,
+                        "propertyList": {
+                          "AISLE": "TRUE",
+                          "BRDZONE": "4",
+                          "TCC": "Y"
+                        }
+                      },
+                      "arrivalStation": "BLR",
+                      "departureStation": "AMD",
+                      "passengerKey": "MyFBRFQ-",
+                      "unitKey": "UVAhMTkwNSEgITYzODk0MjkyMjAwMDAwMDAwMCFBTUQhQkxSITI5RCFZ",
+                      "crossReferenceSeatingPreference": null,
+                      "isPending": false
+                    }
+                  ],
+                  "ssrs": []
+                },
+                {
+                  "activityDate": "2025-09-24T00:21:22.25",
+                  "baggageGroupNumber": "2",
+                  "bags": [],
+                  "boardingPassDetail": null,
+                  "bundleCode": null,
+                  "hasInfant": false,
+                  "liftStatus": "Boarded",
+                  "passAllowCheckIn": true,
+                  "passengerKey": "NCFBRFQ-",
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "29C",
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 57,
+                        "propertyList": {
+                          "AISLE": "TRUE",
+                          "BRDZONE": "4",
+                          "TCC": "Y"
+                        }
+                      },
+                      "arrivalStation": "BLR",
+                      "departureStation": "AMD",
+                      "passengerKey": "NCFBRFQ-",
+                      "unitKey": "UVAhMTkwNSEgITYzODk0MjkyMjAwMDAwMDAwMCFBTUQhQkxSITI5QyFZ",
+                      "crossReferenceSeatingPreference": null,
+                      "isPending": false
+                    }
+                  ],
+                  "ssrs": []
+                },
+                {
+                  "activityDate": "2025-09-24T00:23:57.42",
+                  "baggageGroupNumber": "2",
+                  "bags": [],
+                  "boardingPassDetail": null,
+                  "bundleCode": null,
+                  "hasInfant": false,
+                  "liftStatus": "Boarded",
+                  "passAllowCheckIn": true,
+                  "passengerKey": "NSFBRFQ-",
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "30C",
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 59,
+                        "propertyList": {
+                          "AISLE": "TRUE",
+                          "BRDZONE": "4",
+                          "TCC": "Y"
+                        }
+                      },
+                      "arrivalStation": "BLR",
+                      "departureStation": "AMD",
+                      "passengerKey": "NSFBRFQ-",
+                      "unitKey": "UVAhMTkwNSEgITYzODk0MjkyMjAwMDAwMDAwMCFBTUQhQkxSITMwQyFZ",
+                      "crossReferenceSeatingPreference": null,
+                      "isPending": false
+                    }
+                  ],
+                  "ssrs": []
+                },
+                {
+                  "activityDate": "2025-09-24T00:24:21.263",
+                  "baggageGroupNumber": "2",
+                  "bags": [],
+                  "boardingPassDetail": null,
+                  "bundleCode": null,
+                  "hasInfant": false,
+                  "liftStatus": "Boarded",
+                  "passAllowCheckIn": true,
+                  "passengerKey": "NiFBRFQ-",
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "31C",
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 61,
+                        "propertyList": {
+                          "AISLE": "TRUE",
+                          "BRDZONE": "4",
+                          "TCC": "Y"
+                        }
+                      },
+                      "arrivalStation": "BLR",
+                      "departureStation": "AMD",
+                      "passengerKey": "NiFBRFQ-",
+                      "unitKey": "UVAhMTkwNSEgITYzODk0MjkyMjAwMDAwMDAwMCFBTUQhQkxSITMxQyFZ",
+                      "crossReferenceSeatingPreference": null,
+                      "isPending": false
+                    }
+                  ],
+                  "ssrs": []
+                },
+                {
+                  "activityDate": "2025-09-24T00:23:59.513",
+                  "baggageGroupNumber": "3",
+                  "bags": [
+                    {
+                      "baggageKey": "MDUxNjMxNjU4OQ--",
+                      "passengerKey": "NyFBRFQ-",
+                      "arrivalStation": "BLR",
+                      "status": "Checked",
+                      "departureStation": "AMD",
+                      "osTag": "0516316589"
+                    }
+                  ],
+                  "boardingPassDetail": null,
+                  "bundleCode": null,
+                  "hasInfant": false,
+                  "liftStatus": "Boarded",
+                  "passAllowCheckIn": true,
+                  "passengerKey": "NyFBRFQ-",
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "24A",
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 47,
+                        "propertyList": {
+                          "BRDZONE": "3",
+                          "TCC": "Y",
+                          "WINDOW": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "BLR",
+                      "departureStation": "AMD",
+                      "passengerKey": "NyFBRFQ-",
+                      "unitKey": "UVAhMTkwNSEgITYzODk0MjkyMjAwMDAwMDAwMCFBTUQhQkxSITI0QSFZ",
+                      "crossReferenceSeatingPreference": null,
+                      "isPending": false
+                    }
+                  ],
+                  "ssrs": []
+                }
+              ],
+              "salesDate": "2025-09-02T16:44:22.14",
+              "segmentKey": "UVB_MTkwNX4gfn5BTUR_MDkvMjQvMjAyNSAwNjozMH5CTFJ_MDkvMjQvMjAyNSAwOToxMH5_"
+            }
+          ],
+          "stops": 0
+        }
+      ],
+      "passengerFees": [
+        {
+          "fees": [
+            {
+              "applicableFor": [],
+              "code": "SFE"
+            }
+          ],
+          "passengerKey": "MCFBRFQ-"
+        },
+        {
+          "fees": [
+            {
+              "applicableFor": [],
+              "code": "SFE"
+            }
+          ],
+          "passengerKey": "MSFBRFQ-"
+        },
+        {
+          "fees": [
+            {
+              "applicableFor": [],
+              "code": "SFE"
+            }
+          ],
+          "passengerKey": "MiFBRFQ-"
+        },
+        {
+          "fees": [],
+          "passengerKey": "MyFBRFQ-"
+        },
+        {
+          "fees": [],
+          "passengerKey": "NCFBRFQ-"
+        },
+        {
+          "fees": [],
+          "passengerKey": "NSFBRFQ-"
+        },
+        {
+          "fees": [],
+          "passengerKey": "NiFBRFQ-"
+        },
+        {
+          "fees": [
+            {
+              "applicableFor": [],
+              "code": "SFE"
+            }
+          ],
+          "passengerKey": "NyFBRFQ-"
+        }
+      ],
+      "passengers": [
+        {
+          "addresses": [
+            {
+              "city": null,
+              "companyName": "Hastish Ajwaliya",
+              "countryCode": "IN",
+              "cultureCode": null,
+              "emailAddress": null,
+              "encryptedEmailAddress": null,
+              "encryptedPhone": "048DF3799C02B8BAECF8F4DEE7B78EFF6F95EEEFBFE26B7E83F4608F9899EB6BFBCBC7660D31312E0B54392B72",
+              "lineOne": "Father",
+              "lineThree": null,
+              "lineTwo": null,
+              "maskedEmailAddress": null,
+              "maskedPhone": "91-89******34",
+              "passengerAddressKey": "RSE-",
+              "phone": "",
+              "postalCode": null,
+              "provinceState": null,
+              "refusedContact": false,
+              "stationCode": null,
+              "status": "Emergency"
+            }
+          ],
+          "bags": [
+            {
+              "identifier": "1905",
+              "nonStandard": false,
+              "osTag": "0516315447",
+              "taggedToStation": "BLR",
+              "weight": 10,
+              "weightType": "Kilograms",
+              "baggageKey": "MDUxNjMxNTQ0Nw--",
+              "type": "STND",
+              "osTagDate": "2025-09-23T00:00:00",
+              "stationCode": "AMD",
+              "taggedToCarrierCode": "QP"
+            },
+            {
+              "identifier": "1905",
+              "nonStandard": false,
+              "osTag": "0516315448",
+              "taggedToStation": "BLR",
+              "weight": 10,
+              "weightType": "Kilograms",
+              "baggageKey": "MDUxNjMxNTQ0OA--",
+              "type": "STND",
+              "osTagDate": "2025-09-23T00:00:00",
+              "stationCode": "AMD",
+              "taggedToCarrierCode": "QP"
+            },
+            {
+              "identifier": "1905",
+              "nonStandard": false,
+              "osTag": "0516315449",
+              "taggedToStation": "BLR",
+              "weight": 7,
+              "weightType": "Kilograms",
+              "baggageKey": "MDUxNjMxNTQ0OQ--",
+              "type": "STND",
+              "osTagDate": "2025-09-23T00:00:00",
+              "stationCode": "AMD",
+              "taggedToCarrierCode": "QP"
+            }
+          ],
+          "customerNumber": null,
+          "discountCode": null,
+          "emdCoupons": [],
+          "fees": [
+            {
+              "isConfirmed": true,
+              "isConfirming": false,
+              "isConfirmingExternal": false,
+              "code": "SFE",
+              "detail": null,
+              "passengerFeeKey": "MCEwITk-",
+              "override": false,
+              "flightReference": "20250924 QP1905 AMDBLR",
+              "note": null,
+              "createdDate": "2025-09-22T06:27:54.23",
+              "isProtected": false,
+              "serviceCharges": [
+                {
+                  "amount": 250,
+                  "code": "SFE",
+                  "detail": "AMD-BLR",
+                  "type": "ServiceCharge",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 250,
+                  "ticketCode": "SFE"
+                },
+                {
+                  "amount": 6,
+                  "code": "C24",
+                  "detail": "AMD-BLR",
+                  "type": "IncludedTax",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 6,
+                  "ticketCode": "C24"
+                },
+                {
+                  "amount": 6,
+                  "code": "S24",
+                  "detail": "AMD-BLR",
+                  "type": "IncludedTax",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 6,
+                  "ticketCode": "S24"
+                }
+              ],
+              "type": "SeatFee",
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0
+            }
+          ],
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": "Male",
+            "dateOfBirth": null,
+            "familyNumber": null
+          },
+          "name": {
+            "first": "DARSHAN JYOTINDRABHAI",
+            "middle": null,
+            "last": "AJWALIYA",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerAlternateKey": "MjQ2MjMxNzg-",
+          "passengerKey": "MCFBRFQ-",
+          "passengerTypeCode": "ADT",
+          "program": null,
+          "travelDocuments": [],
+          "weightCategory": "Male"
+        },
+        {
+          "addresses": [
+            {
+              "city": null,
+              "companyName": "Hastish Ajwaliya",
+              "countryCode": "IN",
+              "cultureCode": null,
+              "emailAddress": null,
+              "encryptedEmailAddress": null,
+              "encryptedPhone": "F80BB5FF9581D31AAC0CF97EF83F268E624122F6FDD882C17CDF3BA56497C335DD5C8A43984421C1D7E4A8984B",
+              "lineOne": "Father",
+              "lineThree": null,
+              "lineTwo": null,
+              "maskedEmailAddress": null,
+              "maskedPhone": "91-89******34",
+              "passengerAddressKey": "RSE-",
+              "phone": "",
+              "postalCode": null,
+              "provinceState": null,
+              "refusedContact": false,
+              "stationCode": null,
+              "status": "Emergency"
+            }
+          ],
+          "bags": [],
+          "customerNumber": null,
+          "discountCode": null,
+          "emdCoupons": [],
+          "fees": [
+            {
+              "isConfirmed": true,
+              "isConfirming": false,
+              "isConfirmingExternal": false,
+              "code": "SFE",
+              "detail": null,
+              "passengerFeeKey": "MSEwITk-",
+              "override": false,
+              "flightReference": "20250924 QP1905 AMDBLR",
+              "note": null,
+              "createdDate": "2025-09-22T06:27:54.23",
+              "isProtected": false,
+              "serviceCharges": [
+                {
+                  "amount": 0,
+                  "code": "SFE",
+                  "detail": "AMD-BLR",
+                  "type": "ServiceCharge",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 0,
+                  "ticketCode": "SFE"
+                }
+              ],
+              "type": "SeatFee",
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0
+            }
+          ],
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": "Male",
+            "dateOfBirth": null,
+            "familyNumber": null
+          },
+          "name": {
+            "first": "JYOTINDRA KANAIYALAL",
+            "middle": null,
+            "last": "AJWALIA",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerAlternateKey": "MjQ2MjMxNzk-",
+          "passengerKey": "MSFBRFQ-",
+          "passengerTypeCode": "ADT",
+          "program": null,
+          "travelDocuments": [],
+          "weightCategory": "Male"
+        },
+        {
+          "addresses": [
+            {
+              "city": null,
+              "companyName": "Hastish Ajwaliya",
+              "countryCode": "IN",
+              "cultureCode": null,
+              "emailAddress": null,
+              "encryptedEmailAddress": null,
+              "encryptedPhone": "3A5DD057BB5667EF441005F5D3D4D22CDA4AE74961168E37978C48F709B5F647153F74C44B03816A0E1F0D6016",
+              "lineOne": "Father",
+              "lineThree": null,
+              "lineTwo": null,
+              "maskedEmailAddress": null,
+              "maskedPhone": "91-89******34",
+              "passengerAddressKey": "RSE-",
+              "phone": "",
+              "postalCode": null,
+              "provinceState": null,
+              "refusedContact": false,
+              "stationCode": null,
+              "status": "Emergency"
+            }
+          ],
+          "bags": [],
+          "customerNumber": null,
+          "discountCode": null,
+          "emdCoupons": [],
+          "fees": [
+            {
+              "isConfirmed": true,
+              "isConfirming": false,
+              "isConfirmingExternal": false,
+              "code": "SFE",
+              "detail": null,
+              "passengerFeeKey": "MiEwITk-",
+              "override": false,
+              "flightReference": "20250924 QP1905 AMDBLR",
+              "note": null,
+              "createdDate": "2025-09-22T06:27:54.23",
+              "isProtected": false,
+              "serviceCharges": [
+                {
+                  "amount": 250,
+                  "code": "SFE",
+                  "detail": "AMD-BLR",
+                  "type": "ServiceCharge",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 250,
+                  "ticketCode": "SFE"
+                },
+                {
+                  "amount": 6,
+                  "code": "C24",
+                  "detail": "AMD-BLR",
+                  "type": "IncludedTax",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 6,
+                  "ticketCode": "C24"
+                },
+                {
+                  "amount": 6,
+                  "code": "S24",
+                  "detail": "AMD-BLR",
+                  "type": "IncludedTax",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 6,
+                  "ticketCode": "S24"
+                }
+              ],
+              "type": "SeatFee",
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0
+            }
+          ],
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": "Male",
+            "dateOfBirth": null,
+            "familyNumber": null
+          },
+          "name": {
+            "first": "TRILOKBHAI BHAGVANDAS",
+            "middle": null,
+            "last": "AJVALIYA",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerAlternateKey": "MjQ2MjMxODA-",
+          "passengerKey": "MiFBRFQ-",
+          "passengerTypeCode": "ADT",
+          "program": null,
+          "travelDocuments": [],
+          "weightCategory": "Male"
+        },
+        {
+          "addresses": [],
+          "bags": [
+            {
+              "identifier": "1905",
+              "nonStandard": false,
+              "osTag": "0516315509",
+              "taggedToStation": "BLR",
+              "weight": 7,
+              "weightType": "Kilograms",
+              "baggageKey": "MDUxNjMxNTUwOQ--",
+              "type": "STND",
+              "osTagDate": "2025-09-23T00:00:00",
+              "stationCode": "AMD",
+              "taggedToCarrierCode": "QP"
+            },
+            {
+              "identifier": "1905",
+              "nonStandard": false,
+              "osTag": "0516315510",
+              "taggedToStation": "BLR",
+              "weight": 7,
+              "weightType": "Kilograms",
+              "baggageKey": "MDUxNjMxNTUxMA--",
+              "type": "STND",
+              "osTagDate": "2025-09-23T00:00:00",
+              "stationCode": "AMD",
+              "taggedToCarrierCode": "QP"
+            },
+            {
+              "identifier": "1905",
+              "nonStandard": false,
+              "osTag": "0516315511",
+              "taggedToStation": "BLR",
+              "weight": 7,
+              "weightType": "Kilograms",
+              "baggageKey": "MDUxNjMxNTUxMQ--",
+              "type": "STND",
+              "osTagDate": "2025-09-23T00:00:00",
+              "stationCode": "AMD",
+              "taggedToCarrierCode": "QP"
+            },
+            {
+              "identifier": "1905",
+              "nonStandard": false,
+              "osTag": "0516315512",
+              "taggedToStation": "BLR",
+              "weight": 15,
+              "weightType": "Kilograms",
+              "baggageKey": "MDUxNjMxNTUxMg--",
+              "type": "STND",
+              "osTagDate": "2025-09-23T00:00:00",
+              "stationCode": "AMD",
+              "taggedToCarrierCode": "QP"
+            }
+          ],
+          "customerNumber": null,
+          "discountCode": null,
+          "emdCoupons": [],
+          "fees": [],
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": "Male",
+            "dateOfBirth": null,
+            "familyNumber": null
+          },
+          "name": {
+            "first": "RAJNIKANT BHAGVANDAS",
+            "middle": null,
+            "last": "AJWALIA",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerAlternateKey": "MjQ2MjMxODE-",
+          "passengerKey": "MyFBRFQ-",
+          "passengerTypeCode": "ADT",
+          "program": null,
+          "travelDocuments": [],
+          "weightCategory": "Male"
+        },
+        {
+          "addresses": [],
+          "bags": [],
+          "customerNumber": null,
+          "discountCode": null,
+          "emdCoupons": [],
+          "fees": [],
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": "Female",
+            "dateOfBirth": null,
+            "familyNumber": null
+          },
+          "name": {
+            "first": "VINODABEN RAJNIKANT",
+            "middle": null,
+            "last": "AJWALIA",
+            "title": "MRS",
+            "suffix": null
+          },
+          "passengerAlternateKey": "MjQ2MjMxODI-",
+          "passengerKey": "NCFBRFQ-",
+          "passengerTypeCode": "ADT",
+          "program": null,
+          "travelDocuments": [],
+          "weightCategory": "Female"
+        },
+        {
+          "addresses": [],
+          "bags": [],
+          "customerNumber": null,
+          "discountCode": null,
+          "emdCoupons": [],
+          "fees": [],
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": "Male",
+            "dateOfBirth": null,
+            "familyNumber": null
+          },
+          "name": {
+            "first": "ANILKUMAR HIMATBHAI",
+            "middle": null,
+            "last": "PATEL",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerAlternateKey": "MjQ2MjMxODM-",
+          "passengerKey": "NSFBRFQ-",
+          "passengerTypeCode": "ADT",
+          "program": null,
+          "travelDocuments": [],
+          "weightCategory": "Male"
+        },
+        {
+          "addresses": [],
+          "bags": [],
+          "customerNumber": null,
+          "discountCode": null,
+          "emdCoupons": [],
+          "fees": [],
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": "Male",
+            "dateOfBirth": null,
+            "familyNumber": null
+          },
+          "name": {
+            "first": "VISHNU NANALAL",
+            "middle": null,
+            "last": "AJWALIA",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerAlternateKey": "MjQ2MjMxODQ-",
+          "passengerKey": "NiFBRFQ-",
+          "passengerTypeCode": "ADT",
+          "program": null,
+          "travelDocuments": [],
+          "weightCategory": "Male"
+        },
+        {
+          "addresses": [],
+          "bags": [
+            {
+              "identifier": "1905",
+              "nonStandard": false,
+              "osTag": "0516316589",
+              "taggedToStation": "BLR",
+              "weight": 10,
+              "weightType": "Kilograms",
+              "baggageKey": "MDUxNjMxNjU4OQ--",
+              "type": "STND",
+              "osTagDate": "2025-09-23T00:00:00",
+              "stationCode": "AMD",
+              "taggedToCarrierCode": "QP"
+            }
+          ],
+          "customerNumber": null,
+          "discountCode": null,
+          "emdCoupons": [],
+          "fees": [
+            {
+              "isConfirmed": true,
+              "isConfirming": false,
+              "isConfirmingExternal": false,
+              "code": "SFE",
+              "detail": null,
+              "passengerFeeKey": "NyEwITk-",
+              "override": false,
+              "flightReference": "20250924 QP1905 AMDBLR",
+              "note": null,
+              "createdDate": "2025-09-23T23:32:49.067",
+              "isProtected": false,
+              "serviceCharges": [
+                {
+                  "amount": 0,
+                  "code": "SFE",
+                  "detail": "AMD-BLR",
+                  "type": "ServiceCharge",
+                  "collectType": "SellerChargeable",
+                  "currencyCode": "INR",
+                  "foreignCurrencyCode": "INR",
+                  "foreignAmount": 0,
+                  "ticketCode": "SFE"
+                }
+              ],
+              "type": "SeatFee",
+              "ssrCode": null,
+              "ssrNumber": 0,
+              "paymentNumber": 0
+            }
+          ],
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": "Male",
+            "dateOfBirth": null,
+            "familyNumber": null
+          },
+          "name": {
+            "first": "BAKULESH GOVINDBHAI",
+            "middle": null,
+            "last": "AJWALIA",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerAlternateKey": "MjQ2MjMxODY-",
+          "passengerKey": "NyFBRFQ-",
+          "passengerTypeCode": "ADT",
+          "program": null,
+          "travelDocuments": [],
+          "weightCategory": "Male"
+        }
+      ],
+      "primaryContactTypeCode": "P",
+      "recordLocator": "L1MH5L",
+      "restriction": {
+        "allowAddOns": true,
+        "allowCancelBooking": false,
+        "allowCancellationPolicy": true,
+        "allowChangeDate": true,
+        "allowCheckIn": true,
+        "allowEmailItinerary": true,
+        "allowManageBooking": true,
+        "allowNoShowRefundClaim": false,
+        "allowTravelCertificate": false,
+        "allowUndoCheckIn": true,
+        "allowUpdateContact": true,
+        "allowViewGst": true,
+        "allowViewRefundReceipt": false
+      },
+      "showMaskedFare": false,
+      "typeOfSale": {
+        "isCorporateFare": false,
+        "promotionCode": null
+      },
+      "voucherDiscounts": []
+    }
+  },
+  "responseStatus": 200,
+  "responseUrl": "https://prod-bl.qp.akasaair.com/api/ibe/booking/retrieve?recordLocator=L1MH5L&lastName=AJWALIYA",
+  "responseBodySnippet": "{\"data\":{\"bookingKey\":\"MTQyMTI3MzYhTDFNSDVMIWZhbHNl\",\"breakdown\":{\"balanceDue\":0.0000,\"journeyTotals\":{\"totalAmount\":22344.0000,\"totalDiscount\":0.0,\"totalTax\":9720.0000},\"journeys\":[{\"journeyKey\":\"UVB_MTkwNX4gfn5BTUR_MDkvMjQvMjAyNSAwNjozMH5CTFJ_MDkvMjQvMjAyNSAwOToxMH5_\",\"totalAmount\":2793.0000,\"totalDiscount\":0.0,\"totalTax\":1215.0000}],\"passengerTotals\":{\"infant\":null,\"seats\":{\"total\":476.0000,\"taxes\":24.0000,\"adjustments\":null,\"charges\":[{\"amount\":250.0000,\"code\":\"SFE\",\"detail\":\"AMD-BLR\",\"type\":\"ServiceCharge\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":250.0000,\"ticketCode\":\"SFE\"},{\"amount\":6.0000,\"code\":\"C24\",\"detail\":\"AMD-BLR\",\"type\":\"IncludedTax\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":6.0000,\"ticketCode\":\"C24\"},{\"amount\":6.0000,\"code\":\"S24\",\"detail\":\"AMD-BLR\",\"type\":\"IncludedTax\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":6.0000,\"ticketCode\":\"S24\"},{\"amount\":0.0,\"code\":\"SFE\",\"detail\":\"AMD-BLR\",\"type\":\"ServiceCharge\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":0.0,\"ticketCode\":\"SFE\"},{\"amount\":250.0000,\"code\":\"SFE\",\"detail\":\"AMD-BLR\",\"type\":\"ServiceCharge\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":250.0000,\"ticketCode\":\"SFE\"},{\"amount\":6.0000,\"code\":\"C24\",\"detail\":\"AMD-BLR\",\"type\":\"IncludedTax\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":6.0000,\"ticketCode\":\"C24\"},{\"amount\":6.0000,\"code\":\"S24\",\"detail\":\"AMD-BLR\",\"type\":\"IncludedTax\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":6.0000,\"ticketCode\":\"S24\"},{\"amount\":0.0,\"code\":\"SFE\",\"detail\":\"AMD-BLR\",\"type\":\"ServiceCharge\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":0.0,\"ticketCode\":\"SFE\"}]},\"spoilage\":null},\"passengers\":[{\"infant\":null,\"passengerKey\":\"MCFBRFQ-\",\"seats\":{\"total\":238.0000,\"taxes\":12.0000,\"adjustments\":null,\"charges\":[{\"amount\":250.0000,\"code\":\"SFE\",\"detail\":\"AMD-BLR\",\"type\":\"ServiceCharge\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":250.0000,\"ticketCode\":\"SFE\"},{\"amount\":6.0000,\"code\":\"C24\",\"detail\":\"AMD-BLR\",\"type\":\"IncludedTax\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":6.0000,\"ticketCode\":\"C24\"},{\"amount\":6.0000,\"code\":\"S24\",\"detail\":\"AMD-BLR\",\"type\":\"IncludedTax\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreignCurrencyCode\":\"INR\",\"foreignAmount\":6.0000,\"ticketCode\":\"S24\"}]},\"spoilage\":null},{\"infant\":null,\"passengerKey\":\"MSFBRFQ-\",\"seats\":{\"total\":null,\"taxes\":null,\"adjustments\":null,\"charges\":[{\"amount\":0.0,\"code\":\"SFE\",\"detail\":\"AMD-BLR\",\"type\":\"ServiceCharge\",\"collectType\":\"SellerChargeable\",\"currencyCode\":\"INR\",\"foreign"
+}

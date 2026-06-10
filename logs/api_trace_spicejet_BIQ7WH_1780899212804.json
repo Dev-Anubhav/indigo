@@ -1,0 +1,13 @@
+{
+  "pnr": "BIQ7WH",
+  "detail": "ANIYALIYA",
+  "startedAt": "2026-06-08T06:13:00.033Z",
+  "pageUrlStart": "https://www.spicejet.com/trips/details?pnr=AGIPXN&last=PANCHAL",
+  "response": null,
+  "waitForResponseError": "Timed out waiting for /api/v1/booking/retrieveBookingByPNR response",
+  "responseStatus": 500,
+  "responseUrl": "/api/v1/booking/retrieveBookingByPNR?recordLocator=BIQ7WH&lastName=ANIYALIYA",
+  "usedDirectFetchFallback": true,
+  "error": "API failed with status 500",
+  "doneAt": "2026-06-08T06:13:32.803Z"
+}

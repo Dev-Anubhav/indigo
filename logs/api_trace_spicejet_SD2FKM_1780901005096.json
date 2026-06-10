@@ -1,0 +1,35 @@
+{
+  "pnr": "SD2FKM",
+  "detail": "GUPTA",
+  "startedAt": "2026-06-08T06:42:50.318Z",
+  "pageUrlStart": "https://www.spicejet.com/trips/details?pnr=OK5M2R&last=GUPTA",
+  "response": null,
+  "waitForResponseError": "Timed out waiting for /api/v1/booking/retrieveBookingByPNR response",
+  "usedDomScrape": true,
+  "domData": {
+    "pnr": "SD2FKM",
+    "ticket_number": "86997942",
+    "booking_status": "Completed",
+    "booking_date": "Sat, 11 Oct 2025",
+    "payment_status": "Paid",
+    "origin": "PNQ",
+    "destination": "JAI",
+    "flight_number": "SG 1080",
+    "travel_date": "Wed, 5 Nov 2025",
+    "departure_time": "21:15",
+    "arrival_time": "",
+    "duration": "",
+    "terminal": "",
+    "flight_status": "Completed",
+    "passengers": [],
+    "total_amount": "7,269",
+    "fare_breakdown": "",
+    "label_value_map": {
+      "PNR/Booking No": "SD2FKM",
+      "Ticket Number": "86997942",
+      "Status": "Completed",
+      "Booking Date": "Sat, 11 Oct 2025",
+      "Payment status": "Paid"
+    }
+  }
+}

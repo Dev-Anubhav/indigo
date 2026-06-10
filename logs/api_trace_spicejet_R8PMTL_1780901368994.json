@@ -1,0 +1,35 @@
+{
+  "pnr": "R8PMTL",
+  "detail": "SHARMA",
+  "startedAt": "2026-06-08T06:48:47.320Z",
+  "pageUrlStart": "https://www.spicejet.com/trips/details?pnr=IK9BHR&last=DHOKAI",
+  "response": null,
+  "waitForResponseError": "Timed out waiting for /api/v1/booking/retrieveBookingByPNR response",
+  "usedDomScrape": true,
+  "domData": {
+    "pnr": "R8PMTL",
+    "ticket_number": "62598576",
+    "booking_status": "Cancelled",
+    "booking_date": "Mon, 10 Nov 2025",
+    "payment_status": "Paid",
+    "origin": "This booking has been cancelled.",
+    "destination": "R8PMTL",
+    "flight_number": "",
+    "travel_date": "",
+    "departure_time": "",
+    "arrival_time": "",
+    "duration": "",
+    "terminal": "",
+    "flight_status": "Cancelled",
+    "passengers": [],
+    "total_amount": "62598576",
+    "fare_breakdown": "",
+    "label_value_map": {
+      "PNR/Booking No": "R8PMTL",
+      "Ticket Number": "62598576",
+      "Status": "Cancelled",
+      "Booking Date": "Mon, 10 Nov 2025",
+      "Payment status": "Paid"
+    }
+  }
+}

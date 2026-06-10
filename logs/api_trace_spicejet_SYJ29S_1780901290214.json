@@ -1,0 +1,35 @@
+{
+  "pnr": "SYJ29S",
+  "detail": "VERMA",
+  "startedAt": "2026-06-08T06:47:34.890Z",
+  "pageUrlStart": "https://www.spicejet.com/trips/details?pnr=OCWNFM&last=KUMAR",
+  "response": null,
+  "waitForResponseError": "Timed out waiting for /api/v1/booking/retrieveBookingByPNR response",
+  "usedDomScrape": true,
+  "domData": {
+    "pnr": "SYJ29S",
+    "ticket_number": "79804189",
+    "booking_status": "Cancelled",
+    "booking_date": "Thu, 6 Nov 2025",
+    "payment_status": "Paid",
+    "origin": "This booking has been cancelled.",
+    "destination": "SYJ29S",
+    "flight_number": "",
+    "travel_date": "",
+    "departure_time": "",
+    "arrival_time": "",
+    "duration": "",
+    "terminal": "",
+    "flight_status": "Cancelled",
+    "passengers": [],
+    "total_amount": "79804189",
+    "fare_breakdown": "",
+    "label_value_map": {
+      "PNR/Booking No": "SYJ29S",
+      "Ticket Number": "79804189",
+      "Status": "Cancelled",
+      "Booking Date": "Thu, 6 Nov 2025",
+      "Payment status": "Paid"
+    }
+  }
+}

@@ -108,6 +108,30 @@ async function exportResultsExcel() {
   });
 }
 
+async function exportRefundExcel() {
+  return new Promise((resolve, reject) => {
+    const proc = spawn(NODE_BINARY, [path.join(APP_ROOT, 'src', 'exportRefund.js')], {
+      cwd: WORK_ROOT,
+      env: {
+        ...process.env,
+        APP_ROOT,
+        WORK_ROOT,
+      },
+      stdio: ['ignore', 'pipe', 'pipe'],
+    });
+
+    let out = '';
+    let err = '';
+    proc.stdout.on('data', d => { out += String(d); });
+    proc.stderr.on('data', d => { err += String(d); });
+
+    proc.on('close', code => {
+      if (code === 0) return resolve({ out, err });
+      reject(new Error(`Refund export failed (${code}): ${err || out}`));
+    });
+  });
+}
+
 function resetWorkspaceForNewUpload() {
   const database = db.getDb();
   database.exec(`
@@ -134,7 +158,7 @@ function startRun(airline, processType = 'status') {
   if (activeRun && !activeRun.proc.killed) {
     throw new Error('Run already in progress');
   }
-  if (!['indigo', 'airindiaexpress'].includes(airline)) {
+  if (!['indigo', 'airindiaexpress', 'spicejet', 'akasaair'].includes(airline)) {
     throw new Error('Unsupported airline');
   }
   if (processType === 'refund' && airline !== 'indigo') {
@@ -280,8 +304,13 @@ const server = http.createServer(async (req, res) => {
     }
 
     if (method === 'GET' && url.startsWith('/api/download/results')) {
-      if (!fs.existsSync(RESULTS_XLSX)) {
+      try {
         await exportResultsExcel();
+      } catch (err) {
+        pushLog(`ERR Export failed: ${err.message}`);
+        if (!fs.existsSync(RESULTS_XLSX)) {
+          return json(res, 500, { ok: false, error: `Export failed: ${err.message}` });
+        }
       }
       return sendFile(res, RESULTS_XLSX);
     }
@@ -291,26 +320,13 @@ const server = http.createServer(async (req, res) => {
     }
 
     if (method === 'GET' && url.startsWith('/api/download/refund-results')) {
-      if (!fs.existsSync(REFUND_RESULTS_XLSX)) {
-        await new Promise((resolve, reject) => {
-          const proc = spawn(NODE_BINARY, [path.join(APP_ROOT, 'src', 'exportRefund.js')], {
-            cwd: WORK_ROOT,
-            env: {
-              ...process.env,
-              APP_ROOT,
-              WORK_ROOT,
-            },
-            stdio: ['ignore', 'pipe', 'pipe'],
-          });
-          let out = '';
-          let err = '';
-          proc.stdout.on('data', d => { out += String(d); });
-          proc.stderr.on('data', d => { err += String(d); });
-          proc.on('close', code => {
-            if (code === 0) return resolve();
-            reject(new Error(`Refund export failed (${code}): ${err || out}`));
-          });
-        });
+      try {
+        await exportRefundExcel();
+      } catch (err) {
+        pushLog(`ERR Refund export failed: ${err.message}`);
+        if (!fs.existsSync(REFUND_RESULTS_XLSX)) {
+          return json(res, 500, { ok: false, error: `Refund export failed: ${err.message}` });
+        }
       }
       return sendFile(res, REFUND_RESULTS_XLSX);
     }
@@ -319,7 +335,7 @@ const server = http.createServer(async (req, res) => {
       const raw = await readBody(req);
       const body = JSON.parse(raw || '{}');
       const airline = String(body.airline || 'indigo').toLowerCase();
-      if (!['indigo', 'airindiaexpress'].includes(airline)) {
+      if (!['indigo', 'airindiaexpress', 'spicejet', 'akasaair'].includes(airline)) {
         return json(res, 400, { ok: false, error: 'Unsupported airline' });
       }
 

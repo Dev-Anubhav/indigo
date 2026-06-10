@@ -1,0 +1,394 @@
+{
+  "pnr": "ZFB16R",
+  "contactDetail": "DHOLI",
+  "startedAt": "2026-06-10T06:32:22.321Z",
+  "pageUrlStart": "https://www.akasaair.com/manage-booking",
+  "response": {
+    "data": {
+      "bookingKey": "MTQxMjcxNDchWkZCMTZSIWZhbHNl",
+      "breakdown": {
+        "balanceDue": 0,
+        "journeyTotals": {
+          "totalAmount": 2248,
+          "totalDiscount": 0,
+          "totalTax": 631
+        },
+        "journeys": [
+          {
+            "journeyKey": "UVB_MTE0Nn4gfn5ERUx_MDkvMDEvMjAyNSAyMjozMH5BTUR_MDkvMDIvMjAyNSAwMDoxNX5_",
+            "totalAmount": 2248,
+            "totalDiscount": 0,
+            "totalTax": 631
+          }
+        ],
+        "passengerTotals": {
+          "infant": null,
+          "seats": null,
+          "spoilage": null
+        },
+        "passengers": [
+          {
+            "infant": null,
+            "passengerKey": "MCFBRFQ-",
+            "seats": null,
+            "spoilage": null
+          }
+        ],
+        "showPriceBreakdown": true,
+        "totalAmount": 2879,
+        "totalCharged": 2879,
+        "totalToCollect": 2879
+      },
+      "contacts": [
+        {
+          "address": {
+            "lineOne": "NA",
+            "lineTwo": "NA",
+            "lineThree": null,
+            "countryCode": "IN",
+            "provinceState": null,
+            "city": "NA",
+            "postalCode": null
+          },
+          "companyName": "TSC ONLINE",
+          "contactTypeCode": "P",
+          "cultureCode": null,
+          "customerNumber": null,
+          "distributionOption": "Email",
+          "emailAddress": "",
+          "encryptedEmailAddress": "DE75BC345274CA31224C8C40A582F63676A40A0630DDF50B2DA55400650C6149693EF7802E79E681D1B48046AC3B34F0A82C393F",
+          "maskedEmailAddress": "S********k@g***l.com",
+          "name": {
+            "first": "SURAJRAM GIDHARAM",
+            "middle": null,
+            "last": "DHOLI",
+            "title": "MR",
+            "suffix": null
+          },
+          "notificationPreference": "None",
+          "phoneNumbers": [
+            {
+              "number": "",
+              "type": "Other",
+              "encryptedNumber": "E7D2A9769824E5B95048D42B3A85B0ED7348847A756A48C61FDD59710A0650FED6F1B6D36598541BE8ED",
+              "maskedNumber": "99******63"
+            },
+            {
+              "number": "",
+              "type": "Home",
+              "encryptedNumber": "5007F86BE2F911944D9FA64645F9973A6945A65B9E92BD804A136846880A7BD73EF4972CC160410842B9",
+              "maskedNumber": "99******63"
+            }
+          ],
+          "sourceOrganization": "QPQJU9122B"
+        }
+      ],
+      "currencyCode": "INR",
+      "extraSeatPassengers": [],
+      "gst": null,
+      "hold": null,
+      "info": {
+        "bookedDate": "2025-08-29T08:31:01.267",
+        "bookingType": null,
+        "changeAllowed": true,
+        "createdDate": "2025-08-29T08:31:01.267",
+        "expirationDate": "2025-09-02T17:00:00",
+        "modifiedDate": "2025-08-29T08:31:01.267",
+        "owningCarrierCode": "QP",
+        "paidStatus": "PaidInFull",
+        "priceStatus": "Valid",
+        "status": "Confirmed"
+      },
+      "isFareLockBooking": false,
+      "isGdsBooking": false,
+      "isGroupBooking": false,
+      "isMaxVoucherLimitReached": false,
+      "isStandBy": false,
+      "journeys": [
+        {
+          "designator": {
+            "destination": "AMD",
+            "origin": "DEL",
+            "arrival": "2025-09-02T00:15:00",
+            "departure": "2025-09-01T22:30:00"
+          },
+          "flightType": "NonStop",
+          "journeyKey": "UVB_MTE0Nn4gfn5ERUx_MDkvMDEvMjAyNSAyMjozMH5BTUR_MDkvMDIvMjAyNSAwMDoxNX5_",
+          "segments": [
+            {
+              "designator": {
+                "destination": "AMD",
+                "origin": "DEL",
+                "arrival": "2025-09-02T00:15:00",
+                "departure": "2025-09-01T22:30:00"
+              },
+              "fares": [
+                {
+                  "carrierCode": "QP",
+                  "classOfService": "ZJ",
+                  "fareApplicationType": "Route",
+                  "fareBasisCode": "ZJO7MBIX",
+                  "inboundOutBound": "None",
+                  "isAllotmentMarketFare": false,
+                  "ruleNumber": "2001",
+                  "ruleTariff": null,
+                  "isGoverning": true,
+                  "fareKey": "MH5aSn5_UVB_WkpPN01CSVh_MjAwMX5_MjF_MX5OQU1EREVMMDIxMDAxMH5Y",
+                  "classType": null,
+                  "fareClassOfService": "ZJ",
+                  "fareSequence": 1,
+                  "fareStatus": "Default",
+                  "originalClassOfService": "ZJ",
+                  "productClass": "SP",
+                  "travelClassCode": "Y",
+                  "crossReferenceClassOfService": null,
+                  "passengerFares": [
+                    {
+                      "fareDiscountCode": null,
+                      "passengerType": "ADT",
+                      "serviceCharges": [
+                        {
+                          "amount": 2248,
+                          "code": null,
+                          "detail": null,
+                          "type": "FarePrice",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 2248,
+                          "ticketCode": null
+                        },
+                        {
+                          "amount": 75,
+                          "code": "CUTE",
+                          "detail": "DEL-AMD",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 75,
+                          "ticketCode": "PHF"
+                        },
+                        {
+                          "amount": 50,
+                          "code": "RCS",
+                          "detail": "DEL-AMD",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 50,
+                          "ticketCode": "RCS"
+                        },
+                        {
+                          "amount": 236,
+                          "code": "ASF",
+                          "detail": "DEL-AMD",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 236,
+                          "ticketCode": "ASF"
+                        },
+                        {
+                          "amount": 152,
+                          "code": "UDF",
+                          "detail": "DEL-AMD",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 152,
+                          "ticketCode": "UDF"
+                        },
+                        {
+                          "amount": 56,
+                          "code": "C07",
+                          "detail": "DEL-AMD",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 56,
+                          "ticketCode": "C07"
+                        },
+                        {
+                          "amount": 3,
+                          "code": "C07",
+                          "detail": "DEL-AMD",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 3,
+                          "ticketCode": "C07"
+                        },
+                        {
+                          "amount": 56,
+                          "code": "U07",
+                          "detail": "DEL-AMD",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 56,
+                          "ticketCode": "U07"
+                        },
+                        {
+                          "amount": 3,
+                          "code": "U07",
+                          "detail": "DEL-AMD",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 3,
+                          "ticketCode": "U07"
+                        }
+                      ],
+                      "discountCode": null
+                    }
+                  ],
+                  "fareLink": 21
+                }
+              ],
+              "flightReference": "20250901 QP1146 DELAMD",
+              "identifier": {
+                "identifier": "1146",
+                "carrierCode": "QP",
+                "opSuffix": null
+              },
+              "international": false,
+              "legs": [
+                {
+                  "designator": {
+                    "destination": "AMD",
+                    "origin": "DEL",
+                    "arrival": "2025-09-02T00:15:00",
+                    "departure": "2025-09-01T22:30:00"
+                  },
+                  "flightReference": "20250901 QP1146 DELAMD",
+                  "legInfo": {
+                    "arrivalTerminal": "Terminal T1",
+                    "arrivalTime": "2025-09-02T00:15:00",
+                    "arrivalTimeUtc": "2025-09-01T18:45:00",
+                    "departureTerminal": "Terminal 1D",
+                    "departureTime": "2025-09-01T22:30:00",
+                    "departureTimeUtc": "2025-09-01T17:00:00",
+                    "status": "Closed"
+                  },
+                  "legKey": "NjM4OTIzNjI2MDAwMDAwMDAwIVFQITExNDYhICFERUwhQU1EITIxNjE0OA--",
+                  "operationsInfo": null,
+                  "seatmapReference": "UVAhMTE0NiEgITYzODkyMzYyNjAwMDAwMDAwMCFERUwhQU1E"
+                }
+              ],
+              "passengerSegment": [
+                {
+                  "activityDate": "2025-09-01T16:39:27.32",
+                  "baggageGroupNumber": null,
+                  "bags": [],
+                  "boardingPassDetail": null,
+                  "bundleCode": null,
+                  "hasInfant": false,
+                  "liftStatus": "Boarded",
+                  "passAllowCheckIn": true,
+                  "passengerKey": "MCFBRFQ-",
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "26D",
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 50,
+                        "propertyList": {
+                          "AISLE": "TRUE",
+                          "BRDZONE": "4",
+                          "TCC": "Y"
+                        }
+                      },
+                      "arrivalStation": "AMD",
+                      "departureStation": "DEL",
+                      "passengerKey": "MCFBRFQ-",
+                      "unitKey": "UVAhMTE0NiEgITYzODkyMzYyNjAwMDAwMDAwMCFERUwhQU1EITI2RCFZ",
+                      "crossReferenceSeatingPreference": null,
+                      "isPending": false
+                    }
+                  ],
+                  "ssrs": []
+                }
+              ],
+              "salesDate": "2025-08-29T08:31:01.267",
+              "segmentKey": "UVB_MTE0Nn4gfn5ERUx_MDkvMDEvMjAyNSAyMjozMH5BTUR_MDkvMDIvMjAyNSAwMDoxNX5_"
+            }
+          ],
+          "stops": 0
+        }
+      ],
+      "passengerFees": [
+        {
+          "fees": [],
+          "passengerKey": "MCFBRFQ-"
+        }
+      ],
+      "passengers": [
+        {
+          "addresses": [],
+          "bags": [],
+          "customerNumber": null,
+          "discountCode": null,
+          "emdCoupons": [],
+          "fees": [],
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": "Male",
+            "dateOfBirth": null,
+            "familyNumber": null
+          },
+          "name": {
+            "first": "SURAJRAM GIDHARAM",
+            "middle": null,
+            "last": "DHOLI",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerAlternateKey": "MjQ0ODUzMjU-",
+          "passengerKey": "MCFBRFQ-",
+          "passengerTypeCode": "ADT",
+          "program": null,
+          "travelDocuments": [],
+          "weightCategory": "Male"
+        }
+      ],
+      "primaryContactTypeCode": "P",
+      "recordLocator": "ZFB16R",
+      "restriction": {
+        "allowAddOns": true,
+        "allowCancelBooking": false,
+        "allowCancellationPolicy": true,
+        "allowChangeDate": true,
+        "allowCheckIn": true,
+        "allowEmailItinerary": true,
+        "allowManageBooking": true,
+        "allowNoShowRefundClaim": false,
+        "allowTravelCertificate": false,
+        "allowUndoCheckIn": true,
+        "allowUpdateContact": true,
+        "allowViewGst": true,
+        "allowViewRefundReceipt": false
+      },
+      "showMaskedFare": false,
+      "typeOfSale": {
+        "isCorporateFare": false,
+        "promotionCode": null
+      },
+      "voucherDiscounts": []
+    }
+  },
+  "responseStatus": 200,
+  "responseUrl": "https://prod-bl.qp.akasaair.com/api/ibe/booking/retrieve?recordLocator=ZFB16R&lastName=DHOLI",
+  "responseBodySnippet": "{\"data\":{\"bookingKey\":\"MTQxMjcxNDchWkZCMTZSIWZhbHNl\",\"breakdown\":{\"balanceDue\":0.0000,\"journeyTotals\":{\"totalAmount\":2248.0000,\"totalDiscount\":0.0,\"totalTax\":631.0000},\"journeys\":[{\"journeyKey\":\"UVB_MTE0Nn4gfn5ERUx_MDkvMDEvMjAyNSAyMjozMH5BTUR_MDkvMDIvMjAyNSAwMDoxNX5_\",\"totalAmount\":2248.0000,\"totalDiscount\":0.0,\"totalTax\":631.0000}],\"passengerTotals\":{\"infant\":null,\"seats\":null,\"spoilage\":null},\"passengers\":[{\"infant\":null,\"passengerKey\":\"MCFBRFQ-\",\"seats\":null,\"spoilage\":null}],\"showPriceBreakdown\":true,\"totalAmount\":2879.0000,\"totalCharged\":2879.0000,\"totalToCollect\":2879.0000},\"contacts\":[{\"address\":{\"lineOne\":\"NA\",\"lineTwo\":\"NA\",\"lineThree\":null,\"countryCode\":\"IN\",\"provinceState\":null,\"city\":\"NA\",\"postalCode\":null},\"companyName\":\"TSC ONLINE\",\"contactTypeCode\":\"P\",\"cultureCode\":null,\"customerNumber\":null,\"distributionOption\":\"Email\",\"emailAddress\":\"\",\"encryptedEmailAddress\":\"DE75BC345274CA31224C8C40A582F63676A40A0630DDF50B2DA55400650C6149693EF7802E79E681D1B48046AC3B34F0A82C393F\",\"maskedEmailAddress\":\"S********k@g***l.com\",\"name\":{\"first\":\"SURAJRAM GIDHARAM\",\"middle\":null,\"last\":\"DHOLI\",\"title\":\"MR\",\"suffix\":null},\"notificationPreference\":\"None\",\"phoneNumbers\":[{\"number\":\"\",\"type\":\"Other\",\"encryptedNumber\":\"E7D2A9769824E5B95048D42B3A85B0ED7348847A756A48C61FDD59710A0650FED6F1B6D36598541BE8ED\",\"maskedNumber\":\"99******63\"},{\"number\":\"\",\"type\":\"Home\",\"encryptedNumber\":\"5007F86BE2F911944D9FA64645F9973A6945A65B9E92BD804A136846880A7BD73EF4972CC160410842B9\",\"maskedNumber\":\"99******63\"}],\"sourceOrganization\":\"QPQJU9122B\"}],\"currencyCode\":\"INR\",\"extraSeatPassengers\":[],\"gst\":null,\"hold\":null,\"info\":{\"bookedDate\":\"2025-08-29T08:31:01.267\",\"bookingType\":null,\"changeAllowed\":true,\"createdDate\":\"2025-08-29T08:31:01.267\",\"expirationDate\":\"2025-09-02T17:00:00\",\"modifiedDate\":\"2025-08-29T08:31:01.267\",\"owningCarrierCode\":\"QP\",\"paidStatus\":\"PaidInFull\",\"priceStatus\":\"Valid\",\"status\":\"Confirmed\"},\"isFareLockBooking\":false,\"isGdsBooking\":false,\"isGroupBooking\":false,\"isMaxVoucherLimitReached\":false,\"isStandBy\":false,\"journeys\":[{\"designator\":{\"destination\":\"AMD\",\"origin\":\"DEL\",\"arrival\":\"2025-09-02T00:15:00\",\"departure\":\"2025-09-01T22:30:00\"},\"flightType\":\"NonStop\",\"journeyKey\":\"UVB_MTE0Nn4gfn5ERUx_MDkvMDEvMjAyNSAyMjozMH5BTUR_MDkvMDIvMjAyNSAwMDoxNX5_\",\"segments\":[{\"designator\":{\"destination\":\"AMD\",\"origin\":\"DEL\",\"arrival\":\"2025-09-02T00:15:00\",\"departure\":\"2025-09-01T22:30:00\"},\"fares\":[{\"carrierCode\":\"QP\",\"classOfService\":\"ZJ\",\"fareApplicationType\":\"Route\",\"fareBasisCode\":\"ZJO7MBIX\",\"inboundOutBound\":\"None\",\"isAllotmentMarketFare\":false,\"ruleNumber\":\"2001\",\"ruleTariff\":null,\"isGoverning\":true,\"fareKey\":\"MH5aSn5_UVB_WkpPN01CSVh_MjAwMX5_MjF_MX5OQU1EREVMMDIxMDAxMH5Y\",\"classType\":null,\"fareClassOfService\":\"ZJ\",\"fareSequence\":1,\"fareStatus\":\"Default\",\"originalClassOfService\":\"ZJ\",\"productClass\":\"SP\",\"travelClassCode\":\"Y\",\"crossReferenceClassOfService\":null,\"passengerFares\":[{\"fareDiscountCode\":null,\"passengerType\":\"ADT\",\"serviceCharges\":[{\"amount\":2248.0000,\"code\":nul"
+}

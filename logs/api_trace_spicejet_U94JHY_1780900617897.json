@@ -1,0 +1,35 @@
+{
+  "pnr": "U94JHY",
+  "detail": "SHAIKH",
+  "startedAt": "2026-06-08T06:36:22.850Z",
+  "pageUrlStart": "https://www.spicejet.com/trips/details?pnr=RC13XC&last=MOHIT",
+  "response": null,
+  "waitForResponseError": "Timed out waiting for /api/v1/booking/retrieveBookingByPNR response",
+  "usedDomScrape": true,
+  "domData": {
+    "pnr": "U94JHY",
+    "ticket_number": "09637852",
+    "booking_status": "Completed",
+    "booking_date": "Thu, 10 Jul 2025",
+    "payment_status": "Paid",
+    "origin": "DXB",
+    "destination": "PNQ",
+    "flight_number": "SG 52",
+    "travel_date": "Fri, 25 Jul 2025",
+    "departure_time": "",
+    "arrival_time": "",
+    "duration": "",
+    "terminal": "",
+    "flight_status": "Completed",
+    "passengers": [],
+    "total_amount": "09637852",
+    "fare_breakdown": "",
+    "label_value_map": {
+      "PNR/Booking No": "U94JHY",
+      "Ticket Number": "09637852",
+      "Status": "Completed",
+      "Booking Date": "Thu, 10 Jul 2025",
+      "Payment status": "Paid"
+    }
+  }
+}

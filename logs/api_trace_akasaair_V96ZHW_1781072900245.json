@@ -1,0 +1,10 @@
+{
+  "pnr": "V96ZHW",
+  "contactDetail": "IFTIKHAR AHMED ABUHARERA",
+  "startedAt": "2026-06-10T06:27:49.608Z",
+  "pageUrlStart": "https://www.akasaair.com/manage-booking",
+  "response": null,
+  "inlineError": "No booking found",
+  "error": "Timed out waiting for /api/ibe/booking response",
+  "doneAt": "2026-06-10T06:28:20.245Z"
+}

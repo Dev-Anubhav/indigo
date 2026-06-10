@@ -1,0 +1,10 @@
+{
+  "pnr": "WEG1TH",
+  "contactDetail": "JIYADEEN KAJI",
+  "startedAt": "2026-06-10T06:28:20.404Z",
+  "pageUrlStart": "https://www.akasaair.com/manage-booking",
+  "response": null,
+  "inlineError": "",
+  "error": "Timed out waiting for /api/ibe/booking response",
+  "doneAt": "2026-06-10T06:28:51.537Z"
+}

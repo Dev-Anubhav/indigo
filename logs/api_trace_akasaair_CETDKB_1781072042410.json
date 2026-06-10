@@ -1,0 +1,10 @@
+{
+  "pnr": "CETDKB",
+  "contactDetail": "CHOUDHARY",
+  "startedAt": "2026-06-10T06:13:37.577Z",
+  "pageUrlStart": "https://www.akasaair.com/manage-booking",
+  "response": null,
+  "inlineError": "",
+  "error": "locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#pnr-input').first() to be visible\u001b[22m\n",
+  "doneAt": "2026-06-10T06:14:02.410Z"
+}

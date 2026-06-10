@@ -71,6 +71,124 @@ function mapLiftStatus(code) {
   return map[c] ? `${map[c]} (${c})` : `LIFT_${c}`;
 }
 
+async function scrapeVisibleGuestStatuses(pageRef) {
+  try {
+    await pageRef.waitForSelector(".guest-details .guest-details-item", {
+      state: "visible",
+      timeout: 20000,
+    });
+  } catch (_) {
+    return [];
+  }
+
+  return pageRef.evaluate(() => {
+    const clean = (value) =>
+      String(value || "")
+        .replace(/\s+/g, " ")
+        .trim();
+
+    return Array.from(
+      document.querySelectorAll(".guest-details .guest-details-item")
+    ).map((item, index) => {
+      const name = clean(item.querySelector(".guest-name .name")?.textContent);
+      const checkedBlock = item.querySelector(".checked-block");
+      const statusStrong = clean(checkedBlock?.querySelector("strong")?.textContent);
+      const statusText = clean(checkedBlock?.textContent);
+
+      return {
+        index: index + 1,
+        name,
+        onward_status: statusStrong,
+        status_text: statusText,
+      };
+    });
+  });
+}
+
+function normalizeResponsePayload(rawText) {
+  const text = String(rawText || "").trim();
+  if (!text) return null;
+  try {
+    return JSON.parse(text);
+  } catch (_) {
+    return null;
+  }
+}
+
+async function readInlinePageError(pageRef) {
+  try {
+    const text = await pageRef.evaluate(() => {
+      const clean = (value) =>
+        String(value || "")
+          .replace(/\s+/g, " ")
+          .trim();
+      const selectors = [
+        ".MuiFormHelperText-root",
+        ".error-message",
+        ".toast-message",
+        ".snackbar-message",
+        ".MuiAlert-message",
+      ];
+      const parts = [];
+      for (const selector of selectors) {
+        for (const node of document.querySelectorAll(selector)) {
+          const text = clean(node.textContent);
+          if (text) parts.push(text);
+        }
+      }
+      return parts.join(" | ");
+    });
+    return String(text || "").trim();
+  } catch (_) {
+    return "";
+  }
+}
+
+async function waitForAixApiPayload(pageRef, timeoutMs = 25000) {
+  return new Promise((resolve, reject) => {
+    let settled = false;
+    let timer = null;
+
+    const cleanup = () => {
+      if (timer) clearTimeout(timer);
+      pageRef.off("response", onResponse);
+    };
+
+    const finish = (err, value) => {
+      if (settled) return;
+      settled = true;
+      cleanup();
+      if (err) reject(err);
+      else resolve(value);
+    };
+
+    const onResponse = async (resp) => {
+      if (!resp.url().includes(API_HINT) || resp.request().method() !== "POST") {
+        return;
+      }
+
+      try {
+        const status = resp.status();
+        const bodyText = await resp.text();
+        const payload = normalizeResponsePayload(bodyText);
+        finish(null, {
+          status,
+          url: resp.url(),
+          bodyText,
+          payload,
+        });
+      } catch (err) {
+        finish(err);
+      }
+    };
+
+    pageRef.on("response", onResponse);
+    timer = setTimeout(() => {
+      finish(new Error(`Timed out waiting for ${API_HINT} response`));
+    }, timeoutMs);
+  });
+}
+
 async function ensureBrowser() {
   if (page && !page.isClosed()) return page;
   if (!context) {
@@ -107,7 +225,7 @@ function writeTrace(pnr, trace) {
   } catch (_) {}
 }
 
-function extractData(payload, pnr, contactDetail) {
+function extractData(payload, pnr, contactDetail, visibleGuests = []) {
   const data = payload?.data || {};
   const journeys = Array.isArray(data.journeys) ? data.journeys : [];
   const firstJourney = journeys[0] || {};
@@ -133,18 +251,24 @@ function extractData(payload, pnr, contactDetail) {
     .map((p, idx) => {
       const key = p?.passengerKey;
       const liftRaw = key ? paxSegmentMap?.[key]?.liftStatus : "";
-      const lift = mapLiftStatus(liftRaw);
+      const lift =
+        visibleGuests[idx]?.onward_status ||
+        visibleGuests[idx]?.status_text ||
+        mapLiftStatus(liftRaw);
       return `P${idx + 1}:${lift || "NA"}`;
     })
     .join(" | ");
 
-  const passengerName = passengers
-    .map((p) => {
-      const n = p?.name || {};
-      return [n.first, n.middle, n.last].filter(Boolean).join(" ").trim();
-    })
-    .filter(Boolean)
-    .join(" | ");
+  const passengerName = (
+    visibleGuests.length
+      ? visibleGuests.map((g) => g.name).filter(Boolean)
+      : passengers
+          .map((p) => {
+            const n = p?.name || {};
+            return [n.first, n.middle, n.last].filter(Boolean).join(" ").trim();
+          })
+          .filter(Boolean)
+  ).join(" | ");
 
   return {
     success: true,
@@ -159,6 +283,7 @@ function extractData(payload, pnr, contactDetail) {
       departure_time: dep.time,
       arrival_time: arr.time,
       booking_status: bookingStatus,
+      travel_status: "",
       lift_status: passengerLiftStatuses,
       seat_number: "",
       fare_amount: String(data?.breakdown?.totalAmount ?? ""),
@@ -168,6 +293,7 @@ function extractData(payload, pnr, contactDetail) {
           bookingStatusRaw,
           passengerLiftStatuses,
         },
+        visibleGuests,
         itinerary: payload,
       }),
     },
@@ -206,10 +332,7 @@ async function fetchPNR(pnr, contactDetail) {
     await pageRef.locator("#recordLocator").first().click();
     await pageRef.locator("#recordLocator").first().fill(String(pnr || "").trim().toUpperCase());
 
-    const waitResp = pageRef.waitForResponse(
-      (resp) => resp.url().includes(API_HINT) && resp.request().method() === "POST",
-      { timeout: 20000 }
-    );
+    const waitResp = waitForAixApiPayload(pageRef, 25000);
 
     const btn = pageRef.locator('button.fetch-submit-btn:has-text("Get Itinerary")').first();
     await btn.waitFor({ state: "visible", timeout: 15000 });
@@ -220,18 +343,33 @@ async function fetchPNR(pnr, contactDetail) {
     await sleep(rand(600, 1400));
     await btn.click();
 
-    const resp = await waitResp;
-    trace.responseStatus = resp.status();
-    trace.responseUrl = resp.url();
-    if (resp.status() >= 500) throw new Error(`API failed with status ${resp.status()}`);
+    const apiResult = await waitResp;
+    trace.responseStatus = apiResult.status;
+    trace.responseUrl = apiResult.url;
+    if (apiResult.status >= 500) {
+      throw new Error(`API failed with status ${apiResult.status}`);
+    }
 
-    const json = await resp.json();
+    const json = apiResult.payload;
+    if (!json) {
+      throw new Error("API response received but JSON body could not be parsed");
+    }
+
+    const visibleGuests = await scrapeVisibleGuestStatuses(pageRef);
     trace.response = json;
+    trace.responseBodySnippet = String(apiResult.bodyText || "").slice(0, 3000);
+    trace.visibleGuests = visibleGuests;
     writeTrace(pnr, trace);
 
-    return extractData(json, pnr, contactDetail);
+    return extractData(json, pnr, contactDetail, visibleGuests);
   } catch (err) {
-    writeTrace(pnr, { ...trace, error: err.message, doneAt: new Date().toISOString() });
+    const inlineError = await readInlinePageError(pageRef);
+    writeTrace(pnr, {
+      ...trace,
+      inlineError,
+      error: err.message,
+      doneAt: new Date().toISOString(),
+    });
     return { success: false, error: err.message || "Unknown scraping error" };
   }
 }

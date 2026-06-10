@@ -1,0 +1,35 @@
+{
+  "pnr": "A8PKVI",
+  "detail": "SINGH",
+  "startedAt": "2026-06-08T06:50:46.508Z",
+  "pageUrlStart": "https://www.spicejet.com/trips/details?pnr=SJDH5U&last=JOSHI",
+  "response": null,
+  "waitForResponseError": "Timed out waiting for /api/v1/booking/retrieveBookingByPNR response",
+  "usedDomScrape": true,
+  "domData": {
+    "pnr": "A8PKVI",
+    "ticket_number": "20886240",
+    "booking_status": "Cancelled",
+    "booking_date": "Wed, 26 Nov 2025",
+    "payment_status": "Paid",
+    "origin": "This booking has been cancelled.",
+    "destination": "A8PKVI",
+    "flight_number": "",
+    "travel_date": "",
+    "departure_time": "",
+    "arrival_time": "",
+    "duration": "",
+    "terminal": "",
+    "flight_status": "Cancelled",
+    "passengers": [],
+    "total_amount": "20886240",
+    "fare_breakdown": "",
+    "label_value_map": {
+      "PNR/Booking No": "A8PKVI",
+      "Ticket Number": "20886240",
+      "Status": "Cancelled",
+      "Booking Date": "Wed, 26 Nov 2025",
+      "Payment status": "Paid"
+    }
+  }
+}

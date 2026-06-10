@@ -1,0 +1,437 @@
+{
+  "pnr": "QF3M3B",
+  "contactDetail": "ANSARI",
+  "startedAt": "2026-06-10T06:00:04.796Z",
+  "pageUrlStart": "about:blank",
+  "response": {
+    "data": {
+      "bookingKey": "MTMwNTgwMDghUUYzTTNCIWZhbHNl",
+      "breakdown": {
+        "balanceDue": 0,
+        "journeyTotals": {
+          "totalAmount": 6133,
+          "totalDiscount": 0,
+          "totalTax": 2402
+        },
+        "journeys": [
+          {
+            "journeyKey": "UVB_IDU4NH4gfn5CT01_MDcvMDIvMjAyNSAxODowNX5BVUh_MDcvMDIvMjAyNSAxOTo1MH5_",
+            "totalAmount": 6133,
+            "totalDiscount": 0,
+            "totalTax": 2402
+          }
+        ],
+        "passengerTotals": {
+          "infant": null,
+          "seats": null,
+          "spoilage": null
+        },
+        "passengers": [
+          {
+            "infant": null,
+            "passengerKey": "MCFBRFQ-",
+            "seats": null,
+            "spoilage": null
+          }
+        ],
+        "showPriceBreakdown": true,
+        "totalAmount": 8535,
+        "totalCharged": 8535,
+        "totalToCollect": 8535
+      },
+      "contacts": [
+        {
+          "address": {
+            "lineOne": "OFFICE NO-3,21-22,MIDLAND FINANCIAL CENTRE",
+            "lineTwo": "G.T. ROAD, JALANDHAR",
+            "lineThree": null,
+            "countryCode": "IN",
+            "provinceState": "DEL",
+            "city": "QJU",
+            "postalCode": "144001"
+          },
+          "companyName": "TSC TRAVEL SERVICES PVT LTD",
+          "contactTypeCode": "P",
+          "cultureCode": null,
+          "customerNumber": null,
+          "distributionOption": "None",
+          "emailAddress": "",
+          "encryptedEmailAddress": "AC7BCFE88CA537BDAE764BB54E89C1ECCA1B3E41740EA961074E0CBAD1D9A268143D3119897F805B1BD3E3D5E320CB091493B33245E1BB",
+          "maskedEmailAddress": "A***********0@G***L.COM",
+          "name": {
+            "first": "KAMAL AHMED ISHTIYAQUE AHMED",
+            "middle": null,
+            "last": "ANSARI",
+            "title": "MR",
+            "suffix": null
+          },
+          "notificationPreference": "None",
+          "phoneNumbers": [
+            {
+              "number": "",
+              "type": "Other",
+              "encryptedNumber": "3BD4C30D35472DB448DCB63B467BF34821876347927E60ED58CB1384802BED2902883AC66CF206BA458F3E77",
+              "maskedNumber": "9187******90"
+            },
+            {
+              "number": "",
+              "type": "Home",
+              "encryptedNumber": "E04908D6218345C002A4E33CF07BF02422319A2D022F1597CD8B7C1C3EE7D3A2F7ECCA6DA62DA3F07FC7E8DE",
+              "maskedNumber": "9187******90"
+            }
+          ],
+          "sourceOrganization": "QPQJU9122B"
+        }
+      ],
+      "currencyCode": "INR",
+      "extraSeatPassengers": [],
+      "gst": null,
+      "hold": null,
+      "info": {
+        "bookedDate": "2025-06-27T15:59:09.5",
+        "bookingType": null,
+        "changeAllowed": true,
+        "createdDate": "2025-06-27T15:59:09.5",
+        "expirationDate": "2025-07-03T12:35:00",
+        "modifiedDate": "2025-07-02T11:05:22.383",
+        "owningCarrierCode": "QP",
+        "paidStatus": "PaidInFull",
+        "priceStatus": "Valid",
+        "status": "Confirmed"
+      },
+      "isFareLockBooking": false,
+      "isGdsBooking": false,
+      "isGroupBooking": false,
+      "isMaxVoucherLimitReached": false,
+      "isStandBy": false,
+      "journeys": [
+        {
+          "designator": {
+            "destination": "AUH",
+            "origin": "BOM",
+            "arrival": "2025-07-02T19:50:00",
+            "departure": "2025-07-02T18:05:00"
+          },
+          "flightType": "NonStop",
+          "journeyKey": "UVB_IDU4NH4gfn5CT01_MDcvMDIvMjAyNSAxODowNX5BVUh_MDcvMDIvMjAyNSAxOTo1MH5_",
+          "segments": [
+            {
+              "designator": {
+                "destination": "AUH",
+                "origin": "BOM",
+                "arrival": "2025-07-02T19:50:00",
+                "departure": "2025-07-02T18:05:00"
+              },
+              "fares": [
+                {
+                  "carrierCode": "QP",
+                  "classOfService": "V3",
+                  "fareApplicationType": "Route",
+                  "fareBasisCode": "V3O7RWIX",
+                  "inboundOutBound": "None",
+                  "isAllotmentMarketFare": false,
+                  "ruleNumber": "R101",
+                  "ruleTariff": null,
+                  "isGoverning": true,
+                  "fareKey": "MH5WM35_UVB_VjNPN1JXSVh_UjEwMX5_Mn4xfk5BVUhCT00wMDIwMDEwflg-",
+                  "classType": null,
+                  "fareClassOfService": "V3",
+                  "fareSequence": 1,
+                  "fareStatus": "Default",
+                  "originalClassOfService": "V3",
+                  "productClass": "EC",
+                  "travelClassCode": "Y",
+                  "crossReferenceClassOfService": null,
+                  "passengerFares": [
+                    {
+                      "fareDiscountCode": null,
+                      "passengerType": "ADT",
+                      "serviceCharges": [
+                        {
+                          "amount": 6133,
+                          "code": null,
+                          "detail": null,
+                          "type": "FarePrice",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 6133,
+                          "ticketCode": null
+                        },
+                        {
+                          "amount": 75,
+                          "code": "CUTE",
+                          "detail": "BOM-AUH",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 75,
+                          "ticketCode": "PHF"
+                        },
+                        {
+                          "amount": 1174,
+                          "code": "ASF",
+                          "detail": "BOM-AUH",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 1174,
+                          "ticketCode": "ASF"
+                        },
+                        {
+                          "amount": 726,
+                          "code": "UDF",
+                          "detail": "BOM-AUH",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 726,
+                          "ticketCode": "UDF"
+                        },
+                        {
+                          "amount": 117,
+                          "code": "ZR",
+                          "detail": "BOM-AUH",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "AED",
+                          "foreignAmount": 5,
+                          "ticketCode": "ZR"
+                        },
+                        {
+                          "amount": 153,
+                          "code": "C27",
+                          "detail": "BOM-AUH",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 153,
+                          "ticketCode": "C27"
+                        },
+                        {
+                          "amount": 2,
+                          "code": "C27",
+                          "detail": "BOM-AUH",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 2,
+                          "ticketCode": "C27"
+                        },
+                        {
+                          "amount": 153,
+                          "code": "S27",
+                          "detail": "BOM-AUH",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 153,
+                          "ticketCode": "S27"
+                        },
+                        {
+                          "amount": 2,
+                          "code": "S27",
+                          "detail": "BOM-AUH",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 2,
+                          "ticketCode": "S27"
+                        }
+                      ],
+                      "discountCode": null
+                    }
+                  ],
+                  "fareLink": 2
+                }
+              ],
+              "flightReference": "20250702 QP 584 BOMAUH",
+              "identifier": {
+                "identifier": "584",
+                "carrierCode": "QP",
+                "opSuffix": null
+              },
+              "international": true,
+              "legs": [
+                {
+                  "designator": {
+                    "destination": "AUH",
+                    "origin": "BOM",
+                    "arrival": "2025-07-02T19:50:00",
+                    "departure": "2025-07-02T18:05:00"
+                  },
+                  "flightReference": "20250702 QP 584 BOMAUH",
+                  "legInfo": {
+                    "arrivalTerminal": "Terminal A",
+                    "arrivalTime": "2025-07-02T19:50:00",
+                    "arrivalTimeUtc": "2025-07-02T15:50:00",
+                    "departureTerminal": "Terminal T2",
+                    "departureTime": "2025-07-02T18:05:00",
+                    "departureTimeUtc": "2025-07-02T12:35:00",
+                    "status": "Closed"
+                  },
+                  "legKey": "NjM4ODcwNzYzMDAwMDAwMDAwIVFQITU4NCEgIUJPTSFBVUghMjExMzIz",
+                  "operationsInfo": null,
+                  "seatmapReference": "UVAhIDU4NCEgITYzODg3MDc2MzAwMDAwMDAwMCFCT00hQVVI"
+                }
+              ],
+              "passengerSegment": [
+                {
+                  "activityDate": "2025-07-02T11:58:02.693",
+                  "baggageGroupNumber": "1",
+                  "bags": [
+                    {
+                      "baggageKey": "MDUxNjYyOTI0MA--",
+                      "passengerKey": "MCFBRFQ-",
+                      "arrivalStation": "AUH",
+                      "status": "Checked",
+                      "departureStation": "BOM",
+                      "osTag": "0516629240"
+                    }
+                  ],
+                  "boardingPassDetail": null,
+                  "bundleCode": null,
+                  "hasInfant": false,
+                  "liftStatus": "Boarded",
+                  "passAllowCheckIn": true,
+                  "passengerKey": "MCFBRFQ-",
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "11E",
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 22,
+                        "propertyList": {
+                          "BRDZONE": "2",
+                          "TCC": "Y",
+                          "WING": "FALSE"
+                        }
+                      },
+                      "arrivalStation": "AUH",
+                      "departureStation": "BOM",
+                      "passengerKey": "MCFBRFQ-",
+                      "unitKey": "UVAhNTg0ISAhNjM4ODcwNzYzMDAwMDAwMDAwIUJPTSFBVUghMTFFIVk-",
+                      "crossReferenceSeatingPreference": null,
+                      "isPending": false
+                    }
+                  ],
+                  "ssrs": []
+                }
+              ],
+              "salesDate": "2025-06-27T15:59:09.5",
+              "segmentKey": "UVB_IDU4NH4gfn5CT01_MDcvMDIvMjAyNSAxODowNX5BVUh_MDcvMDIvMjAyNSAxOTo1MH5_"
+            }
+          ],
+          "stops": 0
+        }
+      ],
+      "passengerFees": [
+        {
+          "fees": [],
+          "passengerKey": "MCFBRFQ-"
+        }
+      ],
+      "passengers": [
+        {
+          "addresses": [],
+          "bags": [
+            {
+              "identifier": "584",
+              "nonStandard": false,
+              "osTag": "0516629240",
+              "taggedToStation": "AUH",
+              "weight": 24,
+              "weightType": "Kilograms",
+              "baggageKey": "MDUxNjYyOTI0MA--",
+              "type": "STND",
+              "osTagDate": "2025-07-02T00:00:00",
+              "stationCode": "BOM",
+              "taggedToCarrierCode": "QP"
+            }
+          ],
+          "customerNumber": null,
+          "discountCode": null,
+          "emdCoupons": [],
+          "fees": [],
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": "Male",
+            "dateOfBirth": "1986-05-02T00:00:00",
+            "familyNumber": null
+          },
+          "name": {
+            "first": "kamal Ahmed Ishtiyaque Ahmed",
+            "middle": null,
+            "last": "Ansari",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerAlternateKey": "MjI3OTA5MzE-",
+          "passengerKey": "MCFBRFQ-",
+          "passengerTypeCode": "ADT",
+          "program": null,
+          "travelDocuments": [
+            {
+              "documentTypeCode": "P",
+              "issuedByCode": "IN",
+              "birthCountry": null,
+              "name": {
+                "first": "KAMAL AHMED ISHTIYAQUE AHMED",
+                "middle": null,
+                "last": "ANSARI",
+                "title": null,
+                "suffix": null
+              },
+              "nationality": "IN",
+              "expirationDate": "2033-07-26T00:00:00",
+              "number": "W7371962",
+              "issuedDate": null,
+              "gender": "Male",
+              "dateOfBirth": "1986-05-02T00:00:00",
+              "passengerTravelDocumentKey": "UCFJTiEg"
+            }
+          ],
+          "weightCategory": "Male"
+        }
+      ],
+      "primaryContactTypeCode": "P",
+      "recordLocator": "QF3M3B",
+      "restriction": {
+        "allowAddOns": true,
+        "allowCancelBooking": false,
+        "allowCancellationPolicy": true,
+        "allowChangeDate": true,
+        "allowCheckIn": true,
+        "allowEmailItinerary": true,
+        "allowManageBooking": true,
+        "allowNoShowRefundClaim": false,
+        "allowTravelCertificate": false,
+        "allowUndoCheckIn": true,
+        "allowUpdateContact": true,
+        "allowViewGst": true,
+        "allowViewRefundReceipt": false
+      },
+      "showMaskedFare": false,
+      "typeOfSale": {
+        "isCorporateFare": false,
+        "promotionCode": null
+      },
+      "voucherDiscounts": []
+    }
+  },
+  "responseStatus": 200,
+  "responseUrl": "https://prod-bl.qp.akasaair.com/api/ibe/booking/retrieve?recordLocator=QF3M3B&lastName=ANSARI",
+  "responseBodySnippet": "{\"data\":{\"bookingKey\":\"MTMwNTgwMDghUUYzTTNCIWZhbHNl\",\"breakdown\":{\"balanceDue\":0.0000,\"journeyTotals\":{\"totalAmount\":6133.0000,\"totalDiscount\":0.0,\"totalTax\":2402.0000},\"journeys\":[{\"journeyKey\":\"UVB_IDU4NH4gfn5CT01_MDcvMDIvMjAyNSAxODowNX5BVUh_MDcvMDIvMjAyNSAxOTo1MH5_\",\"totalAmount\":6133.0000,\"totalDiscount\":0.0,\"totalTax\":2402.0000}],\"passengerTotals\":{\"infant\":null,\"seats\":null,\"spoilage\":null},\"passengers\":[{\"infant\":null,\"passengerKey\":\"MCFBRFQ-\",\"seats\":null,\"spoilage\":null}],\"showPriceBreakdown\":true,\"totalAmount\":8535.0000,\"totalCharged\":8535.0000,\"totalToCollect\":8535.0000},\"contacts\":[{\"address\":{\"lineOne\":\"OFFICE NO-3,21-22,MIDLAND FINANCIAL CENTRE\",\"lineTwo\":\"G.T. ROAD, JALANDHAR\",\"lineThree\":null,\"countryCode\":\"IN\",\"provinceState\":\"DEL\",\"city\":\"QJU\",\"postalCode\":\"144001\"},\"companyName\":\"TSC TRAVEL SERVICES PVT LTD\",\"contactTypeCode\":\"P\",\"cultureCode\":null,\"customerNumber\":null,\"distributionOption\":\"None\",\"emailAddress\":\"\",\"encryptedEmailAddress\":\"AC7BCFE88CA537BDAE764BB54E89C1ECCA1B3E41740EA961074E0CBAD1D9A268143D3119897F805B1BD3E3D5E320CB091493B33245E1BB\",\"maskedEmailAddress\":\"A***********0@G***L.COM\",\"name\":{\"first\":\"KAMAL AHMED ISHTIYAQUE AHMED\",\"middle\":null,\"last\":\"ANSARI\",\"title\":\"MR\",\"suffix\":null},\"notificationPreference\":\"None\",\"phoneNumbers\":[{\"number\":\"\",\"type\":\"Other\",\"encryptedNumber\":\"3BD4C30D35472DB448DCB63B467BF34821876347927E60ED58CB1384802BED2902883AC66CF206BA458F3E77\",\"maskedNumber\":\"9187******90\"},{\"number\":\"\",\"type\":\"Home\",\"encryptedNumber\":\"E04908D6218345C002A4E33CF07BF02422319A2D022F1597CD8B7C1C3EE7D3A2F7ECCA6DA62DA3F07FC7E8DE\",\"maskedNumber\":\"9187******90\"}],\"sourceOrganization\":\"QPQJU9122B\"}],\"currencyCode\":\"INR\",\"extraSeatPassengers\":[],\"gst\":null,\"hold\":null,\"info\":{\"bookedDate\":\"2025-06-27T15:59:09.5\",\"bookingType\":null,\"changeAllowed\":true,\"createdDate\":\"2025-06-27T15:59:09.5\",\"expirationDate\":\"2025-07-03T12:35:00\",\"modifiedDate\":\"2025-07-02T11:05:22.383\",\"owningCarrierCode\":\"QP\",\"paidStatus\":\"PaidInFull\",\"priceStatus\":\"Valid\",\"status\":\"Confirmed\"},\"isFareLockBooking\":false,\"isGdsBooking\":false,\"isGroupBooking\":false,\"isMaxVoucherLimitReached\":false,\"isStandBy\":false,\"journeys\":[{\"designator\":{\"destination\":\"AUH\",\"origin\":\"BOM\",\"arrival\":\"2025-07-02T19:50:00\",\"departure\":\"2025-07-02T18:05:00\"},\"flightType\":\"NonStop\",\"journeyKey\":\"UVB_IDU4NH4gfn5CT01_MDcvMDIvMjAyNSAxODowNX5BVUh_MDcvMDIvMjAyNSAxOTo1MH5_\",\"segments\":[{\"designator\":{\"destination\":\"AUH\",\"origin\":\"BOM\",\"arrival\":\"2025-07-02T19:50:00\",\"departure\":\"2025-07-02T18:05:00\"},\"fares\":[{\"carrierCode\":\"QP\",\"classOfService\":\"V3\",\"fareApplicationType\":\"Route\",\"fareBasisCode\":\"V3O7RWIX\",\"inboundOutBound\":\"None\",\"isAllotmentMarketFare\":false,\"ruleNumber\":\"R101\",\"ruleTariff\":null,\"isGoverning\":true,\"fareKey\":\"MH5WM35_UVB_VjNPN1JXSVh_UjEwMX5_Mn4xfk5BVUhCT00wMDIwMDEwflg-\",\"classType\":null,\"fareClassOfService\":\"V3\",\"fareSequence\":1,\"fareStatus\":\"Default\",\"originalClassOfService\":\"V3\",\"productClass\":\"EC\",\"travelClassCode\":\"Y\",\"crossReferenceClassOfService\":null,\"p"
+}

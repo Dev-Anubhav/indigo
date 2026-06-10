@@ -1,0 +1,35 @@
+{
+  "pnr": "FYTMSC",
+  "detail": "SETHI",
+  "startedAt": "2026-06-08T06:51:22.615Z",
+  "pageUrlStart": "https://www.spicejet.com/trips/details?pnr=A8PKVI&last=SINGH",
+  "response": null,
+  "waitForResponseError": "Timed out waiting for /api/v1/booking/retrieveBookingByPNR response",
+  "usedDomScrape": true,
+  "domData": {
+    "pnr": "FYTMSC",
+    "ticket_number": "15396655",
+    "booking_status": "Cancelled",
+    "booking_date": "Fri, 28 Nov 2025",
+    "payment_status": "Paid",
+    "origin": "This booking has been cancelled.",
+    "destination": "FYTMSC",
+    "flight_number": "",
+    "travel_date": "",
+    "departure_time": "",
+    "arrival_time": "",
+    "duration": "",
+    "terminal": "",
+    "flight_status": "Cancelled",
+    "passengers": [],
+    "total_amount": "15396655",
+    "fare_breakdown": "",
+    "label_value_map": {
+      "PNR/Booking No": "FYTMSC",
+      "Ticket Number": "15396655",
+      "Status": "Cancelled",
+      "Booking Date": "Fri, 28 Nov 2025",
+      "Payment status": "Paid"
+    }
+  }
+}

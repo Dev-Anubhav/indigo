@@ -1,0 +1,31 @@
+{
+  "pnr": "BIQ7WH",
+  "detail": "ANIYALIYA",
+  "startedAt": "2026-06-08T06:32:38.685Z",
+  "pageUrlStart": "https://www.spicejet.com/trips/details?pnr=AGIPXN&last=PANCHAL",
+  "response": null,
+  "waitForResponseError": "Timed out waiting for /api/v1/booking/retrieveBookingByPNR response",
+  "usedDomScrape": true,
+  "domData": {
+    "pnr": "",
+    "ticket_number": "",
+    "booking_status": "",
+    "booking_date": "",
+    "payment_status": "",
+    "origin": "",
+    "destination": "",
+    "flight_number": "",
+    "travel_date": "",
+    "departure_time": "",
+    "arrival_time": "",
+    "duration": "",
+    "terminal": "",
+    "flight_status": "",
+    "passengers": [],
+    "total_amount": "4",
+    "fare_breakdown": "",
+    "label_value_map": {}
+  },
+  "error": "API returned 500 and DOM scrape found no booking data — PNR may be invalid or session expired",
+  "doneAt": "2026-06-08T06:33:27.510Z"
+}

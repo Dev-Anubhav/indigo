@@ -1,0 +1,35 @@
+{
+  "pnr": "X7LUWB",
+  "detail": "POOJA",
+  "startedAt": "2026-06-08T06:35:10.524Z",
+  "pageUrlStart": "https://www.spicejet.com/trips/details?pnr=I7WFKL&last=CHINU",
+  "response": null,
+  "waitForResponseError": "Timed out waiting for /api/v1/booking/retrieveBookingByPNR response",
+  "usedDomScrape": true,
+  "domData": {
+    "pnr": "X7LUWB",
+    "ticket_number": "97982417",
+    "booking_status": "Cancelled",
+    "booking_date": "Tue, 1 Jul 2025",
+    "payment_status": "Paid",
+    "origin": "This booking has been cancelled.",
+    "destination": "X7LUWB",
+    "flight_number": "",
+    "travel_date": "",
+    "departure_time": "",
+    "arrival_time": "",
+    "duration": "",
+    "terminal": "",
+    "flight_status": "Cancelled",
+    "passengers": [],
+    "total_amount": "97982417",
+    "fare_breakdown": "",
+    "label_value_map": {
+      "PNR/Booking No": "X7LUWB",
+      "Ticket Number": "97982417",
+      "Status": "Cancelled",
+      "Booking Date": "Tue, 1 Jul 2025",
+      "Payment status": "Paid"
+    }
+  }
+}

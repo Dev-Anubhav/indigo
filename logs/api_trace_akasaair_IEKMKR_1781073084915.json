@@ -1,0 +1,10 @@
+{
+  "pnr": "IEKMKR",
+  "contactDetail": "BHAMBU",
+  "startedAt": "2026-06-10T06:30:54.102Z",
+  "pageUrlStart": "https://www.akasaair.com/manage-booking",
+  "response": null,
+  "inlineError": "",
+  "error": "Timed out waiting for /api/ibe/booking response",
+  "doneAt": "2026-06-10T06:31:24.915Z"
+}

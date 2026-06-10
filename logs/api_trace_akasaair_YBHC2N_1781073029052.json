@@ -1,0 +1,821 @@
+{
+  "pnr": "YBHC2N",
+  "contactDetail": "ANDHARIA",
+  "startedAt": "2026-06-10T06:30:20.629Z",
+  "pageUrlStart": "https://www.akasaair.com/manage-booking",
+  "response": {
+    "data": {
+      "bookingKey": "MTIzNTQ0NzYhWUJIQzJOIWZhbHNl",
+      "breakdown": {
+        "balanceDue": 0,
+        "journeyTotals": {
+          "totalAmount": 5070,
+          "totalDiscount": 0,
+          "totalTax": 2724
+        },
+        "journeys": [
+          {
+            "journeyKey": "UVB_MTUwOX4gfn5QTlF_MDYvMjcvMjAyNSAyMjoxMH5BTUR_MDYvMjcvMjAyNSAyMzo0MH5_",
+            "totalAmount": 1690,
+            "totalDiscount": 0,
+            "totalTax": 908
+          }
+        ],
+        "passengerTotals": {
+          "infant": null,
+          "seats": null,
+          "spoilage": null
+        },
+        "passengers": [
+          {
+            "infant": null,
+            "passengerKey": "MCFBRFQ-",
+            "seats": null,
+            "spoilage": null
+          },
+          {
+            "infant": null,
+            "passengerKey": "MSFBRFQ-",
+            "seats": null,
+            "spoilage": null
+          },
+          {
+            "infant": null,
+            "passengerKey": "MiFBRFQ-",
+            "seats": null,
+            "spoilage": null
+          }
+        ],
+        "showPriceBreakdown": true,
+        "totalAmount": 7794,
+        "totalCharged": 7794,
+        "totalToCollect": 7794
+      },
+      "contacts": [
+        {
+          "address": {
+            "lineOne": "NA",
+            "lineTwo": "NA",
+            "lineThree": null,
+            "countryCode": "IN",
+            "provinceState": null,
+            "city": "NA",
+            "postalCode": null
+          },
+          "companyName": "TSC ONLINE",
+          "contactTypeCode": "P",
+          "cultureCode": null,
+          "customerNumber": null,
+          "distributionOption": "Email",
+          "emailAddress": "",
+          "encryptedEmailAddress": "4AD979EC2724E50EDF05EEDE9175D74AD2BD5EC75C318A211BCBEDB53E7E425DA43C52C8C0517C2DD87016F73B56ED5001599475CB046F",
+          "maskedEmailAddress": "h***********n@g***l.com",
+          "name": {
+            "first": "JIGNESH BIPINCHANDRA",
+            "middle": null,
+            "last": "ANDHARIA",
+            "title": "MR",
+            "suffix": null
+          },
+          "notificationPreference": "None",
+          "phoneNumbers": [
+            {
+              "number": "",
+              "type": "Other",
+              "encryptedNumber": "39E0CD77A69260F03BD50235F13864C86A30CB0673CA2C1D096CA64126177877E3E0B9F3B41071E84C05",
+              "maskedNumber": "98******23"
+            }
+          ],
+          "sourceOrganization": "QPQJU9122B"
+        }
+      ],
+      "currencyCode": "INR",
+      "extraSeatPassengers": [],
+      "gst": null,
+      "hold": null,
+      "info": {
+        "bookedDate": "2025-05-19T08:13:01.217",
+        "bookingType": null,
+        "changeAllowed": true,
+        "createdDate": "2025-05-19T08:13:01.217",
+        "expirationDate": "2025-06-28T16:40:00",
+        "modifiedDate": "2025-06-27T14:53:51.283",
+        "owningCarrierCode": "QP",
+        "paidStatus": "PaidInFull",
+        "priceStatus": "Valid",
+        "status": "Confirmed"
+      },
+      "isFareLockBooking": false,
+      "isGdsBooking": false,
+      "isGroupBooking": false,
+      "isMaxVoucherLimitReached": false,
+      "isStandBy": false,
+      "journeys": [
+        {
+          "designator": {
+            "destination": "AMD",
+            "origin": "PNQ",
+            "arrival": "2025-06-27T23:40:00",
+            "departure": "2025-06-27T22:10:00"
+          },
+          "flightType": "NonStop",
+          "journeyKey": "UVB_MTUwOX4gfn5QTlF_MDYvMjcvMjAyNSAyMjoxMH5BTUR_MDYvMjcvMjAyNSAyMzo0MH5_",
+          "segments": [
+            {
+              "designator": {
+                "destination": "AMD",
+                "origin": "PNQ",
+                "arrival": "2025-06-27T23:40:00",
+                "departure": "2025-06-27T22:10:00"
+              },
+              "fares": [
+                {
+                  "carrierCode": "QP",
+                  "classOfService": "W6",
+                  "fareApplicationType": "Route",
+                  "fareBasisCode": "W6O7RBIG",
+                  "inboundOutBound": "None",
+                  "isAllotmentMarketFare": false,
+                  "ruleNumber": "1001",
+                  "ruleTariff": null,
+                  "isGoverning": true,
+                  "fareKey": "MH5XNn5YflFQflc2TzdSQklHfjEwMDF_fjQ0fjF_TkFNRFBOUTA0NDAwMTB_WA--",
+                  "classType": "X",
+                  "fareClassOfService": "W6",
+                  "fareSequence": 1,
+                  "fareStatus": "Default",
+                  "originalClassOfService": "W6",
+                  "productClass": "EC",
+                  "travelClassCode": "Y",
+                  "crossReferenceClassOfService": null,
+                  "passengerFares": [
+                    {
+                      "fareDiscountCode": null,
+                      "passengerType": "ADT",
+                      "serviceCharges": [
+                        {
+                          "amount": 1690,
+                          "code": null,
+                          "detail": null,
+                          "type": "FarePrice",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 1690,
+                          "ticketCode": null
+                        },
+                        {
+                          "amount": 75,
+                          "code": "CUTE",
+                          "detail": "PNQ-AMD",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 75,
+                          "ticketCode": "PHF"
+                        },
+                        {
+                          "amount": 50,
+                          "code": "RCS",
+                          "detail": "PNQ-AMD",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 50,
+                          "ticketCode": "RCS"
+                        },
+                        {
+                          "amount": 236,
+                          "code": "ASF",
+                          "detail": "PNQ-AMD",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 236,
+                          "ticketCode": "ASF"
+                        },
+                        {
+                          "amount": 457,
+                          "code": "UDF",
+                          "detail": "PNQ-AMD",
+                          "type": "TravelFee",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 457,
+                          "ticketCode": "UDF"
+                        },
+                        {
+                          "amount": 42,
+                          "code": "C27",
+                          "detail": "PNQ-AMD",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 42,
+                          "ticketCode": "C27"
+                        },
+                        {
+                          "amount": 3,
+                          "code": "C27",
+                          "detail": "PNQ-AMD",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 3,
+                          "ticketCode": "C27"
+                        },
+                        {
+                          "amount": 42,
+                          "code": "S27",
+                          "detail": "PNQ-AMD",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 42,
+                          "ticketCode": "S27"
+                        },
+                        {
+                          "amount": 3,
+                          "code": "S27",
+                          "detail": "PNQ-AMD",
+                          "type": "Tax",
+                          "collectType": "SellerChargeable",
+                          "currencyCode": "INR",
+                          "foreignCurrencyCode": "INR",
+                          "foreignAmount": 3,
+                          "ticketCode": "S27"
+                        }
+                      ],
+                      "discountCode": null
+                    }
+                  ],
+                  "fareLink": 44
+                }
+              ],
+              "flightReference": "20250627 QP1509 PNQAMD",
+              "identifier": {
+                "identifier": "1509",
+                "carrierCode": "QP",
+                "opSuffix": null
+              },
+              "international": false,
+              "legs": [
+                {
+                  "designator": {
+                    "destination": "AMD",
+                    "origin": "PNQ",
+                    "arrival": "2025-06-27T23:40:00",
+                    "departure": "2025-06-27T22:10:00"
+                  },
+                  "flightReference": "20250627 QP1509 PNQAMD",
+                  "legInfo": {
+                    "arrivalTerminal": "Terminal T1",
+                    "arrivalTime": "2025-06-27T23:40:00",
+                    "arrivalTimeUtc": "2025-06-27T18:10:00",
+                    "departureTerminal": "Terminal T1",
+                    "departureTime": "2025-06-27T22:10:00",
+                    "departureTimeUtc": "2025-06-27T16:40:00",
+                    "status": "Closed"
+                  },
+                  "legKey": "NjM4ODY2NTkwMDAwMDAwMDAwIVFQITE1MDkhICFQTlEhQU1EITIwMjc3Mw--",
+                  "operationsInfo": null,
+                  "seatmapReference": "UVAhMTUwOSEgITYzODg2NjU5MDAwMDAwMDAwMCFQTlEhQU1E"
+                }
+              ],
+              "passengerSegment": [
+                {
+                  "activityDate": "2025-06-27T16:05:52.613",
+                  "baggageGroupNumber": "1",
+                  "bags": [
+                    {
+                      "baggageKey": "MDUxNjUyNjY1Ng--",
+                      "passengerKey": "MCFBRFQ-",
+                      "arrivalStation": "AMD",
+                      "status": "Checked",
+                      "departureStation": "PNQ",
+                      "osTag": "0516526656"
+                    }
+                  ],
+                  "boardingPassDetail": null,
+                  "bundleCode": null,
+                  "hasInfant": false,
+                  "liftStatus": "Boarded",
+                  "passAllowCheckIn": true,
+                  "passengerKey": "MCFBRFQ-",
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "32A",
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 63,
+                        "propertyList": {
+                          "BRDZONE": "4",
+                          "TCC": "Y",
+                          "WINDOW": "TRUE"
+                        }
+                      },
+                      "arrivalStation": "AMD",
+                      "departureStation": "PNQ",
+                      "passengerKey": "MCFBRFQ-",
+                      "unitKey": "UVAhMTUwOSEgITYzODg2NjU5MDAwMDAwMDAwMCFQTlEhQU1EITMyQSFZ",
+                      "crossReferenceSeatingPreference": null,
+                      "isPending": false
+                    }
+                  ],
+                  "ssrs": [
+                    {
+                      "note": null,
+                      "count": 1,
+                      "inBundle": false,
+                      "ssrDuration": "Leg",
+                      "ssrCode": "ASSN",
+                      "passengerKey": "MCFBRFQ-",
+                      "ssrNumber": 1,
+                      "market": {
+                        "destination": "AMD",
+                        "origin": "PNQ",
+                        "departureDate": "2025-06-27T22:10:00",
+                        "identifier": {
+                          "identifier": "1509",
+                          "carrierCode": "QP",
+                          "opSuffix": null
+                        }
+                      },
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "ssrKey": "MCFNQ0ZCUkZRLSFBU1NOITEhQU1EIVFQITYzODg2NjU5MDAwMDAwMDAwMCFQTlEhMTUwOSEg",
+                      "feeCode": null,
+                      "ssrDetail": null
+                    },
+                    {
+                      "note": "hbcl",
+                      "count": 1,
+                      "inBundle": false,
+                      "ssrDuration": "Leg",
+                      "ssrCode": "HBCL",
+                      "passengerKey": "MCFBRFQ-",
+                      "ssrNumber": 1,
+                      "market": {
+                        "destination": "AMD",
+                        "origin": "PNQ",
+                        "departureDate": "2025-06-27T22:10:00",
+                        "identifier": {
+                          "identifier": "1509",
+                          "carrierCode": "QP",
+                          "opSuffix": null
+                        }
+                      },
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "ssrKey": "MCFNQ0ZCUkZRLSFIQkNMITEhQU1EIVFQITYzODg2NjU5MDAwMDAwMDAwMCFQTlEhMTUwOSEg",
+                      "feeCode": null,
+                      "ssrDetail": null
+                    },
+                    {
+                      "note": null,
+                      "count": 1,
+                      "inBundle": false,
+                      "ssrDuration": "Leg",
+                      "ssrCode": "HLOK",
+                      "passengerKey": "MCFBRFQ-",
+                      "ssrNumber": 1,
+                      "market": {
+                        "destination": "AMD",
+                        "origin": "PNQ",
+                        "departureDate": "2025-06-27T22:10:00",
+                        "identifier": {
+                          "identifier": "1509",
+                          "carrierCode": "QP",
+                          "opSuffix": null
+                        }
+                      },
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "ssrKey": "MCFNQ0ZCUkZRLSFITE9LITEhQU1EIVFQITYzODg2NjU5MDAwMDAwMDAwMCFQTlEhMTUwOSEg",
+                      "feeCode": null,
+                      "ssrDetail": null
+                    }
+                  ]
+                },
+                {
+                  "activityDate": "2025-06-27T16:05:56.25",
+                  "baggageGroupNumber": "1",
+                  "bags": [
+                    {
+                      "baggageKey": "MDUxNjUyNjY1OA--",
+                      "passengerKey": "MSFBRFQ-",
+                      "arrivalStation": "AMD",
+                      "status": "Checked",
+                      "departureStation": "PNQ",
+                      "osTag": "0516526658"
+                    }
+                  ],
+                  "boardingPassDetail": null,
+                  "bundleCode": null,
+                  "hasInfant": false,
+                  "liftStatus": "Boarded",
+                  "passAllowCheckIn": true,
+                  "passengerKey": "MSFBRFQ-",
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "32B",
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 63,
+                        "propertyList": {
+                          "BRDZONE": "4",
+                          "TCC": "Y"
+                        }
+                      },
+                      "arrivalStation": "AMD",
+                      "departureStation": "PNQ",
+                      "passengerKey": "MSFBRFQ-",
+                      "unitKey": "UVAhMTUwOSEgITYzODg2NjU5MDAwMDAwMDAwMCFQTlEhQU1EITMyQiFZ",
+                      "crossReferenceSeatingPreference": null,
+                      "isPending": false
+                    }
+                  ],
+                  "ssrs": [
+                    {
+                      "note": null,
+                      "count": 1,
+                      "inBundle": false,
+                      "ssrDuration": "Leg",
+                      "ssrCode": "ASSN",
+                      "passengerKey": "MSFBRFQ-",
+                      "ssrNumber": 1,
+                      "market": {
+                        "destination": "AMD",
+                        "origin": "PNQ",
+                        "departureDate": "2025-06-27T22:10:00",
+                        "identifier": {
+                          "identifier": "1509",
+                          "carrierCode": "QP",
+                          "opSuffix": null
+                        }
+                      },
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "ssrKey": "MCFNU0ZCUkZRLSFBU1NOITEhQU1EIVFQITYzODg2NjU5MDAwMDAwMDAwMCFQTlEhMTUwOSEg",
+                      "feeCode": null,
+                      "ssrDetail": null
+                    },
+                    {
+                      "note": "hbcl",
+                      "count": 1,
+                      "inBundle": false,
+                      "ssrDuration": "Leg",
+                      "ssrCode": "HBCL",
+                      "passengerKey": "MSFBRFQ-",
+                      "ssrNumber": 1,
+                      "market": {
+                        "destination": "AMD",
+                        "origin": "PNQ",
+                        "departureDate": "2025-06-27T22:10:00",
+                        "identifier": {
+                          "identifier": "1509",
+                          "carrierCode": "QP",
+                          "opSuffix": null
+                        }
+                      },
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "ssrKey": "MCFNU0ZCUkZRLSFIQkNMITEhQU1EIVFQITYzODg2NjU5MDAwMDAwMDAwMCFQTlEhMTUwOSEg",
+                      "feeCode": null,
+                      "ssrDetail": null
+                    },
+                    {
+                      "note": null,
+                      "count": 1,
+                      "inBundle": false,
+                      "ssrDuration": "Leg",
+                      "ssrCode": "HLOK",
+                      "passengerKey": "MSFBRFQ-",
+                      "ssrNumber": 1,
+                      "market": {
+                        "destination": "AMD",
+                        "origin": "PNQ",
+                        "departureDate": "2025-06-27T22:10:00",
+                        "identifier": {
+                          "identifier": "1509",
+                          "carrierCode": "QP",
+                          "opSuffix": null
+                        }
+                      },
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "ssrKey": "MCFNU0ZCUkZRLSFITE9LITEhQU1EIVFQITYzODg2NjU5MDAwMDAwMDAwMCFQTlEhMTUwOSEg",
+                      "feeCode": null,
+                      "ssrDetail": null
+                    }
+                  ]
+                },
+                {
+                  "activityDate": "2025-06-27T16:05:58.017",
+                  "baggageGroupNumber": "1",
+                  "bags": [
+                    {
+                      "baggageKey": "MDUxNjUyNjY2MA--",
+                      "passengerKey": "MiFBRFQ-",
+                      "arrivalStation": "AMD",
+                      "status": "Checked",
+                      "departureStation": "PNQ",
+                      "osTag": "0516526660"
+                    }
+                  ],
+                  "boardingPassDetail": null,
+                  "bundleCode": null,
+                  "hasInfant": false,
+                  "liftStatus": "Boarded",
+                  "passAllowCheckIn": true,
+                  "passengerKey": "MiFBRFQ-",
+                  "seats": [
+                    {
+                      "compartmentDesignator": "Y",
+                      "penalty": 0,
+                      "unitDesignator": "32C",
+                      "seatInformation": {
+                        "deck": 1,
+                        "seatSet": 63,
+                        "propertyList": {
+                          "AISLE": "TRUE",
+                          "BRDZONE": "4",
+                          "TCC": "Y"
+                        }
+                      },
+                      "arrivalStation": "AMD",
+                      "departureStation": "PNQ",
+                      "passengerKey": "MiFBRFQ-",
+                      "unitKey": "UVAhMTUwOSEgITYzODg2NjU5MDAwMDAwMDAwMCFQTlEhQU1EITMyQyFZ",
+                      "crossReferenceSeatingPreference": null,
+                      "isPending": false
+                    }
+                  ],
+                  "ssrs": [
+                    {
+                      "note": null,
+                      "count": 1,
+                      "inBundle": false,
+                      "ssrDuration": "Leg",
+                      "ssrCode": "ASSN",
+                      "passengerKey": "MiFBRFQ-",
+                      "ssrNumber": 1,
+                      "market": {
+                        "destination": "AMD",
+                        "origin": "PNQ",
+                        "departureDate": "2025-06-27T22:10:00",
+                        "identifier": {
+                          "identifier": "1509",
+                          "carrierCode": "QP",
+                          "opSuffix": null
+                        }
+                      },
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "ssrKey": "MCFNaUZCUkZRLSFBU1NOITEhQU1EIVFQITYzODg2NjU5MDAwMDAwMDAwMCFQTlEhMTUwOSEg",
+                      "feeCode": null,
+                      "ssrDetail": null
+                    },
+                    {
+                      "note": "hbcl",
+                      "count": 1,
+                      "inBundle": false,
+                      "ssrDuration": "Leg",
+                      "ssrCode": "HBCL",
+                      "passengerKey": "MiFBRFQ-",
+                      "ssrNumber": 1,
+                      "market": {
+                        "destination": "AMD",
+                        "origin": "PNQ",
+                        "departureDate": "2025-06-27T22:10:00",
+                        "identifier": {
+                          "identifier": "1509",
+                          "carrierCode": "QP",
+                          "opSuffix": null
+                        }
+                      },
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "ssrKey": "MCFNaUZCUkZRLSFIQkNMITEhQU1EIVFQITYzODg2NjU5MDAwMDAwMDAwMCFQTlEhMTUwOSEg",
+                      "feeCode": null,
+                      "ssrDetail": null
+                    },
+                    {
+                      "note": null,
+                      "count": 1,
+                      "inBundle": false,
+                      "ssrDuration": "Leg",
+                      "ssrCode": "HLOK",
+                      "passengerKey": "MiFBRFQ-",
+                      "ssrNumber": 1,
+                      "market": {
+                        "destination": "AMD",
+                        "origin": "PNQ",
+                        "departureDate": "2025-06-27T22:10:00",
+                        "identifier": {
+                          "identifier": "1509",
+                          "carrierCode": "QP",
+                          "opSuffix": null
+                        }
+                      },
+                      "isConfirmed": true,
+                      "isConfirmingUnheld": false,
+                      "ssrKey": "MCFNaUZCUkZRLSFITE9LITEhQU1EIVFQITYzODg2NjU5MDAwMDAwMDAwMCFQTlEhMTUwOSEg",
+                      "feeCode": null,
+                      "ssrDetail": null
+                    }
+                  ]
+                }
+              ],
+              "salesDate": "2025-05-19T08:13:01.217",
+              "segmentKey": "UVB_MTUwOX4gfn5QTlF_MDYvMjcvMjAyNSAyMjoxMH5BTUR_MDYvMjcvMjAyNSAyMzo0MH5_"
+            }
+          ],
+          "stops": 0
+        }
+      ],
+      "passengerFees": [
+        {
+          "fees": [],
+          "passengerKey": "MCFBRFQ-"
+        },
+        {
+          "fees": [],
+          "passengerKey": "MSFBRFQ-"
+        },
+        {
+          "fees": [],
+          "passengerKey": "MiFBRFQ-"
+        }
+      ],
+      "passengers": [
+        {
+          "addresses": [],
+          "bags": [
+            {
+              "identifier": "1509",
+              "nonStandard": false,
+              "osTag": "0516526656",
+              "taggedToStation": "AMD",
+              "weight": 7,
+              "weightType": "Kilograms",
+              "baggageKey": "MDUxNjUyNjY1Ng--",
+              "type": "STND",
+              "osTagDate": "2025-06-27T00:00:00",
+              "stationCode": "PNQ",
+              "taggedToCarrierCode": "QP"
+            }
+          ],
+          "customerNumber": null,
+          "discountCode": null,
+          "emdCoupons": [],
+          "fees": [],
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": "Male",
+            "dateOfBirth": null,
+            "familyNumber": null
+          },
+          "name": {
+            "first": "JIGNESH BIPINCHANDRA",
+            "middle": null,
+            "last": "ANDHARIA",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerAlternateKey": "MjE2MDkwNjY-",
+          "passengerKey": "MCFBRFQ-",
+          "passengerTypeCode": "ADT",
+          "program": null,
+          "travelDocuments": [],
+          "weightCategory": "Male"
+        },
+        {
+          "addresses": [],
+          "bags": [
+            {
+              "identifier": "1509",
+              "nonStandard": false,
+              "osTag": "0516526658",
+              "taggedToStation": "AMD",
+              "weight": 8,
+              "weightType": "Kilograms",
+              "baggageKey": "MDUxNjUyNjY1OA--",
+              "type": "STND",
+              "osTagDate": "2025-06-27T00:00:00",
+              "stationCode": "PNQ",
+              "taggedToCarrierCode": "QP"
+            }
+          ],
+          "customerNumber": null,
+          "discountCode": null,
+          "emdCoupons": [],
+          "fees": [],
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": "Male",
+            "dateOfBirth": null,
+            "familyNumber": null
+          },
+          "name": {
+            "first": "MITULBHAI ARVINDBHAI",
+            "middle": null,
+            "last": "PATEL",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerAlternateKey": "MjE2MDkwNjc-",
+          "passengerKey": "MSFBRFQ-",
+          "passengerTypeCode": "ADT",
+          "program": null,
+          "travelDocuments": [],
+          "weightCategory": "Male"
+        },
+        {
+          "addresses": [],
+          "bags": [
+            {
+              "identifier": "1509",
+              "nonStandard": false,
+              "osTag": "0516526660",
+              "taggedToStation": "AMD",
+              "weight": 7,
+              "weightType": "Kilograms",
+              "baggageKey": "MDUxNjUyNjY2MA--",
+              "type": "STND",
+              "osTagDate": "2025-06-27T00:00:00",
+              "stationCode": "PNQ",
+              "taggedToCarrierCode": "QP"
+            }
+          ],
+          "customerNumber": null,
+          "discountCode": null,
+          "emdCoupons": [],
+          "fees": [],
+          "infant": null,
+          "info": {
+            "nationality": "IN",
+            "residentCountry": "IN",
+            "gender": "Male",
+            "dateOfBirth": null,
+            "familyNumber": null
+          },
+          "name": {
+            "first": "GNESHBHAI PREMJIBHAI",
+            "middle": null,
+            "last": "MORADIYA",
+            "title": "MR",
+            "suffix": null
+          },
+          "passengerAlternateKey": "MjE2MDkwNjg-",
+          "passengerKey": "MiFBRFQ-",
+          "passengerTypeCode": "ADT",
+          "program": null,
+          "travelDocuments": [],
+          "weightCategory": "Male"
+        }
+      ],
+      "primaryContactTypeCode": "P",
+      "recordLocator": "YBHC2N",
+      "restriction": {
+        "allowAddOns": true,
+        "allowCancelBooking": false,
+        "allowCancellationPolicy": true,
+        "allowChangeDate": true,
+        "allowCheckIn": true,
+        "allowEmailItinerary": true,
+        "allowManageBooking": true,
+        "allowNoShowRefundClaim": false,
+        "allowTravelCertificate": false,
+        "allowUndoCheckIn": true,
+        "allowUpdateContact": true,
+        "allowViewGst": true,
+        "allowViewRefundReceipt": false
+      },
+      "showMaskedFare": false,
+      "typeOfSale": {
+        "isCorporateFare": false,
+        "promotionCode": null
+      },
+      "voucherDiscounts": []
+    }
+  },
+  "responseStatus": 200,
+  "responseUrl": "https://prod-bl.qp.akasaair.com/api/ibe/booking/retrieve?recordLocator=YBHC2N&lastName=ANDHARIA",
+  "responseBodySnippet": "{\"data\":{\"bookingKey\":\"MTIzNTQ0NzYhWUJIQzJOIWZhbHNl\",\"breakdown\":{\"balanceDue\":0.0000,\"journeyTotals\":{\"totalAmount\":5070.0000,\"totalDiscount\":0.0,\"totalTax\":2724.0000},\"journeys\":[{\"journeyKey\":\"UVB_MTUwOX4gfn5QTlF_MDYvMjcvMjAyNSAyMjoxMH5BTUR_MDYvMjcvMjAyNSAyMzo0MH5_\",\"totalAmount\":1690.0000,\"totalDiscount\":0.0,\"totalTax\":908.0000}],\"passengerTotals\":{\"infant\":null,\"seats\":null,\"spoilage\":null},\"passengers\":[{\"infant\":null,\"passengerKey\":\"MCFBRFQ-\",\"seats\":null,\"spoilage\":null},{\"infant\":null,\"passengerKey\":\"MSFBRFQ-\",\"seats\":null,\"spoilage\":null},{\"infant\":null,\"passengerKey\":\"MiFBRFQ-\",\"seats\":null,\"spoilage\":null}],\"showPriceBreakdown\":true,\"totalAmount\":7794.0000,\"totalCharged\":7794.0000,\"totalToCollect\":7794.0000},\"contacts\":[{\"address\":{\"lineOne\":\"NA\",\"lineTwo\":\"NA\",\"lineThree\":null,\"countryCode\":\"IN\",\"provinceState\":null,\"city\":\"NA\",\"postalCode\":null},\"companyName\":\"TSC ONLINE\",\"contactTypeCode\":\"P\",\"cultureCode\":null,\"customerNumber\":null,\"distributionOption\":\"Email\",\"emailAddress\":\"\",\"encryptedEmailAddress\":\"4AD979EC2724E50EDF05EEDE9175D74AD2BD5EC75C318A211BCBEDB53E7E425DA43C52C8C0517C2DD87016F73B56ED5001599475CB046F\",\"maskedEmailAddress\":\"h***********n@g***l.com\",\"name\":{\"first\":\"JIGNESH BIPINCHANDRA\",\"middle\":null,\"last\":\"ANDHARIA\",\"title\":\"MR\",\"suffix\":null},\"notificationPreference\":\"None\",\"phoneNumbers\":[{\"number\":\"\",\"type\":\"Other\",\"encryptedNumber\":\"39E0CD77A69260F03BD50235F13864C86A30CB0673CA2C1D096CA64126177877E3E0B9F3B41071E84C05\",\"maskedNumber\":\"98******23\"}],\"sourceOrganization\":\"QPQJU9122B\"}],\"currencyCode\":\"INR\",\"extraSeatPassengers\":[],\"gst\":null,\"hold\":null,\"info\":{\"bookedDate\":\"2025-05-19T08:13:01.217\",\"bookingType\":null,\"changeAllowed\":true,\"createdDate\":\"2025-05-19T08:13:01.217\",\"expirationDate\":\"2025-06-28T16:40:00\",\"modifiedDate\":\"2025-06-27T14:53:51.283\",\"owningCarrierCode\":\"QP\",\"paidStatus\":\"PaidInFull\",\"priceStatus\":\"Valid\",\"status\":\"Confirmed\"},\"isFareLockBooking\":false,\"isGdsBooking\":false,\"isGroupBooking\":false,\"isMaxVoucherLimitReached\":false,\"isStandBy\":false,\"journeys\":[{\"designator\":{\"destination\":\"AMD\",\"origin\":\"PNQ\",\"arrival\":\"2025-06-27T23:40:00\",\"departure\":\"2025-06-27T22:10:00\"},\"flightType\":\"NonStop\",\"journeyKey\":\"UVB_MTUwOX4gfn5QTlF_MDYvMjcvMjAyNSAyMjoxMH5BTUR_MDYvMjcvMjAyNSAyMzo0MH5_\",\"segments\":[{\"designator\":{\"destination\":\"AMD\",\"origin\":\"PNQ\",\"arrival\":\"2025-06-27T23:40:00\",\"departure\":\"2025-06-27T22:10:00\"},\"fares\":[{\"carrierCode\":\"QP\",\"classOfService\":\"W6\",\"fareApplicationType\":\"Route\",\"fareBasisCode\":\"W6O7RBIG\",\"inboundOutBound\":\"None\",\"isAllotmentMarketFare\":false,\"ruleNumber\":\"1001\",\"ruleTariff\":null,\"isGoverning\":true,\"fareKey\":\"MH5XNn5YflFQflc2TzdSQklHfjEwMDF_fjQ0fjF_TkFNRFBOUTA0NDAwMTB_WA--\",\"classType\":\"X\",\"fareClassOfService\":\"W6\",\"fareSequence\":1,\"fareStatus\":\"Default\",\"originalClassOfService\":\"W6\",\"productClass\":\"EC\",\"travelClassCode\":\"Y\",\"crossReferenceClassOfService\":null,\"passengerFares\":[{\"fareDiscountCode\":null,\"passengerType\":\"ADT\",\"serviceCharges\":[{\"amount\":1690.0000,\"code\":nul"
+}

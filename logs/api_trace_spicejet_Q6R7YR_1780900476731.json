@@ -1,0 +1,35 @@
+{
+  "pnr": "Q6R7YR",
+  "detail": "VERMA",
+  "startedAt": "2026-06-08T06:34:02.703Z",
+  "pageUrlStart": "https://www.spicejet.com/trips/details?pnr=IFMZHQ&last=SUMAN",
+  "response": null,
+  "waitForResponseError": "Timed out waiting for /api/v1/booking/retrieveBookingByPNR response",
+  "usedDomScrape": true,
+  "domData": {
+    "pnr": "Q6R7YR",
+    "ticket_number": "86565593",
+    "booking_status": "Completed",
+    "booking_date": "Mon, 2 Jun 2025",
+    "payment_status": "Paid",
+    "origin": "DEL",
+    "destination": "DXB",
+    "flight_number": "SG 11",
+    "travel_date": "Wed, 4 Jun 2025",
+    "departure_time": "07:45",
+    "arrival_time": "",
+    "duration": "",
+    "terminal": "",
+    "flight_status": "Completed",
+    "passengers": [],
+    "total_amount": "25,030",
+    "fare_breakdown": "",
+    "label_value_map": {
+      "PNR/Booking No": "Q6R7YR",
+      "Ticket Number": "86565593",
+      "Status": "Completed",
+      "Booking Date": "Mon, 2 Jun 2025",
+      "Payment status": "Paid"
+    }
+  }
+}

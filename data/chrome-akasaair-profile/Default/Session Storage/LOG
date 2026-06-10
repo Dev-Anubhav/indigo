@@ -1,0 +1,22 @@
+2026/06/10-11:57:09.041 a459cf Reusing MANIFEST /Users/user/Downloads/indigo-scraper-v2/data/chrome-akasaair-profile/Default/Session Storage/MANIFEST-000001
+2026/06/10-11:57:09.042 a459cf Recovering log #3
+2026/06/10-11:57:09.049 a459cf Level-0 table #3: started
+2026/06/10-11:57:09.062 a459cf Level-0 table #3: 58272 bytes OK
+2026/06/10-11:57:09.070 a459cf Delete type=0 #3
+2026/06/10-12:01:12.783 a459cf Level-0 table #6: started
+2026/06/10-12:01:12.789 a459cf Level-0 table #6: 37742 bytes OK
+2026/06/10-12:01:12.792 a459cf Delete type=0 #4
+2026/06/10-12:02:12.783 a459cf Level-0 table #8: started
+2026/06/10-12:02:12.791 a459cf Level-0 table #8: 45984 bytes OK
+2026/06/10-12:02:12.797 a459cf Delete type=0 #5
+2026/06/10-12:02:38.486 a459d3 Level-0 table #10: started
+2026/06/10-12:02:38.489 a459d3 Level-0 table #10: 13809 bytes OK
+2026/06/10-12:02:38.491 a459d3 Delete type=0 #7
+2026/06/10-12:02:38.492 a459d3 Compacting 4@0 + 0@1 files
+2026/06/10-12:02:38.499 a459d3 Generated table #11@0: 14 keys, 51013 bytes
+2026/06/10-12:02:38.499 a459d3 Compacted 4@0 + 0@1 files => 51013 bytes
+2026/06/10-12:02:38.500 a459d3 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/06/10-12:02:38.501 a459d3 Delete type=2 #3
+2026/06/10-12:02:38.501 a459d3 Delete type=2 #6
+2026/06/10-12:02:38.501 a459d3 Delete type=2 #10
+2026/06/10-12:02:38.501 a459d3 Delete type=2 #8

@@ -1,0 +1,13 @@
+{
+  "pnr": "AGIPXN",
+  "detail": "PANCHAL",
+  "startedAt": "2026-06-08T06:12:25.778Z",
+  "pageUrlStart": "about:blank",
+  "response": null,
+  "waitForResponseError": "Timed out waiting for /api/v1/booking/retrieveBookingByPNR response",
+  "responseStatus": 500,
+  "responseUrl": "/api/v1/booking/retrieveBookingByPNR?recordLocator=AGIPXN&lastName=PANCHAL",
+  "usedDirectFetchFallback": true,
+  "error": "API failed with status 500",
+  "doneAt": "2026-06-08T06:12:59.747Z"
+}

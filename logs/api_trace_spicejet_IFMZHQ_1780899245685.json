@@ -1,0 +1,10 @@
+{
+  "pnr": "IFMZHQ",
+  "detail": "SUMAN",
+  "startedAt": "2026-06-08T06:13:32.982Z",
+  "pageUrlStart": "https://www.spicejet.com/#manage-booking",
+  "response": null,
+  "waitForResponseError": "Timed out waiting for /api/v1/booking/retrieveBookingByPNR response",
+  "error": "page.evaluate: Target page, context or browser has been closed",
+  "doneAt": "2026-06-08T06:14:05.685Z"
+}

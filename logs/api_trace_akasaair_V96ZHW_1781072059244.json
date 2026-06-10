@@ -1,0 +1,10 @@
+{
+  "pnr": "V96ZHW",
+  "contactDetail": "IFTIKHAR AHMED ABUHARERA",
+  "startedAt": "2026-06-10T06:14:02.600Z",
+  "pageUrlStart": "https://www.akasaair.com/manage-booking/retrieve-booking",
+  "response": null,
+  "inlineError": "",
+  "error": "locator.waitFor: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('#pnr-input').first() to be visible\u001b[22m\n",
+  "doneAt": "2026-06-10T06:14:19.244Z"
+}

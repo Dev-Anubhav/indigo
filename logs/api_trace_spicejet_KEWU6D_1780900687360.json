@@ -1,0 +1,35 @@
+{
+  "pnr": "KEWU6D",
+  "detail": "RESHI",
+  "startedAt": "2026-06-08T06:37:33.351Z",
+  "pageUrlStart": "https://www.spicejet.com/trips/details?pnr=LBPISP&last=KALATE",
+  "response": null,
+  "waitForResponseError": "Timed out waiting for /api/v1/booking/retrieveBookingByPNR response",
+  "usedDomScrape": true,
+  "domData": {
+    "pnr": "KEWU6D",
+    "ticket_number": "30314400",
+    "booking_status": "Cancelled",
+    "booking_date": "Wed, 16 Jul 2025",
+    "payment_status": "Paid",
+    "origin": "This booking has been cancelled.",
+    "destination": "KEWU6D",
+    "flight_number": "",
+    "travel_date": "",
+    "departure_time": "",
+    "arrival_time": "",
+    "duration": "",
+    "terminal": "",
+    "flight_status": "Cancelled",
+    "passengers": [],
+    "total_amount": "30314400",
+    "fare_breakdown": "",
+    "label_value_map": {
+      "PNR/Booking No": "KEWU6D",
+      "Ticket Number": "30314400",
+      "Status": "Cancelled",
+      "Booking Date": "Wed, 16 Jul 2025",
+      "Payment status": "Paid"
+    }
+  }
+}

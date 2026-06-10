@@ -1,0 +1,11 @@
+{
+  "pnr": "CYBIPX",
+  "contactDetail": "RAJIVINDU1996@GMAIL.COM",
+  "startedAt": "2026-06-08T04:45:00.769Z",
+  "pageUrlStart": "https://www.airindiaexpress.com/manage",
+  "response": null,
+  "responseStatus": 200,
+  "responseUrl": "https://api.airindiaexpress.com/b2c-CheckIn/v2/retrieve/mmb/byRecordLocator",
+  "error": "response.json: Protocol error (Network.getResponseBody): No resource with given identifier found",
+  "doneAt": "2026-06-08T04:45:07.658Z"
+}

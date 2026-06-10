@@ -1,0 +1,35 @@
+{
+  "pnr": "VH798N",
+  "detail": "PREETI",
+  "startedAt": "2026-06-08T06:49:29.171Z",
+  "pageUrlStart": "https://www.spicejet.com/trips/details?pnr=R8PMTL&last=SHARMA",
+  "response": null,
+  "waitForResponseError": "Timed out waiting for /api/v1/booking/retrieveBookingByPNR response",
+  "usedDomScrape": true,
+  "domData": {
+    "pnr": "VH798N",
+    "ticket_number": "85007389",
+    "booking_status": "Completed",
+    "booking_date": "Tue, 11 Nov 2025",
+    "payment_status": "Paid",
+    "origin": "DXB",
+    "destination": "ATQ",
+    "flight_number": "SG 56",
+    "travel_date": "Tue, 25 Nov 2025",
+    "departure_time": "",
+    "arrival_time": "",
+    "duration": "",
+    "terminal": "",
+    "flight_status": "Completed",
+    "passengers": [],
+    "total_amount": "85007389",
+    "fare_breakdown": "",
+    "label_value_map": {
+      "PNR/Booking No": "VH798N",
+      "Ticket Number": "85007389",
+      "Status": "Completed",
+      "Booking Date": "Tue, 11 Nov 2025",
+      "Payment status": "Paid"
+    }
+  }
+}
